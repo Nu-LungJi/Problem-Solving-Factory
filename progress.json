@@ -1,6 +1,6 @@
 {
   "repository": "Nu-LungJi/Problem-Solving-Factory",
-  "accepted": 0,
+  "accepted": 2,
   "registered": 144,
   "target": 208,
   "days": [
@@ -1467,5 +1467,14 @@
     }
   ],
   "reviews": [],
-  "evidence": {}
+  "evidence": {
+    "cses:1068": {
+      "code": "solutions/cses/1068.cpp",
+      "evidence": "사용자 정답 확인"
+    },
+    "cses:1083": {
+      "code": "solutions/cses/1083.cpp",
+      "evidence": "사용자 정답 확인"
+    }
+  }
 }

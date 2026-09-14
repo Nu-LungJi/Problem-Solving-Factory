@@ -2,13 +2,13 @@
 
 [전체 커리큘럼](https://github.com/Nu-LungJi/Problem-Solving-Factory/blob/main/curriculum/plan.md) · [수동 기록 방법](https://github.com/Nu-LungJi/Problem-Solving-Factory/blob/main/curriculum/README.md)
 
-**등록 문제 해결: 0/144** · 신규 학습 목표: 208문제
+**등록 문제 해결: 2/144** · 신규 학습 목표: 208문제
 
 지정 문제 144개와 직접 등록한 추가 문제를 집계합니다. 208문제 목표에는 아직 선택하지 않은 추가 문제도 포함됩니다. 업로드는 독립 해결·학습 완료의 증명이 아닙니다. BaekjoonHub 형식은 업로드 관례를 신뢰하며 온라인 저지에 재조회하지 않습니다. Day·Week 학습 완료 체크는 원본 커리큘럼에서 직접 관리합니다.
 
 | Week | 등록 문제 해결/등록 수 | 신규 목표 | 기록된 재풀이 시도/목표 |
 |---|---:|---:|---:|
-| 1 | 0/12 | 24 | 0/6 |
+| 1 | 2/12 | 24 | 0/6 |
 | 2 | 0/12 | 24 | 0/6 |
 | 3 | 0/12 | 18 | 0/6 |
 | 4 | 0/12 | 18 | 0/6 |
@@ -25,8 +25,8 @@
 
 ### Day 1 — 신규 목표 4 / 재풀이 목표 0
 
-- [ ] [CSES · Weird Algorithm](https://cses.fi/problemset/task/1068/)
-- [ ] [CSES · Missing Number](https://cses.fi/problemset/task/1083/)
+- [x] [CSES · Weird Algorithm](https://cses.fi/problemset/task/1068/) · [C++ 풀이](https://github.com/Nu-LungJi/Problem-Solving-Factory/blob/main/solutions/cses/1068.cpp) · 사용자 정답 확인
+- [x] [CSES · Missing Number](https://cses.fi/problemset/task/1083/) · [C++ 풀이](https://github.com/Nu-LungJi/Problem-Solving-Factory/blob/main/solutions/cses/1083.cpp) · 사용자 정답 확인
 
 ### Day 2 — 신규 목표 4 / 재풀이 목표 0
 
