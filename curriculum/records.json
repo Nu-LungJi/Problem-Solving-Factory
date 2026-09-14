@@ -1,1 +1,27 @@
 []
+[
+  {
+    "id": "2026-09-15-cses-1068",
+    "date": "2026-09-15",
+    "week": 1,
+    "day": 1,
+    "url": "https://cses.fi/problemset/task/1068/",
+    "code": "solutions/cses/1068.cpp",
+    "kind": "solve",
+    "result": "accepted",
+    "usedHint": false
+  }
+]
+[
+  {
+    "id": "2026-09-15-cses-1083",
+    "date": "2026-09-15",
+    "week": 1,
+    "day": 1,
+    "url": "https://cses.fi/problemset/task/1083/",
+    "code": "solutions/cses/1083.cpp",
+    "kind": "solve",
+    "result": "accepted",
+    "usedHint": true
+  }
+]
