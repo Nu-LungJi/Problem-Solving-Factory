@@ -1,0 +1,47 @@
+name: Update curriculum progress
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: curriculum-progress
+  cancel-in-progress: false
+
+jobs:
+  progress:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: main
+          fetch-depth: 0
+      - name: Test tracker
+        run: node --test tests/progress.test.mjs
+      - name: Build progress
+        run: node scripts/progress.mjs "$RUNNER_TEMP/curriculum-progress"
+      - name: Publish only to progress branch
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git show-ref --verify --quiet refs/remotes/origin/progress; then
+            git switch -C progress origin/progress
+          else
+            git switch --orphan progress
+          fi
+          cp "$RUNNER_TEMP/curriculum-progress/README.md" README.md
+          cp "$RUNNER_TEMP/curriculum-progress/progress.json" progress.json
+          git add README.md progress.json
+          if git diff --cached --quiet; then
+            echo "No progress changes"
+            exit 0
+          fi
+          git commit -m "Update curriculum progress"
+          git push origin HEAD:refs/heads/progress
