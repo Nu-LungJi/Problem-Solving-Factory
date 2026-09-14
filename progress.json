@@ -1,0 +1,1471 @@
+{
+  "repository": "Nu-LungJi/Problem-Solving-Factory",
+  "accepted": 0,
+  "registered": 144,
+  "target": 208,
+  "days": [
+    {
+      "week": 1,
+      "day": 1,
+      "goal": "입출력·long long·시간복잡도 정리",
+      "target": 4,
+      "reviewTarget": 0,
+      "problems": [
+        {
+          "key": "cses:1068",
+          "title": "CSES · Weird Algorithm",
+          "url": "https://cses.fi/problemset/task/1068/"
+        },
+        {
+          "key": "cses:1083",
+          "title": "CSES · Missing Number",
+          "url": "https://cses.fi/problemset/task/1083/"
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "day": 2,
+      "goal": "vector·배열 순회·최댓값·최솟값 구현",
+      "target": 4,
+      "reviewTarget": 0,
+      "problems": [
+        {
+          "key": "cses:1069",
+          "title": "CSES · Repetitions",
+          "url": "https://cses.fi/problemset/task/1069/"
+        },
+        {
+          "key": "cses:1094",
+          "title": "CSES · Increasing Array",
+          "url": "https://cses.fi/problemset/task/1094/"
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "day": 3,
+      "goal": "string·빈도 배열·문자열 파싱 연습",
+      "target": 4,
+      "reviewTarget": 0,
+      "problems": [
+        {
+          "key": "programmers:12925",
+          "title": "프로그래머스 · 문자열을 정수로 바꾸기",
+          "url": "https://school.programmers.co.kr/learn/courses/30/lessons/12925"
+        },
+        {
+          "key": "programmers:12930",
+          "title": "프로그래머스 · 이상한 문자 만들기",
+          "url": "https://school.programmers.co.kr/learn/courses/30/lessons/12930"
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "day": 4,
+      "goal": "sort·pair·비교 함수로 정렬 조건 표현",
+      "target": 4,
+      "reviewTarget": 0,
+      "problems": [
+        {
+          "key": "programmers:42748",
+          "title": "프로그래머스 · K번째수",
+          "url": "https://school.programmers.co.kr/learn/courses/30/lessons/42748"
+        },
+        {
+          "key": "leetcode:valid-anagram",
+          "title": "LeetCode · Valid Anagram",
+          "url": "https://leetcode.com/problems/valid-anagram/"
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "day": 5,
+      "goal": "중복 제거·unique·이진 탐색 STL 맛보기",
+      "target": 4,
+      "reviewTarget": 0,
+      "problems": [
+        {
+          "key": "cses:1621",
+          "title": "CSES · Distinct Numbers",
+          "url": "https://cses.fi/problemset/task/1621/"
+        },
+        {
+          "key": "programmers:12935",
+          "title": "프로그래머스 · 제일 작은 수 제거하기",
+          "url": "https://school.programmers.co.kr/learn/courses/30/lessons/12935"
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "day": 6,
+      "goal": "표준입출력과 solution 함수 제출 방식 모두 연습",
+      "target": 4,
+      "reviewTarget": 0,
+      "problems": [
+        {
+          "key": "programmers:12917",
+          "title": "프로그래머스 · 문자열 내림차순으로 배치하기",
+          "url": "https://school.programmers.co.kr/learn/courses/30/lessons/12917"
+        },
+        {
+          "key": "programmers:12901",
+          "title": "프로그래머스 · 2016년",
+          "url": "https://school.programmers.co.kr/learn/courses/30/lessons/12901"
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "day": 7,
+      "goal": "오답 6개 재풀이·주간 목표 설명·다음 주 준비",
+      "target": 0,
+      "reviewTarget": 6,
+      "problems": []
+    },
+    {
+      "week": 2,
+      "day": 1,
+      "goal": "직접 만든 스택과 std::stack 비교·괄호 검사",
+      "target": 4,
+      "reviewTarget": 0,
+      "problems": [
+        {
+          "key": "leetcode:valid-parentheses",
+          "title": "LeetCode · Valid Parentheses",
+          "url": "https://leetcode.com/problems/valid-parentheses/"
+        },
+        {
+          "key": "programmers:12909",
+          "title": "프로그래머스 · 올바른 괄호",
+          "url": "https://school.programmers.co.kr/learn/courses/30/lessons/12909"
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "day": 2,
+      "goal": "queue로 처리 순서·대기열 모델링",
+      "target": 4,
+      "reviewTarget": 0,
+      "problems": [
+        {
+          "key": "programmers:42586",
+          "title": "프로그래머스 · 기능개발",
+          "url": "https://school.programmers.co.kr/learn/courses/30/lessons/42586"
+        },
+        {
+          "key": "programmers:42587",
+          "title": "프로그래머스 · 프로세스",
+          "url": "https://school.programmers.co.kr/learn/courses/30/lessons/42587"
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "day": 3,
+      "goal": "deque 양끝 연산·큐를 이용한 순환 처리",
+      "target": 4,
+      "reviewTarget": 0,
+      "problems": [
+        {
+          "key": "programmers:12906",
+          "title": "프로그래머스 · 같은 숫자는 싫어",
+          "url": "https://school.programmers.co.kr/learn/courses/30/lessons/12906"
+        },
+        {
+          "key": "cses:2162",
+          "title": "CSES · Josephus Problem I",
+          "url": "https://cses.fi/problemset/task/2162/"
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "day": 4,
+      "goal": "unordered_map 빈도·존재 검사",
+      "target": 4,
+      "reviewTarget": 0,
+      "problems": [
+        {
+          "key": "programmers:42576",
+          "title": "프로그래머스 · 완주하지 못한 선수",
+          "url": "https://school.programmers.co.kr/learn/courses/30/lessons/42576"
+        },
+        {
+          "key": "programmers:42577",
+          "title": "프로그래머스 · 전화번호 목록",
+          "url": "https://school.programmers.co.kr/learn/courses/30/lessons/42577"
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "day": 5,
+      "goal": "최소 힙·최대 힙 구현 및 반복 추출",
+      "target": 4,
+      "reviewTarget": 0,
+      "problems": [
+        {
+          "key": "programmers:42626",
+          "title": "프로그래머스 · 더 맵게",
+          "url": "https://school.programmers.co.kr/learn/courses/30/lessons/42626"
+        },
+        {
+          "key": "leetcode:last-stone-weight",
+          "title": "LeetCode · Last Stone Weight",
+          "url": "https://leetcode.com/problems/last-stone-weight/"
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "day": 6,
+      "goal": "set·map·multiset 차이와 lower_bound",
+      "target": 4,
+      "reviewTarget": 0,
+      "problems": [
+        {
+          "key": "cses:1091",
+          "title": "CSES · Concert Tickets",
+          "url": "https://cses.fi/problemset/task/1091/"
+        },
+        {
+          "key": "programmers:42578",
+          "title": "프로그래머스 · 의상",
+          "url": "https://school.programmers.co.kr/learn/courses/30/lessons/42578"
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "day": 7,
+      "goal": "오답 6개 재풀이·주간 목표 설명·다음 주 준비",
+      "target": 0,
+      "reviewTarget": 6,
+      "problems": []
+    },
+    {
+      "week": 3,
+      "day": 1,
+      "goal": "중첩 반복문 완전탐색·가능한 연산 수 추정",
+      "target": 3,
+      "reviewTarget": 0,
+      "problems": [
+        {
+          "key": "programmers:42840",
+          "title": "프로그래머스 · 모의고사",
+          "url": "https://school.programmers.co.kr/learn/courses/30/lessons/42840"
+        },
+        {
+          "key": "programmers:42842",
+          "title": "프로그래머스 · 카펫",
+          "url": "https://school.programmers.co.kr/learn/courses/30/lessons/42842"
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "day": 2,
+      "goal": "재귀 종료 조건·호출 흐름 그리기",
+      "target": 3,
+      "reviewTarget": 0,
+      "problems": [
+        {
+          "key": "cses:2165",
+          "title": "CSES · Tower of Hanoi",
+          "url": "https://cses.fi/problemset/task/2165/"
+        },
+        {
+          "key": "leetcode:subsets",
+          "title": "LeetCode · Subsets",
+          "url": "https://leetcode.com/problems/subsets/"
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "day": 3,
+      "goal": "next_permutation과 직접 순열 생성 비교",
+      "target": 3,
+      "reviewTarget": 0,
+      "problems": [
+        {
+          "key": "cses:1622",
+          "title": "CSES · Creating Strings",
+          "url": "https://cses.fi/problemset/task/1622/"
+        },
+        {
+          "key": "leetcode:permutations",
+          "title": "LeetCode · Permutations",
+          "url": "https://leetcode.com/problems/permutations/"
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "day": 4,
+      "goal": "조합 탐색·선택 취소·중복 방지",
+      "target": 3,
+      "reviewTarget": 0,
+      "problems": [
+        {
+          "key": "leetcode:combinations",
+          "title": "LeetCode · Combinations",
+          "url": "https://leetcode.com/problems/combinations/"
+        },
+        {
+          "key": "leetcode:combination-sum",
+          "title": "LeetCode · Combination Sum",
+          "url": "https://leetcode.com/problems/combination-sum/"
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "day": 5,
+      "goal": "비트마스크로 부분집합 열거",
+      "target": 3,
+      "reviewTarget": 0,
+      "problems": [
+        {
+          "key": "cses:1623",
+          "title": "CSES · Apple Division",
+          "url": "https://cses.fi/problemset/task/1623/"
+        },
+        {
+          "key": "programmers:87946",
+          "title": "프로그래머스 · 피로도",
+          "url": "https://school.programmers.co.kr/learn/courses/30/lessons/87946"
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "day": 6,
+      "goal": "가지치기 조건 설명·백트래킹 종합",
+      "target": 3,
+      "reviewTarget": 0,
+      "problems": [
+        {
+          "key": "cses:1624",
+          "title": "CSES · Chessboard and Queens",
+          "url": "https://cses.fi/problemset/task/1624/"
+        },
+        {
+          "key": "programmers:42839",
+          "title": "프로그래머스 · 소수 찾기",
+          "url": "https://school.programmers.co.kr/learn/courses/30/lessons/42839"
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "day": 7,
+      "goal": "오답 6개 재풀이·주간 목표 설명·다음 주 준비",
+      "target": 0,
+      "reviewTarget": 6,
+      "problems": []
+    },
+    {
+      "week": 4,
+      "day": 1,
+      "goal": "1차원 누적합·반열린 구간·인덱스 검증",
+      "target": 3,
+      "reviewTarget": 0,
+      "problems": [
+        {
+          "key": "cses:1646",
+          "title": "CSES · Static Range Sum Queries",
+          "url": "https://cses.fi/problemset/task/1646/"
+        },
+        {
+          "key": "leetcode:range-sum-query-immutable",
+          "title": "LeetCode · Range Sum Query - Immutable",
+          "url": "https://leetcode.com/problems/range-sum-query-immutable/"
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "day": 2,
+      "goal": "2차원 누적합·포함 배제 공식 도출",
+      "target": 3,
+      "reviewTarget": 0,
+      "problems": [
+        {
+          "key": "cses:1652",
+          "title": "CSES · Forest Queries",
+          "url": "https://cses.fi/problemset/task/1652/"
+        },
+        {
+          "key": "leetcode:range-sum-query-2d-immutable",
+          "title": "LeetCode · Range Sum Query 2D - Immutable",
+          "url": "https://leetcode.com/problems/range-sum-query-2d-immutable/"
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "day": 3,
+      "goal": "정렬 후 양끝 포인터 이동 근거 쓰기",
+      "target": 3,
+      "reviewTarget": 0,
+      "problems": [
+        {
+          "key": "cses:1640",
+          "title": "CSES · Sum of Two Values",
+          "url": "https://cses.fi/problemset/task/1640/"
+        },
+        {
+          "key": "cses:1084",
+          "title": "CSES · Apartments",
+          "url": "https://cses.fi/problemset/task/1084/"
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "day": 4,
+      "goal": "고정 길이 윈도우 합 갱신",
+      "target": 3,
+      "reviewTarget": 0,
+      "problems": [
+        {
+          "key": "leetcode:maximum-average-subarray-i",
+          "title": "LeetCode · Maximum Average Subarray I",
+          "url": "https://leetcode.com/problems/maximum-average-subarray-i/"
+        },
+        {
+          "key": "programmers:12924",
+          "title": "프로그래머스 · 숫자의 표현",
+          "url": "https://school.programmers.co.kr/learn/courses/30/lessons/12924"
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "day": 5,
+      "goal": "가변 길이 윈도우·양수 조건 확인",
+      "target": 3,
+      "reviewTarget": 0,
+      "problems": [
+        {
+          "key": "cses:1660",
+          "title": "CSES · Subarray Sums I",
+          "url": "https://cses.fi/problemset/task/1660/"
+        },
+        {
+          "key": "leetcode:longest-substring-without-repeating-characters",
+          "title": "LeetCode · Longest Substring Without Repeating Characters",
+          "url": "https://leetcode.com/problems/longest-substring-without-repeating-characters/"
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "day": 6,
+      "goal": "Kadane 상태 정의·누적합과 해시 결합",
+      "target": 3,
+      "reviewTarget": 0,
+      "problems": [
+        {
+          "key": "cses:1643",
+          "title": "CSES · Maximum Subarray Sum",
+          "url": "https://cses.fi/problemset/task/1643/"
+        },
+        {
+          "key": "cses:1661",
+          "title": "CSES · Subarray Sums II",
+          "url": "https://cses.fi/problemset/task/1661/"
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "day": 7,
+      "goal": "오답 6개 재풀이·주간 목표 설명·다음 주 준비",
+      "target": 0,
+      "reviewTarget": 6,
+      "problems": []
+    },
+    {
+      "week": 5,
+      "day": 1,
+      "goal": "이분탐색 경계·lower_bound와 upper_bound 비교",
+      "target": 3,
+      "reviewTarget": 0,
+      "problems": [
+        {
+          "key": "leetcode:binary-search",
+          "title": "LeetCode · Binary Search",
+          "url": "https://leetcode.com/problems/binary-search/"
+        },
+        {
+          "key": "leetcode:search-insert-position",
+          "title": "LeetCode · Search Insert Position",
+          "url": "https://leetcode.com/problems/search-insert-position/"
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "day": 2,
+      "goal": "정답 이분탐색·가능 여부 함수 분리",
+      "target": 3,
+      "reviewTarget": 0,
+      "problems": [
+        {
+          "key": "cses:1620",
+          "title": "CSES · Factory Machines",
+          "url": "https://cses.fi/problemset/task/1620/"
+        },
+        {
+          "key": "leetcode:koko-eating-bananas",
+          "title": "LeetCode · Koko Eating Bananas",
+          "url": "https://leetcode.com/problems/koko-eating-bananas/"
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "day": 3,
+      "goal": "64비트 범위·최소 가능 답 찾기",
+      "target": 3,
+      "reviewTarget": 0,
+      "problems": [
+        {
+          "key": "programmers:43238",
+          "title": "프로그래머스 · 입국심사",
+          "url": "https://school.programmers.co.kr/learn/courses/30/lessons/43238"
+        },
+        {
+          "key": "cses:1085",
+          "title": "CSES · Array Division",
+          "url": "https://cses.fi/problemset/task/1085/"
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "day": 4,
+      "goal": "정렬·구간 선택·교환 논증",
+      "target": 3,
+      "reviewTarget": 0,
+      "problems": [
+        {
+          "key": "cses:1629",
+          "title": "CSES · Movie Festival",
+          "url": "https://cses.fi/problemset/task/1629/"
+        },
+        {
+          "key": "leetcode:non-overlapping-intervals",
+          "title": "LeetCode · Non-overlapping Intervals",
+          "url": "https://leetcode.com/problems/non-overlapping-intervals/"
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "day": 5,
+      "goal": "작은 선택을 누적하는 근거 설명",
+      "target": 3,
+      "reviewTarget": 0,
+      "problems": [
+        {
+          "key": "cses:1090",
+          "title": "CSES · Ferris Wheel",
+          "url": "https://cses.fi/problemset/task/1090/"
+        },
+        {
+          "key": "programmers:42885",
+          "title": "프로그래머스 · 구명보트",
+          "url": "https://school.programmers.co.kr/learn/courses/30/lessons/42885"
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "day": 6,
+      "goal": "그리디 반례 찾기·다른 전략과 비교",
+      "target": 3,
+      "reviewTarget": 0,
+      "problems": [
+        {
+          "key": "cses:1630",
+          "title": "CSES · Tasks and Deadlines",
+          "url": "https://cses.fi/problemset/task/1630/"
+        },
+        {
+          "key": "programmers:42862",
+          "title": "프로그래머스 · 체육복",
+          "url": "https://school.programmers.co.kr/learn/courses/30/lessons/42862"
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "day": 7,
+      "goal": "오답 6개 재풀이·주간 목표 설명·다음 주 준비",
+      "target": 0,
+      "reviewTarget": 6,
+      "problems": []
+    },
+    {
+      "week": 6,
+      "day": 1,
+      "goal": "인접 리스트·DFS·반복형 스택 탐색",
+      "target": 4,
+      "reviewTarget": 0,
+      "problems": [
+        {
+          "key": "cses:1666",
+          "title": "CSES · Building Roads",
+          "url": "https://cses.fi/problemset/task/1666/"
+        },
+        {
+          "key": "programmers:43162",
+          "title": "프로그래머스 · 네트워크",
+          "url": "https://school.programmers.co.kr/learn/courses/30/lessons/43162"
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "day": 2,
+      "goal": "격자 좌표·경계 검사·Flood Fill",
+      "target": 4,
+      "reviewTarget": 0,
+      "problems": [
+        {
+          "key": "cses:1192",
+          "title": "CSES · Counting Rooms",
+          "url": "https://cses.fi/problemset/task/1192/"
+        },
+        {
+          "key": "leetcode:number-of-islands",
+          "title": "LeetCode · Number of Islands",
+          "url": "https://leetcode.com/problems/number-of-islands/"
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "day": 3,
+      "goal": "BFS 거리 배열·큐에 넣을 때 방문 처리",
+      "target": 4,
+      "reviewTarget": 0,
+      "problems": [
+        {
+          "key": "cses:1667",
+          "title": "CSES · Message Route",
+          "url": "https://cses.fi/problemset/task/1667/"
+        },
+        {
+          "key": "programmers:1844",
+          "title": "프로그래머스 · 게임 맵 최단거리",
+          "url": "https://school.programmers.co.kr/learn/courses/30/lessons/1844"
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "day": 4,
+      "goal": "부모 기록·경로 복원",
+      "target": 4,
+      "reviewTarget": 0,
+      "problems": [
+        {
+          "key": "cses:1193",
+          "title": "CSES · Labyrinth",
+          "url": "https://cses.fi/problemset/task/1193/"
+        },
+        {
+          "key": "leetcode:shortest-path-in-binary-matrix",
+          "title": "LeetCode · Shortest Path in Binary Matrix",
+          "url": "https://leetcode.com/problems/shortest-path-in-binary-matrix/"
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "day": 5,
+      "goal": "여러 시작점 BFS·상태를 정점으로 모델링",
+      "target": 4,
+      "reviewTarget": 0,
+      "problems": [
+        {
+          "key": "leetcode:rotting-oranges",
+          "title": "LeetCode · Rotting Oranges",
+          "url": "https://leetcode.com/problems/rotting-oranges/"
+        },
+        {
+          "key": "programmers:43163",
+          "title": "프로그래머스 · 단어 변환",
+          "url": "https://school.programmers.co.kr/learn/courses/30/lessons/43163"
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "day": 6,
+      "goal": "이분 그래프·상태 탐색 응용",
+      "target": 4,
+      "reviewTarget": 0,
+      "problems": [
+        {
+          "key": "cses:1668",
+          "title": "CSES · Building Teams",
+          "url": "https://cses.fi/problemset/task/1668/"
+        },
+        {
+          "key": "programmers:43165",
+          "title": "프로그래머스 · 타겟 넘버",
+          "url": "https://school.programmers.co.kr/learn/courses/30/lessons/43165"
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "day": 7,
+      "goal": "오답 6개 재풀이·주간 목표 설명·다음 주 준비",
+      "target": 0,
+      "reviewTarget": 6,
+      "problems": []
+    },
+    {
+      "week": 7,
+      "day": 1,
+      "goal": "루트·부모·깊이·트리 순회",
+      "target": 2,
+      "reviewTarget": 0,
+      "problems": [
+        {
+          "key": "leetcode:maximum-depth-of-binary-tree",
+          "title": "LeetCode · Maximum Depth of Binary Tree",
+          "url": "https://leetcode.com/problems/maximum-depth-of-binary-tree/"
+        },
+        {
+          "key": "leetcode:invert-binary-tree",
+          "title": "LeetCode · Invert Binary Tree",
+          "url": "https://leetcode.com/problems/invert-binary-tree/"
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "day": 2,
+      "goal": "서브트리 집계·후위 순회",
+      "target": 2,
+      "reviewTarget": 0,
+      "problems": [
+        {
+          "key": "cses:1674",
+          "title": "CSES · Subordinates",
+          "url": "https://cses.fi/problemset/task/1674/"
+        },
+        {
+          "key": "leetcode:balanced-binary-tree",
+          "title": "LeetCode · Balanced Binary Tree",
+          "url": "https://leetcode.com/problems/balanced-binary-tree/"
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "day": 3,
+      "goal": "트리 지름·두 번 탐색의 원리",
+      "target": 2,
+      "reviewTarget": 0,
+      "problems": [
+        {
+          "key": "cses:1131",
+          "title": "CSES · Tree Diameter",
+          "url": "https://cses.fi/problemset/task/1131/"
+        },
+        {
+          "key": "leetcode:diameter-of-binary-tree",
+          "title": "LeetCode · Diameter of Binary Tree",
+          "url": "https://leetcode.com/problems/diameter-of-binary-tree/"
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "day": 4,
+      "goal": "DSU 경로 압축·크기 기준 병합",
+      "target": 2,
+      "reviewTarget": 0,
+      "problems": [
+        {
+          "key": "cses:1676",
+          "title": "CSES · Road Construction",
+          "url": "https://cses.fi/problemset/task/1676/"
+        },
+        {
+          "key": "leetcode:redundant-connection",
+          "title": "LeetCode · Redundant Connection",
+          "url": "https://leetcode.com/problems/redundant-connection/"
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "day": 5,
+      "goal": "Kruskal·간선 정렬·연결 불가능 처리",
+      "target": 3,
+      "reviewTarget": 0,
+      "problems": [
+        {
+          "key": "cses:1675",
+          "title": "CSES · Road Reparation",
+          "url": "https://cses.fi/problemset/task/1675/"
+        },
+        {
+          "key": "programmers:42861",
+          "title": "프로그래머스 · 섬 연결하기",
+          "url": "https://school.programmers.co.kr/learn/courses/30/lessons/42861"
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "day": 6,
+      "goal": "트리와 일반 그래프의 사이클 차이",
+      "target": 3,
+      "reviewTarget": 0,
+      "problems": [
+        {
+          "key": "cses:1669",
+          "title": "CSES · Round Trip",
+          "url": "https://cses.fi/problemset/task/1669/"
+        },
+        {
+          "key": "leetcode:validate-binary-search-tree",
+          "title": "LeetCode · Validate Binary Search Tree",
+          "url": "https://leetcode.com/problems/validate-binary-search-tree/"
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "day": 7,
+      "goal": "오답 6개 재풀이·주간 목표 설명·다음 주 준비",
+      "target": 0,
+      "reviewTarget": 6,
+      "problems": []
+    },
+    {
+      "week": 8,
+      "day": 1,
+      "goal": "Dijkstra·최소 힙·오래된 거리 항목 건너뛰기",
+      "target": 2,
+      "reviewTarget": 0,
+      "problems": [
+        {
+          "key": "cses:1671",
+          "title": "CSES · Shortest Routes I",
+          "url": "https://cses.fi/problemset/task/1671/"
+        },
+        {
+          "key": "leetcode:network-delay-time",
+          "title": "LeetCode · Network Delay Time",
+          "url": "https://leetcode.com/problems/network-delay-time/"
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "day": 2,
+      "goal": "거리 long long·도달 불가능·완화 조건 검증",
+      "target": 2,
+      "reviewTarget": 0,
+      "problems": [
+        {
+          "key": "programmers:12978",
+          "title": "프로그래머스 · 배달",
+          "url": "https://school.programmers.co.kr/learn/courses/30/lessons/12978"
+        },
+        {
+          "key": "leetcode:path-with-minimum-effort",
+          "title": "LeetCode · Path With Minimum Effort",
+          "url": "https://leetcode.com/problems/path-with-minimum-effort/"
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "day": 3,
+      "goal": "Floyd-Warshall·경유 정점 반복문 순서",
+      "target": 2,
+      "reviewTarget": 0,
+      "problems": [
+        {
+          "key": "cses:1672",
+          "title": "CSES · Shortest Routes II",
+          "url": "https://cses.fi/problemset/task/1672/"
+        },
+        {
+          "key": "programmers:49191",
+          "title": "프로그래머스 · 순위",
+          "url": "https://school.programmers.co.kr/learn/courses/30/lessons/49191"
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "day": 4,
+      "goal": "진입차수·Kahn 위상정렬·사이클 감지",
+      "target": 2,
+      "reviewTarget": 0,
+      "problems": [
+        {
+          "key": "cses:1679",
+          "title": "CSES · Course Schedule",
+          "url": "https://cses.fi/problemset/task/1679/"
+        },
+        {
+          "key": "leetcode:course-schedule",
+          "title": "LeetCode · Course Schedule",
+          "url": "https://leetcode.com/problems/course-schedule/"
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "day": 5,
+      "goal": "위상정렬 결과와 선행 관계 검증",
+      "target": 3,
+      "reviewTarget": 0,
+      "problems": [
+        {
+          "key": "leetcode:course-schedule-ii",
+          "title": "LeetCode · Course Schedule II",
+          "url": "https://leetcode.com/problems/course-schedule-ii/"
+        },
+        {
+          "key": "leetcode:find-eventual-safe-states",
+          "title": "LeetCode · Find Eventual Safe States",
+          "url": "https://leetcode.com/problems/find-eventual-safe-states/"
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "day": 6,
+      "goal": "격자 최단거리와 가중치 그래프 혼합 복습",
+      "target": 3,
+      "reviewTarget": 0,
+      "problems": [
+        {
+          "key": "programmers:49189",
+          "title": "프로그래머스 · 가장 먼 노드",
+          "url": "https://school.programmers.co.kr/learn/courses/30/lessons/49189"
+        },
+        {
+          "key": "cses:1195",
+          "title": "CSES · Flight Discount",
+          "url": "https://cses.fi/problemset/task/1195/"
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "day": 7,
+      "goal": "오답 6개 재풀이·주간 목표 설명·다음 주 준비",
+      "target": 0,
+      "reviewTarget": 6,
+      "problems": []
+    },
+    {
+      "week": 9,
+      "day": 1,
+      "goal": "1차원 DP·중복 부분문제 확인",
+      "target": 3,
+      "reviewTarget": 0,
+      "problems": [
+        {
+          "key": "cses:1633",
+          "title": "CSES · Dice Combinations",
+          "url": "https://cses.fi/problemset/task/1633/"
+        },
+        {
+          "key": "leetcode:climbing-stairs",
+          "title": "LeetCode · Climbing Stairs",
+          "url": "https://leetcode.com/problems/climbing-stairs/"
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "day": 2,
+      "goal": "최솟값 DP·불가능 상태·동전 반복 순서",
+      "target": 3,
+      "reviewTarget": 0,
+      "problems": [
+        {
+          "key": "cses:1634",
+          "title": "CSES · Minimizing Coins",
+          "url": "https://cses.fi/problemset/task/1634/"
+        },
+        {
+          "key": "cses:1635",
+          "title": "CSES · Coin Combinations I",
+          "url": "https://cses.fi/problemset/task/1635/"
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "day": 3,
+      "goal": "2차원·경로 DP·장애물 초기화",
+      "target": 3,
+      "reviewTarget": 0,
+      "problems": [
+        {
+          "key": "cses:1638",
+          "title": "CSES · Grid Paths I",
+          "url": "https://cses.fi/problemset/task/1638/"
+        },
+        {
+          "key": "programmers:43105",
+          "title": "프로그래머스 · 정수 삼각형",
+          "url": "https://school.programmers.co.kr/learn/courses/30/lessons/43105"
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "day": 4,
+      "goal": "0/1 배낭·역순 갱신 이유",
+      "target": 3,
+      "reviewTarget": 0,
+      "problems": [
+        {
+          "key": "cses:1158",
+          "title": "CSES · Book Shop",
+          "url": "https://cses.fi/problemset/task/1158/"
+        },
+        {
+          "key": "cses:1745",
+          "title": "CSES · Money Sums",
+          "url": "https://cses.fi/problemset/task/1745/"
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "day": 5,
+      "goal": "LIS O(N²)·선택과 비선택 상태",
+      "target": 3,
+      "reviewTarget": 0,
+      "problems": [
+        {
+          "key": "leetcode:longest-increasing-subsequence",
+          "title": "LeetCode · Longest Increasing Subsequence",
+          "url": "https://leetcode.com/problems/longest-increasing-subsequence/"
+        },
+        {
+          "key": "leetcode:house-robber",
+          "title": "LeetCode · House Robber",
+          "url": "https://leetcode.com/problems/house-robber/"
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "day": 6,
+      "goal": "문자열 DP·두 인덱스 상태",
+      "target": 3,
+      "reviewTarget": 0,
+      "problems": [
+        {
+          "key": "cses:1639",
+          "title": "CSES · Edit Distance",
+          "url": "https://cses.fi/problemset/task/1639/"
+        },
+        {
+          "key": "leetcode:longest-common-subsequence",
+          "title": "LeetCode · Longest Common Subsequence",
+          "url": "https://leetcode.com/problems/longest-common-subsequence/"
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "day": 7,
+      "goal": "오답 6개 재풀이·주간 목표 설명·다음 주 준비",
+      "target": 0,
+      "reviewTarget": 6,
+      "problems": []
+    },
+    {
+      "week": 10,
+      "day": 1,
+      "goal": "누적합·해시 나머지 분류",
+      "target": 2,
+      "reviewTarget": 0,
+      "problems": [
+        {
+          "key": "cses:1662",
+          "title": "CSES · Subarray Divisibility",
+          "url": "https://cses.fi/problemset/task/1662/"
+        },
+        {
+          "key": "leetcode:subarray-sum-equals-k",
+          "title": "LeetCode · Subarray Sum Equals K",
+          "url": "https://leetcode.com/problems/subarray-sum-equals-k/"
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "day": 2,
+      "goal": "BFS·복수 상태·방문 배열 차원 결정",
+      "target": 2,
+      "reviewTarget": 0,
+      "problems": [
+        {
+          "key": "cses:1194",
+          "title": "CSES · Monsters",
+          "url": "https://cses.fi/problemset/task/1194/"
+        },
+        {
+          "key": "leetcode:shortest-path-with-alternating-colors",
+          "title": "LeetCode · Shortest Path with Alternating Colors",
+          "url": "https://leetcode.com/problems/shortest-path-with-alternating-colors/"
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "day": 3,
+      "goal": "힙·그리디·이벤트 처리",
+      "target": 2,
+      "reviewTarget": 0,
+      "problems": [
+        {
+          "key": "cses:1164",
+          "title": "CSES · Room Allocation",
+          "url": "https://cses.fi/problemset/task/1164/"
+        },
+        {
+          "key": "programmers:42627",
+          "title": "프로그래머스 · 디스크 컨트롤러",
+          "url": "https://school.programmers.co.kr/learn/courses/30/lessons/42627"
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "day": 4,
+      "goal": "DAG 위상 순서에 DP 적용",
+      "target": 2,
+      "reviewTarget": 0,
+      "problems": [
+        {
+          "key": "cses:1680",
+          "title": "CSES · Longest Flight Route",
+          "url": "https://cses.fi/problemset/task/1680/"
+        },
+        {
+          "key": "cses:1681",
+          "title": "CSES · Game Routes",
+          "url": "https://cses.fi/problemset/task/1681/"
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "day": 5,
+      "goal": "LIS O(N log N)·좌표 압축 직접 예제 작성",
+      "target": 2,
+      "reviewTarget": 0,
+      "problems": [
+        {
+          "key": "cses:1145",
+          "title": "CSES · Increasing Subsequence",
+          "url": "https://cses.fi/problemset/task/1145/"
+        },
+        {
+          "key": "leetcode:rank-transform-of-an-array",
+          "title": "LeetCode · Rank Transform of an Array",
+          "url": "https://leetcode.com/problems/rank-transform-of-an-array/"
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "day": 6,
+      "goal": "Trie 삽입·검색·접두사 검사",
+      "target": 2,
+      "reviewTarget": 0,
+      "problems": [
+        {
+          "key": "leetcode:implement-trie-prefix-tree",
+          "title": "LeetCode · Implement Trie (Prefix Tree)",
+          "url": "https://leetcode.com/problems/implement-trie-prefix-tree/"
+        },
+        {
+          "key": "leetcode:design-add-and-search-words-data-structure",
+          "title": "LeetCode · Design Add and Search Words Data Structure",
+          "url": "https://leetcode.com/problems/design-add-and-search-words-data-structure/"
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "day": 7,
+      "goal": "오답 6개 재풀이·주간 목표 설명·다음 주 준비",
+      "target": 0,
+      "reviewTarget": 6,
+      "problems": []
+    },
+    {
+      "week": 11,
+      "day": 1,
+      "goal": "혼합 세트 A·각 문제 첫 5분 제약 분석",
+      "target": 2,
+      "reviewTarget": 0,
+      "problems": [
+        {
+          "key": "programmers:92334",
+          "title": "프로그래머스 · 신고 결과 받기",
+          "url": "https://school.programmers.co.kr/learn/courses/30/lessons/92334"
+        },
+        {
+          "key": "programmers:64061",
+          "title": "프로그래머스 · 크레인 인형뽑기 게임",
+          "url": "https://school.programmers.co.kr/learn/courses/30/lessons/64061"
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "day": 2,
+      "goal": "혼합 세트 B·후보 2개와 기각 이유 기록",
+      "target": 2,
+      "reviewTarget": 0,
+      "problems": [
+        {
+          "key": "programmers:92341",
+          "title": "프로그래머스 · 주차 요금 계산",
+          "url": "https://school.programmers.co.kr/learn/courses/30/lessons/92341"
+        },
+        {
+          "key": "programmers:42888",
+          "title": "프로그래머스 · 오픈채팅방",
+          "url": "https://school.programmers.co.kr/learn/courses/30/lessons/42888"
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "day": 3,
+      "goal": "혼합 세트 C·30분 뒤 필요할 때 최소 힌트",
+      "target": 2,
+      "reviewTarget": 0,
+      "problems": [
+        {
+          "key": "programmers:72411",
+          "title": "프로그래머스 · 메뉴 리뉴얼",
+          "url": "https://school.programmers.co.kr/learn/courses/30/lessons/72411"
+        },
+        {
+          "key": "programmers:17686",
+          "title": "프로그래머스 · 파일명 정렬",
+          "url": "https://school.programmers.co.kr/learn/courses/30/lessons/17686"
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "day": 4,
+      "goal": "혼합 세트 D·코딩 전 예외 사례 3개",
+      "target": 2,
+      "reviewTarget": 0,
+      "problems": [
+        {
+          "key": "programmers:17687",
+          "title": "프로그래머스 · n진수 게임",
+          "url": "https://school.programmers.co.kr/learn/courses/30/lessons/17687"
+        },
+        {
+          "key": "programmers:17684",
+          "title": "프로그래머스 · 압축",
+          "url": "https://school.programmers.co.kr/learn/courses/30/lessons/17684"
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "day": 5,
+      "goal": "혼합 세트 E·시간 제한 120분",
+      "target": 2,
+      "reviewTarget": 0,
+      "problems": [
+        {
+          "key": "programmers:72412",
+          "title": "프로그래머스 · 순위 검색",
+          "url": "https://school.programmers.co.kr/learn/courses/30/lessons/72412"
+        },
+        {
+          "key": "programmers:92335",
+          "title": "프로그래머스 · k진수에서 소수 개수 구하기",
+          "url": "https://school.programmers.co.kr/learn/courses/30/lessons/92335"
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "day": 6,
+      "goal": "혼합 세트 F·풀이 후 복잡도와 대안 비교",
+      "target": 2,
+      "reviewTarget": 0,
+      "problems": [
+        {
+          "key": "programmers:60057",
+          "title": "프로그래머스 · 문자열 압축",
+          "url": "https://school.programmers.co.kr/learn/courses/30/lessons/60057"
+        },
+        {
+          "key": "programmers:12913",
+          "title": "프로그래머스 · 땅따먹기",
+          "url": "https://school.programmers.co.kr/learn/courses/30/lessons/12913"
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "day": 7,
+      "goal": "오답 6개 재풀이·주간 목표 설명·다음 주 준비",
+      "target": 0,
+      "reviewTarget": 6,
+      "problems": []
+    },
+    {
+      "week": 12,
+      "day": 1,
+      "goal": "모의고사 A·150분 4문제·쉬운 문제 먼저",
+      "target": 4,
+      "reviewTarget": 0,
+      "problems": [
+        {
+          "key": "programmers:17681",
+          "title": "프로그래머스 · 비밀지도",
+          "url": "https://school.programmers.co.kr/learn/courses/30/lessons/17681"
+        },
+        {
+          "key": "programmers:67256",
+          "title": "프로그래머스 · 키패드 누르기",
+          "url": "https://school.programmers.co.kr/learn/courses/30/lessons/67256"
+        },
+        {
+          "key": "programmers:49993",
+          "title": "프로그래머스 · 스킬트리",
+          "url": "https://school.programmers.co.kr/learn/courses/30/lessons/49993"
+        },
+        {
+          "key": "programmers:60058",
+          "title": "프로그래머스 · 괄호 변환",
+          "url": "https://school.programmers.co.kr/learn/courses/30/lessons/60058"
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "day": 2,
+      "goal": "A 오답 분석·실패 문제 3개 재풀이·새 문제 없음",
+      "target": 0,
+      "reviewTarget": 3,
+      "problems": []
+    },
+    {
+      "week": 12,
+      "day": 3,
+      "goal": "모의고사 B·180분 4문제·막히면 다음 문제",
+      "target": 4,
+      "reviewTarget": 0,
+      "problems": [
+        {
+          "key": "programmers:68935",
+          "title": "프로그래머스 · 3진법 뒤집기",
+          "url": "https://school.programmers.co.kr/learn/courses/30/lessons/68935"
+        },
+        {
+          "key": "programmers:68645",
+          "title": "프로그래머스 · 삼각 달팽이",
+          "url": "https://school.programmers.co.kr/learn/courses/30/lessons/68645"
+        },
+        {
+          "key": "programmers:42883",
+          "title": "프로그래머스 · 큰 수 만들기",
+          "url": "https://school.programmers.co.kr/learn/courses/30/lessons/42883"
+        },
+        {
+          "key": "programmers:67258",
+          "title": "프로그래머스 · 보석 쇼핑",
+          "url": "https://school.programmers.co.kr/learn/courses/30/lessons/67258"
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "day": 4,
+      "goal": "B 오답 분석·실패 문제 3개 재풀이·새 문제 없음",
+      "target": 0,
+      "reviewTarget": 3,
+      "problems": []
+    },
+    {
+      "week": 12,
+      "day": 5,
+      "goal": "모의고사 C·180분 4문제·마지막 15분 검증",
+      "target": 4,
+      "reviewTarget": 0,
+      "problems": [
+        {
+          "key": "programmers:12981",
+          "title": "프로그래머스 · 영어 끝말잇기",
+          "url": "https://school.programmers.co.kr/learn/courses/30/lessons/12981"
+        },
+        {
+          "key": "programmers:42584",
+          "title": "프로그래머스 · 주식가격",
+          "url": "https://school.programmers.co.kr/learn/courses/30/lessons/42584"
+        },
+        {
+          "key": "programmers:12979",
+          "title": "프로그래머스 · 기지국 설치",
+          "url": "https://school.programmers.co.kr/learn/courses/30/lessons/12979"
+        },
+        {
+          "key": "programmers:67259",
+          "title": "프로그래머스 · 경주로 건설",
+          "url": "https://school.programmers.co.kr/learn/courses/30/lessons/67259"
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "day": 6,
+      "goal": "C 오답 분석·실패 문제 3개 재풀이·새 문제 없음",
+      "target": 0,
+      "reviewTarget": 3,
+      "problems": []
+    },
+    {
+      "week": 12,
+      "day": 7,
+      "goal": "최종 성과 점검·다음 4주 계획 작성",
+      "target": 0,
+      "reviewTarget": 0,
+      "problems": []
+    }
+  ],
+  "reviews": [],
+  "evidence": {}
+}
