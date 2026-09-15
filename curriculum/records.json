@@ -20,5 +20,38 @@
     "kind": "solve",
     "result": "accepted",
     "usedHint": true
+  },
+  {
+    "id": "2026-09-15-leetcode-fizz-buzz-first",
+    "date": "2026-09-15",
+    "week": 1,
+    "day": 1,
+    "url": "https://leetcode.com/problems/fizz-buzz/",
+    "code": "solutions/leetcode/fizz-buzz.cpp",
+    "kind": "solve",
+    "result": "accepted",
+    "usedHint": false
+  },
+  {
+    "id": "2026-09-15-leetcode-palindrome-number-first",
+    "date": "2026-09-15",
+    "week": 1,
+    "day": 1,
+    "url": "https://leetcode.com/problems/palindrome-number/",
+    "code": "solutions/leetcode/palindrome-number.cpp",
+    "kind": "solve",
+    "result": "accepted",
+    "usedHint": false
+  },
+  {
+    "id": "2026-09-15-leetcode-add-digits-first",
+    "date": "2026-09-15",
+    "week": 1,
+    "day": 1,
+    "url": "https://leetcode.com/problems/add-digits/",
+    "code": "solutions/leetcode/add-digits.cpp",
+    "kind": "solve",
+    "result": "accepted",
+    "usedHint": true
   }
 ]
