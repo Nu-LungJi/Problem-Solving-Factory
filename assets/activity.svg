@@ -1,108 +1,212 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="560" height="340" viewBox="0 0 560 340" role="img" aria-labelledby="title description">
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="614" viewBox="0 0 960 614" role="img" aria-labelledby="title description">
 <title id="title">12주 풀이 잔디: 정답 5회, 활동 1일</title>
-<desc id="description">2026-09-15부터 2026-12-07까지. 날짜가 기록된 정답만 집계. 신규 풀이와 재풀이를 포함하며 중복 기록은 제외합니다.</desc>
+<desc id="description">2026-09-15부터 2026-12-07까지. 한 행은 월요일부터 일요일 순서입니다. 날짜가 기록된 정답만 집계하며 중복 기록은 제외합니다.</desc>
 <style>
-text{font-family:Segoe UI,Malgun Gothic,sans-serif;fill:#1f2328;font-size:12px}.muted{fill:#59636e}.heading{font-size:16px;font-weight:600}.bg{fill:#fff}.l0{fill:#eff2f5}.l1{fill:#9be9a8}.l2{fill:#40c463}.l3{fill:#30a14e}.l4{fill:#216e39}
-@media(prefers-color-scheme:dark){text{fill:#e6edf3}.muted{fill:#9198a1}.bg{fill:#0d1117}.l0{fill:#161b22}.l1{fill:#0e4429}.l2{fill:#006d32}.l3{fill:#26a641}.l4{fill:#39d353}}
+text{font-family:Segoe UI,Malgun Gothic,sans-serif;fill:#1f2328;font-size:14px}.muted{fill:#59636e}.heading{font-size:20px;font-weight:600}.bg{fill:#fff}.l0{fill:#eff2f5}.l1{fill:#9be9a8}.l2{fill:#40c463}.l3{fill:#30a14e}.l4{fill:#216e39}.on-fill{fill:#fff}.outside{fill:none;stroke:#d1d9e0;stroke-dasharray:3 3}
+@media(prefers-color-scheme:dark){text{fill:#e6edf3}.muted{fill:#9198a1}.bg{fill:#0d1117}.l0{fill:#161b22}.l1{fill:#0e4429}.l2{fill:#006d32}.l3{fill:#26a641}.l4{fill:#39d353}.on-fill{fill:#0d1117}.low-fill{fill:#e6edf3}.outside{stroke:#30363d}}
 </style>
-<rect class="bg" width="560" height="340" rx="10"/>
-<text class="heading" x="24" y="28">정답 5회 · 활동 1일</text>
-<text class="muted" x="24" y="49">2026-09-15 — 2026-12-07 · 힌트 사용 2회</text>
-<text class="muted" x="72" y="69">9월</text>
-<rect class="l3" data-date="2026-09-15" data-count="5" x="72" y="142" width="26" height="26" rx="4"><title>2026-09-15: 신규 5, 재풀이 0, 힌트 사용 2</title></rect>
-<rect class="l0" data-date="2026-09-16" data-count="0" x="72" y="174" width="26" height="26" rx="4"><title>2026-09-16: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
-<rect class="l0" data-date="2026-09-17" data-count="0" x="72" y="206" width="26" height="26" rx="4"><title>2026-09-17: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
-<rect class="l0" data-date="2026-09-18" data-count="0" x="72" y="238" width="26" height="26" rx="4"><title>2026-09-18: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
-<rect class="l0" data-date="2026-09-19" data-count="0" x="72" y="270" width="26" height="26" rx="4"><title>2026-09-19: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
-<rect class="l0" data-date="2026-09-20" data-count="0" x="104" y="78" width="26" height="26" rx="4"><title>2026-09-20: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
-<rect class="l0" data-date="2026-09-21" data-count="0" x="104" y="110" width="26" height="26" rx="4"><title>2026-09-21: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
-<rect class="l0" data-date="2026-09-22" data-count="0" x="104" y="142" width="26" height="26" rx="4"><title>2026-09-22: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
-<rect class="l0" data-date="2026-09-23" data-count="0" x="104" y="174" width="26" height="26" rx="4"><title>2026-09-23: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
-<rect class="l0" data-date="2026-09-24" data-count="0" x="104" y="206" width="26" height="26" rx="4"><title>2026-09-24: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
-<rect class="l0" data-date="2026-09-25" data-count="0" x="104" y="238" width="26" height="26" rx="4"><title>2026-09-25: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
-<rect class="l0" data-date="2026-09-26" data-count="0" x="104" y="270" width="26" height="26" rx="4"><title>2026-09-26: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
-<rect class="l0" data-date="2026-09-27" data-count="0" x="136" y="78" width="26" height="26" rx="4"><title>2026-09-27: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
-<rect class="l0" data-date="2026-09-28" data-count="0" x="136" y="110" width="26" height="26" rx="4"><title>2026-09-28: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
-<rect class="l0" data-date="2026-09-29" data-count="0" x="136" y="142" width="26" height="26" rx="4"><title>2026-09-29: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
-<rect class="l0" data-date="2026-09-30" data-count="0" x="136" y="174" width="26" height="26" rx="4"><title>2026-09-30: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
-<text class="muted" x="136" y="69">10월</text>
-<rect class="l0" data-date="2026-10-01" data-count="0" x="136" y="206" width="26" height="26" rx="4"><title>2026-10-01: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
-<rect class="l0" data-date="2026-10-02" data-count="0" x="136" y="238" width="26" height="26" rx="4"><title>2026-10-02: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
-<rect class="l0" data-date="2026-10-03" data-count="0" x="136" y="270" width="26" height="26" rx="4"><title>2026-10-03: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
-<rect class="l0" data-date="2026-10-04" data-count="0" x="168" y="78" width="26" height="26" rx="4"><title>2026-10-04: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
-<rect class="l0" data-date="2026-10-05" data-count="0" x="168" y="110" width="26" height="26" rx="4"><title>2026-10-05: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
-<rect class="l0" data-date="2026-10-06" data-count="0" x="168" y="142" width="26" height="26" rx="4"><title>2026-10-06: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
-<rect class="l0" data-date="2026-10-07" data-count="0" x="168" y="174" width="26" height="26" rx="4"><title>2026-10-07: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
-<rect class="l0" data-date="2026-10-08" data-count="0" x="168" y="206" width="26" height="26" rx="4"><title>2026-10-08: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
-<rect class="l0" data-date="2026-10-09" data-count="0" x="168" y="238" width="26" height="26" rx="4"><title>2026-10-09: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
-<rect class="l0" data-date="2026-10-10" data-count="0" x="168" y="270" width="26" height="26" rx="4"><title>2026-10-10: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
-<rect class="l0" data-date="2026-10-11" data-count="0" x="200" y="78" width="26" height="26" rx="4"><title>2026-10-11: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
-<rect class="l0" data-date="2026-10-12" data-count="0" x="200" y="110" width="26" height="26" rx="4"><title>2026-10-12: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
-<rect class="l0" data-date="2026-10-13" data-count="0" x="200" y="142" width="26" height="26" rx="4"><title>2026-10-13: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
-<rect class="l0" data-date="2026-10-14" data-count="0" x="200" y="174" width="26" height="26" rx="4"><title>2026-10-14: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
-<rect class="l0" data-date="2026-10-15" data-count="0" x="200" y="206" width="26" height="26" rx="4"><title>2026-10-15: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
-<rect class="l0" data-date="2026-10-16" data-count="0" x="200" y="238" width="26" height="26" rx="4"><title>2026-10-16: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
-<rect class="l0" data-date="2026-10-17" data-count="0" x="200" y="270" width="26" height="26" rx="4"><title>2026-10-17: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
-<rect class="l0" data-date="2026-10-18" data-count="0" x="232" y="78" width="26" height="26" rx="4"><title>2026-10-18: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
-<rect class="l0" data-date="2026-10-19" data-count="0" x="232" y="110" width="26" height="26" rx="4"><title>2026-10-19: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
-<rect class="l0" data-date="2026-10-20" data-count="0" x="232" y="142" width="26" height="26" rx="4"><title>2026-10-20: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
-<rect class="l0" data-date="2026-10-21" data-count="0" x="232" y="174" width="26" height="26" rx="4"><title>2026-10-21: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
-<rect class="l0" data-date="2026-10-22" data-count="0" x="232" y="206" width="26" height="26" rx="4"><title>2026-10-22: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
-<rect class="l0" data-date="2026-10-23" data-count="0" x="232" y="238" width="26" height="26" rx="4"><title>2026-10-23: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
-<rect class="l0" data-date="2026-10-24" data-count="0" x="232" y="270" width="26" height="26" rx="4"><title>2026-10-24: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
-<rect class="l0" data-date="2026-10-25" data-count="0" x="264" y="78" width="26" height="26" rx="4"><title>2026-10-25: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
-<rect class="l0" data-date="2026-10-26" data-count="0" x="264" y="110" width="26" height="26" rx="4"><title>2026-10-26: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
-<rect class="l0" data-date="2026-10-27" data-count="0" x="264" y="142" width="26" height="26" rx="4"><title>2026-10-27: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
-<rect class="l0" data-date="2026-10-28" data-count="0" x="264" y="174" width="26" height="26" rx="4"><title>2026-10-28: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
-<rect class="l0" data-date="2026-10-29" data-count="0" x="264" y="206" width="26" height="26" rx="4"><title>2026-10-29: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
-<rect class="l0" data-date="2026-10-30" data-count="0" x="264" y="238" width="26" height="26" rx="4"><title>2026-10-30: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
-<rect class="l0" data-date="2026-10-31" data-count="0" x="264" y="270" width="26" height="26" rx="4"><title>2026-10-31: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
-<text class="muted" x="296" y="69">11월</text>
-<rect class="l0" data-date="2026-11-01" data-count="0" x="296" y="78" width="26" height="26" rx="4"><title>2026-11-01: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
-<rect class="l0" data-date="2026-11-02" data-count="0" x="296" y="110" width="26" height="26" rx="4"><title>2026-11-02: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
-<rect class="l0" data-date="2026-11-03" data-count="0" x="296" y="142" width="26" height="26" rx="4"><title>2026-11-03: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
-<rect class="l0" data-date="2026-11-04" data-count="0" x="296" y="174" width="26" height="26" rx="4"><title>2026-11-04: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
-<rect class="l0" data-date="2026-11-05" data-count="0" x="296" y="206" width="26" height="26" rx="4"><title>2026-11-05: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
-<rect class="l0" data-date="2026-11-06" data-count="0" x="296" y="238" width="26" height="26" rx="4"><title>2026-11-06: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
-<rect class="l0" data-date="2026-11-07" data-count="0" x="296" y="270" width="26" height="26" rx="4"><title>2026-11-07: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
-<rect class="l0" data-date="2026-11-08" data-count="0" x="328" y="78" width="26" height="26" rx="4"><title>2026-11-08: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
-<rect class="l0" data-date="2026-11-09" data-count="0" x="328" y="110" width="26" height="26" rx="4"><title>2026-11-09: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
-<rect class="l0" data-date="2026-11-10" data-count="0" x="328" y="142" width="26" height="26" rx="4"><title>2026-11-10: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
-<rect class="l0" data-date="2026-11-11" data-count="0" x="328" y="174" width="26" height="26" rx="4"><title>2026-11-11: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
-<rect class="l0" data-date="2026-11-12" data-count="0" x="328" y="206" width="26" height="26" rx="4"><title>2026-11-12: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
-<rect class="l0" data-date="2026-11-13" data-count="0" x="328" y="238" width="26" height="26" rx="4"><title>2026-11-13: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
-<rect class="l0" data-date="2026-11-14" data-count="0" x="328" y="270" width="26" height="26" rx="4"><title>2026-11-14: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
-<rect class="l0" data-date="2026-11-15" data-count="0" x="360" y="78" width="26" height="26" rx="4"><title>2026-11-15: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
-<rect class="l0" data-date="2026-11-16" data-count="0" x="360" y="110" width="26" height="26" rx="4"><title>2026-11-16: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
-<rect class="l0" data-date="2026-11-17" data-count="0" x="360" y="142" width="26" height="26" rx="4"><title>2026-11-17: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
-<rect class="l0" data-date="2026-11-18" data-count="0" x="360" y="174" width="26" height="26" rx="4"><title>2026-11-18: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
-<rect class="l0" data-date="2026-11-19" data-count="0" x="360" y="206" width="26" height="26" rx="4"><title>2026-11-19: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
-<rect class="l0" data-date="2026-11-20" data-count="0" x="360" y="238" width="26" height="26" rx="4"><title>2026-11-20: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
-<rect class="l0" data-date="2026-11-21" data-count="0" x="360" y="270" width="26" height="26" rx="4"><title>2026-11-21: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
-<rect class="l0" data-date="2026-11-22" data-count="0" x="392" y="78" width="26" height="26" rx="4"><title>2026-11-22: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
-<rect class="l0" data-date="2026-11-23" data-count="0" x="392" y="110" width="26" height="26" rx="4"><title>2026-11-23: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
-<rect class="l0" data-date="2026-11-24" data-count="0" x="392" y="142" width="26" height="26" rx="4"><title>2026-11-24: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
-<rect class="l0" data-date="2026-11-25" data-count="0" x="392" y="174" width="26" height="26" rx="4"><title>2026-11-25: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
-<rect class="l0" data-date="2026-11-26" data-count="0" x="392" y="206" width="26" height="26" rx="4"><title>2026-11-26: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
-<rect class="l0" data-date="2026-11-27" data-count="0" x="392" y="238" width="26" height="26" rx="4"><title>2026-11-27: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
-<rect class="l0" data-date="2026-11-28" data-count="0" x="392" y="270" width="26" height="26" rx="4"><title>2026-11-28: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
-<rect class="l0" data-date="2026-11-29" data-count="0" x="424" y="78" width="26" height="26" rx="4"><title>2026-11-29: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
-<rect class="l0" data-date="2026-11-30" data-count="0" x="424" y="110" width="26" height="26" rx="4"><title>2026-11-30: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
-<text class="muted" x="424" y="69">12월</text>
-<rect class="l0" data-date="2026-12-01" data-count="0" x="424" y="142" width="26" height="26" rx="4"><title>2026-12-01: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
-<rect class="l0" data-date="2026-12-02" data-count="0" x="424" y="174" width="26" height="26" rx="4"><title>2026-12-02: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
-<rect class="l0" data-date="2026-12-03" data-count="0" x="424" y="206" width="26" height="26" rx="4"><title>2026-12-03: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
-<rect class="l0" data-date="2026-12-04" data-count="0" x="424" y="238" width="26" height="26" rx="4"><title>2026-12-04: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
-<rect class="l0" data-date="2026-12-05" data-count="0" x="424" y="270" width="26" height="26" rx="4"><title>2026-12-05: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
-<rect class="l0" data-date="2026-12-06" data-count="0" x="456" y="78" width="26" height="26" rx="4"><title>2026-12-06: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
-<rect class="l0" data-date="2026-12-07" data-count="0" x="456" y="110" width="26" height="26" rx="4"><title>2026-12-07: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
-<text class="muted" x="44" y="128">월</text>
-<text class="muted" x="44" y="192">수</text>
-<text class="muted" x="44" y="256">금</text>
-<text class="muted" x="72" y="322">날짜별 정답 풀이 수</text>
-<rect class="l0" x="268" y="308" width="12" height="12" rx="2"/><text class="muted" x="284" y="319">0</text>
-<rect class="l1" x="312" y="308" width="12" height="12" rx="2"/><text class="muted" x="328" y="319">1</text>
-<rect class="l2" x="356" y="308" width="12" height="12" rx="2"/><text class="muted" x="372" y="319">2–3</text>
-<rect class="l3" x="400" y="308" width="12" height="12" rx="2"/><text class="muted" x="416" y="319">4–5</text>
-<rect class="l4" x="444" y="308" width="12" height="12" rx="2"/><text class="muted" x="460" y="319">6+</text>
+<rect class="bg" width="960" height="614" rx="10"/>
+<text class="heading" x="28" y="32">정답 5회 · 활동 1일</text>
+<text class="muted" x="28" y="56">2026-09-15 — 2026-12-07 · 힌트 사용 2회</text>
+<text class="weekday" x="188" y="89" text-anchor="middle">월</text>
+<text class="weekday" x="300" y="89" text-anchor="middle">화</text>
+<text class="weekday" x="412" y="89" text-anchor="middle">수</text>
+<text class="weekday" x="524" y="89" text-anchor="middle">목</text>
+<text class="weekday" x="636" y="89" text-anchor="middle">금</text>
+<text class="weekday" x="748" y="89" text-anchor="middle">토</text>
+<text class="weekday" x="860" y="89" text-anchor="middle">일</text>
+<text class="muted" x="28" y="123">09.14–09.20</text>
+<rect class="outside" x="136" y="104" width="104" height="28" rx="4"/>
+<rect class="l3" data-date="2026-09-15" data-count="5" data-row="0" data-col="1" x="248" y="104" width="104" height="28" rx="4"><title>2026-09-15: 신규 5, 재풀이 0, 힌트 사용 2</title></rect>
+<text class="on-fill" x="300" y="123" text-anchor="middle">9/15 · 5회</text>
+<rect class="l0" data-date="2026-09-16" data-count="0" data-row="0" data-col="2" x="360" y="104" width="104" height="28" rx="4"><title>2026-09-16: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
+<text class="muted" x="412" y="123" text-anchor="middle">9/16</text>
+<rect class="l0" data-date="2026-09-17" data-count="0" data-row="0" data-col="3" x="472" y="104" width="104" height="28" rx="4"><title>2026-09-17: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
+<text class="muted" x="524" y="123" text-anchor="middle">9/17</text>
+<rect class="l0" data-date="2026-09-18" data-count="0" data-row="0" data-col="4" x="584" y="104" width="104" height="28" rx="4"><title>2026-09-18: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
+<text class="muted" x="636" y="123" text-anchor="middle">9/18</text>
+<rect class="l0" data-date="2026-09-19" data-count="0" data-row="0" data-col="5" x="696" y="104" width="104" height="28" rx="4"><title>2026-09-19: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
+<text class="muted" x="748" y="123" text-anchor="middle">9/19</text>
+<rect class="l0" data-date="2026-09-20" data-count="0" data-row="0" data-col="6" x="808" y="104" width="104" height="28" rx="4"><title>2026-09-20: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
+<text class="muted" x="860" y="123" text-anchor="middle">9/20</text>
+<text class="muted" x="28" y="159">09.21–09.27</text>
+<rect class="l0" data-date="2026-09-21" data-count="0" data-row="1" data-col="0" x="136" y="140" width="104" height="28" rx="4"><title>2026-09-21: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
+<text class="muted" x="188" y="159" text-anchor="middle">9/21</text>
+<rect class="l0" data-date="2026-09-22" data-count="0" data-row="1" data-col="1" x="248" y="140" width="104" height="28" rx="4"><title>2026-09-22: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
+<text class="muted" x="300" y="159" text-anchor="middle">9/22</text>
+<rect class="l0" data-date="2026-09-23" data-count="0" data-row="1" data-col="2" x="360" y="140" width="104" height="28" rx="4"><title>2026-09-23: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
+<text class="muted" x="412" y="159" text-anchor="middle">9/23</text>
+<rect class="l0" data-date="2026-09-24" data-count="0" data-row="1" data-col="3" x="472" y="140" width="104" height="28" rx="4"><title>2026-09-24: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
+<text class="muted" x="524" y="159" text-anchor="middle">9/24</text>
+<rect class="l0" data-date="2026-09-25" data-count="0" data-row="1" data-col="4" x="584" y="140" width="104" height="28" rx="4"><title>2026-09-25: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
+<text class="muted" x="636" y="159" text-anchor="middle">9/25</text>
+<rect class="l0" data-date="2026-09-26" data-count="0" data-row="1" data-col="5" x="696" y="140" width="104" height="28" rx="4"><title>2026-09-26: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
+<text class="muted" x="748" y="159" text-anchor="middle">9/26</text>
+<rect class="l0" data-date="2026-09-27" data-count="0" data-row="1" data-col="6" x="808" y="140" width="104" height="28" rx="4"><title>2026-09-27: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
+<text class="muted" x="860" y="159" text-anchor="middle">9/27</text>
+<text class="muted" x="28" y="195">09.28–10.04</text>
+<rect class="l0" data-date="2026-09-28" data-count="0" data-row="2" data-col="0" x="136" y="176" width="104" height="28" rx="4"><title>2026-09-28: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
+<text class="muted" x="188" y="195" text-anchor="middle">9/28</text>
+<rect class="l0" data-date="2026-09-29" data-count="0" data-row="2" data-col="1" x="248" y="176" width="104" height="28" rx="4"><title>2026-09-29: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
+<text class="muted" x="300" y="195" text-anchor="middle">9/29</text>
+<rect class="l0" data-date="2026-09-30" data-count="0" data-row="2" data-col="2" x="360" y="176" width="104" height="28" rx="4"><title>2026-09-30: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
+<text class="muted" x="412" y="195" text-anchor="middle">9/30</text>
+<rect class="l0" data-date="2026-10-01" data-count="0" data-row="2" data-col="3" x="472" y="176" width="104" height="28" rx="4"><title>2026-10-01: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
+<text class="muted" x="524" y="195" text-anchor="middle">10/1</text>
+<rect class="l0" data-date="2026-10-02" data-count="0" data-row="2" data-col="4" x="584" y="176" width="104" height="28" rx="4"><title>2026-10-02: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
+<text class="muted" x="636" y="195" text-anchor="middle">10/2</text>
+<rect class="l0" data-date="2026-10-03" data-count="0" data-row="2" data-col="5" x="696" y="176" width="104" height="28" rx="4"><title>2026-10-03: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
+<text class="muted" x="748" y="195" text-anchor="middle">10/3</text>
+<rect class="l0" data-date="2026-10-04" data-count="0" data-row="2" data-col="6" x="808" y="176" width="104" height="28" rx="4"><title>2026-10-04: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
+<text class="muted" x="860" y="195" text-anchor="middle">10/4</text>
+<text class="muted" x="28" y="231">10.05–10.11</text>
+<rect class="l0" data-date="2026-10-05" data-count="0" data-row="3" data-col="0" x="136" y="212" width="104" height="28" rx="4"><title>2026-10-05: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
+<text class="muted" x="188" y="231" text-anchor="middle">10/5</text>
+<rect class="l0" data-date="2026-10-06" data-count="0" data-row="3" data-col="1" x="248" y="212" width="104" height="28" rx="4"><title>2026-10-06: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
+<text class="muted" x="300" y="231" text-anchor="middle">10/6</text>
+<rect class="l0" data-date="2026-10-07" data-count="0" data-row="3" data-col="2" x="360" y="212" width="104" height="28" rx="4"><title>2026-10-07: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
+<text class="muted" x="412" y="231" text-anchor="middle">10/7</text>
+<rect class="l0" data-date="2026-10-08" data-count="0" data-row="3" data-col="3" x="472" y="212" width="104" height="28" rx="4"><title>2026-10-08: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
+<text class="muted" x="524" y="231" text-anchor="middle">10/8</text>
+<rect class="l0" data-date="2026-10-09" data-count="0" data-row="3" data-col="4" x="584" y="212" width="104" height="28" rx="4"><title>2026-10-09: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
+<text class="muted" x="636" y="231" text-anchor="middle">10/9</text>
+<rect class="l0" data-date="2026-10-10" data-count="0" data-row="3" data-col="5" x="696" y="212" width="104" height="28" rx="4"><title>2026-10-10: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
+<text class="muted" x="748" y="231" text-anchor="middle">10/10</text>
+<rect class="l0" data-date="2026-10-11" data-count="0" data-row="3" data-col="6" x="808" y="212" width="104" height="28" rx="4"><title>2026-10-11: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
+<text class="muted" x="860" y="231" text-anchor="middle">10/11</text>
+<text class="muted" x="28" y="267">10.12–10.18</text>
+<rect class="l0" data-date="2026-10-12" data-count="0" data-row="4" data-col="0" x="136" y="248" width="104" height="28" rx="4"><title>2026-10-12: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
+<text class="muted" x="188" y="267" text-anchor="middle">10/12</text>
+<rect class="l0" data-date="2026-10-13" data-count="0" data-row="4" data-col="1" x="248" y="248" width="104" height="28" rx="4"><title>2026-10-13: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
+<text class="muted" x="300" y="267" text-anchor="middle">10/13</text>
+<rect class="l0" data-date="2026-10-14" data-count="0" data-row="4" data-col="2" x="360" y="248" width="104" height="28" rx="4"><title>2026-10-14: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
+<text class="muted" x="412" y="267" text-anchor="middle">10/14</text>
+<rect class="l0" data-date="2026-10-15" data-count="0" data-row="4" data-col="3" x="472" y="248" width="104" height="28" rx="4"><title>2026-10-15: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
+<text class="muted" x="524" y="267" text-anchor="middle">10/15</text>
+<rect class="l0" data-date="2026-10-16" data-count="0" data-row="4" data-col="4" x="584" y="248" width="104" height="28" rx="4"><title>2026-10-16: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
+<text class="muted" x="636" y="267" text-anchor="middle">10/16</text>
+<rect class="l0" data-date="2026-10-17" data-count="0" data-row="4" data-col="5" x="696" y="248" width="104" height="28" rx="4"><title>2026-10-17: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
+<text class="muted" x="748" y="267" text-anchor="middle">10/17</text>
+<rect class="l0" data-date="2026-10-18" data-count="0" data-row="4" data-col="6" x="808" y="248" width="104" height="28" rx="4"><title>2026-10-18: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
+<text class="muted" x="860" y="267" text-anchor="middle">10/18</text>
+<text class="muted" x="28" y="303">10.19–10.25</text>
+<rect class="l0" data-date="2026-10-19" data-count="0" data-row="5" data-col="0" x="136" y="284" width="104" height="28" rx="4"><title>2026-10-19: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
+<text class="muted" x="188" y="303" text-anchor="middle">10/19</text>
+<rect class="l0" data-date="2026-10-20" data-count="0" data-row="5" data-col="1" x="248" y="284" width="104" height="28" rx="4"><title>2026-10-20: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
+<text class="muted" x="300" y="303" text-anchor="middle">10/20</text>
+<rect class="l0" data-date="2026-10-21" data-count="0" data-row="5" data-col="2" x="360" y="284" width="104" height="28" rx="4"><title>2026-10-21: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
+<text class="muted" x="412" y="303" text-anchor="middle">10/21</text>
+<rect class="l0" data-date="2026-10-22" data-count="0" data-row="5" data-col="3" x="472" y="284" width="104" height="28" rx="4"><title>2026-10-22: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
+<text class="muted" x="524" y="303" text-anchor="middle">10/22</text>
+<rect class="l0" data-date="2026-10-23" data-count="0" data-row="5" data-col="4" x="584" y="284" width="104" height="28" rx="4"><title>2026-10-23: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
+<text class="muted" x="636" y="303" text-anchor="middle">10/23</text>
+<rect class="l0" data-date="2026-10-24" data-count="0" data-row="5" data-col="5" x="696" y="284" width="104" height="28" rx="4"><title>2026-10-24: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
+<text class="muted" x="748" y="303" text-anchor="middle">10/24</text>
+<rect class="l0" data-date="2026-10-25" data-count="0" data-row="5" data-col="6" x="808" y="284" width="104" height="28" rx="4"><title>2026-10-25: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
+<text class="muted" x="860" y="303" text-anchor="middle">10/25</text>
+<text class="muted" x="28" y="339">10.26–11.01</text>
+<rect class="l0" data-date="2026-10-26" data-count="0" data-row="6" data-col="0" x="136" y="320" width="104" height="28" rx="4"><title>2026-10-26: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
+<text class="muted" x="188" y="339" text-anchor="middle">10/26</text>
+<rect class="l0" data-date="2026-10-27" data-count="0" data-row="6" data-col="1" x="248" y="320" width="104" height="28" rx="4"><title>2026-10-27: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
+<text class="muted" x="300" y="339" text-anchor="middle">10/27</text>
+<rect class="l0" data-date="2026-10-28" data-count="0" data-row="6" data-col="2" x="360" y="320" width="104" height="28" rx="4"><title>2026-10-28: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
+<text class="muted" x="412" y="339" text-anchor="middle">10/28</text>
+<rect class="l0" data-date="2026-10-29" data-count="0" data-row="6" data-col="3" x="472" y="320" width="104" height="28" rx="4"><title>2026-10-29: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
+<text class="muted" x="524" y="339" text-anchor="middle">10/29</text>
+<rect class="l0" data-date="2026-10-30" data-count="0" data-row="6" data-col="4" x="584" y="320" width="104" height="28" rx="4"><title>2026-10-30: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
+<text class="muted" x="636" y="339" text-anchor="middle">10/30</text>
+<rect class="l0" data-date="2026-10-31" data-count="0" data-row="6" data-col="5" x="696" y="320" width="104" height="28" rx="4"><title>2026-10-31: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
+<text class="muted" x="748" y="339" text-anchor="middle">10/31</text>
+<rect class="l0" data-date="2026-11-01" data-count="0" data-row="6" data-col="6" x="808" y="320" width="104" height="28" rx="4"><title>2026-11-01: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
+<text class="muted" x="860" y="339" text-anchor="middle">11/1</text>
+<text class="muted" x="28" y="375">11.02–11.08</text>
+<rect class="l0" data-date="2026-11-02" data-count="0" data-row="7" data-col="0" x="136" y="356" width="104" height="28" rx="4"><title>2026-11-02: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
+<text class="muted" x="188" y="375" text-anchor="middle">11/2</text>
+<rect class="l0" data-date="2026-11-03" data-count="0" data-row="7" data-col="1" x="248" y="356" width="104" height="28" rx="4"><title>2026-11-03: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
+<text class="muted" x="300" y="375" text-anchor="middle">11/3</text>
+<rect class="l0" data-date="2026-11-04" data-count="0" data-row="7" data-col="2" x="360" y="356" width="104" height="28" rx="4"><title>2026-11-04: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
+<text class="muted" x="412" y="375" text-anchor="middle">11/4</text>
+<rect class="l0" data-date="2026-11-05" data-count="0" data-row="7" data-col="3" x="472" y="356" width="104" height="28" rx="4"><title>2026-11-05: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
+<text class="muted" x="524" y="375" text-anchor="middle">11/5</text>
+<rect class="l0" data-date="2026-11-06" data-count="0" data-row="7" data-col="4" x="584" y="356" width="104" height="28" rx="4"><title>2026-11-06: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
+<text class="muted" x="636" y="375" text-anchor="middle">11/6</text>
+<rect class="l0" data-date="2026-11-07" data-count="0" data-row="7" data-col="5" x="696" y="356" width="104" height="28" rx="4"><title>2026-11-07: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
+<text class="muted" x="748" y="375" text-anchor="middle">11/7</text>
+<rect class="l0" data-date="2026-11-08" data-count="0" data-row="7" data-col="6" x="808" y="356" width="104" height="28" rx="4"><title>2026-11-08: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
+<text class="muted" x="860" y="375" text-anchor="middle">11/8</text>
+<text class="muted" x="28" y="411">11.09–11.15</text>
+<rect class="l0" data-date="2026-11-09" data-count="0" data-row="8" data-col="0" x="136" y="392" width="104" height="28" rx="4"><title>2026-11-09: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
+<text class="muted" x="188" y="411" text-anchor="middle">11/9</text>
+<rect class="l0" data-date="2026-11-10" data-count="0" data-row="8" data-col="1" x="248" y="392" width="104" height="28" rx="4"><title>2026-11-10: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
+<text class="muted" x="300" y="411" text-anchor="middle">11/10</text>
+<rect class="l0" data-date="2026-11-11" data-count="0" data-row="8" data-col="2" x="360" y="392" width="104" height="28" rx="4"><title>2026-11-11: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
+<text class="muted" x="412" y="411" text-anchor="middle">11/11</text>
+<rect class="l0" data-date="2026-11-12" data-count="0" data-row="8" data-col="3" x="472" y="392" width="104" height="28" rx="4"><title>2026-11-12: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
+<text class="muted" x="524" y="411" text-anchor="middle">11/12</text>
+<rect class="l0" data-date="2026-11-13" data-count="0" data-row="8" data-col="4" x="584" y="392" width="104" height="28" rx="4"><title>2026-11-13: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
+<text class="muted" x="636" y="411" text-anchor="middle">11/13</text>
+<rect class="l0" data-date="2026-11-14" data-count="0" data-row="8" data-col="5" x="696" y="392" width="104" height="28" rx="4"><title>2026-11-14: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
+<text class="muted" x="748" y="411" text-anchor="middle">11/14</text>
+<rect class="l0" data-date="2026-11-15" data-count="0" data-row="8" data-col="6" x="808" y="392" width="104" height="28" rx="4"><title>2026-11-15: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
+<text class="muted" x="860" y="411" text-anchor="middle">11/15</text>
+<text class="muted" x="28" y="447">11.16–11.22</text>
+<rect class="l0" data-date="2026-11-16" data-count="0" data-row="9" data-col="0" x="136" y="428" width="104" height="28" rx="4"><title>2026-11-16: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
+<text class="muted" x="188" y="447" text-anchor="middle">11/16</text>
+<rect class="l0" data-date="2026-11-17" data-count="0" data-row="9" data-col="1" x="248" y="428" width="104" height="28" rx="4"><title>2026-11-17: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
+<text class="muted" x="300" y="447" text-anchor="middle">11/17</text>
+<rect class="l0" data-date="2026-11-18" data-count="0" data-row="9" data-col="2" x="360" y="428" width="104" height="28" rx="4"><title>2026-11-18: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
+<text class="muted" x="412" y="447" text-anchor="middle">11/18</text>
+<rect class="l0" data-date="2026-11-19" data-count="0" data-row="9" data-col="3" x="472" y="428" width="104" height="28" rx="4"><title>2026-11-19: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
+<text class="muted" x="524" y="447" text-anchor="middle">11/19</text>
+<rect class="l0" data-date="2026-11-20" data-count="0" data-row="9" data-col="4" x="584" y="428" width="104" height="28" rx="4"><title>2026-11-20: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
+<text class="muted" x="636" y="447" text-anchor="middle">11/20</text>
+<rect class="l0" data-date="2026-11-21" data-count="0" data-row="9" data-col="5" x="696" y="428" width="104" height="28" rx="4"><title>2026-11-21: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
+<text class="muted" x="748" y="447" text-anchor="middle">11/21</text>
+<rect class="l0" data-date="2026-11-22" data-count="0" data-row="9" data-col="6" x="808" y="428" width="104" height="28" rx="4"><title>2026-11-22: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
+<text class="muted" x="860" y="447" text-anchor="middle">11/22</text>
+<text class="muted" x="28" y="483">11.23–11.29</text>
+<rect class="l0" data-date="2026-11-23" data-count="0" data-row="10" data-col="0" x="136" y="464" width="104" height="28" rx="4"><title>2026-11-23: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
+<text class="muted" x="188" y="483" text-anchor="middle">11/23</text>
+<rect class="l0" data-date="2026-11-24" data-count="0" data-row="10" data-col="1" x="248" y="464" width="104" height="28" rx="4"><title>2026-11-24: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
+<text class="muted" x="300" y="483" text-anchor="middle">11/24</text>
+<rect class="l0" data-date="2026-11-25" data-count="0" data-row="10" data-col="2" x="360" y="464" width="104" height="28" rx="4"><title>2026-11-25: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
+<text class="muted" x="412" y="483" text-anchor="middle">11/25</text>
+<rect class="l0" data-date="2026-11-26" data-count="0" data-row="10" data-col="3" x="472" y="464" width="104" height="28" rx="4"><title>2026-11-26: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
+<text class="muted" x="524" y="483" text-anchor="middle">11/26</text>
+<rect class="l0" data-date="2026-11-27" data-count="0" data-row="10" data-col="4" x="584" y="464" width="104" height="28" rx="4"><title>2026-11-27: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
+<text class="muted" x="636" y="483" text-anchor="middle">11/27</text>
+<rect class="l0" data-date="2026-11-28" data-count="0" data-row="10" data-col="5" x="696" y="464" width="104" height="28" rx="4"><title>2026-11-28: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
+<text class="muted" x="748" y="483" text-anchor="middle">11/28</text>
+<rect class="l0" data-date="2026-11-29" data-count="0" data-row="10" data-col="6" x="808" y="464" width="104" height="28" rx="4"><title>2026-11-29: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
+<text class="muted" x="860" y="483" text-anchor="middle">11/29</text>
+<text class="muted" x="28" y="519">11.30–12.06</text>
+<rect class="l0" data-date="2026-11-30" data-count="0" data-row="11" data-col="0" x="136" y="500" width="104" height="28" rx="4"><title>2026-11-30: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
+<text class="muted" x="188" y="519" text-anchor="middle">11/30</text>
+<rect class="l0" data-date="2026-12-01" data-count="0" data-row="11" data-col="1" x="248" y="500" width="104" height="28" rx="4"><title>2026-12-01: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
+<text class="muted" x="300" y="519" text-anchor="middle">12/1</text>
+<rect class="l0" data-date="2026-12-02" data-count="0" data-row="11" data-col="2" x="360" y="500" width="104" height="28" rx="4"><title>2026-12-02: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
+<text class="muted" x="412" y="519" text-anchor="middle">12/2</text>
+<rect class="l0" data-date="2026-12-03" data-count="0" data-row="11" data-col="3" x="472" y="500" width="104" height="28" rx="4"><title>2026-12-03: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
+<text class="muted" x="524" y="519" text-anchor="middle">12/3</text>
+<rect class="l0" data-date="2026-12-04" data-count="0" data-row="11" data-col="4" x="584" y="500" width="104" height="28" rx="4"><title>2026-12-04: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
+<text class="muted" x="636" y="519" text-anchor="middle">12/4</text>
+<rect class="l0" data-date="2026-12-05" data-count="0" data-row="11" data-col="5" x="696" y="500" width="104" height="28" rx="4"><title>2026-12-05: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
+<text class="muted" x="748" y="519" text-anchor="middle">12/5</text>
+<rect class="l0" data-date="2026-12-06" data-count="0" data-row="11" data-col="6" x="808" y="500" width="104" height="28" rx="4"><title>2026-12-06: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
+<text class="muted" x="860" y="519" text-anchor="middle">12/6</text>
+<text class="muted" x="28" y="555">12.07–12.13</text>
+<rect class="l0" data-date="2026-12-07" data-count="0" data-row="12" data-col="0" x="136" y="536" width="104" height="28" rx="4"><title>2026-12-07: 신규 0, 재풀이 0, 힌트 사용 0</title></rect>
+<text class="muted" x="188" y="555" text-anchor="middle">12/7</text>
+<rect class="outside" x="248" y="536" width="104" height="28" rx="4"/>
+<rect class="outside" x="360" y="536" width="104" height="28" rx="4"/>
+<rect class="outside" x="472" y="536" width="104" height="28" rx="4"/>
+<rect class="outside" x="584" y="536" width="104" height="28" rx="4"/>
+<rect class="outside" x="696" y="536" width="104" height="28" rx="4"/>
+<rect class="outside" x="808" y="536" width="104" height="28" rx="4"/>
+<text class="muted" x="28" y="596">날짜별 정답 풀이 수</text>
+<rect class="l0" x="650" y="585" width="12" height="12" rx="2"/><text class="muted" x="667" y="596">0</text>
+<rect class="l1" x="704" y="585" width="12" height="12" rx="2"/><text class="muted" x="721" y="596">1</text>
+<rect class="l2" x="758" y="585" width="12" height="12" rx="2"/><text class="muted" x="775" y="596">2–3</text>
+<rect class="l3" x="812" y="585" width="12" height="12" rx="2"/><text class="muted" x="829" y="596">4–5</text>
+<rect class="l4" x="866" y="585" width="12" height="12" rx="2"/><text class="muted" x="883" y="596">6+</text>
 </svg>

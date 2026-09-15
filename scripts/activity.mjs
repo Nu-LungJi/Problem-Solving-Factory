@@ -36,35 +36,47 @@ export function activityData(records,startDate) {
 }
 
 export function activitySvg(data) {
-  const offset=new Date(dateMs(data.startDate)).getUTCDay();
+  const start=dateMs(data.startDate);
+  const offset=(new Date(start).getUTCDay()+6)%7;
+  const rows=Math.ceil((offset+data.days.length)/7);
+  const width=960,x0=136,y0=104,colStep=112,rowStep=36,cellWidth=104,cellHeight=28;
+  const height=y0+rows*rowStep+42;
   const level=n=>n===0?0:n===1?1:n<=3?2:n<=5?3:4;
-  const x0=72,y0=78,step=32,size=26;
-  let svg=`<svg xmlns="http://www.w3.org/2000/svg" width="560" height="340" viewBox="0 0 560 340" role="img" aria-labelledby="title description">
+  const short=ms=>new Date(ms).toISOString().slice(5,10).replace('-','.');
+  let svg=`<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}" viewBox="0 0 ${width} ${height}" role="img" aria-labelledby="title description">
 <title id="title">12주 풀이 잔디: 정답 ${data.total}회, 활동 ${data.activeDays}일</title>
-<desc id="description">${data.startDate}부터 ${data.endDate}까지. 날짜가 기록된 정답만 집계. 신규 풀이와 재풀이를 포함하며 중복 기록은 제외합니다.</desc>
+<desc id="description">${data.startDate}부터 ${data.endDate}까지. 한 행은 월요일부터 일요일 순서입니다. 날짜가 기록된 정답만 집계하며 중복 기록은 제외합니다.</desc>
 <style>
-text{font-family:Segoe UI,Malgun Gothic,sans-serif;fill:#1f2328;font-size:12px}.muted{fill:#59636e}.heading{font-size:16px;font-weight:600}.bg{fill:#fff}.l0{fill:#eff2f5}.l1{fill:#9be9a8}.l2{fill:#40c463}.l3{fill:#30a14e}.l4{fill:#216e39}
-@media(prefers-color-scheme:dark){text{fill:#e6edf3}.muted{fill:#9198a1}.bg{fill:#0d1117}.l0{fill:#161b22}.l1{fill:#0e4429}.l2{fill:#006d32}.l3{fill:#26a641}.l4{fill:#39d353}}
+text{font-family:Segoe UI,Malgun Gothic,sans-serif;fill:#1f2328;font-size:14px}.muted{fill:#59636e}.heading{font-size:20px;font-weight:600}.bg{fill:#fff}.l0{fill:#eff2f5}.l1{fill:#9be9a8}.l2{fill:#40c463}.l3{fill:#30a14e}.l4{fill:#216e39}.on-fill{fill:#fff}.outside{fill:none;stroke:#d1d9e0;stroke-dasharray:3 3}
+@media(prefers-color-scheme:dark){text{fill:#e6edf3}.muted{fill:#9198a1}.bg{fill:#0d1117}.l0{fill:#161b22}.l1{fill:#0e4429}.l2{fill:#006d32}.l3{fill:#26a641}.l4{fill:#39d353}.on-fill{fill:#0d1117}.low-fill{fill:#e6edf3}.outside{stroke:#30363d}}
 </style>
-<rect class="bg" width="560" height="340" rx="10"/>
-<text class="heading" x="24" y="28">정답 ${data.total}회 · 활동 ${data.activeDays}일</text>
-<text class="muted" x="24" y="49">${data.startDate} — ${data.endDate} · 힌트 사용 ${data.hints}회</text>
+<rect class="bg" width="${width}" height="${height}" rx="10"/>
+<text class="heading" x="28" y="32">정답 ${data.total}회 · 활동 ${data.activeDays}일</text>
+<text class="muted" x="28" y="56">${data.startDate} — ${data.endDate} · 힌트 사용 ${data.hints}회</text>
 `;
-  const months=new Set();
-  for(let i=0;i<data.days.length;i++) {
-    const d=data.days[i],slot=i+offset,col=Math.floor(slot/7),row=slot%7;
-    const month=d.date.slice(0,7);
-    if(!months.has(month)) {
-      months.add(month);
-      svg+=`<text class="muted" x="${x0+col*step}" y="69">${Number(d.date.slice(5,7))}월</text>\n`;
+  ['월','화','수','목','금','토','일'].forEach((label,col)=>{
+    svg+=`<text class="weekday" x="${x0+col*colStep+cellWidth/2}" y="89" text-anchor="middle">${label}</text>\n`;
+  });
+  for(let row=0;row<rows;row++) {
+    const monday=start+(row*7-offset)*dayMs;
+    svg+=`<text class="muted" x="28" y="${y0+row*rowStep+19}">${short(monday)}–${short(monday+6*dayMs)}</text>\n`;
+    for(let col=0;col<7;col++) {
+      const d=data.days[row*7+col-offset];
+      const x=x0+col*colStep,y=y0+row*rowStep;
+      if(!d) {
+        svg+=`<rect class="outside" x="${x}" y="${y}" width="${cellWidth}" height="${cellHeight}" rx="4"/>\n`;
+        continue;
+      }
+      const shade=level(d.total);
+      svg+=`<rect class="l${shade}" data-date="${d.date}" data-count="${d.total}" data-row="${row}" data-col="${col}" x="${x}" y="${y}" width="${cellWidth}" height="${cellHeight}" rx="4"><title>${d.date}: 신규 ${d.solves}, 재풀이 ${d.reviews}, 힌트 사용 ${d.hints}</title></rect>\n`;
+      svg+=`<text class="${shade>=3?'on-fill':shade>0?'low-fill':'muted'}" x="${x+cellWidth/2}" y="${y+19}" text-anchor="middle">${Number(d.date.slice(5,7))}/${Number(d.date.slice(8))}${d.total?' · '+d.total+'회':''}</text>\n`;
     }
-    svg+=`<rect class="l${level(d.total)}" data-date="${d.date}" data-count="${d.total}" x="${x0+col*step}" y="${y0+row*step}" width="${size}" height="${size}" rx="4"><title>${d.date}: 신규 ${d.solves}, 재풀이 ${d.reviews}, 힌트 사용 ${d.hints}</title></rect>\n`;
   }
-  for(const [row,label] of [[1,'월'],[3,'수'],[5,'금']])svg+=`<text class="muted" x="44" y="${y0+row*step+18}">${label}</text>\n`;
-  svg+='<text class="muted" x="72" y="322">날짜별 정답 풀이 수</text>\n';
+  const legendY=height-18;
+  svg+=`<text class="muted" x="28" y="${legendY}">날짜별 정답 풀이 수</text>\n`;
   for(const [i,label] of ['0','1','2–3','4–5','6+'].entries()) {
-    const x=268+i*44;
-    svg+=`<rect class="l${i}" x="${x}" y="308" width="12" height="12" rx="2"/><text class="muted" x="${x+16}" y="319">${label}</text>\n`;
+    const x=650+i*54;
+    svg+=`<rect class="l${i}" x="${x}" y="${legendY-11}" width="12" height="12" rx="2"/><text class="muted" x="${x+17}" y="${legendY}">${label}</text>\n`;
   }
   return svg+'</svg>\n';
 }

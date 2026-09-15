@@ -55,3 +55,17 @@ test('SVG is deterministic and shows per-date level, counts and accessible descr
   assert.match(svg,/힌트 사용 2회/);
   assert.match(svg,/prefers-color-scheme:dark/);
 });
+
+test('calendar runs Monday to Sunday across each row and wraps after Sunday',()=>{
+  const svg=activitySvg(activityData([],'2026-09-15'));
+  const weekdays=[...svg.matchAll(/class="weekday"[^>]*>([^<]+)</g)].map(m=>m[1]);
+  assert.deepEqual(weekdays,['월','화','수','목','금','토','일']);
+  const cells=[...svg.matchAll(/data-date="([^"]+)" data-count="\d+" data-row="(\d+)" data-col="(\d+)"/g)];
+  assert.equal(cells.length,84);
+  for(const [,date,row,col] of cells) {
+    assert.equal(+col,(new Date(date+'T00:00:00Z').getUTCDay()+6)%7);
+    assert.equal(+row,Math.floor(((Date.parse(date)-Date.parse('2026-09-15'))/86400000+1)/7));
+  }
+  assert.match(svg,/data-date="2026-09-20"[^>]*data-row="0" data-col="6"/);
+  assert.match(svg,/data-date="2026-09-21"[^>]*data-row="1" data-col="0"/);
+});
