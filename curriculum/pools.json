@@ -1,0 +1,1409 @@
+{
+  "schemaVersion": 1,
+  "days": [
+    {
+      "id": "week-1-day-1",
+      "week": 1,
+      "day": 1,
+      "required": 2,
+      "candidates": [
+        {
+          "key": "leetcode:fizz-buzz",
+          "platform": "leetcode",
+          "problemId": "fizz-buzz",
+          "title": "Fizz Buzz",
+          "url": "https://leetcode.com/problems/fizz-buzz/"
+        },
+        {
+          "key": "leetcode:palindrome-number",
+          "platform": "leetcode",
+          "problemId": "palindrome-number",
+          "title": "Palindrome Number",
+          "url": "https://leetcode.com/problems/palindrome-number/"
+        },
+        {
+          "key": "leetcode:add-digits",
+          "platform": "leetcode",
+          "problemId": "add-digits",
+          "title": "Add Digits",
+          "url": "https://leetcode.com/problems/add-digits/"
+        }
+      ]
+    },
+    {
+      "id": "week-1-day-2",
+      "week": 1,
+      "day": 2,
+      "required": 2,
+      "candidates": [
+        {
+          "key": "leetcode:richest-customer-wealth",
+          "platform": "leetcode",
+          "problemId": "richest-customer-wealth",
+          "title": "Richest Customer Wealth",
+          "url": "https://leetcode.com/problems/richest-customer-wealth/"
+        },
+        {
+          "key": "leetcode:kids-with-the-greatest-number-of-candies",
+          "platform": "leetcode",
+          "problemId": "kids-with-the-greatest-number-of-candies",
+          "title": "Kids With The Greatest Number Of Candies",
+          "url": "https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/"
+        },
+        {
+          "key": "leetcode:running-sum-of-1d-array",
+          "platform": "leetcode",
+          "problemId": "running-sum-of-1d-array",
+          "title": "Running Sum Of 1d Array",
+          "url": "https://leetcode.com/problems/running-sum-of-1d-array/"
+        }
+      ]
+    },
+    {
+      "id": "week-1-day-3",
+      "week": 1,
+      "day": 3,
+      "required": 2,
+      "candidates": [
+        {
+          "key": "leetcode:valid-palindrome",
+          "platform": "leetcode",
+          "problemId": "valid-palindrome",
+          "title": "Valid Palindrome",
+          "url": "https://leetcode.com/problems/valid-palindrome/"
+        },
+        {
+          "key": "leetcode:length-of-last-word",
+          "platform": "leetcode",
+          "problemId": "length-of-last-word",
+          "title": "Length Of Last Word",
+          "url": "https://leetcode.com/problems/length-of-last-word/"
+        },
+        {
+          "key": "leetcode:first-unique-character-in-a-string",
+          "platform": "leetcode",
+          "problemId": "first-unique-character-in-a-string",
+          "title": "First Unique Character In A String",
+          "url": "https://leetcode.com/problems/first-unique-character-in-a-string/"
+        }
+      ]
+    },
+    {
+      "id": "week-1-day-4",
+      "week": 1,
+      "day": 4,
+      "required": 2,
+      "candidates": [
+        {
+          "key": "leetcode:sort-colors",
+          "platform": "leetcode",
+          "problemId": "sort-colors",
+          "title": "Sort Colors",
+          "url": "https://leetcode.com/problems/sort-colors/"
+        },
+        {
+          "key": "leetcode:merge-sorted-array",
+          "platform": "leetcode",
+          "problemId": "merge-sorted-array",
+          "title": "Merge Sorted Array",
+          "url": "https://leetcode.com/problems/merge-sorted-array/"
+        },
+        {
+          "key": "leetcode:sort-array-by-parity",
+          "platform": "leetcode",
+          "problemId": "sort-array-by-parity",
+          "title": "Sort Array By Parity",
+          "url": "https://leetcode.com/problems/sort-array-by-parity/"
+        }
+      ]
+    },
+    {
+      "id": "week-1-day-5",
+      "week": 1,
+      "day": 5,
+      "required": 2,
+      "candidates": [
+        {
+          "key": "leetcode:remove-duplicates-from-sorted-array",
+          "platform": "leetcode",
+          "problemId": "remove-duplicates-from-sorted-array",
+          "title": "Remove Duplicates From Sorted Array",
+          "url": "https://leetcode.com/problems/remove-duplicates-from-sorted-array/"
+        },
+        {
+          "key": "leetcode:contains-duplicate",
+          "platform": "leetcode",
+          "problemId": "contains-duplicate",
+          "title": "Contains Duplicate",
+          "url": "https://leetcode.com/problems/contains-duplicate/"
+        },
+        {
+          "key": "leetcode:intersection-of-two-arrays",
+          "platform": "leetcode",
+          "problemId": "intersection-of-two-arrays",
+          "title": "Intersection Of Two Arrays",
+          "url": "https://leetcode.com/problems/intersection-of-two-arrays/"
+        }
+      ]
+    },
+    {
+      "id": "week-1-day-6",
+      "week": 1,
+      "day": 6,
+      "required": 2,
+      "candidates": [
+        {
+          "key": "leetcode:plus-one",
+          "platform": "leetcode",
+          "problemId": "plus-one",
+          "title": "Plus One",
+          "url": "https://leetcode.com/problems/plus-one/"
+        },
+        {
+          "key": "leetcode:roman-to-integer",
+          "platform": "leetcode",
+          "problemId": "roman-to-integer",
+          "title": "Roman To Integer",
+          "url": "https://leetcode.com/problems/roman-to-integer/"
+        },
+        {
+          "key": "leetcode:number-of-1-bits",
+          "platform": "leetcode",
+          "problemId": "number-of-1-bits",
+          "title": "Number Of 1 Bits",
+          "url": "https://leetcode.com/problems/number-of-1-bits/"
+        }
+      ]
+    },
+    {
+      "id": "week-1-day-7",
+      "week": 1,
+      "day": 7,
+      "required": 0,
+      "candidates": []
+    },
+    {
+      "id": "week-2-day-1",
+      "week": 2,
+      "day": 1,
+      "required": 2,
+      "candidates": [
+        {
+          "key": "leetcode:remove-all-adjacent-duplicates-in-string",
+          "platform": "leetcode",
+          "problemId": "remove-all-adjacent-duplicates-in-string",
+          "title": "Remove All Adjacent Duplicates In String",
+          "url": "https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/"
+        },
+        {
+          "key": "leetcode:baseball-game",
+          "platform": "leetcode",
+          "problemId": "baseball-game",
+          "title": "Baseball Game",
+          "url": "https://leetcode.com/problems/baseball-game/"
+        },
+        {
+          "key": "leetcode:backspace-string-compare",
+          "platform": "leetcode",
+          "problemId": "backspace-string-compare",
+          "title": "Backspace String Compare",
+          "url": "https://leetcode.com/problems/backspace-string-compare/"
+        }
+      ]
+    },
+    {
+      "id": "week-2-day-2",
+      "week": 2,
+      "day": 2,
+      "required": 2,
+      "candidates": [
+        {
+          "key": "leetcode:implement-queue-using-stacks",
+          "platform": "leetcode",
+          "problemId": "implement-queue-using-stacks",
+          "title": "Implement Queue Using Stacks",
+          "url": "https://leetcode.com/problems/implement-queue-using-stacks/"
+        },
+        {
+          "key": "leetcode:number-of-students-unable-to-eat-lunch",
+          "platform": "leetcode",
+          "problemId": "number-of-students-unable-to-eat-lunch",
+          "title": "Number Of Students Unable To Eat Lunch",
+          "url": "https://leetcode.com/problems/number-of-students-unable-to-eat-lunch/"
+        },
+        {
+          "key": "leetcode:time-needed-to-buy-tickets",
+          "platform": "leetcode",
+          "problemId": "time-needed-to-buy-tickets",
+          "title": "Time Needed To Buy Tickets",
+          "url": "https://leetcode.com/problems/time-needed-to-buy-tickets/"
+        }
+      ]
+    },
+    {
+      "id": "week-2-day-3",
+      "week": 2,
+      "day": 3,
+      "required": 2,
+      "candidates": [
+        {
+          "key": "leetcode:design-circular-deque",
+          "platform": "leetcode",
+          "problemId": "design-circular-deque",
+          "title": "Design Circular Deque",
+          "url": "https://leetcode.com/problems/design-circular-deque/"
+        },
+        {
+          "key": "leetcode:design-circular-queue",
+          "platform": "leetcode",
+          "problemId": "design-circular-queue",
+          "title": "Design Circular Queue",
+          "url": "https://leetcode.com/problems/design-circular-queue/"
+        },
+        {
+          "key": "leetcode:number-of-recent-calls",
+          "platform": "leetcode",
+          "problemId": "number-of-recent-calls",
+          "title": "Number Of Recent Calls",
+          "url": "https://leetcode.com/problems/number-of-recent-calls/"
+        }
+      ]
+    },
+    {
+      "id": "week-2-day-4",
+      "week": 2,
+      "day": 4,
+      "required": 2,
+      "candidates": [
+        {
+          "key": "leetcode:ransom-note",
+          "platform": "leetcode",
+          "problemId": "ransom-note",
+          "title": "Ransom Note",
+          "url": "https://leetcode.com/problems/ransom-note/"
+        },
+        {
+          "key": "leetcode:isomorphic-strings",
+          "platform": "leetcode",
+          "problemId": "isomorphic-strings",
+          "title": "Isomorphic Strings",
+          "url": "https://leetcode.com/problems/isomorphic-strings/"
+        },
+        {
+          "key": "leetcode:word-pattern",
+          "platform": "leetcode",
+          "problemId": "word-pattern",
+          "title": "Word Pattern",
+          "url": "https://leetcode.com/problems/word-pattern/"
+        }
+      ]
+    },
+    {
+      "id": "week-2-day-5",
+      "week": 2,
+      "day": 5,
+      "required": 2,
+      "candidates": [
+        {
+          "key": "leetcode:kth-largest-element-in-a-stream",
+          "platform": "leetcode",
+          "problemId": "kth-largest-element-in-a-stream",
+          "title": "Kth Largest Element In A Stream",
+          "url": "https://leetcode.com/problems/kth-largest-element-in-a-stream/"
+        },
+        {
+          "key": "leetcode:take-gifts-from-the-richest-pile",
+          "platform": "leetcode",
+          "problemId": "take-gifts-from-the-richest-pile",
+          "title": "Take Gifts From The Richest Pile",
+          "url": "https://leetcode.com/problems/take-gifts-from-the-richest-pile/"
+        },
+        {
+          "key": "leetcode:final-array-state-after-k-multiplication-operations-i",
+          "platform": "leetcode",
+          "problemId": "final-array-state-after-k-multiplication-operations-i",
+          "title": "Final Array State After K Multiplication Operations I",
+          "url": "https://leetcode.com/problems/final-array-state-after-k-multiplication-operations-i/"
+        }
+      ]
+    },
+    {
+      "id": "week-2-day-6",
+      "week": 2,
+      "day": 6,
+      "required": 2,
+      "candidates": [
+        {
+          "key": "leetcode:intersection-of-two-arrays-ii",
+          "platform": "leetcode",
+          "problemId": "intersection-of-two-arrays-ii",
+          "title": "Intersection Of Two Arrays Ii",
+          "url": "https://leetcode.com/problems/intersection-of-two-arrays-ii/"
+        },
+        {
+          "key": "leetcode:contains-duplicate-ii",
+          "platform": "leetcode",
+          "problemId": "contains-duplicate-ii",
+          "title": "Contains Duplicate Ii",
+          "url": "https://leetcode.com/problems/contains-duplicate-ii/"
+        },
+        {
+          "key": "leetcode:merge-similar-items",
+          "platform": "leetcode",
+          "problemId": "merge-similar-items",
+          "title": "Merge Similar Items",
+          "url": "https://leetcode.com/problems/merge-similar-items/"
+        }
+      ]
+    },
+    {
+      "id": "week-2-day-7",
+      "week": 2,
+      "day": 7,
+      "required": 0,
+      "candidates": []
+    },
+    {
+      "id": "week-3-day-1",
+      "week": 3,
+      "day": 1,
+      "required": 1,
+      "candidates": [
+        {
+          "key": "leetcode:find-numbers-with-even-number-of-digits",
+          "platform": "leetcode",
+          "problemId": "find-numbers-with-even-number-of-digits",
+          "title": "Find Numbers With Even Number Of Digits",
+          "url": "https://leetcode.com/problems/find-numbers-with-even-number-of-digits/"
+        },
+        {
+          "key": "leetcode:count-equal-and-divisible-pairs-in-an-array",
+          "platform": "leetcode",
+          "problemId": "count-equal-and-divisible-pairs-in-an-array",
+          "title": "Count Equal And Divisible Pairs In An Array",
+          "url": "https://leetcode.com/problems/count-equal-and-divisible-pairs-in-an-array/"
+        }
+      ]
+    },
+    {
+      "id": "week-3-day-2",
+      "week": 3,
+      "day": 2,
+      "required": 1,
+      "candidates": [
+        {
+          "key": "leetcode:fibonacci-number",
+          "platform": "leetcode",
+          "problemId": "fibonacci-number",
+          "title": "Fibonacci Number",
+          "url": "https://leetcode.com/problems/fibonacci-number/"
+        },
+        {
+          "key": "leetcode:powx-n",
+          "platform": "leetcode",
+          "problemId": "powx-n",
+          "title": "Powx N",
+          "url": "https://leetcode.com/problems/powx-n/"
+        }
+      ]
+    },
+    {
+      "id": "week-3-day-3",
+      "week": 3,
+      "day": 3,
+      "required": 1,
+      "candidates": [
+        {
+          "key": "leetcode:permutations-ii",
+          "platform": "leetcode",
+          "problemId": "permutations-ii",
+          "title": "Permutations Ii",
+          "url": "https://leetcode.com/problems/permutations-ii/"
+        },
+        {
+          "key": "leetcode:letter-case-permutation",
+          "platform": "leetcode",
+          "problemId": "letter-case-permutation",
+          "title": "Letter Case Permutation",
+          "url": "https://leetcode.com/problems/letter-case-permutation/"
+        }
+      ]
+    },
+    {
+      "id": "week-3-day-4",
+      "week": 3,
+      "day": 4,
+      "required": 1,
+      "candidates": [
+        {
+          "key": "leetcode:combination-sum-ii",
+          "platform": "leetcode",
+          "problemId": "combination-sum-ii",
+          "title": "Combination Sum Ii",
+          "url": "https://leetcode.com/problems/combination-sum-ii/"
+        },
+        {
+          "key": "leetcode:combination-sum-iii",
+          "platform": "leetcode",
+          "problemId": "combination-sum-iii",
+          "title": "Combination Sum Iii",
+          "url": "https://leetcode.com/problems/combination-sum-iii/"
+        }
+      ]
+    },
+    {
+      "id": "week-3-day-5",
+      "week": 3,
+      "day": 5,
+      "required": 1,
+      "candidates": [
+        {
+          "key": "leetcode:subsets-ii",
+          "platform": "leetcode",
+          "problemId": "subsets-ii",
+          "title": "Subsets Ii",
+          "url": "https://leetcode.com/problems/subsets-ii/"
+        },
+        {
+          "key": "leetcode:sum-of-all-subset-xor-totals",
+          "platform": "leetcode",
+          "problemId": "sum-of-all-subset-xor-totals",
+          "title": "Sum Of All Subset Xor Totals",
+          "url": "https://leetcode.com/problems/sum-of-all-subset-xor-totals/"
+        }
+      ]
+    },
+    {
+      "id": "week-3-day-6",
+      "week": 3,
+      "day": 6,
+      "required": 1,
+      "candidates": [
+        {
+          "key": "leetcode:n-queens-ii",
+          "platform": "leetcode",
+          "problemId": "n-queens-ii",
+          "title": "N Queens Ii",
+          "url": "https://leetcode.com/problems/n-queens-ii/"
+        },
+        {
+          "key": "leetcode:word-search",
+          "platform": "leetcode",
+          "problemId": "word-search",
+          "title": "Word Search",
+          "url": "https://leetcode.com/problems/word-search/"
+        }
+      ]
+    },
+    {
+      "id": "week-3-day-7",
+      "week": 3,
+      "day": 7,
+      "required": 0,
+      "candidates": []
+    },
+    {
+      "id": "week-4-day-1",
+      "week": 4,
+      "day": 1,
+      "required": 1,
+      "candidates": [
+        {
+          "key": "leetcode:find-pivot-index",
+          "platform": "leetcode",
+          "problemId": "find-pivot-index",
+          "title": "Find Pivot Index",
+          "url": "https://leetcode.com/problems/find-pivot-index/"
+        },
+        {
+          "key": "leetcode:find-the-highest-altitude",
+          "platform": "leetcode",
+          "problemId": "find-the-highest-altitude",
+          "title": "Find The Highest Altitude",
+          "url": "https://leetcode.com/problems/find-the-highest-altitude/"
+        }
+      ]
+    },
+    {
+      "id": "week-4-day-2",
+      "week": 4,
+      "day": 2,
+      "required": 1,
+      "candidates": [
+        {
+          "key": "leetcode:matrix-block-sum",
+          "platform": "leetcode",
+          "problemId": "matrix-block-sum",
+          "title": "Matrix Block Sum",
+          "url": "https://leetcode.com/problems/matrix-block-sum/"
+        },
+        {
+          "key": "leetcode:range-addition-ii",
+          "platform": "leetcode",
+          "problemId": "range-addition-ii",
+          "title": "Range Addition Ii",
+          "url": "https://leetcode.com/problems/range-addition-ii/"
+        }
+      ]
+    },
+    {
+      "id": "week-4-day-3",
+      "week": 4,
+      "day": 3,
+      "required": 1,
+      "candidates": [
+        {
+          "key": "leetcode:two-sum-ii-input-array-is-sorted",
+          "platform": "leetcode",
+          "problemId": "two-sum-ii-input-array-is-sorted",
+          "title": "Two Sum Ii Input Array Is Sorted",
+          "url": "https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/"
+        },
+        {
+          "key": "leetcode:squares-of-a-sorted-array",
+          "platform": "leetcode",
+          "problemId": "squares-of-a-sorted-array",
+          "title": "Squares Of A Sorted Array",
+          "url": "https://leetcode.com/problems/squares-of-a-sorted-array/"
+        }
+      ]
+    },
+    {
+      "id": "week-4-day-4",
+      "week": 4,
+      "day": 4,
+      "required": 1,
+      "candidates": [
+        {
+          "key": "leetcode:maximum-number-of-vowels-in-a-substring-of-given-length",
+          "platform": "leetcode",
+          "problemId": "maximum-number-of-vowels-in-a-substring-of-given-length",
+          "title": "Maximum Number Of Vowels In A Substring Of Given Length",
+          "url": "https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/"
+        },
+        {
+          "key": "leetcode:find-all-anagrams-in-a-string",
+          "platform": "leetcode",
+          "problemId": "find-all-anagrams-in-a-string",
+          "title": "Find All Anagrams In A String",
+          "url": "https://leetcode.com/problems/find-all-anagrams-in-a-string/"
+        }
+      ]
+    },
+    {
+      "id": "week-4-day-5",
+      "week": 4,
+      "day": 5,
+      "required": 1,
+      "candidates": [
+        {
+          "key": "leetcode:minimum-size-subarray-sum",
+          "platform": "leetcode",
+          "problemId": "minimum-size-subarray-sum",
+          "title": "Minimum Size Subarray Sum",
+          "url": "https://leetcode.com/problems/minimum-size-subarray-sum/"
+        },
+        {
+          "key": "leetcode:fruit-into-baskets",
+          "platform": "leetcode",
+          "problemId": "fruit-into-baskets",
+          "title": "Fruit Into Baskets",
+          "url": "https://leetcode.com/problems/fruit-into-baskets/"
+        }
+      ]
+    },
+    {
+      "id": "week-4-day-6",
+      "week": 4,
+      "day": 6,
+      "required": 1,
+      "candidates": [
+        {
+          "key": "leetcode:maximum-subarray",
+          "platform": "leetcode",
+          "problemId": "maximum-subarray",
+          "title": "Maximum Subarray",
+          "url": "https://leetcode.com/problems/maximum-subarray/"
+        },
+        {
+          "key": "leetcode:contiguous-array",
+          "platform": "leetcode",
+          "problemId": "contiguous-array",
+          "title": "Contiguous Array",
+          "url": "https://leetcode.com/problems/contiguous-array/"
+        }
+      ]
+    },
+    {
+      "id": "week-4-day-7",
+      "week": 4,
+      "day": 7,
+      "required": 0,
+      "candidates": []
+    },
+    {
+      "id": "week-5-day-1",
+      "week": 5,
+      "day": 1,
+      "required": 1,
+      "candidates": [
+        {
+          "key": "leetcode:find-first-and-last-position-of-element-in-sorted-array",
+          "platform": "leetcode",
+          "problemId": "find-first-and-last-position-of-element-in-sorted-array",
+          "title": "Find First And Last Position Of Element In Sorted Array",
+          "url": "https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/"
+        },
+        {
+          "key": "leetcode:sqrtx",
+          "platform": "leetcode",
+          "problemId": "sqrtx",
+          "title": "Sqrtx",
+          "url": "https://leetcode.com/problems/sqrtx/"
+        }
+      ]
+    },
+    {
+      "id": "week-5-day-2",
+      "week": 5,
+      "day": 2,
+      "required": 1,
+      "candidates": [
+        {
+          "key": "leetcode:capacity-to-ship-packages-within-d-days",
+          "platform": "leetcode",
+          "problemId": "capacity-to-ship-packages-within-d-days",
+          "title": "Capacity To Ship Packages Within D Days",
+          "url": "https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/"
+        },
+        {
+          "key": "leetcode:minimum-time-to-complete-trips",
+          "platform": "leetcode",
+          "problemId": "minimum-time-to-complete-trips",
+          "title": "Minimum Time To Complete Trips",
+          "url": "https://leetcode.com/problems/minimum-time-to-complete-trips/"
+        }
+      ]
+    },
+    {
+      "id": "week-5-day-3",
+      "week": 5,
+      "day": 3,
+      "required": 1,
+      "candidates": [
+        {
+          "key": "leetcode:minimum-number-of-days-to-make-m-bouquets",
+          "platform": "leetcode",
+          "problemId": "minimum-number-of-days-to-make-m-bouquets",
+          "title": "Minimum Number Of Days To Make M Bouquets",
+          "url": "https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/"
+        },
+        {
+          "key": "leetcode:find-the-smallest-divisor-given-a-threshold",
+          "platform": "leetcode",
+          "problemId": "find-the-smallest-divisor-given-a-threshold",
+          "title": "Find The Smallest Divisor Given A Threshold",
+          "url": "https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold/"
+        }
+      ]
+    },
+    {
+      "id": "week-5-day-4",
+      "week": 5,
+      "day": 4,
+      "required": 1,
+      "candidates": [
+        {
+          "key": "leetcode:minimum-number-of-arrows-to-burst-balloons",
+          "platform": "leetcode",
+          "problemId": "minimum-number-of-arrows-to-burst-balloons",
+          "title": "Minimum Number Of Arrows To Burst Balloons",
+          "url": "https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/"
+        },
+        {
+          "key": "leetcode:merge-intervals",
+          "platform": "leetcode",
+          "problemId": "merge-intervals",
+          "title": "Merge Intervals",
+          "url": "https://leetcode.com/problems/merge-intervals/"
+        }
+      ]
+    },
+    {
+      "id": "week-5-day-5",
+      "week": 5,
+      "day": 5,
+      "required": 1,
+      "candidates": [
+        {
+          "key": "leetcode:assign-cookies",
+          "platform": "leetcode",
+          "problemId": "assign-cookies",
+          "title": "Assign Cookies",
+          "url": "https://leetcode.com/problems/assign-cookies/"
+        },
+        {
+          "key": "leetcode:lemonade-change",
+          "platform": "leetcode",
+          "problemId": "lemonade-change",
+          "title": "Lemonade Change",
+          "url": "https://leetcode.com/problems/lemonade-change/"
+        }
+      ]
+    },
+    {
+      "id": "week-5-day-6",
+      "week": 5,
+      "day": 6,
+      "required": 1,
+      "candidates": [
+        {
+          "key": "leetcode:gas-station",
+          "platform": "leetcode",
+          "problemId": "gas-station",
+          "title": "Gas Station",
+          "url": "https://leetcode.com/problems/gas-station/"
+        },
+        {
+          "key": "leetcode:minimum-number-of-moves-to-seat-everyone",
+          "platform": "leetcode",
+          "problemId": "minimum-number-of-moves-to-seat-everyone",
+          "title": "Minimum Number Of Moves To Seat Everyone",
+          "url": "https://leetcode.com/problems/minimum-number-of-moves-to-seat-everyone/"
+        }
+      ]
+    },
+    {
+      "id": "week-5-day-7",
+      "week": 5,
+      "day": 7,
+      "required": 0,
+      "candidates": []
+    },
+    {
+      "id": "week-6-day-1",
+      "week": 6,
+      "day": 1,
+      "required": 2,
+      "candidates": [
+        {
+          "key": "leetcode:find-if-path-exists-in-graph",
+          "platform": "leetcode",
+          "problemId": "find-if-path-exists-in-graph",
+          "title": "Find If Path Exists In Graph",
+          "url": "https://leetcode.com/problems/find-if-path-exists-in-graph/"
+        },
+        {
+          "key": "leetcode:keys-and-rooms",
+          "platform": "leetcode",
+          "problemId": "keys-and-rooms",
+          "title": "Keys And Rooms",
+          "url": "https://leetcode.com/problems/keys-and-rooms/"
+        },
+        {
+          "key": "leetcode:all-paths-from-source-to-target",
+          "platform": "leetcode",
+          "problemId": "all-paths-from-source-to-target",
+          "title": "All Paths From Source To Target",
+          "url": "https://leetcode.com/problems/all-paths-from-source-to-target/"
+        }
+      ]
+    },
+    {
+      "id": "week-6-day-2",
+      "week": 6,
+      "day": 2,
+      "required": 2,
+      "candidates": [
+        {
+          "key": "leetcode:flood-fill",
+          "platform": "leetcode",
+          "problemId": "flood-fill",
+          "title": "Flood Fill",
+          "url": "https://leetcode.com/problems/flood-fill/"
+        },
+        {
+          "key": "leetcode:max-area-of-island",
+          "platform": "leetcode",
+          "problemId": "max-area-of-island",
+          "title": "Max Area Of Island",
+          "url": "https://leetcode.com/problems/max-area-of-island/"
+        },
+        {
+          "key": "leetcode:island-perimeter",
+          "platform": "leetcode",
+          "problemId": "island-perimeter",
+          "title": "Island Perimeter",
+          "url": "https://leetcode.com/problems/island-perimeter/"
+        }
+      ]
+    },
+    {
+      "id": "week-6-day-3",
+      "week": 6,
+      "day": 3,
+      "required": 2,
+      "candidates": [
+        {
+          "key": "leetcode:nearest-exit-from-entrance-in-maze",
+          "platform": "leetcode",
+          "problemId": "nearest-exit-from-entrance-in-maze",
+          "title": "Nearest Exit From Entrance In Maze",
+          "url": "https://leetcode.com/problems/nearest-exit-from-entrance-in-maze/"
+        },
+        {
+          "key": "leetcode:open-the-lock",
+          "platform": "leetcode",
+          "problemId": "open-the-lock",
+          "title": "Open The Lock",
+          "url": "https://leetcode.com/problems/open-the-lock/"
+        },
+        {
+          "key": "leetcode:minimum-genetic-mutation",
+          "platform": "leetcode",
+          "problemId": "minimum-genetic-mutation",
+          "title": "Minimum Genetic Mutation",
+          "url": "https://leetcode.com/problems/minimum-genetic-mutation/"
+        }
+      ]
+    },
+    {
+      "id": "week-6-day-4",
+      "week": 6,
+      "day": 4,
+      "required": 2,
+      "candidates": [
+        {
+          "key": "leetcode:snakes-and-ladders",
+          "platform": "leetcode",
+          "problemId": "snakes-and-ladders",
+          "title": "Snakes And Ladders",
+          "url": "https://leetcode.com/problems/snakes-and-ladders/"
+        },
+        {
+          "key": "leetcode:shortest-bridge",
+          "platform": "leetcode",
+          "problemId": "shortest-bridge",
+          "title": "Shortest Bridge",
+          "url": "https://leetcode.com/problems/shortest-bridge/"
+        },
+        {
+          "key": "leetcode:shortest-path-in-a-grid-with-obstacles-elimination",
+          "platform": "leetcode",
+          "problemId": "shortest-path-in-a-grid-with-obstacles-elimination",
+          "title": "Shortest Path In A Grid With Obstacles Elimination",
+          "url": "https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/"
+        }
+      ]
+    },
+    {
+      "id": "week-6-day-5",
+      "week": 6,
+      "day": 5,
+      "required": 2,
+      "candidates": [
+        {
+          "key": "leetcode:01-matrix",
+          "platform": "leetcode",
+          "problemId": "01-matrix",
+          "title": "01 Matrix",
+          "url": "https://leetcode.com/problems/01-matrix/"
+        },
+        {
+          "key": "leetcode:as-far-from-land-as-possible",
+          "platform": "leetcode",
+          "problemId": "as-far-from-land-as-possible",
+          "title": "As Far From Land As Possible",
+          "url": "https://leetcode.com/problems/as-far-from-land-as-possible/"
+        },
+        {
+          "key": "leetcode:map-of-highest-peak",
+          "platform": "leetcode",
+          "problemId": "map-of-highest-peak",
+          "title": "Map Of Highest Peak",
+          "url": "https://leetcode.com/problems/map-of-highest-peak/"
+        }
+      ]
+    },
+    {
+      "id": "week-6-day-6",
+      "week": 6,
+      "day": 6,
+      "required": 2,
+      "candidates": [
+        {
+          "key": "leetcode:is-graph-bipartite",
+          "platform": "leetcode",
+          "problemId": "is-graph-bipartite",
+          "title": "Is Graph Bipartite",
+          "url": "https://leetcode.com/problems/is-graph-bipartite/"
+        },
+        {
+          "key": "leetcode:possible-bipartition",
+          "platform": "leetcode",
+          "problemId": "possible-bipartition",
+          "title": "Possible Bipartition",
+          "url": "https://leetcode.com/problems/possible-bipartition/"
+        },
+        {
+          "key": "leetcode:jump-game-iii",
+          "platform": "leetcode",
+          "problemId": "jump-game-iii",
+          "title": "Jump Game Iii",
+          "url": "https://leetcode.com/problems/jump-game-iii/"
+        }
+      ]
+    },
+    {
+      "id": "week-6-day-7",
+      "week": 6,
+      "day": 7,
+      "required": 0,
+      "candidates": []
+    },
+    {
+      "id": "week-7-day-1",
+      "week": 7,
+      "day": 1,
+      "required": 0,
+      "candidates": []
+    },
+    {
+      "id": "week-7-day-2",
+      "week": 7,
+      "day": 2,
+      "required": 0,
+      "candidates": []
+    },
+    {
+      "id": "week-7-day-3",
+      "week": 7,
+      "day": 3,
+      "required": 0,
+      "candidates": []
+    },
+    {
+      "id": "week-7-day-4",
+      "week": 7,
+      "day": 4,
+      "required": 0,
+      "candidates": []
+    },
+    {
+      "id": "week-7-day-5",
+      "week": 7,
+      "day": 5,
+      "required": 1,
+      "candidates": [
+        {
+          "key": "leetcode:min-cost-to-connect-all-points",
+          "platform": "leetcode",
+          "problemId": "min-cost-to-connect-all-points",
+          "title": "Min Cost To Connect All Points",
+          "url": "https://leetcode.com/problems/min-cost-to-connect-all-points/"
+        },
+        {
+          "key": "leetcode:number-of-operations-to-make-network-connected",
+          "platform": "leetcode",
+          "problemId": "number-of-operations-to-make-network-connected",
+          "title": "Number Of Operations To Make Network Connected",
+          "url": "https://leetcode.com/problems/number-of-operations-to-make-network-connected/"
+        }
+      ]
+    },
+    {
+      "id": "week-7-day-6",
+      "week": 7,
+      "day": 6,
+      "required": 1,
+      "candidates": [
+        {
+          "key": "leetcode:same-tree",
+          "platform": "leetcode",
+          "problemId": "same-tree",
+          "title": "Same Tree",
+          "url": "https://leetcode.com/problems/same-tree/"
+        },
+        {
+          "key": "leetcode:symmetric-tree",
+          "platform": "leetcode",
+          "problemId": "symmetric-tree",
+          "title": "Symmetric Tree",
+          "url": "https://leetcode.com/problems/symmetric-tree/"
+        }
+      ]
+    },
+    {
+      "id": "week-7-day-7",
+      "week": 7,
+      "day": 7,
+      "required": 0,
+      "candidates": []
+    },
+    {
+      "id": "week-8-day-1",
+      "week": 8,
+      "day": 1,
+      "required": 0,
+      "candidates": []
+    },
+    {
+      "id": "week-8-day-2",
+      "week": 8,
+      "day": 2,
+      "required": 0,
+      "candidates": []
+    },
+    {
+      "id": "week-8-day-3",
+      "week": 8,
+      "day": 3,
+      "required": 0,
+      "candidates": []
+    },
+    {
+      "id": "week-8-day-4",
+      "week": 8,
+      "day": 4,
+      "required": 0,
+      "candidates": []
+    },
+    {
+      "id": "week-8-day-5",
+      "week": 8,
+      "day": 5,
+      "required": 1,
+      "candidates": [
+        {
+          "key": "leetcode:course-schedule-iv",
+          "platform": "leetcode",
+          "problemId": "course-schedule-iv",
+          "title": "Course Schedule Iv",
+          "url": "https://leetcode.com/problems/course-schedule-iv/"
+        },
+        {
+          "key": "leetcode:parallel-courses-iii",
+          "platform": "leetcode",
+          "problemId": "parallel-courses-iii",
+          "title": "Parallel Courses Iii",
+          "url": "https://leetcode.com/problems/parallel-courses-iii/"
+        }
+      ]
+    },
+    {
+      "id": "week-8-day-6",
+      "week": 8,
+      "day": 6,
+      "required": 1,
+      "candidates": [
+        {
+          "key": "leetcode:path-with-maximum-probability",
+          "platform": "leetcode",
+          "problemId": "path-with-maximum-probability",
+          "title": "Path With Maximum Probability",
+          "url": "https://leetcode.com/problems/path-with-maximum-probability/"
+        },
+        {
+          "key": "leetcode:number-of-ways-to-arrive-at-destination",
+          "platform": "leetcode",
+          "problemId": "number-of-ways-to-arrive-at-destination",
+          "title": "Number Of Ways To Arrive At Destination",
+          "url": "https://leetcode.com/problems/number-of-ways-to-arrive-at-destination/"
+        }
+      ]
+    },
+    {
+      "id": "week-8-day-7",
+      "week": 8,
+      "day": 7,
+      "required": 0,
+      "candidates": []
+    },
+    {
+      "id": "week-9-day-1",
+      "week": 9,
+      "day": 1,
+      "required": 1,
+      "candidates": [
+        {
+          "key": "leetcode:min-cost-climbing-stairs",
+          "platform": "leetcode",
+          "problemId": "min-cost-climbing-stairs",
+          "title": "Min Cost Climbing Stairs",
+          "url": "https://leetcode.com/problems/min-cost-climbing-stairs/"
+        },
+        {
+          "key": "leetcode:n-th-tribonacci-number",
+          "platform": "leetcode",
+          "problemId": "n-th-tribonacci-number",
+          "title": "N Th Tribonacci Number",
+          "url": "https://leetcode.com/problems/n-th-tribonacci-number/"
+        }
+      ]
+    },
+    {
+      "id": "week-9-day-2",
+      "week": 9,
+      "day": 2,
+      "required": 1,
+      "candidates": [
+        {
+          "key": "leetcode:coin-change",
+          "platform": "leetcode",
+          "problemId": "coin-change",
+          "title": "Coin Change",
+          "url": "https://leetcode.com/problems/coin-change/"
+        },
+        {
+          "key": "leetcode:coin-change-ii",
+          "platform": "leetcode",
+          "problemId": "coin-change-ii",
+          "title": "Coin Change Ii",
+          "url": "https://leetcode.com/problems/coin-change-ii/"
+        }
+      ]
+    },
+    {
+      "id": "week-9-day-3",
+      "week": 9,
+      "day": 3,
+      "required": 1,
+      "candidates": [
+        {
+          "key": "leetcode:unique-paths-ii",
+          "platform": "leetcode",
+          "problemId": "unique-paths-ii",
+          "title": "Unique Paths Ii",
+          "url": "https://leetcode.com/problems/unique-paths-ii/"
+        },
+        {
+          "key": "leetcode:minimum-path-sum",
+          "platform": "leetcode",
+          "problemId": "minimum-path-sum",
+          "title": "Minimum Path Sum",
+          "url": "https://leetcode.com/problems/minimum-path-sum/"
+        }
+      ]
+    },
+    {
+      "id": "week-9-day-4",
+      "week": 9,
+      "day": 4,
+      "required": 1,
+      "candidates": [
+        {
+          "key": "leetcode:partition-equal-subset-sum",
+          "platform": "leetcode",
+          "problemId": "partition-equal-subset-sum",
+          "title": "Partition Equal Subset Sum",
+          "url": "https://leetcode.com/problems/partition-equal-subset-sum/"
+        },
+        {
+          "key": "leetcode:last-stone-weight-ii",
+          "platform": "leetcode",
+          "problemId": "last-stone-weight-ii",
+          "title": "Last Stone Weight Ii",
+          "url": "https://leetcode.com/problems/last-stone-weight-ii/"
+        }
+      ]
+    },
+    {
+      "id": "week-9-day-5",
+      "week": 9,
+      "day": 5,
+      "required": 1,
+      "candidates": [
+        {
+          "key": "leetcode:house-robber-ii",
+          "platform": "leetcode",
+          "problemId": "house-robber-ii",
+          "title": "House Robber Ii",
+          "url": "https://leetcode.com/problems/house-robber-ii/"
+        },
+        {
+          "key": "leetcode:number-of-longest-increasing-subsequence",
+          "platform": "leetcode",
+          "problemId": "number-of-longest-increasing-subsequence",
+          "title": "Number Of Longest Increasing Subsequence",
+          "url": "https://leetcode.com/problems/number-of-longest-increasing-subsequence/"
+        }
+      ]
+    },
+    {
+      "id": "week-9-day-6",
+      "week": 9,
+      "day": 6,
+      "required": 1,
+      "candidates": [
+        {
+          "key": "leetcode:delete-operation-for-two-strings",
+          "platform": "leetcode",
+          "problemId": "delete-operation-for-two-strings",
+          "title": "Delete Operation For Two Strings",
+          "url": "https://leetcode.com/problems/delete-operation-for-two-strings/"
+        },
+        {
+          "key": "leetcode:minimum-ascii-delete-sum-for-two-strings",
+          "platform": "leetcode",
+          "problemId": "minimum-ascii-delete-sum-for-two-strings",
+          "title": "Minimum Ascii Delete Sum For Two Strings",
+          "url": "https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings/"
+        }
+      ]
+    },
+    {
+      "id": "week-9-day-7",
+      "week": 9,
+      "day": 7,
+      "required": 0,
+      "candidates": []
+    },
+    {
+      "id": "week-10-day-1",
+      "week": 10,
+      "day": 1,
+      "required": 0,
+      "candidates": []
+    },
+    {
+      "id": "week-10-day-2",
+      "week": 10,
+      "day": 2,
+      "required": 0,
+      "candidates": []
+    },
+    {
+      "id": "week-10-day-3",
+      "week": 10,
+      "day": 3,
+      "required": 0,
+      "candidates": []
+    },
+    {
+      "id": "week-10-day-4",
+      "week": 10,
+      "day": 4,
+      "required": 0,
+      "candidates": []
+    },
+    {
+      "id": "week-10-day-5",
+      "week": 10,
+      "day": 5,
+      "required": 0,
+      "candidates": []
+    },
+    {
+      "id": "week-10-day-6",
+      "week": 10,
+      "day": 6,
+      "required": 0,
+      "candidates": []
+    },
+    {
+      "id": "week-10-day-7",
+      "week": 10,
+      "day": 7,
+      "required": 0,
+      "candidates": []
+    },
+    {
+      "id": "week-11-day-1",
+      "week": 11,
+      "day": 1,
+      "required": 0,
+      "candidates": []
+    },
+    {
+      "id": "week-11-day-2",
+      "week": 11,
+      "day": 2,
+      "required": 0,
+      "candidates": []
+    },
+    {
+      "id": "week-11-day-3",
+      "week": 11,
+      "day": 3,
+      "required": 0,
+      "candidates": []
+    },
+    {
+      "id": "week-11-day-4",
+      "week": 11,
+      "day": 4,
+      "required": 0,
+      "candidates": []
+    },
+    {
+      "id": "week-11-day-5",
+      "week": 11,
+      "day": 5,
+      "required": 0,
+      "candidates": []
+    },
+    {
+      "id": "week-11-day-6",
+      "week": 11,
+      "day": 6,
+      "required": 0,
+      "candidates": []
+    },
+    {
+      "id": "week-11-day-7",
+      "week": 11,
+      "day": 7,
+      "required": 0,
+      "candidates": []
+    },
+    {
+      "id": "week-12-day-1",
+      "week": 12,
+      "day": 1,
+      "required": 0,
+      "candidates": []
+    },
+    {
+      "id": "week-12-day-2",
+      "week": 12,
+      "day": 2,
+      "required": 0,
+      "candidates": []
+    },
+    {
+      "id": "week-12-day-3",
+      "week": 12,
+      "day": 3,
+      "required": 0,
+      "candidates": []
+    },
+    {
+      "id": "week-12-day-4",
+      "week": 12,
+      "day": 4,
+      "required": 0,
+      "candidates": []
+    },
+    {
+      "id": "week-12-day-5",
+      "week": 12,
+      "day": 5,
+      "required": 0,
+      "candidates": []
+    },
+    {
+      "id": "week-12-day-6",
+      "week": 12,
+      "day": 6,
+      "required": 0,
+      "candidates": []
+    },
+    {
+      "id": "week-12-day-7",
+      "week": 12,
+      "day": 7,
+      "required": 0,
+      "candidates": []
+    }
+  ]
+}

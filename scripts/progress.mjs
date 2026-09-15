@@ -3,6 +3,7 @@ import path from 'node:path';
 import { pathToFileURL } from 'node:url';
 import { adapters } from './adapters.mjs';
 import { calculate } from './calculate.mjs';
+import { attachPools } from './pools.mjs';
 
 export function problemKey(url) {
   const u = new URL(url);
@@ -76,7 +77,7 @@ export function collect(root, days, records) {
   const recordIds = new Set();
   const extraOwners = new Map();
   const assigned = new Map();
-  for (const d of days) for (const p of d.problems) {
+  for (const d of days) for (const p of [...d.problems, ...(d.additional?.candidates || [])]) {
     if (!assigned.has(p.key)) assigned.set(p.key, d.week + ':' + d.day);
   }
   const reviews = [];
@@ -111,17 +112,18 @@ export function build(root, repo = 'Nu-LungJi/Problem-Solving-Factory') {
   if (!/^[\w.-]+\/[\w.-]+$/.test(repo)) throw new Error('저장소 이름 오류');
   const plan = fs.readFileSync(path.join(root, 'curriculum/plan.md'), 'utf8');
   const days = parsePlan(plan);
+  attachPools(days, JSON.parse(fs.readFileSync(path.join(root, 'curriculum/pools.json'), 'utf8')), problemKey);
   const records = JSON.parse(fs.readFileSync(path.join(root, 'curriculum/records.json'), 'utf8'));
   const { solved, reviews } = collect(root, days, records);
   const progress = calculate(days, solved, reviews, plan);
-  const planned = new Set(days.flatMap(d => d.problems.map(p => p.key)));
+  const planned = new Set(days.flatMap(d => [...d.problems, ...d.additional.candidates].map(p => p.key)));
   const accepted = [...planned].filter(k => solved.has(k)).length;
   const target = days.reduce((s, d) => s + d.target, 0);
   let md = '# 12주 코테 문제 해결 현황\n\n';
   md += '[전체 커리큘럼](https://github.com/' + repo + '/blob/main/curriculum/plan.md) · ';
   md += '[수동 기록 방법](https://github.com/' + repo + '/blob/main/curriculum/README.md)\n\n';
   md += '**등록 문제 해결: ' + accepted + '/' + planned.size + '** · 신규 학습 목표: ' + target + '문제\n\n';
-  md += '지정 문제 144개와 직접 등록한 추가 문제를 집계합니다. 208문제 목표에는 아직 선택하지 않은 추가 문제도 포함됩니다. ';
+  md += '필수 144문제와 Day별 후보 풀에서 선택하는 64문제를 합쳐 신규 목표는 208문제입니다. 후보를 전부 풀 필요는 없습니다. 후보 밖의 기존 수동 기록은 보존하지만 목표를 대체하지 않습니다. ';
   md += '업로드는 독립 해결·학습 완료의 증명이 아닙니다. BaekjoonHub 형식은 업로드 관례를 신뢰하며 온라인 저지에 재조회하지 않습니다. ';
   md += 'Day·Week 객관적 풀이 목표는 자동 계산하며 개념·오답 정리 체크는 원본 커리큘럼에서 직접 관리합니다.\n\n';
   md += `**전체 목표 진도: ${progress.overall.done}/${progress.overall.total} (${progress.overall.percent}%)** · 완료 Day ${progress.overall.completedDays}/84 · Week ${progress.overall.completedWeeks}/12\n\n`;
@@ -131,7 +133,7 @@ export function build(root, repo = 'Nu-LungJi/Problem-Solving-Factory') {
   md += '| Week | 등록 문제 해결/등록 수 | 신규 목표 | 기록된 재풀이 시도/목표 |\n|---|---:|---:|---:|\n';
   for (let w = 1; w <= 12; w++) {
     const ds = days.filter(d => d.week === w);
-    const keys = new Set(ds.flatMap(d => d.problems.map(p => p.key)));
+    const keys = new Set(ds.flatMap(d => [...d.problems, ...d.additional.candidates].map(p => p.key)));
     md += '| ' + w + ' | ' + [...keys].filter(k => solved.has(k)).length + '/' + keys.size +
       ' | ' + ds.reduce((s,d) => s+d.target,0) + ' | ' + reviews.filter(r => r.week === w).length +
       '/' + ds.reduce((s,d) => s+d.reviewTarget,0) + ' |\n';
@@ -146,12 +148,15 @@ export function build(root, repo = 'Nu-LungJi/Problem-Solving-Factory') {
       for (const p of d.problems) {
         const result = solved.get(p.key);
         md += '- [' + (result ? 'x' : ' ') + '] [' + escape(p.title) + '](' + p.url + ')';
-        if (p.extra) md += ' (추가 선택)';
+        if (p.extra) md += ' (후보 밖 참고 기록 · 목표 미반영)';
         if (result) md += ' · [C++ 풀이](https://github.com/' + repo + '/blob/main/' +
           result.code.split('/').map(encodeURIComponent).join('/') + ') · ' + result.evidence;
         md += '\n';
       }
       const review = reviews.filter(r => r.week === w && r.day === d.day);
+      const pool = status.additional;
+      md += `\n추가 후보 ${pool.candidates.length}개 중 ${pool.required}개 해결 필요 · 현재 ${pool.solved}개 해결 · 목표 반영 ${pool.credited}/${pool.required}\n\n`;
+      for (const p of pool.candidates) md += `- [${p.solved ? 'x' : ' '}] [${escape(p.title)}](${p.url}) · ${p.key}\n`;
       if (review.length) md += '\n재풀이 기록: ' + review.length + '회, 그중 정답·힌트 미사용 ' +
         review.filter(r => r.result === 'accepted' && !r.usedHint).length + '회.\n';
       md += '\n';

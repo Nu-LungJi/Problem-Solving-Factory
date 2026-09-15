@@ -23,6 +23,8 @@ jobs:
           persist-credentials: false
       - name: Test tracker
         run: node --test tests/*.test.mjs
+      - name: Check candidate documentation
+        run: node scripts/render-pools.mjs --check
   progress:
     needs: test
     if: github.ref == 'refs/heads/main'

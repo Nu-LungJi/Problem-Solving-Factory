@@ -17,8 +17,8 @@ C++ 기본 문법을 공부했고, OOP·상속·SOLID와 스택 등 자료구조
 - 각 주 아래 별도 `- [ ]` 목록은 표준 Markdown 작업 목록이다. 완료 상태의 기준은 이 목록으로 두고, 표의 상태는 필요할 때 함께 갱신한다. 두 곳은 자동 동기화되지 않는다.
 - 하루 완료: 개념 설명 → 목표 수만큼 풀이 시도 → 틀린 이유 기록까지 마친 상태. 모든 문제 정답과는 구별한다.
 - 주간 완료: Day 1~7 완료 및 주간 목표를 코드나 말로 설명한 상태. 어렵다면 날짜를 늘리고 미해결은 기록한다.
-- **지정 링크를 먼저 풀고**, 일일 신규 목표까지 부족한 수는 아래 추가 문제 풀에서 해당 주제의 미풀이 문제를 고른다. 이미 푼 지정 문제도 신규로 세지 않고 같은 주제의 미풀이 문제로 교체한다.
-- Week 1~2 추가 문제: [프로그래머스 목록](https://school.programmers.co.kr/learn/challenges)의 Lv.0~1 중 당일 STL·배열·문자열 주제, 이후 Lv.2 기초. Week 3~9 추가 문제: [고득점 Kit](https://school.programmers.co.kr/learn/challenges?tab=algorithm_practice_kit) → [NeetCode 연습](https://neetcode.io/practice) → [CSES 목록](https://cses.fi/problemset/)에서 당일 주제와 비슷하거나 한 단계 쉬운 미풀이 문제를 선택한다.
+- **지정 링크를 먼저 풀고**, 각 Day의 [추가 후보 풀](pools.md)에서 지정된 개수를 해결한다. 신규 목표는 필수 144개 + 후보 선택 64개 = 208개다. 이미 해결한 파일은 등록된 문제의 해결 상태로 반영되며, 재풀이는 별도 기록한다.
+- 추가 후보는 `pools.json`에 Day별로 고정되어 있다. 필요한 개수만 해결하면 되며 후보 밖의 풀이로 자동 대체하지 않는다. 후보 변경은 데이터 수정 후 `node scripts/render-pools.mjs`로 문서를 갱신하고 테스트한다.
 - Week 10~12는 지정 문제만으로 신규 목표를 채운다. 특히 Week 11~12는 문제만 열고 태그·해설·이 문서의 앞 주차 분류를 보지 않는다.
 - Week 1~11 Day 7은 **재풀이 6회**: 이번 주 오답 3개 + 7일 이상 지난 오답 3개. Week 1은 이번 주 문제 6개로 대체한다. 오답이 부족하면 가장 오래 걸린 문제를 고른다.
 - Week 12 Day 2·4·6은 각각 **재풀이 3회**. 직전 시험 미해결이 3개 미만이면 이전 오답을 더한다.
@@ -77,12 +77,12 @@ C++ 기본 문법을 공부했고, OOP·상속·SOLID와 스택 등 자료구조
 
 | 완료 | Day | Daily 목표 | 지정 문제·실행 내용 | 신규 | 재풀이 |
 |---|---|---|---|---:|---:|
-| [ ] | 1 | 입출력·long long·시간복잡도 정리 | [CSES · Weird Algorithm](https://cses.fi/problemset/task/1068/) · [CSES · Missing Number](https://cses.fi/problemset/task/1083/) · 같은 주제 미풀이 2개 추가 | 4 | 0 |
-| [ ] | 2 | vector·배열 순회·최댓값·최솟값 구현 | [CSES · Repetitions](https://cses.fi/problemset/task/1069/) · [CSES · Increasing Array](https://cses.fi/problemset/task/1094/) · 같은 주제 미풀이 2개 추가 | 4 | 0 |
-| [ ] | 3 | string·빈도 배열·문자열 파싱 연습 | [프로그래머스 · 문자열을 정수로 바꾸기](https://school.programmers.co.kr/learn/courses/30/lessons/12925) · [프로그래머스 · 이상한 문자 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/12930) · 같은 주제 미풀이 2개 추가 | 4 | 0 |
-| [ ] | 4 | sort·pair·비교 함수로 정렬 조건 표현 | [프로그래머스 · K번째수](https://school.programmers.co.kr/learn/courses/30/lessons/42748) · [LeetCode · Valid Anagram](https://leetcode.com/problems/valid-anagram/) · 같은 주제 미풀이 2개 추가 | 4 | 0 |
-| [ ] | 5 | 중복 제거·unique·이진 탐색 STL 맛보기 | [CSES · Distinct Numbers](https://cses.fi/problemset/task/1621/) · [프로그래머스 · 제일 작은 수 제거하기](https://school.programmers.co.kr/learn/courses/30/lessons/12935) · 같은 주제 미풀이 2개 추가 | 4 | 0 |
-| [ ] | 6 | 표준입출력과 solution 함수 제출 방식 모두 연습 | [프로그래머스 · 문자열 내림차순으로 배치하기](https://school.programmers.co.kr/learn/courses/30/lessons/12917) · [프로그래머스 · 2016년](https://school.programmers.co.kr/learn/courses/30/lessons/12901) · 같은 주제 미풀이 2개 추가 | 4 | 0 |
+| [ ] | 1 | 입출력·long long·시간복잡도 정리 | [CSES · Weird Algorithm](https://cses.fi/problemset/task/1068/) · [CSES · Missing Number](https://cses.fi/problemset/task/1083/) · [후보 3개 중 2개 해결](pools.md#week-1-day-1) | 4 | 0 |
+| [ ] | 2 | vector·배열 순회·최댓값·최솟값 구현 | [CSES · Repetitions](https://cses.fi/problemset/task/1069/) · [CSES · Increasing Array](https://cses.fi/problemset/task/1094/) · [후보 3개 중 2개 해결](pools.md#week-1-day-2) | 4 | 0 |
+| [ ] | 3 | string·빈도 배열·문자열 파싱 연습 | [프로그래머스 · 문자열을 정수로 바꾸기](https://school.programmers.co.kr/learn/courses/30/lessons/12925) · [프로그래머스 · 이상한 문자 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/12930) · [후보 3개 중 2개 해결](pools.md#week-1-day-3) | 4 | 0 |
+| [ ] | 4 | sort·pair·비교 함수로 정렬 조건 표현 | [프로그래머스 · K번째수](https://school.programmers.co.kr/learn/courses/30/lessons/42748) · [LeetCode · Valid Anagram](https://leetcode.com/problems/valid-anagram/) · [후보 3개 중 2개 해결](pools.md#week-1-day-4) | 4 | 0 |
+| [ ] | 5 | 중복 제거·unique·이진 탐색 STL 맛보기 | [CSES · Distinct Numbers](https://cses.fi/problemset/task/1621/) · [프로그래머스 · 제일 작은 수 제거하기](https://school.programmers.co.kr/learn/courses/30/lessons/12935) · [후보 3개 중 2개 해결](pools.md#week-1-day-5) | 4 | 0 |
+| [ ] | 6 | 표준입출력과 solution 함수 제출 방식 모두 연습 | [프로그래머스 · 문자열 내림차순으로 배치하기](https://school.programmers.co.kr/learn/courses/30/lessons/12917) · [프로그래머스 · 2016년](https://school.programmers.co.kr/learn/courses/30/lessons/12901) · [후보 3개 중 2개 해결](pools.md#week-1-day-6) | 4 | 0 |
 | [ ] | 7 | 오답 6개 재풀이·주간 목표 설명·다음 주 준비 | 이번 주 3개 + 이전 오답 3개를 코드 없이 다시 풀기. Week 1은 이번 주 6개 | 0 | 6 |
 
 **완료 체크리스트**
@@ -104,12 +104,12 @@ C++ 기본 문법을 공부했고, OOP·상속·SOLID와 스택 등 자료구조
 
 | 완료 | Day | Daily 목표 | 지정 문제·실행 내용 | 신규 | 재풀이 |
 |---|---|---|---|---:|---:|
-| [ ] | 1 | 직접 만든 스택과 std::stack 비교·괄호 검사 | [LeetCode · Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) · [프로그래머스 · 올바른 괄호](https://school.programmers.co.kr/learn/courses/30/lessons/12909) · 같은 주제 미풀이 2개 추가 | 4 | 0 |
-| [ ] | 2 | queue로 처리 순서·대기열 모델링 | [프로그래머스 · 기능개발](https://school.programmers.co.kr/learn/courses/30/lessons/42586) · [프로그래머스 · 프로세스](https://school.programmers.co.kr/learn/courses/30/lessons/42587) · 같은 주제 미풀이 2개 추가 | 4 | 0 |
-| [ ] | 3 | deque 양끝 연산·큐를 이용한 순환 처리 | [프로그래머스 · 같은 숫자는 싫어](https://school.programmers.co.kr/learn/courses/30/lessons/12906) · [CSES · Josephus Problem I](https://cses.fi/problemset/task/2162/) · 같은 주제 미풀이 2개 추가 | 4 | 0 |
-| [ ] | 4 | unordered_map 빈도·존재 검사 | [프로그래머스 · 완주하지 못한 선수](https://school.programmers.co.kr/learn/courses/30/lessons/42576) · [프로그래머스 · 전화번호 목록](https://school.programmers.co.kr/learn/courses/30/lessons/42577) · 같은 주제 미풀이 2개 추가 | 4 | 0 |
-| [ ] | 5 | 최소 힙·최대 힙 구현 및 반복 추출 | [프로그래머스 · 더 맵게](https://school.programmers.co.kr/learn/courses/30/lessons/42626) · [LeetCode · Last Stone Weight](https://leetcode.com/problems/last-stone-weight/) · 같은 주제 미풀이 2개 추가 | 4 | 0 |
-| [ ] | 6 | set·map·multiset 차이와 lower_bound | [CSES · Concert Tickets](https://cses.fi/problemset/task/1091/) · [프로그래머스 · 의상](https://school.programmers.co.kr/learn/courses/30/lessons/42578) · 같은 주제 미풀이 2개 추가 | 4 | 0 |
+| [ ] | 1 | 직접 만든 스택과 std::stack 비교·괄호 검사 | [LeetCode · Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) · [프로그래머스 · 올바른 괄호](https://school.programmers.co.kr/learn/courses/30/lessons/12909) · [후보 3개 중 2개 해결](pools.md#week-2-day-1) | 4 | 0 |
+| [ ] | 2 | queue로 처리 순서·대기열 모델링 | [프로그래머스 · 기능개발](https://school.programmers.co.kr/learn/courses/30/lessons/42586) · [프로그래머스 · 프로세스](https://school.programmers.co.kr/learn/courses/30/lessons/42587) · [후보 3개 중 2개 해결](pools.md#week-2-day-2) | 4 | 0 |
+| [ ] | 3 | deque 양끝 연산·큐를 이용한 순환 처리 | [프로그래머스 · 같은 숫자는 싫어](https://school.programmers.co.kr/learn/courses/30/lessons/12906) · [CSES · Josephus Problem I](https://cses.fi/problemset/task/2162/) · [후보 3개 중 2개 해결](pools.md#week-2-day-3) | 4 | 0 |
+| [ ] | 4 | unordered_map 빈도·존재 검사 | [프로그래머스 · 완주하지 못한 선수](https://school.programmers.co.kr/learn/courses/30/lessons/42576) · [프로그래머스 · 전화번호 목록](https://school.programmers.co.kr/learn/courses/30/lessons/42577) · [후보 3개 중 2개 해결](pools.md#week-2-day-4) | 4 | 0 |
+| [ ] | 5 | 최소 힙·최대 힙 구현 및 반복 추출 | [프로그래머스 · 더 맵게](https://school.programmers.co.kr/learn/courses/30/lessons/42626) · [LeetCode · Last Stone Weight](https://leetcode.com/problems/last-stone-weight/) · [후보 3개 중 2개 해결](pools.md#week-2-day-5) | 4 | 0 |
+| [ ] | 6 | set·map·multiset 차이와 lower_bound | [CSES · Concert Tickets](https://cses.fi/problemset/task/1091/) · [프로그래머스 · 의상](https://school.programmers.co.kr/learn/courses/30/lessons/42578) · [후보 3개 중 2개 해결](pools.md#week-2-day-6) | 4 | 0 |
 | [ ] | 7 | 오답 6개 재풀이·주간 목표 설명·다음 주 준비 | 이번 주 3개 + 이전 오답 3개를 코드 없이 다시 풀기. Week 1은 이번 주 6개 | 0 | 6 |
 
 **완료 체크리스트**
@@ -131,12 +131,12 @@ C++ 기본 문법을 공부했고, OOP·상속·SOLID와 스택 등 자료구조
 
 | 완료 | Day | Daily 목표 | 지정 문제·실행 내용 | 신규 | 재풀이 |
 |---|---|---|---|---:|---:|
-| [ ] | 1 | 중첩 반복문 완전탐색·가능한 연산 수 추정 | [프로그래머스 · 모의고사](https://school.programmers.co.kr/learn/courses/30/lessons/42840) · [프로그래머스 · 카펫](https://school.programmers.co.kr/learn/courses/30/lessons/42842) · 같은 주제 미풀이 1개 추가 | 3 | 0 |
-| [ ] | 2 | 재귀 종료 조건·호출 흐름 그리기 | [CSES · Tower of Hanoi](https://cses.fi/problemset/task/2165/) · [LeetCode · Subsets](https://leetcode.com/problems/subsets/) · 같은 주제 미풀이 1개 추가 | 3 | 0 |
-| [ ] | 3 | next_permutation과 직접 순열 생성 비교 | [CSES · Creating Strings](https://cses.fi/problemset/task/1622/) · [LeetCode · Permutations](https://leetcode.com/problems/permutations/) · 같은 주제 미풀이 1개 추가 | 3 | 0 |
-| [ ] | 4 | 조합 탐색·선택 취소·중복 방지 | [LeetCode · Combinations](https://leetcode.com/problems/combinations/) · [LeetCode · Combination Sum](https://leetcode.com/problems/combination-sum/) · 같은 주제 미풀이 1개 추가 | 3 | 0 |
-| [ ] | 5 | 비트마스크로 부분집합 열거 | [CSES · Apple Division](https://cses.fi/problemset/task/1623/) · [프로그래머스 · 피로도](https://school.programmers.co.kr/learn/courses/30/lessons/87946) · 같은 주제 미풀이 1개 추가 | 3 | 0 |
-| [ ] | 6 | 가지치기 조건 설명·백트래킹 종합 | [CSES · Chessboard and Queens](https://cses.fi/problemset/task/1624/) · [프로그래머스 · 소수 찾기](https://school.programmers.co.kr/learn/courses/30/lessons/42839) · 같은 주제 미풀이 1개 추가 | 3 | 0 |
+| [ ] | 1 | 중첩 반복문 완전탐색·가능한 연산 수 추정 | [프로그래머스 · 모의고사](https://school.programmers.co.kr/learn/courses/30/lessons/42840) · [프로그래머스 · 카펫](https://school.programmers.co.kr/learn/courses/30/lessons/42842) · [후보 2개 중 1개 해결](pools.md#week-3-day-1) | 3 | 0 |
+| [ ] | 2 | 재귀 종료 조건·호출 흐름 그리기 | [CSES · Tower of Hanoi](https://cses.fi/problemset/task/2165/) · [LeetCode · Subsets](https://leetcode.com/problems/subsets/) · [후보 2개 중 1개 해결](pools.md#week-3-day-2) | 3 | 0 |
+| [ ] | 3 | next_permutation과 직접 순열 생성 비교 | [CSES · Creating Strings](https://cses.fi/problemset/task/1622/) · [LeetCode · Permutations](https://leetcode.com/problems/permutations/) · [후보 2개 중 1개 해결](pools.md#week-3-day-3) | 3 | 0 |
+| [ ] | 4 | 조합 탐색·선택 취소·중복 방지 | [LeetCode · Combinations](https://leetcode.com/problems/combinations/) · [LeetCode · Combination Sum](https://leetcode.com/problems/combination-sum/) · [후보 2개 중 1개 해결](pools.md#week-3-day-4) | 3 | 0 |
+| [ ] | 5 | 비트마스크로 부분집합 열거 | [CSES · Apple Division](https://cses.fi/problemset/task/1623/) · [프로그래머스 · 피로도](https://school.programmers.co.kr/learn/courses/30/lessons/87946) · [후보 2개 중 1개 해결](pools.md#week-3-day-5) | 3 | 0 |
+| [ ] | 6 | 가지치기 조건 설명·백트래킹 종합 | [CSES · Chessboard and Queens](https://cses.fi/problemset/task/1624/) · [프로그래머스 · 소수 찾기](https://school.programmers.co.kr/learn/courses/30/lessons/42839) · [후보 2개 중 1개 해결](pools.md#week-3-day-6) | 3 | 0 |
 | [ ] | 7 | 오답 6개 재풀이·주간 목표 설명·다음 주 준비 | 이번 주 3개 + 이전 오답 3개를 코드 없이 다시 풀기. Week 1은 이번 주 6개 | 0 | 6 |
 
 **완료 체크리스트**
@@ -158,12 +158,12 @@ C++ 기본 문법을 공부했고, OOP·상속·SOLID와 스택 등 자료구조
 
 | 완료 | Day | Daily 목표 | 지정 문제·실행 내용 | 신규 | 재풀이 |
 |---|---|---|---|---:|---:|
-| [ ] | 1 | 1차원 누적합·반열린 구간·인덱스 검증 | [CSES · Static Range Sum Queries](https://cses.fi/problemset/task/1646/) · [LeetCode · Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/) · 같은 주제 미풀이 1개 추가 | 3 | 0 |
-| [ ] | 2 | 2차원 누적합·포함 배제 공식 도출 | [CSES · Forest Queries](https://cses.fi/problemset/task/1652/) · [LeetCode · Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable/) · 같은 주제 미풀이 1개 추가 | 3 | 0 |
-| [ ] | 3 | 정렬 후 양끝 포인터 이동 근거 쓰기 | [CSES · Sum of Two Values](https://cses.fi/problemset/task/1640/) · [CSES · Apartments](https://cses.fi/problemset/task/1084/) · 같은 주제 미풀이 1개 추가 | 3 | 0 |
-| [ ] | 4 | 고정 길이 윈도우 합 갱신 | [LeetCode · Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/) · [프로그래머스 · 숫자의 표현](https://school.programmers.co.kr/learn/courses/30/lessons/12924) · 같은 주제 미풀이 1개 추가 | 3 | 0 |
-| [ ] | 5 | 가변 길이 윈도우·양수 조건 확인 | [CSES · Subarray Sums I](https://cses.fi/problemset/task/1660/) · [LeetCode · Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) · 같은 주제 미풀이 1개 추가 | 3 | 0 |
-| [ ] | 6 | Kadane 상태 정의·누적합과 해시 결합 | [CSES · Maximum Subarray Sum](https://cses.fi/problemset/task/1643/) · [CSES · Subarray Sums II](https://cses.fi/problemset/task/1661/) · 같은 주제 미풀이 1개 추가 | 3 | 0 |
+| [ ] | 1 | 1차원 누적합·반열린 구간·인덱스 검증 | [CSES · Static Range Sum Queries](https://cses.fi/problemset/task/1646/) · [LeetCode · Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/) · [후보 2개 중 1개 해결](pools.md#week-4-day-1) | 3 | 0 |
+| [ ] | 2 | 2차원 누적합·포함 배제 공식 도출 | [CSES · Forest Queries](https://cses.fi/problemset/task/1652/) · [LeetCode · Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable/) · [후보 2개 중 1개 해결](pools.md#week-4-day-2) | 3 | 0 |
+| [ ] | 3 | 정렬 후 양끝 포인터 이동 근거 쓰기 | [CSES · Sum of Two Values](https://cses.fi/problemset/task/1640/) · [CSES · Apartments](https://cses.fi/problemset/task/1084/) · [후보 2개 중 1개 해결](pools.md#week-4-day-3) | 3 | 0 |
+| [ ] | 4 | 고정 길이 윈도우 합 갱신 | [LeetCode · Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/) · [프로그래머스 · 숫자의 표현](https://school.programmers.co.kr/learn/courses/30/lessons/12924) · [후보 2개 중 1개 해결](pools.md#week-4-day-4) | 3 | 0 |
+| [ ] | 5 | 가변 길이 윈도우·양수 조건 확인 | [CSES · Subarray Sums I](https://cses.fi/problemset/task/1660/) · [LeetCode · Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) · [후보 2개 중 1개 해결](pools.md#week-4-day-5) | 3 | 0 |
+| [ ] | 6 | Kadane 상태 정의·누적합과 해시 결합 | [CSES · Maximum Subarray Sum](https://cses.fi/problemset/task/1643/) · [CSES · Subarray Sums II](https://cses.fi/problemset/task/1661/) · [후보 2개 중 1개 해결](pools.md#week-4-day-6) | 3 | 0 |
 | [ ] | 7 | 오답 6개 재풀이·주간 목표 설명·다음 주 준비 | 이번 주 3개 + 이전 오답 3개를 코드 없이 다시 풀기. Week 1은 이번 주 6개 | 0 | 6 |
 
 **완료 체크리스트**
@@ -185,12 +185,12 @@ C++ 기본 문법을 공부했고, OOP·상속·SOLID와 스택 등 자료구조
 
 | 완료 | Day | Daily 목표 | 지정 문제·실행 내용 | 신규 | 재풀이 |
 |---|---|---|---|---:|---:|
-| [ ] | 1 | 이분탐색 경계·lower_bound와 upper_bound 비교 | [LeetCode · Binary Search](https://leetcode.com/problems/binary-search/) · [LeetCode · Search Insert Position](https://leetcode.com/problems/search-insert-position/) · 같은 주제 미풀이 1개 추가 | 3 | 0 |
-| [ ] | 2 | 정답 이분탐색·가능 여부 함수 분리 | [CSES · Factory Machines](https://cses.fi/problemset/task/1620/) · [LeetCode · Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/) · 같은 주제 미풀이 1개 추가 | 3 | 0 |
-| [ ] | 3 | 64비트 범위·최소 가능 답 찾기 | [프로그래머스 · 입국심사](https://school.programmers.co.kr/learn/courses/30/lessons/43238) · [CSES · Array Division](https://cses.fi/problemset/task/1085/) · 같은 주제 미풀이 1개 추가 | 3 | 0 |
-| [ ] | 4 | 정렬·구간 선택·교환 논증 | [CSES · Movie Festival](https://cses.fi/problemset/task/1629/) · [LeetCode · Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/) · 같은 주제 미풀이 1개 추가 | 3 | 0 |
-| [ ] | 5 | 작은 선택을 누적하는 근거 설명 | [CSES · Ferris Wheel](https://cses.fi/problemset/task/1090/) · [프로그래머스 · 구명보트](https://school.programmers.co.kr/learn/courses/30/lessons/42885) · 같은 주제 미풀이 1개 추가 | 3 | 0 |
-| [ ] | 6 | 그리디 반례 찾기·다른 전략과 비교 | [CSES · Tasks and Deadlines](https://cses.fi/problemset/task/1630/) · [프로그래머스 · 체육복](https://school.programmers.co.kr/learn/courses/30/lessons/42862) · 같은 주제 미풀이 1개 추가 | 3 | 0 |
+| [ ] | 1 | 이분탐색 경계·lower_bound와 upper_bound 비교 | [LeetCode · Binary Search](https://leetcode.com/problems/binary-search/) · [LeetCode · Search Insert Position](https://leetcode.com/problems/search-insert-position/) · [후보 2개 중 1개 해결](pools.md#week-5-day-1) | 3 | 0 |
+| [ ] | 2 | 정답 이분탐색·가능 여부 함수 분리 | [CSES · Factory Machines](https://cses.fi/problemset/task/1620/) · [LeetCode · Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/) · [후보 2개 중 1개 해결](pools.md#week-5-day-2) | 3 | 0 |
+| [ ] | 3 | 64비트 범위·최소 가능 답 찾기 | [프로그래머스 · 입국심사](https://school.programmers.co.kr/learn/courses/30/lessons/43238) · [CSES · Array Division](https://cses.fi/problemset/task/1085/) · [후보 2개 중 1개 해결](pools.md#week-5-day-3) | 3 | 0 |
+| [ ] | 4 | 정렬·구간 선택·교환 논증 | [CSES · Movie Festival](https://cses.fi/problemset/task/1629/) · [LeetCode · Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/) · [후보 2개 중 1개 해결](pools.md#week-5-day-4) | 3 | 0 |
+| [ ] | 5 | 작은 선택을 누적하는 근거 설명 | [CSES · Ferris Wheel](https://cses.fi/problemset/task/1090/) · [프로그래머스 · 구명보트](https://school.programmers.co.kr/learn/courses/30/lessons/42885) · [후보 2개 중 1개 해결](pools.md#week-5-day-5) | 3 | 0 |
+| [ ] | 6 | 그리디 반례 찾기·다른 전략과 비교 | [CSES · Tasks and Deadlines](https://cses.fi/problemset/task/1630/) · [프로그래머스 · 체육복](https://school.programmers.co.kr/learn/courses/30/lessons/42862) · [후보 2개 중 1개 해결](pools.md#week-5-day-6) | 3 | 0 |
 | [ ] | 7 | 오답 6개 재풀이·주간 목표 설명·다음 주 준비 | 이번 주 3개 + 이전 오답 3개를 코드 없이 다시 풀기. Week 1은 이번 주 6개 | 0 | 6 |
 
 **완료 체크리스트**
@@ -212,12 +212,12 @@ C++ 기본 문법을 공부했고, OOP·상속·SOLID와 스택 등 자료구조
 
 | 완료 | Day | Daily 목표 | 지정 문제·실행 내용 | 신규 | 재풀이 |
 |---|---|---|---|---:|---:|
-| [ ] | 1 | 인접 리스트·DFS·반복형 스택 탐색 | [CSES · Building Roads](https://cses.fi/problemset/task/1666/) · [프로그래머스 · 네트워크](https://school.programmers.co.kr/learn/courses/30/lessons/43162) · 같은 주제 미풀이 2개 추가 | 4 | 0 |
-| [ ] | 2 | 격자 좌표·경계 검사·Flood Fill | [CSES · Counting Rooms](https://cses.fi/problemset/task/1192/) · [LeetCode · Number of Islands](https://leetcode.com/problems/number-of-islands/) · 같은 주제 미풀이 2개 추가 | 4 | 0 |
-| [ ] | 3 | BFS 거리 배열·큐에 넣을 때 방문 처리 | [CSES · Message Route](https://cses.fi/problemset/task/1667/) · [프로그래머스 · 게임 맵 최단거리](https://school.programmers.co.kr/learn/courses/30/lessons/1844) · 같은 주제 미풀이 2개 추가 | 4 | 0 |
-| [ ] | 4 | 부모 기록·경로 복원 | [CSES · Labyrinth](https://cses.fi/problemset/task/1193/) · [LeetCode · Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix/) · 같은 주제 미풀이 2개 추가 | 4 | 0 |
-| [ ] | 5 | 여러 시작점 BFS·상태를 정점으로 모델링 | [LeetCode · Rotting Oranges](https://leetcode.com/problems/rotting-oranges/) · [프로그래머스 · 단어 변환](https://school.programmers.co.kr/learn/courses/30/lessons/43163) · 같은 주제 미풀이 2개 추가 | 4 | 0 |
-| [ ] | 6 | 이분 그래프·상태 탐색 응용 | [CSES · Building Teams](https://cses.fi/problemset/task/1668/) · [프로그래머스 · 타겟 넘버](https://school.programmers.co.kr/learn/courses/30/lessons/43165) · 같은 주제 미풀이 2개 추가 | 4 | 0 |
+| [ ] | 1 | 인접 리스트·DFS·반복형 스택 탐색 | [CSES · Building Roads](https://cses.fi/problemset/task/1666/) · [프로그래머스 · 네트워크](https://school.programmers.co.kr/learn/courses/30/lessons/43162) · [후보 3개 중 2개 해결](pools.md#week-6-day-1) | 4 | 0 |
+| [ ] | 2 | 격자 좌표·경계 검사·Flood Fill | [CSES · Counting Rooms](https://cses.fi/problemset/task/1192/) · [LeetCode · Number of Islands](https://leetcode.com/problems/number-of-islands/) · [후보 3개 중 2개 해결](pools.md#week-6-day-2) | 4 | 0 |
+| [ ] | 3 | BFS 거리 배열·큐에 넣을 때 방문 처리 | [CSES · Message Route](https://cses.fi/problemset/task/1667/) · [프로그래머스 · 게임 맵 최단거리](https://school.programmers.co.kr/learn/courses/30/lessons/1844) · [후보 3개 중 2개 해결](pools.md#week-6-day-3) | 4 | 0 |
+| [ ] | 4 | 부모 기록·경로 복원 | [CSES · Labyrinth](https://cses.fi/problemset/task/1193/) · [LeetCode · Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix/) · [후보 3개 중 2개 해결](pools.md#week-6-day-4) | 4 | 0 |
+| [ ] | 5 | 여러 시작점 BFS·상태를 정점으로 모델링 | [LeetCode · Rotting Oranges](https://leetcode.com/problems/rotting-oranges/) · [프로그래머스 · 단어 변환](https://school.programmers.co.kr/learn/courses/30/lessons/43163) · [후보 3개 중 2개 해결](pools.md#week-6-day-5) | 4 | 0 |
+| [ ] | 6 | 이분 그래프·상태 탐색 응용 | [CSES · Building Teams](https://cses.fi/problemset/task/1668/) · [프로그래머스 · 타겟 넘버](https://school.programmers.co.kr/learn/courses/30/lessons/43165) · [후보 3개 중 2개 해결](pools.md#week-6-day-6) | 4 | 0 |
 | [ ] | 7 | 오답 6개 재풀이·주간 목표 설명·다음 주 준비 | 이번 주 3개 + 이전 오답 3개를 코드 없이 다시 풀기. Week 1은 이번 주 6개 | 0 | 6 |
 
 **완료 체크리스트**
@@ -243,8 +243,8 @@ C++ 기본 문법을 공부했고, OOP·상속·SOLID와 스택 등 자료구조
 | [ ] | 2 | 서브트리 집계·후위 순회 | [CSES · Subordinates](https://cses.fi/problemset/task/1674/) · [LeetCode · Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/) | 2 | 0 |
 | [ ] | 3 | 트리 지름·두 번 탐색의 원리 | [CSES · Tree Diameter](https://cses.fi/problemset/task/1131/) · [LeetCode · Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) | 2 | 0 |
 | [ ] | 4 | DSU 경로 압축·크기 기준 병합 | [CSES · Road Construction](https://cses.fi/problemset/task/1676/) · [LeetCode · Redundant Connection](https://leetcode.com/problems/redundant-connection/) | 2 | 0 |
-| [ ] | 5 | Kruskal·간선 정렬·연결 불가능 처리 | [CSES · Road Reparation](https://cses.fi/problemset/task/1675/) · [프로그래머스 · 섬 연결하기](https://school.programmers.co.kr/learn/courses/30/lessons/42861) · 같은 주제 미풀이 1개 추가 | 3 | 0 |
-| [ ] | 6 | 트리와 일반 그래프의 사이클 차이 | [CSES · Round Trip](https://cses.fi/problemset/task/1669/) · [LeetCode · Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) · 같은 주제 미풀이 1개 추가 | 3 | 0 |
+| [ ] | 5 | Kruskal·간선 정렬·연결 불가능 처리 | [CSES · Road Reparation](https://cses.fi/problemset/task/1675/) · [프로그래머스 · 섬 연결하기](https://school.programmers.co.kr/learn/courses/30/lessons/42861) · [후보 2개 중 1개 해결](pools.md#week-7-day-5) | 3 | 0 |
+| [ ] | 6 | 트리와 일반 그래프의 사이클 차이 | [CSES · Round Trip](https://cses.fi/problemset/task/1669/) · [LeetCode · Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) · [후보 2개 중 1개 해결](pools.md#week-7-day-6) | 3 | 0 |
 | [ ] | 7 | 오답 6개 재풀이·주간 목표 설명·다음 주 준비 | 이번 주 3개 + 이전 오답 3개를 코드 없이 다시 풀기. Week 1은 이번 주 6개 | 0 | 6 |
 
 **완료 체크리스트**
@@ -272,8 +272,8 @@ C++ 기본 문법을 공부했고, OOP·상속·SOLID와 스택 등 자료구조
 | [ ] | 2 | 거리 long long·도달 불가능·완화 조건 검증 | [프로그래머스 · 배달](https://school.programmers.co.kr/learn/courses/30/lessons/12978) · [LeetCode · Path With Minimum Effort](https://leetcode.com/problems/path-with-minimum-effort/) | 2 | 0 |
 | [ ] | 3 | Floyd-Warshall·경유 정점 반복문 순서 | [CSES · Shortest Routes II](https://cses.fi/problemset/task/1672/) · [프로그래머스 · 순위](https://school.programmers.co.kr/learn/courses/30/lessons/49191) | 2 | 0 |
 | [ ] | 4 | 진입차수·Kahn 위상정렬·사이클 감지 | [CSES · Course Schedule](https://cses.fi/problemset/task/1679/) · [LeetCode · Course Schedule](https://leetcode.com/problems/course-schedule/) | 2 | 0 |
-| [ ] | 5 | 위상정렬 결과와 선행 관계 검증 | [LeetCode · Course Schedule II](https://leetcode.com/problems/course-schedule-ii/) · [LeetCode · Find Eventual Safe States](https://leetcode.com/problems/find-eventual-safe-states/) · 같은 주제 미풀이 1개 추가 | 3 | 0 |
-| [ ] | 6 | 격자 최단거리와 가중치 그래프 혼합 복습 | [프로그래머스 · 가장 먼 노드](https://school.programmers.co.kr/learn/courses/30/lessons/49189) · [CSES · Flight Discount](https://cses.fi/problemset/task/1195/) · 같은 주제 미풀이 1개 추가 | 3 | 0 |
+| [ ] | 5 | 위상정렬 결과와 선행 관계 검증 | [LeetCode · Course Schedule II](https://leetcode.com/problems/course-schedule-ii/) · [LeetCode · Find Eventual Safe States](https://leetcode.com/problems/find-eventual-safe-states/) · [후보 2개 중 1개 해결](pools.md#week-8-day-5) | 3 | 0 |
+| [ ] | 6 | 격자 최단거리와 가중치 그래프 혼합 복습 | [프로그래머스 · 가장 먼 노드](https://school.programmers.co.kr/learn/courses/30/lessons/49189) · [CSES · Flight Discount](https://cses.fi/problemset/task/1195/) · [후보 2개 중 1개 해결](pools.md#week-8-day-6) | 3 | 0 |
 | [ ] | 7 | 오답 6개 재풀이·주간 목표 설명·다음 주 준비 | 이번 주 3개 + 이전 오답 3개를 코드 없이 다시 풀기. Week 1은 이번 주 6개 | 0 | 6 |
 
 **완료 체크리스트**
@@ -295,12 +295,12 @@ C++ 기본 문법을 공부했고, OOP·상속·SOLID와 스택 등 자료구조
 
 | 완료 | Day | Daily 목표 | 지정 문제·실행 내용 | 신규 | 재풀이 |
 |---|---|---|---|---:|---:|
-| [ ] | 1 | 1차원 DP·중복 부분문제 확인 | [CSES · Dice Combinations](https://cses.fi/problemset/task/1633/) · [LeetCode · Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) · 같은 주제 미풀이 1개 추가 | 3 | 0 |
-| [ ] | 2 | 최솟값 DP·불가능 상태·동전 반복 순서 | [CSES · Minimizing Coins](https://cses.fi/problemset/task/1634/) · [CSES · Coin Combinations I](https://cses.fi/problemset/task/1635/) · 같은 주제 미풀이 1개 추가 | 3 | 0 |
-| [ ] | 3 | 2차원·경로 DP·장애물 초기화 | [CSES · Grid Paths I](https://cses.fi/problemset/task/1638/) · [프로그래머스 · 정수 삼각형](https://school.programmers.co.kr/learn/courses/30/lessons/43105) · 같은 주제 미풀이 1개 추가 | 3 | 0 |
-| [ ] | 4 | 0/1 배낭·역순 갱신 이유 | [CSES · Book Shop](https://cses.fi/problemset/task/1158/) · [CSES · Money Sums](https://cses.fi/problemset/task/1745/) · 같은 주제 미풀이 1개 추가 | 3 | 0 |
-| [ ] | 5 | LIS O(N²)·선택과 비선택 상태 | [LeetCode · Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) · [LeetCode · House Robber](https://leetcode.com/problems/house-robber/) · 같은 주제 미풀이 1개 추가 | 3 | 0 |
-| [ ] | 6 | 문자열 DP·두 인덱스 상태 | [CSES · Edit Distance](https://cses.fi/problemset/task/1639/) · [LeetCode · Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/) · 같은 주제 미풀이 1개 추가 | 3 | 0 |
+| [ ] | 1 | 1차원 DP·중복 부분문제 확인 | [CSES · Dice Combinations](https://cses.fi/problemset/task/1633/) · [LeetCode · Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) · [후보 2개 중 1개 해결](pools.md#week-9-day-1) | 3 | 0 |
+| [ ] | 2 | 최솟값 DP·불가능 상태·동전 반복 순서 | [CSES · Minimizing Coins](https://cses.fi/problemset/task/1634/) · [CSES · Coin Combinations I](https://cses.fi/problemset/task/1635/) · [후보 2개 중 1개 해결](pools.md#week-9-day-2) | 3 | 0 |
+| [ ] | 3 | 2차원·경로 DP·장애물 초기화 | [CSES · Grid Paths I](https://cses.fi/problemset/task/1638/) · [프로그래머스 · 정수 삼각형](https://school.programmers.co.kr/learn/courses/30/lessons/43105) · [후보 2개 중 1개 해결](pools.md#week-9-day-3) | 3 | 0 |
+| [ ] | 4 | 0/1 배낭·역순 갱신 이유 | [CSES · Book Shop](https://cses.fi/problemset/task/1158/) · [CSES · Money Sums](https://cses.fi/problemset/task/1745/) · [후보 2개 중 1개 해결](pools.md#week-9-day-4) | 3 | 0 |
+| [ ] | 5 | LIS O(N²)·선택과 비선택 상태 | [LeetCode · Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) · [LeetCode · House Robber](https://leetcode.com/problems/house-robber/) · [후보 2개 중 1개 해결](pools.md#week-9-day-5) | 3 | 0 |
+| [ ] | 6 | 문자열 DP·두 인덱스 상태 | [CSES · Edit Distance](https://cses.fi/problemset/task/1639/) · [LeetCode · Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/) · [후보 2개 중 1개 해결](pools.md#week-9-day-6) | 3 | 0 |
 | [ ] | 7 | 오답 6개 재풀이·주간 목표 설명·다음 주 준비 | 이번 주 3개 + 이전 오답 3개를 코드 없이 다시 풀기. Week 1은 이번 주 6개 | 0 | 6 |
 
 **완료 체크리스트**
@@ -320,7 +320,7 @@ C++ 기본 문법을 공부했고, OOP·상속·SOLID와 스택 등 자료구조
 
 **학습 링크:** [바킹독 강의·문제집](https://github.com/encrypted-def/basic-algo-lecture/blob/master/workbook.md) — 0x1F; 앞 주차 복습. [tony9402 유형별 보충](https://github.com/tony9402/baekjoon).
 
-선택 심화: Day 6 이후 여유가 있을 때만 [Segment Tree 개념](https://cp-algorithms.com/data_structures/segment_tree.html)을 읽고 구간합 갱신 예제를 구현한다. 신규 목표에 포함하지 않는다. 핵심 유형이 불안하면 Trie 학습일도 기존 약점의 미풀이 2문제로 교체할 수 있다.
+선택 심화: Day 6 이후 여유가 있을 때만 [Segment Tree 개념](https://cp-algorithms.com/data_structures/segment_tree.html)을 읽고 구간합 갱신 예제를 구현한다. 신규 목표에 포함하지 않는다. Trie 학습일의 필수 문제는 유지하며 약점 보완은 목표 외 선택 학습으로 기록한다.
 
 | 완료 | Day | Daily 목표 | 지정 문제·실행 내용 | 신규 | 재풀이 |
 |---|---|---|---|---:|---:|
@@ -422,7 +422,7 @@ C++ 기본 문법을 공부했고, OOP·상속·SOLID와 스택 등 자료구조
 | Week 12 B | 180분 |  |  |  |  |
 | Week 12 C | 180분 |  |  |  |  |
 
-시험 시작 10분은 전체 문제 확인과 풀이 순서 결정에 쓴다. 한 문제에서 진전 없이 20~30분이 지나면 다른 문제로 이동한다. 마지막 15분에는 최소 입력·중복·오버플로·도달 불가능·인덱스 경계를 확인한다. 이미 풀어 본 시험 문제는 미풀이 프로그래머스 문제로 교체하고, 유형 태그는 보지 않는다.
+시험 시작 10분은 전체 문제 확인과 풀이 순서 결정에 쓴다. 한 문제에서 진전 없이 20~30분이 지나면 다른 문제로 이동한다. 마지막 15분에는 최소 입력·중복·오버플로·도달 불가능·인덱스 경계를 확인한다. 이미 풀어 본 시험 문제는 별도 재풀이로 기록하고, 유형 태그는 보지 않는다. 시험 필수 목록의 교체는 plan.md의 명시적 링크 수정으로 관리한다.
 
 - [ ] STL 컨테이너 선택과 주요 연산 비용을 설명한다.
 - [ ] DFS/BFS·이분탐색·DSU·Dijkstra를 참고 없이 구현한다.

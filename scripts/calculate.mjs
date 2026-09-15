@@ -10,15 +10,23 @@ export function calculate(days, solved, reviews, plan) {
       platform: p.key.split(':')[0], problemId: p.key.split(':').slice(1).join(':'),
       solved: solved.has(p.key), countsAsNew: owners.get(p.key) === d.id,
     }));
-    const newSolved = problems.filter(p => p.solved && p.countsAsNew).length;
+    const requiredProblems = problems.filter(p => !p.extra);
+    const candidates = (d.additional?.candidates || []).map(p => ({ ...p, solved: solved.has(p.key) }));
+    const additional = { required: d.additional?.required ?? Math.max(0, d.target - requiredProblems.length),
+      candidates, solved: candidates.filter(p => p.solved).length };
+    additional.credited = Math.min(additional.solved, additional.required);
+    additional.complete = additional.solved >= additional.required;
+    const requiredSolved = requiredProblems.filter(p => p.solved && p.countsAsNew).length;
+    const newSolved = requiredSolved + additional.credited;
     const attempts = reviews.filter(r => r.week === d.week && r.day === d.day);
-    const reviewSolved = attempts.filter(r => r.result === 'accepted').length;
+    // A copied record with another id cannot manufacture another review of the same problem that day.
+    const reviewSolved = new Set(attempts.filter(r => r.result === 'accepted').map(r => r.key)).size;
     const total = d.target + d.reviewTarget;
     const done = Math.min(newSolved, d.target) + Math.min(reviewSolved, d.reviewTarget);
     const manualComplete = new RegExp(`^- \\[x\\] W${d.week}-D${d.day}:`, 'm').test(plan);
     // A day without objective tasks requires its existing manual checklist.
-    const complete = total ? newSolved >= d.target && reviewSolved >= d.reviewTarget && problems.every(p => p.solved) : manualComplete;
-    return { ...d, problems, newSolved, reviewAttempts: attempts.length, reviewSolved,
+    const complete = total ? newSolved >= d.target && reviewSolved >= d.reviewTarget && requiredProblems.every(p => p.solved) && additional.complete : manualComplete;
+    return { ...d, problems, additional, requiredSolved, newSolved, reviewAttempts: attempts.length, reviewSolved,
       done, total, percent: total ? percent(done, total) : (complete ? 100 : 0),
       complete, manualComplete, completionBasis: total ? 'objective' : 'manual' };
   });
