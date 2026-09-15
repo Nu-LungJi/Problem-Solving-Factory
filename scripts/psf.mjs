@@ -6,6 +6,7 @@ import { spawnSync } from 'node:child_process';
 import { createInterface } from 'node:readline';
 import { fileURLToPath, pathToFileURL } from 'node:url';
 import { build, problemKey } from './progress.mjs';
+import { formatCommitMessage } from './commit-message.mjs';
 
 const hash = content => createHash('sha256').update(content).digest('hex');
 const readJson = file => JSON.parse(fs.readFileSync(file, 'utf8').replace(/^\uFEFF/, ''));
@@ -257,6 +258,18 @@ function defaultProject() {
   return path.join(docs,'Rider','Algorithm Project');
 }
 
+export function pushUploads(root) {
+  try { return git(root,['push']); }
+  catch(error) { throw new Error('자동 push에 실패했습니다. 로컬 커밋은 보존되어 있습니다. 연결/권한 확인 후 UPLOAD를 다시 실행하세요.\n'+error.message); }
+}
+
+export function commitAndPush(root,session,decisions,date=localDate()) {
+  const message=formatCommitMessage(session,decisions,readJson(path.join(root,'curriculum/english-titles.json')));
+  const result=uploadSolutions(root,session,decisions,message,date);
+  pushUploads(root);
+  return {...result,message};
+}
+
 function openRider(root, session) {
   const r=spawnSync('powershell.exe',['-NoProfile','-ExecutionPolicy','Bypass','-File',path.join(root,'scripts','open-rider.ps1'),
     '-ProjectDirectory',session.project,'-SourceFile',inside(session.project,session.entries[0].localFile),
@@ -271,7 +284,6 @@ export async function main(action, root) {
   const yes=async text=>(await ask(text+' [y/N]: ')).toLowerCase()==='y';
   const hint=async()=>{ while(true) {const a=(await ask('힌트/해설을 사용했나요? [y/n]: ')).toLowerCase(); if(a==='y'||a==='n')return a==='y';} };
   const sync=()=>{assertClean(root); console.log('원격 변경을 가져옵니다 (git pull --ff-only).'); console.log(git(root,['pull','--ff-only']));};
-  const maybePush=async()=>{if(await yes('GitHub에도 push할까요?')) {console.log(git(root,['push'])); console.log('GitHub push 완료.');}};
   try {
     if(!['start','upload'].includes(action)) throw new Error('PSF_START.bat 또는 PSF_UPLOAD.bat을 실행하세요.');
     sync();
@@ -284,7 +296,7 @@ export async function main(action, root) {
       if(!fs.existsSync(sessionFile)) throw new Error('먼저 PSF_START로 Day와 문제를 선택하세요.');
       const session=readJson(sessionFile);
       const pending=pendingEntries(root,session);
-      if(!pending.length) {console.log('새로 업로드할 풀이가 없습니다. 빈 템플릿과 이미 업로드한 내용은 제외합니다.'); await maybePush(); return;}
+      if(!pending.length) {console.log('새로 업로드할 풀이가 없습니다. 빈 템플릿과 이미 업로드한 내용은 제외합니다.'); pushUploads(root); console.log('GitHub 동기화 완료.'); return;}
       const decisions=[];
       for(const e of pending) {
         console.log(`\n${e.localFile} → ${e.dest}\n${e.url}`);
@@ -296,10 +308,10 @@ export async function main(action, root) {
         decisions.push({key:e.key,accepted:true,usedHint,overwrite:differs});
       }
       if(!decisions.length) {console.log('업로드할 정답을 선택하지 않았습니다.'); return;}
-      const message=await ask('\n커밋 메시지: ');
-      const result=uploadSolutions(root,session,decisions,message);
+      const result=commitAndPush(root,session,decisions);
       console.log(result.committed ? `커밋 완료: ${result.commit.slice(0,7)}` : '내용이 같아 새 커밋을 만들지 않았습니다.');
-      await maybePush();
+      console.log(result.message);
+      console.log('GitHub push 완료.');
     }
   } finally {rl.close();}
 }

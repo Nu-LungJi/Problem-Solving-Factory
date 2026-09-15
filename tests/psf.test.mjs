@@ -5,8 +5,9 @@ import os from 'node:os';
 import path from 'node:path';
 import { spawnSync } from 'node:child_process';
 import { fileURLToPath } from 'node:url';
-import { build } from '../scripts/progress.mjs';
-import { calendarDay, dayOptions, suggestedIndexes, parseSelection, prepareSession, prepareToday, pendingEntries, uploadSolutions, git, inside } from '../scripts/psf.mjs';
+import { build, parsePlan } from '../scripts/progress.mjs';
+import { formatCommitMessage } from '../scripts/commit-message.mjs';
+import { calendarDay, dayOptions, suggestedIndexes, parseSelection, prepareSession, prepareToday, pendingEntries, uploadSolutions, commitAndPush, pushUploads, git, inside } from '../scripts/psf.mjs';
 
 const curriculum=new URL('../curriculum/',import.meta.url);
 function fixture(t) {
@@ -19,7 +20,7 @@ function fixture(t) {
   const project=path.join(base,'Algorithm Project');
   fs.mkdirSync(path.join(root,'curriculum'),{recursive:true});
   fs.mkdirSync(project);
-  for(const name of ['plan.md','pools.json','schedule.json']) fs.copyFileSync(new URL(name,curriculum),path.join(root,'curriculum',name));
+  for(const name of ['plan.md','pools.json','schedule.json','english-titles.json']) fs.copyFileSync(new URL(name,curriculum),path.join(root,'curriculum',name));
   fs.writeFileSync(path.join(root,'curriculum/records.json'),'[]\n');
   fs.writeFileSync(path.join(root,'.gitignore'),'.psf/\n');
   git(root,['init','-b','main']);
@@ -201,4 +202,62 @@ test('Rider registration adds all files to vcxproj and filters exactly once', {s
   assert.equal(fs.readFileSync(vcx,'utf8'),before);
   assert.equal(fs.readFileSync(vcx+'.filters','utf8'),filters);
   assert.equal(fs.readdirSync(path.join(project,'.psf-project-backups')).length,1);
+});
+
+test('automatic commit uses backslashes, platform groups, translations and only confirmed problems',()=>{
+  const session={week:3,day:5,entries:[
+    {key:'programmers:42748',title:'프로그래머스 · K번째수'},
+    {key:'leetcode:richest-customer-wealth'},
+    {key:'cses:1068',title:'CSES · Weird Algorithm'},
+    {key:'leetcode:running-sum-of-1d-array'},
+    {key:'leetcode:unsubmitted'},
+  ]};
+  const decisions=session.entries.map(e=>({key:e.key,accepted:e.key!=='leetcode:unsubmitted'}));
+  decisions.push(decisions[0]);
+  assert.equal(formatCommitMessage(session,decisions,{'programmers:42748':'Number K'}),
+    'Solved Week 3 Day 5 \\ LeetCode: richest-customer-wealth, running-sum-of-1d-array \\ CSES: Weird Algorithm \\ Programmers: Number K');
+  assert.throws(()=>formatCommitMessage(session,decisions,{}),/영문 제목/);
+  assert.throws(()=>formatCommitMessage(session,[],{}),/정답/);
+});
+
+test('all planned Programmers problems have an English commit title',()=>{
+  const titles=JSON.parse(fs.readFileSync(new URL('english-titles.json',curriculum),'utf8'));
+  const problems=parsePlan(fs.readFileSync(new URL('plan.md',curriculum),'utf8')).flatMap(d=>d.problems)
+    .filter(p=>p.key.startsWith('programmers:'));
+  assert.equal(problems.length,56);
+  for(const p of problems) assert.match(titles[p.key] || '',/^[A-Za-z0-9][A-Za-z0-9 ,'-]*$/);
+});
+
+test('automatic commit is pushed to a local bare remote without a message or push prompt',t=>{
+  const {root,project}=fixture(t);
+  const remote=path.join(path.dirname(root),'remote.git');
+  git(root,['init','--bare',remote]);
+  git(root,['remote','add','origin',remote]);
+  git(root,['push','--set-upstream','origin','main']);
+  const data=build(root).data;
+  const session=prepareSession(root,project,data.days[0],dayOptions(data,data.days[0]).slice(0,2));
+  for(const e of session.entries) fs.writeFileSync(path.join(project,e.localFile),'int main(){}');
+  const result=commitAndPush(root,session,session.entries.map(e=>({key:e.key,accepted:true,usedHint:false})),'2026-09-15');
+  assert.equal(result.message,'Solved Week 1 Day 1 \\ CSES: Weird Algorithm, Missing Number');
+  assert.equal(git(remote,['rev-parse','refs/heads/main']),result.commit);
+  assert.equal(git(remote,['log','main','-1','--format=%B']),result.message);
+  assert.equal(git(root,['status','--porcelain']),'');
+});
+
+test('failed automatic push preserves the commit and can be retried without new records',t=>{
+  const {root,project}=fixture(t);
+  const data=build(root).data;
+  const session=prepareSession(root,project,data.days[0],dayOptions(data,data.days[0]).slice(0,1));
+  fs.writeFileSync(path.join(project,'1068.cpp'),'int main(){}');
+  assert.throws(()=>commitAndPush(root,session,[{key:'cses:1068',accepted:true,usedHint:false}]),/로컬 커밋은 보존/);
+  const head=git(root,['rev-parse','HEAD']);
+  assert.equal(pendingEntries(root,session).length,0);
+  const remote=path.join(path.dirname(root),'retry.git');
+  git(root,['init','--bare',remote]);
+  git(root,['remote','add','origin',remote]);
+  git(root,['config','branch.main.remote','origin']);
+  git(root,['config','branch.main.merge','refs/heads/main']);
+  pushUploads(root);
+  assert.equal(git(remote,['rev-parse','refs/heads/main']),head);
+  assert.equal(JSON.parse(fs.readFileSync(path.join(root,'curriculum/records.json'),'utf8')).length,1);
 });
