@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "repository": "Nu-LungJi/Problem-Solving-Factory",
-  "accepted": 2,
+  "accepted": 5,
   "registered": 254,
   "target": 208,
   "days": [
@@ -41,7 +41,7 @@
             "problemId": "fizz-buzz",
             "title": "Fizz Buzz",
             "url": "https://leetcode.com/problems/fizz-buzz/",
-            "solved": false
+            "solved": true
           },
           {
             "key": "leetcode:palindrome-number",
@@ -49,7 +49,7 @@
             "problemId": "palindrome-number",
             "title": "Palindrome Number",
             "url": "https://leetcode.com/problems/palindrome-number/",
-            "solved": false
+            "solved": true
           },
           {
             "key": "leetcode:add-digits",
@@ -57,21 +57,21 @@
             "problemId": "add-digits",
             "title": "Add Digits",
             "url": "https://leetcode.com/problems/add-digits/",
-            "solved": false
+            "solved": true
           }
         ],
-        "solved": 0,
-        "credited": 0,
-        "complete": false
+        "solved": 3,
+        "credited": 2,
+        "complete": true
       },
       "requiredSolved": 2,
-      "newSolved": 2,
+      "newSolved": 4,
       "reviewAttempts": 0,
       "reviewSolved": 0,
-      "done": 2,
+      "done": 4,
       "total": 4,
-      "percent": 50,
-      "complete": false,
+      "percent": 100,
+      "complete": true,
       "manualComplete": false,
       "completionBasis": "objective"
     },
@@ -4484,10 +4484,10 @@
   "weeks": [
     {
       "week": 1,
-      "done": 2,
+      "done": 4,
       "total": 30,
-      "percent": 6.67,
-      "completedDays": 0,
+      "percent": 13.33,
+      "completedDays": 1,
       "totalDays": 7,
       "complete": false
     },
@@ -4592,10 +4592,10 @@
     }
   ],
   "overall": {
-    "done": 2,
+    "done": 4,
     "total": 283,
-    "percent": 0.71,
-    "completedDays": 0,
+    "percent": 1.41,
+    "completedDays": 1,
     "totalDays": 84,
     "complete": false,
     "completedWeeks": 0,
@@ -4609,6 +4609,18 @@
     },
     "cses:1083": {
       "code": "solutions/cses/1083.cpp",
+      "evidence": "사용자 정답 확인"
+    },
+    "leetcode:add-digits": {
+      "code": "solutions/leetcode/add-digits.cpp",
+      "evidence": "사용자 정답 확인"
+    },
+    "leetcode:fizz-buzz": {
+      "code": "solutions/leetcode/fizz-buzz.cpp",
+      "evidence": "사용자 정답 확인"
+    },
+    "leetcode:palindrome-number": {
+      "code": "solutions/leetcode/palindrome-number.cpp",
       "evidence": "사용자 정답 확인"
     }
   }

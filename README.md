@@ -2,15 +2,15 @@
 
 [전체 커리큘럼](https://github.com/Nu-LungJi/Problem-Solving-Factory/blob/main/curriculum/plan.md) · [수동 기록 방법](https://github.com/Nu-LungJi/Problem-Solving-Factory/blob/main/curriculum/README.md)
 
-**등록 문제 해결: 2/254** · 신규 학습 목표: 208문제
+**등록 문제 해결: 5/254** · 신규 학습 목표: 208문제
 
 필수 144문제와 Day별 후보 풀에서 선택하는 64문제를 합쳐 신규 목표는 208문제입니다. 후보를 전부 풀 필요는 없습니다. 후보 밖의 기존 수동 기록은 보존하지만 목표를 대체하지 않습니다. 업로드는 독립 해결·학습 완료의 증명이 아닙니다. BaekjoonHub 형식은 업로드 관례를 신뢰하며 온라인 저지에 재조회하지 않습니다. Day·Week 객관적 풀이 목표는 자동 계산하며 개념·오답 정리 체크는 원본 커리큘럼에서 직접 관리합니다.
 
-**전체 목표 진도: 2/283 (0.71%)** · 완료 Day 0/84 · Week 0/12
+**전체 목표 진도: 4/283 (1.41%)** · 완료 Day 1/84 · Week 0/12
 
 | Week | 자동 목표 진도 | 완료 Day | Week 완료 |
 |---|---:|---:|---|
-| 1 | 2/30 (6.67%) | 0/7 | 미완료 |
+| 1 | 4/30 (13.33%) | 1/7 | 미완료 |
 | 2 | 0/30 (0%) | 0/7 | 미완료 |
 | 3 | 0/24 (0%) | 0/7 | 미완료 |
 | 4 | 0/24 (0%) | 0/7 | 미완료 |
@@ -25,7 +25,7 @@
 
 | Week | 등록 문제 해결/등록 수 | 신규 목표 | 기록된 재풀이 시도/목표 |
 |---|---:|---:|---:|
-| 1 | 2/30 | 24 | 0/6 |
+| 1 | 5/30 | 24 | 0/6 |
 | 2 | 0/30 | 24 | 0/6 |
 | 3 | 0/24 | 18 | 0/6 |
 | 4 | 0/24 | 18 | 0/6 |
@@ -42,16 +42,16 @@
 
 ### Day 1 — 신규 목표 4 / 재풀이 목표 0
 
-- [ ] Day 1 풀이 목표 완료 · 2/4 (50%)
+- [x] Day 1 풀이 목표 완료 · 4/4 (100%)
 
 - [x] [CSES · Weird Algorithm](https://cses.fi/problemset/task/1068/) · [C++ 풀이](https://github.com/Nu-LungJi/Problem-Solving-Factory/blob/main/solutions/cses/1068.cpp) · 사용자 정답 확인
 - [x] [CSES · Missing Number](https://cses.fi/problemset/task/1083/) · [C++ 풀이](https://github.com/Nu-LungJi/Problem-Solving-Factory/blob/main/solutions/cses/1083.cpp) · 사용자 정답 확인
 
-추가 후보 3개 중 2개 해결 필요 · 현재 0개 해결 · 목표 반영 0/2
+추가 후보 3개 중 2개 해결 필요 · 현재 3개 해결 · 목표 반영 2/2
 
-- [ ] [Fizz Buzz](https://leetcode.com/problems/fizz-buzz/) · leetcode:fizz-buzz
-- [ ] [Palindrome Number](https://leetcode.com/problems/palindrome-number/) · leetcode:palindrome-number
-- [ ] [Add Digits](https://leetcode.com/problems/add-digits/) · leetcode:add-digits
+- [x] [Fizz Buzz](https://leetcode.com/problems/fizz-buzz/) · leetcode:fizz-buzz
+- [x] [Palindrome Number](https://leetcode.com/problems/palindrome-number/) · leetcode:palindrome-number
+- [x] [Add Digits](https://leetcode.com/problems/add-digits/) · leetcode:add-digits
 
 ### Day 2 — 신규 목표 4 / 재풀이 목표 0
 
