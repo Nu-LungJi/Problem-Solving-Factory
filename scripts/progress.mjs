@@ -1,6 +1,8 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { pathToFileURL } from 'node:url';
+import { adapters } from './adapters.mjs';
+import { calculate } from './calculate.mjs';
 
 export function problemKey(url) {
   const u = new URL(url);
@@ -25,18 +27,18 @@ export function parsePlan(text) {
     const cells = line.split('|').slice(1, -1).map(s => s.trim());
     const problems = [...cells[3].matchAll(/\[([^\]]+)\]\((https:\/\/[^)]+)\)/g)]
       .map(m => ({ key: problemKey(m[2]), title: m[1], url: m[2] }));
-    days.push({ week, day: Number(cells[1]), goal: cells[2],
+    days.push({ id: `week-${week}-day-${cells[1]}`, week, day: Number(cells[1]), goal: cells[2],
       target: Number(cells[4]), reviewTarget: Number(cells[5]), problems });
   }
   if (days.length !== 84 || new Set(days.map(d => d.week + ':' + d.day)).size !== 84)
     throw new Error('커리큘럼은 중복 없는 84일이어야 합니다.');
-  if (days.some(d => !Number.isInteger(d.target) || !Number.isInteger(d.reviewTarget)))
+  if (days.some(d => d.week < 1 || d.week > 12 || !Number.isInteger(d.target) || d.target < 0 || !Number.isInteger(d.reviewTarget) || d.reviewTarget < 0))
     throw new Error('일일 목표 수 오류');
   return days;
 }
 
 function walk(root, current = '') {
-  return fs.readdirSync(path.join(root, current), { withFileTypes: true }).flatMap(e => {
+  return fs.readdirSync(path.join(root, current), { withFileTypes: true }).sort((a,b) => a.name.localeCompare(b.name, 'en')).flatMap(e => {
     if (e.isSymbolicLink() || ['.git', '.github', 'node_modules', 'generated', 'tests'].includes(e.name)) return [];
     const rel = path.posix.join(current, e.name);
     return e.isDirectory() ? walk(root, rel) : [rel];
@@ -58,17 +60,17 @@ function safeFile(root, rel) {
 
 export function collect(root, days, records) {
   const solved = new Map();
-  // BaekjoonHub가 만드는 플랫폼 폴더 + 문제 README + C++ 코드 조합만 가져온다.
+  const read = rel => {
+    const file = path.join(root, rel);
+    if (!fs.existsSync(file) || fs.lstatSync(file).isSymbolicLink()) return '';
+    return fs.readFileSync(file, 'utf8');
+  };
   for (const file of walk(root)) {
-    if (!/\.(cpp|cc|cxx)$/i.test(file) || !file.split('/').includes('프로그래머스')) continue;
-    const dir = path.posix.dirname(file);
-    const id = /^(\d+)\./.exec(path.posix.basename(dir))?.[1];
-    const readme = path.join(root, dir, 'README.md');
-    if (!id || !fs.existsSync(readme) || !fs.readFileSync(path.join(root, file), 'utf8').trim()) continue;
-    const text = fs.readFileSync(readme, 'utf8');
-    const urls = [...text.matchAll(/https:\/\/school\.programmers\.co\.kr\/learn\/courses\/30\/lessons\/(\d+)/g)];
-    if (!urls.some(m => m[1] === id)) continue;
-    solved.set('programmers:' + id, { code: file, evidence: 'BaekjoonHub 형식의 업로드' });
+    if (!/\.(cpp|cc|cxx)$/i.test(file) || !read(file).trim()) continue;
+    for (const adapter of adapters) {
+      const event = adapter(file, read);
+      if (event && !solved.has(event.key)) solved.set(event.key, { code: safeFile(root, file), evidence: event.evidence });
+    }
   }
   if (!Array.isArray(records)) throw new Error('records.json은 배열이어야 합니다.');
   const recordIds = new Set();
@@ -79,7 +81,7 @@ export function collect(root, days, records) {
   }
   const reviews = [];
   for (const r of records) {
-    if (!r.id || recordIds.has(r.id)) throw new Error('중복 또는 누락된 기록 id');
+    if (typeof r?.id !== 'string' || !r.id.trim() || recordIds.has(r.id)) throw new Error('중복 또는 누락된 기록 id');
     recordIds.add(r.id);
     const day = days.find(d => d.week === r.week && d.day === r.day);
     if (!day) throw new Error('기록의 week/day 오류: ' + r.id);
@@ -87,7 +89,7 @@ export function collect(root, days, records) {
         !['accepted', 'attempted'].includes(r.result) ||
         typeof r.usedHint !== 'boolean' ||
         !/^\d{4}-\d{2}-\d{2}$/.test(r.date) ||
-        Number.isNaN(Date.parse(r.date))) throw new Error('기록 필드 오류: ' + r.id);
+        Number.isNaN(Date.parse(r.date)) || new Date(r.date).toISOString().slice(0,10) !== r.date) throw new Error('기록 필드 오류: ' + r.id);
     const key = problemKey(r.url);
     const code = safeFile(root, r.code);
     if (r.kind === 'solve' && !assigned.has(key)) {
@@ -107,9 +109,11 @@ export function collect(root, days, records) {
 const escape = s => String(s).replace(/[|]/g, '&#124;').replace(/[\r\n]/g, ' ').replace(/[<>]/g, '');
 export function build(root, repo = 'Nu-LungJi/Problem-Solving-Factory') {
   if (!/^[\w.-]+\/[\w.-]+$/.test(repo)) throw new Error('저장소 이름 오류');
-  const days = parsePlan(fs.readFileSync(path.join(root, 'curriculum/plan.md'), 'utf8'));
+  const plan = fs.readFileSync(path.join(root, 'curriculum/plan.md'), 'utf8');
+  const days = parsePlan(plan);
   const records = JSON.parse(fs.readFileSync(path.join(root, 'curriculum/records.json'), 'utf8'));
   const { solved, reviews } = collect(root, days, records);
+  const progress = calculate(days, solved, reviews, plan);
   const planned = new Set(days.flatMap(d => d.problems.map(p => p.key)));
   const accepted = [...planned].filter(k => solved.has(k)).length;
   const target = days.reduce((s, d) => s + d.target, 0);
@@ -119,7 +123,11 @@ export function build(root, repo = 'Nu-LungJi/Problem-Solving-Factory') {
   md += '**등록 문제 해결: ' + accepted + '/' + planned.size + '** · 신규 학습 목표: ' + target + '문제\n\n';
   md += '지정 문제 144개와 직접 등록한 추가 문제를 집계합니다. 208문제 목표에는 아직 선택하지 않은 추가 문제도 포함됩니다. ';
   md += '업로드는 독립 해결·학습 완료의 증명이 아닙니다. BaekjoonHub 형식은 업로드 관례를 신뢰하며 온라인 저지에 재조회하지 않습니다. ';
-  md += 'Day·Week 학습 완료 체크는 원본 커리큘럼에서 직접 관리합니다.\n\n';
+  md += 'Day·Week 객관적 풀이 목표는 자동 계산하며 개념·오답 정리 체크는 원본 커리큘럼에서 직접 관리합니다.\n\n';
+  md += `**전체 목표 진도: ${progress.overall.done}/${progress.overall.total} (${progress.overall.percent}%)** · 완료 Day ${progress.overall.completedDays}/84 · Week ${progress.overall.completedWeeks}/12\n\n`;
+  md += '| Week | 자동 목표 진도 | 완료 Day | Week 완료 |\n|---|---:|---:|---|\n';
+  for (const w of progress.weeks) md += `| ${w.week} | ${w.done}/${w.total} (${w.percent}%) | ${w.completedDays}/${w.totalDays} | ${w.complete ? '✅' : '미완료'} |\n`;
+  md += '\n';
   md += '| Week | 등록 문제 해결/등록 수 | 신규 목표 | 기록된 재풀이 시도/목표 |\n|---|---:|---:|---:|\n';
   for (let w = 1; w <= 12; w++) {
     const ds = days.filter(d => d.week === w);
@@ -132,6 +140,8 @@ export function build(root, repo = 'Nu-LungJi/Problem-Solving-Factory') {
     md += '\n## Week ' + w + '\n\n';
     for (const d of days.filter(d => d.week === w)) {
       md += '### Day ' + d.day + ' — 신규 목표 ' + d.target + ' / 재풀이 목표 ' + d.reviewTarget + '\n\n';
+      const status = progress.days.find(s => s.id === d.id);
+      md += `- [${status.complete ? 'x' : ' '}] Day ${d.day} ${status.completionBasis === 'manual' ? '수동 목표' : '풀이 목표'} 완료 · ${status.done}/${status.total} (${status.percent}%)\n\n`;
       if (!d.problems.length) md += '신규 지정 문제 없음. 복습·오답·학습 완료는 직접 기록하세요.\n\n';
       for (const p of d.problems) {
         const result = solved.get(p.key);
@@ -147,8 +157,8 @@ export function build(root, repo = 'Nu-LungJi/Problem-Solving-Factory') {
       md += '\n';
     }
   }
-  return { markdown: md, data: { repository: repo, accepted, registered: planned.size,
-    target, days, reviews, evidence: Object.fromEntries(solved) } };
+  return { markdown: md, data: { schemaVersion: 2, repository: repo, accepted, registered: planned.size,
+    target, ...progress, reviews, evidence: Object.fromEntries([...solved].sort(([a],[b]) => a.localeCompare(b, 'en'))) } };
 }
 
 if (process.argv[1] && import.meta.url === pathToFileURL(path.resolve(process.argv[1])).href) {

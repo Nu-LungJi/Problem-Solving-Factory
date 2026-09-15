@@ -12,4 +12,11 @@ C++ 코딩테스트 풀이와 12주 학습 기록을 관리합니다.
 자동 진도표는 첫 Actions 실행이 성공한 뒤 열립니다.
 
 학습량은 신규 208문제와 재풀이 75회입니다. 지정 문제 144개 외에 추가 선택 문제를 등록해 목표를 채웁니다.
-Day·Week 학습 완료, 오답 정리와 힌트 사용은 직접 기록합니다.
+v2는 프로그래머스 업로드와 `solutions/cses/<문제번호>.cpp`,
+`solutions/leetcode/<slug>.cpp`를 감지해 문제 → Day → Week → 전체 진도를 계산합니다.
+정답 확인을 마친 코드만 이 경로에 저장하세요. 재풀이는 별도 기록이 필요합니다.
+오답 정리·개념 학습·힌트 사용은 직접 기록합니다.
+
+진도표의 `progress.json`은 자동 계산 결과의 기준 파일입니다.
+로컬에서는 `node --test tests/*.test.mjs`로 검사하고 `node scripts/progress.mjs`로
+`generated/README.md`와 `generated/progress.json`을 생성할 수 있습니다.

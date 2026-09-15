@@ -74,3 +74,81 @@ test('problem identity ignores query and fragments',()=>{
   assert.equal(problemKey('https://leetcode.com/problems/two-sum/?x=1#test'),'leetcode:two-sum');
   assert.throws(()=>problemKey('https://example.com/problems/two-sum/'));
 });
+
+test('local CSES and LeetCode adapters advance assigned problems only', t => {
+  const root = fixture(t);
+  write(root, 'solutions/cses/1068.cpp', 'int main() {}');
+  write(root, 'solutions/leetcode/valid-anagram.cpp', 'class Solution {};');
+  write(root, 'solutions/cses/1068.cc', 'int main() {}');
+  write(root, 'solutions/cses/1083.cpp', '   ');
+  write(root, 'solutions/cses/999999.cpp', 'int main() {}');
+  const { data } = build(root);
+  assert.equal(data.schemaVersion, 2);
+  assert.equal(data.accepted, 2);
+  assert.equal(data.days[0].newSolved, 1);
+  assert.equal(data.days[0].complete, false);
+  assert.equal(data.overall.done, 2);
+  assert.equal(data.days.flatMap(d => d.problems).find(p => p.key === 'leetcode:valid-anagram').solved, true);
+});
+
+test('real week fixture reaches Day then Week completion without modifying the plan', t => {
+  const root = fixture(t);
+  const week = parsePlan(plan).filter(d => d.week === 1);
+  const records = [];
+  const record = (d, url, kind, index) => {
+    const code = `manual/${kind}-${d.day}-${index}.cpp`;
+    write(root, code, 'int main() {}');
+    records.push({ id: `${kind}-${d.day}-${index}`, date: '2026-09-15', week: 1,
+      day: d.day, url, code, kind, result: 'accepted', usedHint: false });
+  };
+  for (const d of week) {
+    d.problems.forEach((p,i) => record(d, p.url, 'solve', i));
+    for (let i = d.problems.length; i < d.target; i++)
+      record(d, `https://cses.fi/problemset/task/${90000 + d.day * 10 + i}/`, 'solve', i);
+  }
+  write(root, 'curriculum/records.json', JSON.stringify(records));
+  let data = build(root).data;
+  assert.equal(data.weeks[0].completedDays, 6);
+  assert.equal(data.weeks[0].complete, false);
+  assert.equal(data.days[6].reviewSolved, 0);
+  for (let i = 0; i < 6; i++) record(week[6], week[0].problems[0].url, 'review', i);
+  write(root, 'curriculum/records.json', JSON.stringify(records));
+  data = build(root).data;
+  assert.equal(data.weeks[0].complete, true);
+  assert.equal(data.weeks[0].percent, 100);
+  assert.equal(data.overall.completedWeeks, 1);
+  assert.equal(data.overall.done, 30);
+  assert.equal(data.overall.total, 283);
+  assert.equal(fs.readFileSync(path.join(root, 'curriculum/plan.md'), 'utf8'), plan);
+  assert.deepEqual(build(root).data, data);
+});
+
+test('failed reviews do not finish review goals; manual-only day uses original checklist', t => {
+  const root = fixture(t);
+  write(root, 'manual/review.cpp', 'int main() {}');
+  write(root, 'curriculum/records.json', JSON.stringify([{
+    id: 'review', date: '2026-09-15', week: 1, day: 7,
+    url: 'https://cses.fi/problemset/task/1068/', code: 'manual/review.cpp',
+    kind: 'review', result: 'attempted', usedHint: false,
+  }]));
+  let data = build(root).data;
+  assert.equal(data.days[6].reviewAttempts, 1);
+  assert.equal(data.days[6].reviewSolved, 0);
+  assert.equal(data.days[83].complete, false);
+  write(root, 'curriculum/plan.md', plan.replace('- [ ] W12-D7:', '- [x] W12-D7:'));
+  data = build(root).data;
+  assert.equal(data.days[83].complete, true);
+  assert.equal(data.days[83].completionBasis, 'manual');
+});
+
+test('rejects invalid dates and competing owners for extra problems', t => {
+  const root = fixture(t);
+  write(root, 'manual/a.cpp', 'int main() {}');
+  const r = {id:'a',date:'2026-02-30',week:1,day:1,url:'https://cses.fi/problemset/task/999999/',
+    code:'manual/a.cpp',kind:'solve',result:'accepted',usedHint:false};
+  write(root,'curriculum/records.json',JSON.stringify([r]));
+  assert.throws(() => build(root), /기록 필드/);
+  r.date = '2026-09-15';
+  write(root,'curriculum/records.json',JSON.stringify([r, {...r,id:'b',day:2}]));
+  assert.throws(() => build(root), /중복 등록/);
+});
