@@ -1,5 +1,8 @@
 # 진도 기록 사용법
 
+Windows의 **PSF_START.bat / PSF_UPLOAD.bat**을 사용하면 파일 준비·기록 작성·커밋을 자동화할 수 있습니다.
+[설치 경로·사용 순서](windows-workflow.md). 일정은 [schedule.json](schedule.json)의 2026-09-15부터 하루에 한 Day입니다.
+
 ## 자동 업로드
 
 BaekjoonHub를 이 저장소에 연결한 뒤 프로그래머스 C++ 정답 풀이가 업로드되면 자동 진도 갱신이 실행됩니다. 플랫폼별 폴더와 언어별 폴더 양쪽을 지원합니다. 기존 풀이 폴더 이름을 바꿀 필요가 없습니다.

@@ -4,11 +4,11 @@ import path from 'node:path';
 // Add platform conventions here without changing the progress calculator.
 export const adapters = [
   file => {
-    const match = /^solutions\/(cses|leetcode)\/([^/]+)\.(cpp|cc|cxx)$/i.exec(file);
+    const match = /^solutions\/(cses|leetcode|programmers)\/([^/]+)\.(cpp|cc|cxx)$/i.exec(file);
     if (!match) return null;
     const platform = match[1].toLowerCase();
     const id = match[2].toLowerCase();
-    if (!(platform === 'cses' ? /^\d+$/ : /^[a-z0-9]+(?:-[a-z0-9]+)*$/).test(id)) return null;
+    if (!(platform !== 'leetcode' ? /^\d+$/ : /^[a-z0-9]+(?:-[a-z0-9]+)*$/).test(id)) return null;
     return { key: `${platform}:${id}`, evidence: '정답 확인 후 저장한 로컬 풀이' };
   },
   (file, read) => {

@@ -2,6 +2,11 @@
 
 C++ 코딩테스트 풀이와 12주 학습 기록을 관리합니다.
 
+Windows에서는 **PSF_START.bat**으로 오늘 문제 파일을 준비하고 Rider를 열고,
+**PSF_UPLOAD.bat**으로 정답 코드·기록을 복사한 뒤 직접 입력한 메시지로 커밋합니다.
+시작일은 **2026-09-15 = Week 1 Day 1**, 이후 매일 Day 하나씩 진행합니다.
+[배치 파일 사용법](curriculum/windows-workflow.md)
+
 - [12주 커리큘럼 — Week·Day 목표와 완료 체크](curriculum/plan.md)
 - [자동 진도표](https://github.com/Nu-LungJi/Problem-Solving-Factory/tree/progress)
 - [추가 문제·CSES·LeetCode·재풀이 기록 방법](curriculum/README.md)
