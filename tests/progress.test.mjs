@@ -45,7 +45,7 @@ test('imports language folders, deduplicates, and ignores mismatched README', t 
   write(root,'프로그래머스/1/42577.전화번호/README.md','https://school.programmers.co.kr/learn/courses/30/lessons/99999');
   const r=build(root);
   assert.equal(r.data.accepted,1);
-  assert.match(r.markdown,/\[x\].*완주하지 못한 선수/);
+  assert.match(r.markdown,/✅.*완주하지 못한 선수/);
 });
 test('manual accepted plus repeat attempts; extra problem only assigned once', t => {
   const root=fixture(t);
@@ -155,6 +155,16 @@ test('rejects invalid dates and competing owners for extra problems', t => {
   assert.throws(() => build(root), /중복 등록/);
 });
 
+test('generated progress preserves the merged weekly table and 84 grouped Day views',t=>{
+  const {markdown}=build(fixture(t));
+  assert.equal((markdown.match(/\| Week \|/g)||[]).length,1);
+  assert.equal((markdown.match(/<details(?: open)?>/g)||[]).length,84);
+  assert.equal((markdown.match(/<\/details>/g)||[]).length,84);
+  assert.equal((markdown.match(/^## Week /gm)||[]).length,12);
+  assert.match(markdown,/등록 문제 해결 \| 신규 목표 \| 재풀이 시도 \/ 목표 \| 상태/);
+  assert.match(markdown,/\| 상태 \| 구분 \| 플랫폼 \| 문제 \| 풀이 \/ 기록 \|/);
+});
+
 test('all 84 pools preserve targets, are unique, and match plan links', () => {
   const days = attachPools(parsePlan(plan), structuredClone(pools), problemKey);
   assert.equal(days.filter(d => d.additional.required > 0).length, 46);
@@ -193,7 +203,7 @@ test('N-of-M candidate files advance Day and overall without requiring every can
   assert.equal(data.days[0].additional.candidates[2].solved, false);
   assert.equal(data.weeks[0].completedDays, 1);
   assert.equal(data.overall.done, 4);
-  assert.match(build(root).markdown, /후보 3개 중 2개 해결 필요 · 현재 2개 해결/);
+  assert.match(build(root).markdown, /3개 중 2개 \| 2개 해결 · 2\/2 반영/);
   solve(candidates[2]);
   data = build(root).data;
   assert.equal(data.days[0].additional.solved, 3);

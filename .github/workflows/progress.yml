@@ -40,6 +40,8 @@ jobs:
         run: node --test tests/*.test.mjs
       - name: Build progress
         run: node scripts/progress.mjs "$RUNNER_TEMP/curriculum-progress"
+      - name: Build activity image
+        run: node scripts/activity.mjs "$RUNNER_TEMP/activity.svg"
       - name: Publish only to progress branch
         shell: bash
         run: |
@@ -64,3 +66,21 @@ jobs:
           fi
           git commit -m "Update curriculum progress"
           git push origin HEAD:refs/heads/progress
+      - name: Publish activity image to main
+        shell: bash
+        run: |
+          set -euo pipefail
+          git fetch origin main
+          if [ "$(git rev-parse HEAD)" != "$(git rev-parse origin/main)" ]; then
+            echo "A newer main run will publish its activity image"
+            exit 0
+          fi
+          mkdir -p assets
+          cp "$RUNNER_TEMP/activity.svg" assets/activity.svg
+          git add -- assets/activity.svg
+          if git diff --cached --quiet; then
+            echo "No activity changes"
+            exit 0
+          fi
+          git commit -m "Update solving activity image"
+          git push origin HEAD:refs/heads/main

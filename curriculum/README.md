@@ -63,6 +63,12 @@ CSES는 `solutions/cses/1068.cpp`, LeetCode는 `solutions/leetcode/two-sum.cpp`�
 
 PR에서는 읽기 권한으로 테스트합니다. main 푸시 또는 main에서 수동 실행 시 테스트 성공 후 게시 작업에만 `contents: write`를 부여합니다. 별도 Git worktree에서 README와 progress.json만 추가하고 변경이 있을 때만 커밋합니다. progress 브랜치 푸시는 재실행을 유발하지 않으며 강제 푸시는 사용하지 않습니다.
 
+main README의 잔디는 `assets/activity.svg`이며 같은 Actions 실행에서 변경된 이미지 파일만 main에 커밋합니다. 게시 전 main이 더 진행되었으면 다음 실행에 맡기며 강제 push하지 않습니다. 자동화 토큰의 커밋으로 워크플로가 반복 실행되지 않습니다.
+
+잔디는 `records.json`에 날짜가 있는 정답 기록만 집계합니다. 최초 해결은 문제당 1회, 재풀이는 커리큘럼 Day·문제당 1회이며 실패 시도는 제외합니다. 파일 자동 감지로 해결됐어도 날짜 기록이 없으면 잔디에는 포함하지 않습니다. 신규 후보 초과 풀이도 활동에는 포함되므로 목표 진도율과 수치가 다를 수 있습니다. 로컬 생성은 `node scripts/activity.mjs`입니다.
+
+progress README의 통합 주간 표와 접을 수 있는 Day별 표는 `scripts/progress-layout.mjs`에서 생성하므로 자동 갱신 후에도 유지됩니다.
+
 ## 첫 실행과 점검
 
 1. 이 구성을 main에 반영합니다.

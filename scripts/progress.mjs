@@ -4,6 +4,7 @@ import { pathToFileURL } from 'node:url';
 import { adapters } from './adapters.mjs';
 import { calculate } from './calculate.mjs';
 import { attachPools } from './pools.mjs';
+import { formatProgressMarkdown } from './progress-layout.mjs';
 
 export function problemKey(url) {
   const u = new URL(url);
@@ -162,7 +163,7 @@ export function build(root, repo = 'Nu-LungJi/Problem-Solving-Factory') {
       md += '\n';
     }
   }
-  return { markdown: md, data: { schemaVersion: 2, repository: repo, accepted, registered: planned.size,
+  return { markdown: formatProgressMarkdown(md), data: { schemaVersion: 2, repository: repo, accepted, registered: planned.size,
     target, ...progress, reviews, evidence: Object.fromEntries([...solved].sort(([a],[b]) => a.localeCompare(b, 'en'))) } };
 }
 
