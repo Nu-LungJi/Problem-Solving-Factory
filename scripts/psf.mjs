@@ -87,36 +87,73 @@ export function parseSelection(text, count) {
   return [...new Set(values.map(s=>+s-1))];
 }
 
-export function prepareSession(root, project, day, selected, date = localDate()) {
+export function prepareSession(root, project, day, selected, date = localDate(), previous = null) {
   if (!selected.length) throw new Error('선택한 문제가 없습니다.');
   fs.mkdirSync(project, { recursive: true });
-  const session = { version:1, id:randomUUID(), date, week:day.week, day:day.day,
+  const reuse = previous?.week===day.week && previous?.day===day.day && previous?.project===fs.realpathSync(project);
+  const session = { version:1, id:reuse ? previous.id : randomUUID(), date, week:day.week, day:day.day,
     project:fs.realpathSync(project), entries:[] };
   for (const p of selected) {
+    const prior = reuse && previous.entries.find(e=>e.key===p.key);
     const { platform, problemId } = identity(p);
     const prefix = platform === 'programmers' ? 'programmers-' : '';
-    const localFile = p.kind === 'review' ? `${prefix}${problemId}-review-${session.id.slice(0,8)}.cpp` : `${prefix}${problemId}.cpp`;
+    const localFile = prior?.localFile || (p.kind === 'review' ? `${prefix}${problemId}-review-${session.id.slice(0,8)}.cpp` : `${prefix}${problemId}.cpp`);
     const dest = p.kind === 'review' ? `solutions/reviews/week-${day.week}-day-${day.day}/${platform}/${problemId}-${session.id}.cpp`
       : `solutions/${platform}/${problemId}.cpp`;
     const file = inside(project, localFile);
     const template = `// ${p.url}\n// Week ${day.week} Day ${day.day}\n` +
       (platform === 'cses' ? '#include <iostream>\n#include <vector>\n#include <algorithm>\n\nint main() {\n    std::ios::sync_with_stdio(false);\n    std::cin.tie(nullptr);\n    // TODO: implement your solution.\n    return 0;\n}\n'
         : '// Paste the platform function signature, then implement your solution.\n#include <string>\n#include <vector>\n#include <algorithm>\nusing namespace std;\n\n');
-    let templateHash = null;
+    let templateHash = prior?.templateHash || (fs.existsSync(file) && hash(fs.readFileSync(file))===hash(template) ? hash(template) : null);
     if (!fs.existsSync(file)) {
       fs.writeFileSync(file, template, { flag:'wx' });
       templateHash = hash(template);
     }
     session.entries.push({ key:p.key, url:p.url, title:p.title, platform, problemId, kind:p.kind || 'solve',
-      localFile, dest, templateHash, uploadedHash:null });
+      localFile, dest, templateHash, uploadedHash:prior?.uploadedHash || null, ...(prior?.recordId ? {recordId:prior.recordId} : {}) });
   }
   const sessionFile = inside(root, '.psf/session.json');
-  if (fs.existsSync(sessionFile)) {
+  if (fs.existsSync(sessionFile) && !reuse) {
     const old = readJson(sessionFile);
     saveJson(inside(root, `.psf/history/${randomUUID()}.json`), old);
   }
   saveJson(sessionFile, session);
   return session;
+}
+
+// Existing drafts occupy their candidate slot; rerunning START must not create extra candidates.
+export function prepareToday(root, project, date = localDate()) {
+  const scheduled=calendarDay(readJson(path.join(root,'curriculum/schedule.json')),date);
+  if(!scheduled) return {session:null, message:`${date}: 12주 일정 기간 밖입니다.`};
+  const data=build(root).data;
+  const day=data.days.find(d=>d.week===scheduled.week && d.day===scheduled.day);
+  if(!day.total) return {session:null,message:`Week ${day.week} Day ${day.day}: 수동 학습일입니다.`};
+  fs.mkdirSync(project,{recursive:true});
+  const sessionFile=inside(root,'.psf/session.json');
+  const previous=fs.existsSync(sessionFile)?readJson(sessionFile):null;
+  const same=previous?.week===day.week && previous?.day===day.day && previous?.project===fs.realpathSync(project);
+  const pendingKeys=new Set(same?previous.entries.map(e=>e.key):[]);
+  const options=dayOptions(data,day);
+  const reviewed=new Set(data.reviews.filter(r=>r.week===day.week && r.day===day.day && r.result==='accepted').map(r=>r.key));
+  const remaining=options.filter(p=>day.reviewTarget?!reviewed.has(p.key):!data.evidence[p.key]);
+  const existing=p=>{
+    const prior=same && previous.entries.find(e=>e.key===p.key);
+    if(prior) return fs.existsSync(inside(project,prior.localFile));
+    const {platform,problemId}=identity(p);
+    return p.kind!=='review' && fs.existsSync(inside(project,`${platform==='programmers'?'programmers-':''}${problemId}.cpp`));
+  };
+  const required=remaining.filter(p=>p.group==='필수');
+  const pool=remaining.filter(p=>p.group!=='필수');
+  // Stable order: resume existing work, then choose new candidates in curriculum order.
+  const priority=p=>same && pendingKeys.has(p.key) ? previous.entries.findIndex(e=>e.key===p.key) : existing(p)?1000:2000;
+  pool.sort((a,b)=>priority(a)-priority(b));
+  const quota=day.reviewTarget ? Math.max(0,day.reviewTarget-day.reviewSolved) : Math.max(0,day.additional.required-day.additional.credited);
+  const chosen=pool.slice(0,quota);
+  for(const p of pool) if(pendingKeys.has(p.key) && !chosen.some(c=>c.key===p.key)) chosen.push(p);
+  const selected=[...required,...chosen];
+  if(!selected.length) return {session:null,message:`Week ${day.week} Day ${day.day}: 새로 준비할 문제가 없습니다.`};
+  const session=prepareSession(root,project,day,selected,date,same?previous:null);
+  return {session,message:`${date} · Week ${day.week} Day ${day.day}: ${session.entries.map(e=>e.localFile).join(', ')}`};
 }
 
 function validateSession(root, session) {
@@ -222,7 +259,8 @@ function defaultProject() {
 
 function openRider(root, session) {
   const r=spawnSync('powershell.exe',['-NoProfile','-ExecutionPolicy','Bypass','-File',path.join(root,'scripts','open-rider.ps1'),
-    '-ProjectDirectory',session.project,'-SourceFile',inside(session.project,session.entries[0].localFile)],{stdio:'inherit',windowsHide:true});
+    '-ProjectDirectory',session.project,'-SourceFile',inside(session.project,session.entries[0].localFile),
+    '-SessionFile',inside(root,'.psf/session.json')],{stdio:'inherit',windowsHide:true});
   if(r.error || r.status!==0) throw new Error('파일은 준비됐지만 Rider 실행에 실패했습니다. PSF_RIDER에 Rider 실행 파일 경로를 지정하세요.');
 }
 
@@ -239,36 +277,9 @@ export async function main(action, root) {
     sync();
     const sessionFile=inside(root,'.psf/session.json');
     if(action==='start') {
-      if(fs.existsSync(sessionFile)) {
-        const previous=readJson(sessionFile);
-        if(previous.entries.some(e=>!e.uploadedHash || (fs.existsSync(inside(previous.project,e.localFile)) && hash(fs.readFileSync(inside(previous.project,e.localFile)))!==e.uploadedHash))) {
-          const sameDate=previous.date===localDate();
-          const reply=(await ask(`진행 중: Week ${previous.week} Day ${previous.day}. ${sameDate?'Enter=이어 열기, new=오늘/다른 Day':'Enter=오늘 Day, resume=이전 작업 이어 열기'}: `)).toLowerCase();
-          if(sameDate ? reply!=='new' : reply==='resume') {
-            validateSession(root,previous); openRider(root,previous); return;
-          }
-        }
-      }
-      const data=build(root).data;
-      const scheduled=calendarDay(readJson(path.join(root,'curriculum/schedule.json')));
-      console.log(`오늘 ${localDate()} · ${scheduled ? `Week ${scheduled.week} Day ${scheduled.day} (전체 Day ${scheduled.index})` : '12주 일정 기간 밖입니다.'}`);
-      const answer=await ask('진행할 Week Day (예: 1 1, Enter=오늘 Day): ');
-      const pair=answer ? answer.split(/[\s,]+/).map(Number) : scheduled ? [scheduled.week,scheduled.day] : [];
-      const day=pair.length===2 && data.days.find(d=>d.week===pair[0] && d.day===pair[1]);
-      if(!day) throw new Error('올바른 Week(1~12)와 Day(1~7)를 입력하세요.');
-      console.log(day.goal);
-      if(!day.total) {console.log('수동 학습일입니다. curriculum/plan.md의 학습 체크를 관리하세요.'); return;}
-      const options=dayOptions(data,day);
-      options.forEach((p,i)=>console.log(`${i+1}. [${p.group || '재풀이'}] ${p.key} ${p.solved?'(기존 해결)':''}\n   ${p.title} · ${p.url}`));
-      if(!options.length) throw new Error('재풀이 후보가 없습니다. 앞선 문제 풀이를 먼저 등록하세요.');
-      const suggested=suggestedIndexes(day,options);
-      const a=await ask(`준비할 번호 (쉼표 구분, Enter=${suggested.map(i=>i+1).join(',') || '없음'}): `);
-      const indexes=a ? parseSelection(a,options.length) : suggested;
-      if(!indexes.length) {console.log('선택한 문제가 없습니다.'); return;}
-      const session=prepareSession(root,defaultProject(),day,indexes.map(i=>options[i]));
-      console.log('준비 완료: '+session.entries.map(e=>e.localFile).join(', '));
-      console.log('기존 파일은 유지했습니다.');
-      openRider(root,session);
+      const result=prepareToday(root,defaultProject());
+      console.log(result.message);
+      if(result.session) openRider(root,result.session);
     } else {
       if(!fs.existsSync(sessionFile)) throw new Error('먼저 PSF_START로 Day와 문제를 선택하세요.');
       const session=readJson(sessionFile);

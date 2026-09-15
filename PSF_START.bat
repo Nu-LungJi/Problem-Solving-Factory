@@ -10,5 +10,5 @@ if errorlevel 1 (
 node "%~dp0scripts\psf.mjs" start
 set "PSF_EXIT=%ERRORLEVEL%"
 echo.
-pause
+if not "%PSF_EXIT%"=="0" pause
 exit /b %PSF_EXIT%

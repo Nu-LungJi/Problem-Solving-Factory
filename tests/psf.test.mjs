@@ -3,8 +3,10 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import os from 'node:os';
 import path from 'node:path';
+import { spawnSync } from 'node:child_process';
+import { fileURLToPath } from 'node:url';
 import { build } from '../scripts/progress.mjs';
-import { calendarDay, dayOptions, suggestedIndexes, parseSelection, prepareSession, pendingEntries, uploadSolutions, git, inside } from '../scripts/psf.mjs';
+import { calendarDay, dayOptions, suggestedIndexes, parseSelection, prepareSession, prepareToday, pendingEntries, uploadSolutions, git, inside } from '../scripts/psf.mjs';
 
 const curriculum=new URL('../curriculum/',import.meta.url);
 function fixture(t) {
@@ -17,7 +19,7 @@ function fixture(t) {
   const project=path.join(base,'Algorithm Project');
   fs.mkdirSync(path.join(root,'curriculum'),{recursive:true});
   fs.mkdirSync(project);
-  for(const name of ['plan.md','pools.json']) fs.copyFileSync(new URL(name,curriculum),path.join(root,'curriculum',name));
+  for(const name of ['plan.md','pools.json','schedule.json']) fs.copyFileSync(new URL(name,curriculum),path.join(root,'curriculum',name));
   fs.writeFileSync(path.join(root,'curriculum/records.json'),'[]\n');
   fs.writeFileSync(path.join(root,'.gitignore'),'.psf/\n');
   git(root,['init','-b','main']);
@@ -141,4 +143,62 @@ test('candidate and Programmers sessions choose stable destination paths',t=>{
   assert.equal(progress.additional.solved,1);
   assert.deepEqual(parseSelection('1, 2 2',3),[0,1]);
   assert.throws(()=>parseSelection('0',3),/번호/);
+});
+
+test('automatic START skips solved files, preserves existing drafts and reuses today session',t=>{
+  const {root,project}=fixture(t);
+  fs.mkdirSync(path.join(root,'solutions/cses'),{recursive:true});
+  fs.writeFileSync(path.join(root,'solutions/cses/1068.cpp'),'int main(){}');
+  fs.writeFileSync(path.join(root,'solutions/cses/1083.cpp'),'int main(){}');
+  git(root,['add','.']);git(root,['commit','-m','Solved CSES']);
+  fs.writeFileSync(path.join(project,'palindrome-number.cpp'),'// unfinished user draft');
+  const first=prepareToday(root,project,'2026-09-15').session;
+  assert.equal(fs.existsSync(path.join(project,'1068.cpp')),false);
+  assert.equal(fs.existsSync(path.join(project,'1083.cpp')),false);
+  assert.deepEqual(first.entries.map(e=>e.key),['leetcode:palindrome-number','leetcode:fizz-buzz']);
+  const before=first.entries.map(e=>fs.readFileSync(path.join(project,e.localFile)));
+  const next=prepareToday(root,project,'2026-09-15').session;
+  assert.equal(next.id,first.id);
+  assert.deepEqual(next.entries,first.entries);
+  assert.equal(fs.existsSync(path.join(project,'add-digits.cpp')),false);
+  next.entries.forEach((e,i)=>assert.deepEqual(fs.readFileSync(path.join(project,e.localFile)),before[i]));
+  assert.deepEqual(pendingEntries(root,next).map(e=>e.key),['leetcode:palindrome-number']);
+  const tomorrow=prepareToday(root,project,'2026-09-16').session;
+  assert.equal(tomorrow.day,2);
+  assert.ok(tomorrow.entries.some(e=>e.localFile==='1069.cpp'));
+  assert.equal(prepareToday(root,project,'2026-12-08').session,null);
+});
+
+test('automatic START keeps previous extra candidate drafts and their template hashes',t=>{
+  const {root,project}=fixture(t);
+  const data=build(root).data;
+  const original=prepareSession(root,project,data.days[0],dayOptions(data,data.days[0]).filter(p=>p.group==='후보'),'2026-09-15');
+  const resumed=prepareToday(root,project,'2026-09-15').session;
+  assert.equal(resumed.id,original.id);
+  for(const entry of original.entries) assert.deepEqual(resumed.entries.find(e=>e.key===entry.key),entry);
+  assert.equal(pendingEntries(root,resumed).length,0);
+});
+
+test('Rider registration adds all files to vcxproj and filters exactly once', {skip:process.platform!=='win32'},t=>{
+  const {root,project}=fixture(t);
+  const session=prepareToday(root,project,'2026-09-15').session;
+  const vcx=path.join(project,'Algorithm Project.vcxproj');
+  fs.writeFileSync(vcx,'<?xml version="1.0"?><Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003"><ItemGroup><ClCompile Include="old.cpp" /></ItemGroup></Project>');
+  const run=()=>{
+    const result=spawnSync('powershell.exe',['-NoProfile','-ExecutionPolicy','Bypass','-File',
+      fileURLToPath(new URL('../scripts/open-rider.ps1',import.meta.url)),
+      '-ProjectDirectory',project,'-SourceFile',path.join(project,session.entries[0].localFile),
+      '-SessionFile',path.join(root,'.psf/session.json'),'-RegisterOnly'],{encoding:'utf8',windowsHide:true});
+    assert.equal(result.status,0,result.stderr);
+  };
+  run();
+  const before=fs.readFileSync(vcx,'utf8');
+  for(const entry of session.entries) assert.ok(before.includes(`Include="${entry.localFile}"`));
+  assert.ok(before.includes('Include="old.cpp"'));
+  assert.equal((before.match(/<ExcludedFromBuild>true<\/ExcludedFromBuild>/g)||[]).length,session.entries.length);
+  const filters=fs.readFileSync(vcx+'.filters','utf8');
+  run();
+  assert.equal(fs.readFileSync(vcx,'utf8'),before);
+  assert.equal(fs.readFileSync(vcx+'.filters','utf8'),filters);
+  assert.equal(fs.readdirSync(path.join(project,'.psf-project-backups')).length,1);
 });
