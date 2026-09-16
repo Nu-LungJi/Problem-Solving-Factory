@@ -9,20 +9,11 @@ if errorlevel 1 (
   exit /b 1
 )
 
-REM 오늘 날짜를 YYYY-MM-DD 형식으로 가져오기
-for /f %%i in ('powershell -NoProfile -Command "Get-Date -Format yyyy-MM-dd"') do set "TODAY=%%i"
-
-REM 새 프로젝트의 Solved 폴더
-set "PROJECT_ROOT=C:\Users\Yun\Documents\Rider\PSFactory
-set "PSF_PROJECT=%PROJECT_ROOT%\Solved\%TODAY%"
-
-REM 오늘 날짜 폴더가 없으면 생성
-if not exist "%PSF_PROJECT%" (
-  mkdir "%PSF_PROJECT%"
-)
+REM Rider C++ 프로젝트 루트
+set "PSF_PROJECT=C:\Users\Yun\Documents\Rider\PSFactory"
 
 echo.
-echo 오늘 풀이 폴더:
+echo Rider 프로젝트:
 echo %PSF_PROJECT%
 echo.
 

@@ -88,6 +88,43 @@ export function parseSelection(text, count) {
   return [...new Set(values.map(s=>+s-1))];
 }
 
+function addToVcxproj(projectRoot, cppFile) {
+  const projects = fs.readdirSync(projectRoot)
+    .filter(file => file.endsWith('.vcxproj'));
+
+  if (projects.length !== 1) {
+    throw new Error('Rider 프로젝트 루트에 .vcxproj가 정확히 1개 있어야 합니다.');
+  }
+
+  const projectFile = path.join(projectRoot, projects[0]);
+
+  let xml = fs.readFileSync(projectFile, 'utf8');
+
+  const relative = path
+    .relative(projectRoot, cppFile)
+    .replace(/\//g, '\\');
+
+  // 이미 등록돼 있으면 아무것도 안 함
+  if (xml.includes(`Include="${relative}"`)) {
+    return;
+  }
+
+  const entry = `  <ItemGroup>\n    <ClCompile Include="${relative}" />\n  </ItemGroup>\n`;
+
+  const index = xml.lastIndexOf('</Project>');
+
+  if (index === -1) {
+    throw new Error('.vcxproj 파일 구조를 읽을 수 없습니다.');
+  }
+
+  xml =
+    xml.slice(0, index) +
+    entry +
+    xml.slice(index);
+
+  fs.writeFileSync(projectFile, xml, 'utf8');
+}
+
 export function prepareSession(root, project, day, selected, date = localDate(), previous = null) {
   if (!selected.length) throw new Error('선택한 문제가 없습니다.');
   fs.mkdirSync(project, { recursive: true });
@@ -108,14 +145,28 @@ const localFile = prior?.localFile || `${dayFolder}/${fileName}`;
     const dest = p.kind === 'review' ? `solutions/reviews/week-${day.week}-day-${day.day}/${platform}/${problemId}-${session.id}.cpp`
       : `solutions/${platform}/${problemId}.cpp`;
     const file = inside(project, localFile);
-    const template = `// ${p.url}\n// Week ${day.week} Day ${day.day}\n` +
-      (platform === 'cses' ? '#include <iostream>\n#include <vector>\n#include <algorithm>\n\nint main() {\n    std::ios::sync_with_stdio(false);\n    std::cin.tie(nullptr);\n    // TODO: implement your solution.\n    return 0;\n}\n'
-        : '// Paste the platform function signature, then implement your solution.\n#include <string>\n#include <vector>\n#include <algorithm>\nusing namespace std;\n\n');
-    let templateHash = prior?.templateHash || (fs.existsSync(file) && hash(fs.readFileSync(file))===hash(template) ? hash(template) : null);
-    if (!fs.existsSync(file)) {
-      fs.writeFileSync(file, template, { flag:'wx' });
-      templateHash = hash(template);
-    }
+
+const template = `// ${p.url}\n// Week ${day.week} Day ${day.day}\n` +
+  (platform === 'cses'
+    ? '#include <iostream>\n#include <vector>\n#include <algorithm>\n\nint main() {\n    std::ios::sync_with_stdio(false);\n    std::cin.tie(nullptr);\n    // TODO: implement your solution.\n    return 0;\n}\n'
+    : '// Paste the platform function signature, then implement your solution.\n#include <string>\n#include <vector>\n#include <algorithm>\nusing namespace std;\n\n');
+
+let templateHash =
+  prior?.templateHash ||
+  (fs.existsSync(file) && hash(fs.readFileSync(file)) === hash(template)
+    ? hash(template)
+    : null);
+
+if (!fs.existsSync(file)) {
+  fs.mkdirSync(path.dirname(file), { recursive: true });
+
+  fs.writeFileSync(file, template, { flag:'wx' });
+
+  // Rider / Visual Studio 프로젝트에 자동 등록
+  addToVcxproj(project, file);
+
+  templateHash = hash(template);
+}
     session.entries.push({ key:p.key, url:p.url, title:p.title, platform, problemId, kind:p.kind || 'solve',
       localFile, dest, templateHash, uploadedHash:prior?.uploadedHash || null, ...(prior?.recordId ? {recordId:prior.recordId} : {}) });
   }
