@@ -98,7 +98,13 @@ export function prepareSession(root, project, day, selected, date = localDate(),
     const prior = reuse && previous.entries.find(e=>e.key===p.key);
     const { platform, problemId } = identity(p);
     const prefix = platform === 'programmers' ? 'programmers-' : '';
-    const localFile = prior?.localFile || (p.kind === 'review' ? `${prefix}${problemId}-review-${session.id.slice(0,8)}.cpp` : `${prefix}${problemId}.cpp`);
+    const dayFolder = `Solved/${date}`;
+
+const fileName = p.kind === 'review'
+  ? `${prefix}${problemId}-review-${session.id.slice(0,8)}.cpp`
+  : `${prefix}${problemId}.cpp`;
+
+const localFile = prior?.localFile || `${dayFolder}/${fileName}`;
     const dest = p.kind === 'review' ? `solutions/reviews/week-${day.week}-day-${day.day}/${platform}/${problemId}-${session.id}.cpp`
       : `solutions/${platform}/${problemId}.cpp`;
     const file = inside(project, localFile);
