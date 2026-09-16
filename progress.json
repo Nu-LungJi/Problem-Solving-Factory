@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "repository": "Nu-LungJi/Problem-Solving-Factory",
-  "accepted": 5,
+  "accepted": 9,
   "registered": 254,
   "target": 208,
   "days": [
@@ -89,7 +89,7 @@
           "url": "https://cses.fi/problemset/task/1069/",
           "platform": "cses",
           "problemId": "1069",
-          "solved": false,
+          "solved": true,
           "countsAsNew": true
         },
         {
@@ -98,7 +98,7 @@
           "url": "https://cses.fi/problemset/task/1094/",
           "platform": "cses",
           "problemId": "1094",
-          "solved": false,
+          "solved": true,
           "countsAsNew": true
         }
       ],
@@ -111,7 +111,7 @@
             "problemId": "richest-customer-wealth",
             "title": "Richest Customer Wealth",
             "url": "https://leetcode.com/problems/richest-customer-wealth/",
-            "solved": false
+            "solved": true
           },
           {
             "key": "leetcode:kids-with-the-greatest-number-of-candies",
@@ -119,7 +119,7 @@
             "problemId": "kids-with-the-greatest-number-of-candies",
             "title": "Kids With The Greatest Number Of Candies",
             "url": "https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/",
-            "solved": false
+            "solved": true
           },
           {
             "key": "leetcode:running-sum-of-1d-array",
@@ -130,18 +130,18 @@
             "solved": false
           }
         ],
-        "solved": 0,
-        "credited": 0,
-        "complete": false
+        "solved": 2,
+        "credited": 2,
+        "complete": true
       },
-      "requiredSolved": 0,
-      "newSolved": 0,
+      "requiredSolved": 2,
+      "newSolved": 4,
       "reviewAttempts": 0,
       "reviewSolved": 0,
-      "done": 0,
+      "done": 4,
       "total": 4,
-      "percent": 0,
-      "complete": false,
+      "percent": 100,
+      "complete": true,
       "manualComplete": false,
       "completionBasis": "objective"
     },
@@ -4484,10 +4484,10 @@
   "weeks": [
     {
       "week": 1,
-      "done": 4,
+      "done": 8,
       "total": 30,
-      "percent": 13.33,
-      "completedDays": 1,
+      "percent": 26.67,
+      "completedDays": 2,
       "totalDays": 7,
       "complete": false
     },
@@ -4592,10 +4592,10 @@
     }
   ],
   "overall": {
-    "done": 4,
+    "done": 8,
     "total": 283,
-    "percent": 1.41,
-    "completedDays": 1,
+    "percent": 2.83,
+    "completedDays": 2,
     "totalDays": 84,
     "complete": false,
     "completedWeeks": 0,
@@ -4607,8 +4607,16 @@
       "code": "solutions/cses/1068.cpp",
       "evidence": "사용자 정답 확인"
     },
+    "cses:1069": {
+      "code": "solutions/cses/1069.cpp",
+      "evidence": "사용자 정답 확인"
+    },
     "cses:1083": {
       "code": "solutions/cses/1083.cpp",
+      "evidence": "사용자 정답 확인"
+    },
+    "cses:1094": {
+      "code": "solutions/cses/1094.cpp",
       "evidence": "사용자 정답 확인"
     },
     "leetcode:add-digits": {
@@ -4619,8 +4627,16 @@
       "code": "solutions/leetcode/fizz-buzz.cpp",
       "evidence": "사용자 정답 확인"
     },
+    "leetcode:kids-with-the-greatest-number-of-candies": {
+      "code": "solutions/leetcode/kids-with-the-greatest-number-of-candies.cpp",
+      "evidence": "사용자 정답 확인"
+    },
     "leetcode:palindrome-number": {
       "code": "solutions/leetcode/palindrome-number.cpp",
+      "evidence": "사용자 정답 확인"
+    },
+    "leetcode:richest-customer-wealth": {
+      "code": "solutions/leetcode/richest-customer-wealth.cpp",
       "evidence": "사용자 정답 확인"
     }
   }
