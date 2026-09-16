@@ -13,8 +13,8 @@ C++ 기본 문법을 공부했고, OOP·상속·SOLID와 스택 등 자료구조
 
 ## 체크와 문제 선택 방법
 
-- 표의 `[ ]`는 원문에서 `[x]`로 바꾸면 된다. 표 안에서는 GitHub 등 일부 뷰어가 체크박스로 렌더링하지 않는다.
-- 각 주 아래 별도 `- [ ]` 목록은 표준 Markdown 작업 목록이다. 완료 상태의 기준은 이 목록으로 두고, 표의 상태는 필요할 때 함께 갱신한다. 두 곳은 자동 동기화되지 않는다.
+- 표의 `[ ]` / `[x]`는 `solutions`와 `records.json`에서 계산한 **자동 진도 상태**다. GitHub Actions가 Day·Week 완료 여부를 갱신한다. 표 안에서는 GitHub 등 일부 뷰어가 체크박스로 렌더링하지 않는다.
+- 각 주 아래 별도 `- [ ]` 목록은 **수동 학습 체크리스트**다. 개념 설명·오답 정리·주간 설명처럼 파일만으로 판정할 수 없는 항목은 사용자가 직접 관리하며, 자동화가 덮어쓰지 않는다.
 - 하루 완료: 개념 설명 → 목표 수만큼 풀이 시도 → 틀린 이유 기록까지 마친 상태. 모든 문제 정답과는 구별한다.
 - 주간 완료: Day 1~7 완료 및 주간 목표를 코드나 말로 설명한 상태. 어렵다면 날짜를 늘리고 미해결은 기록한다.
 - **지정 링크를 먼저 풀고**, 각 Day의 [추가 후보 풀](pools.md)에서 지정된 개수를 해결한다. 신규 목표는 필수 144개 + 후보 선택 64개 = 208개다. 이미 해결한 파일은 등록된 문제의 해결 상태로 반영되며, 재풀이는 별도 기록한다.
@@ -77,8 +77,8 @@ C++ 기본 문법을 공부했고, OOP·상속·SOLID와 스택 등 자료구조
 
 | 완료 | Day | Daily 목표 | 지정 문제·실행 내용 | 신규 | 재풀이 |
 |---|---|---|---|---:|---:|
-| [ ] | 1 | 입출력·long long·시간복잡도 정리 | [CSES · Weird Algorithm](https://cses.fi/problemset/task/1068/) · [CSES · Missing Number](https://cses.fi/problemset/task/1083/) · [후보 3개 중 2개 해결](pools.md#week-1-day-1) | 4 | 0 |
-| [ ] | 2 | vector·배열 순회·최댓값·최솟값 구현 | [CSES · Repetitions](https://cses.fi/problemset/task/1069/) · [CSES · Increasing Array](https://cses.fi/problemset/task/1094/) · [후보 3개 중 2개 해결](pools.md#week-1-day-2) | 4 | 0 |
+| [x] | 1 | 입출력·long long·시간복잡도 정리 | [CSES · Weird Algorithm](https://cses.fi/problemset/task/1068/) · [CSES · Missing Number](https://cses.fi/problemset/task/1083/) · [후보 3개 중 2개 해결](pools.md#week-1-day-1) | 4 | 0 |
+| [x] | 2 | vector·배열 순회·최댓값·최솟값 구현 | [CSES · Repetitions](https://cses.fi/problemset/task/1069/) · [CSES · Increasing Array](https://cses.fi/problemset/task/1094/) · [후보 3개 중 2개 해결](pools.md#week-1-day-2) | 4 | 0 |
 | [ ] | 3 | string·빈도 배열·문자열 파싱 연습 | [프로그래머스 · 문자열을 정수로 바꾸기](https://school.programmers.co.kr/learn/courses/30/lessons/12925) · [프로그래머스 · 이상한 문자 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/12930) · [후보 3개 중 2개 해결](pools.md#week-1-day-3) | 4 | 0 |
 | [ ] | 4 | sort·pair·비교 함수로 정렬 조건 표현 | [프로그래머스 · K번째수](https://school.programmers.co.kr/learn/courses/30/lessons/42748) · [LeetCode · Valid Anagram](https://leetcode.com/problems/valid-anagram/) · [후보 3개 중 2개 해결](pools.md#week-1-day-4) | 4 | 0 |
 | [ ] | 5 | 중복 제거·unique·이진 탐색 STL 맛보기 | [CSES · Distinct Numbers](https://cses.fi/problemset/task/1621/) · [프로그래머스 · 제일 작은 수 제거하기](https://school.programmers.co.kr/learn/courses/30/lessons/12935) · [후보 3개 중 2개 해결](pools.md#week-1-day-5) | 4 | 0 |

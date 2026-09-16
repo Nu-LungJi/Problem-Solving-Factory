@@ -9,7 +9,7 @@ BaekjoonHub를 이 저장소에 연결한 뒤 프로그래머스 C++ 정답 풀�
 
 지원 조건은 경로에 `프로그래머스` 폴더가 있고, 문제 폴더가 `문제번호.제목`이며, 그 안에 비어 있지 않은 C++ 파일과 같은 문제 URL을 담은 README가 있는 것입니다. 이 형식을 정답 업로드의 근거로 사용하며, 저지에 접속해 정답 여부를 재검증하지 않습니다. 임의로 만든 파일까지 독립 정답으로 인증하는 기능은 아닙니다.
 
-진도표는 별도 `progress` 브랜치의 README에 생성됩니다. 업로드 도구가 쓰는 `main`에는 자동 진도 커밋을 만들지 않습니다. 원본 [12주 계획](plan.md)의 체크는 개념·설명·오답 정리를 포함한 수동 학습 완료이며 그대로 유지합니다. 생성된 진도표의 Day·Week 완료는 아래 객관적 풀이 기준입니다.
+진도표는 별도 `progress` 브랜치의 README에 생성됩니다. 같은 Actions 실행에서 `main`의 README 요약과 [12주 계획](plan.md)의 **표 안 Day·Week 체크**도 자동 진도에 맞춰 갱신됩니다. 각 Week 아래의 `- [ ]` 완료 체크리스트는 개념·설명·오답 정리처럼 파일만으로 판단할 수 없는 수동 학습 항목이므로 자동화가 수정하지 않습니다. 생성된 진도표의 Day·Week 완료는 아래 객관적 풀이 기준입니다.
 
 ## CSES·LeetCode·추가 문제·재풀이
 
@@ -57,13 +57,13 @@ CSES는 `solutions/cses/1068.cpp`, LeetCode는 `solutions/leetcode/two-sum.cpp`�
 - `progress.json`의 `schemaVersion: 2`, `days`, `weeks`, `overall`, `reviews`, `evidence`가 계산 결과입니다. README는 같은 결과로 생성합니다. 실행 시간 필드를 넣지 않아 입력이 같으면 결과도 같습니다.
 - 각 Day의 `additional`은 `candidates`(문제별 solved), `required`, `solved`(후보 전체 해결 수), `credited`(목표 반영 수), `complete`를 제공합니다. `requiredSolved`는 필수 해결 수, `newSolved`는 필수 해결 수 + 후보 목표 반영 수입니다.
 - 새 플랫폼은 `scripts/adapters.mjs`에 파일 → 문제 식별자 어댑터를 추가하고 URL 인식은 `problemKey`에 확장합니다. 계산기는 플랫폼별 처리를 하지 않습니다.
-- 자동 진도는 원본 계획의 수동 학습 체크를 덮어쓰지 않습니다. 개념 설명·오답 이유·독립 해결 여부를 파일 존재만으로 완료 처리하지 않습니다.
+- 자동 진도는 `plan.md`의 표 안 Day·Week 상태와 main README 요약만 갱신합니다. 각 Week 아래 수동 학습 체크리스트는 덮어쓰지 않으며, 개념 설명·오답 이유·독립 해결 여부를 파일 존재만으로 완료 처리하지 않습니다.
 
 ## Actions 권한과 배포
 
 PR에서는 읽기 권한으로 테스트합니다. main 푸시 또는 main에서 수동 실행 시 테스트 성공 후 게시 작업에만 `contents: write`를 부여합니다. 별도 Git worktree에서 README와 progress.json만 추가하고 변경이 있을 때만 커밋합니다. progress 브랜치 푸시는 재실행을 유발하지 않으며 강제 푸시는 사용하지 않습니다.
 
-main README의 잔디는 `assets/activity.svg`이며 같은 Actions 실행에서 변경된 이미지 파일만 main에 커밋합니다. 게시 전 main이 더 진행되었으면 다음 실행에 맡기며 강제 push하지 않습니다. 자동화 토큰의 커밋으로 워크플로가 반복 실행되지 않습니다.
+main README의 진도 요약, `curriculum/plan.md`의 표 안 Day·Week 상태, `assets/activity.svg` 잔디는 같은 Actions 실행에서 하나의 main 커밋으로 동기화합니다. 게시 전 main이 더 진행되었으면 다음 실행에 맡기며 강제 push하지 않습니다. 자동화 토큰의 커밋으로 워크플로가 반복 실행되지 않습니다.
 
 잔디는 `records.json`에 날짜가 있는 정답 기록만 집계합니다. 최초 해결은 문제당 1회, 재풀이는 커리큘럼 Day·문제당 1회이며 실패 시도는 제외합니다. 파일 자동 감지로 해결됐어도 날짜 기록이 없으면 잔디에는 포함하지 않습니다. 신규 후보 초과 풀이도 활동에는 포함되므로 목표 진도율과 수치가 다를 수 있습니다. 로컬 생성은 `node scripts/activity.mjs`입니다.
 
