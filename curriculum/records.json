@@ -53,5 +53,49 @@
     "kind": "solve",
     "result": "accepted",
     "usedHint": true
+  },
+  {
+    "id": "2026-09-16-cses-1069-first",
+    "date": "2026-09-16",
+    "week": 1,
+    "day": 2,
+    "url": "https://cses.fi/problemset/task/1069/",
+    "code": "solutions/cses/1069.cpp",
+    "kind": "solve",
+    "result": "accepted",
+    "usedHint": false
+  },
+  {
+    "id": "2026-09-16-cses-1094-first",
+    "date": "2026-09-16",
+    "week": 1,
+    "day": 2,
+    "url": "https://cses.fi/problemset/task/1094/",
+    "code": "solutions/cses/1094.cpp",
+    "kind": "solve",
+    "result": "accepted",
+    "usedHint": false
+  },
+  {
+    "id": "2026-09-16-leetcode-richest-customer-wealth-first",
+    "date": "2026-09-16",
+    "week": 1,
+    "day": 2,
+    "url": "https://leetcode.com/problems/richest-customer-wealth/",
+    "code": "solutions/leetcode/richest-customer-wealth.cpp",
+    "kind": "solve",
+    "result": "accepted",
+    "usedHint": false
+  },
+  {
+    "id": "2026-09-16-leetcode-kids-with-the-greatest-number-of-candies-first",
+    "date": "2026-09-16",
+    "week": 1,
+    "day": 2,
+    "url": "https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/",
+    "code": "solutions/leetcode/kids-with-the-greatest-number-of-candies.cpp",
+    "kind": "solve",
+    "result": "accepted",
+    "usedHint": true
   }
 ]
