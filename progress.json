@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "repository": "Nu-LungJi/Problem-Solving-Factory",
-  "accepted": 9,
+  "accepted": 10,
   "registered": 254,
   "target": 208,
   "days": [
@@ -127,10 +127,10 @@
             "problemId": "running-sum-of-1d-array",
             "title": "Running Sum Of 1d Array",
             "url": "https://leetcode.com/problems/running-sum-of-1d-array/",
-            "solved": false
+            "solved": true
           }
         ],
-        "solved": 2,
+        "solved": 3,
         "credited": 2,
         "complete": true
       },
@@ -4638,6 +4638,10 @@
     "leetcode:richest-customer-wealth": {
       "code": "solutions/leetcode/richest-customer-wealth.cpp",
       "evidence": "사용자 정답 확인"
+    },
+    "leetcode:running-sum-of-1d-array": {
+      "code": "solutions/leetcode/running-sum-of-1d-array.cpp",
+      "evidence": "정답 확인 후 저장한 로컬 풀이"
     }
   }
 }
