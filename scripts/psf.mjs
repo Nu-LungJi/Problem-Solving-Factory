@@ -159,14 +159,12 @@ let templateHash =
 
 if (!fs.existsSync(file)) {
   fs.mkdirSync(path.dirname(file), { recursive: true });
-
   fs.writeFileSync(file, template, { flag:'wx' });
-
-  // Rider / Visual Studio 프로젝트에 자동 등록
-  addToVcxproj(project, file);
-
   templateHash = hash(template);
 }
+
+// 새 파일뿐 아니라 기존 초안도 Rider 프로젝트에 등록되어 있는지 보장합니다.
+addToVcxproj(project, file);
     session.entries.push({ key:p.key, url:p.url, title:p.title, platform, problemId, kind:p.kind || 'solve',
       localFile, dest, templateHash, uploadedHash:prior?.uploadedHash || null, ...(prior?.recordId ? {recordId:prior.recordId} : {}) });
   }
@@ -197,8 +195,10 @@ export function prepareToday(root, project, date = localDate()) {
   const existing=p=>{
     const prior=same && previous.entries.find(e=>e.key===p.key);
     if(prior) return fs.existsSync(inside(project,prior.localFile));
+    if(p.kind==='review') return false;
     const {platform,problemId}=identity(p);
-    return p.kind!=='review' && fs.existsSync(inside(project,`${platform==='programmers'?'programmers-':''}${problemId}.cpp`));
+    const prefix=platform==='programmers'?'programmers-':'';
+    return fs.existsSync(inside(project,`Solved/${date}/${prefix}${problemId}.cpp`));
   };
   const required=remaining.filter(p=>p.group==='필수');
   const pool=remaining.filter(p=>p.group!=='필수');
@@ -312,7 +312,7 @@ function defaultProject() {
     const r=spawnSync('powershell.exe',['-NoProfile','-Command','[Environment]::GetFolderPath("MyDocuments")'],{encoding:'utf8',windowsHide:true});
     if(r.status===0 && r.stdout.trim()) docs=r.stdout.trim();
   }
-  return path.join(docs,'Rider','Algorithm Project');
+  return path.join(docs,'Rider','PSFactory');
 }
 
 export function pushUploads(root) {
