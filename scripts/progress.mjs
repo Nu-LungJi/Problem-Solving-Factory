@@ -143,8 +143,17 @@ export function build(root, repo = 'Nu-LungJi/Problem-Solving-Factory') {
     md += '\n## Week ' + w + '\n\n';
     for (const d of days.filter(d => d.week === w)) {
       md += '### Day ' + d.day + ' — 신규 목표 ' + d.target + ' / 재풀이 목표 ' + d.reviewTarget + '\n\n';
-      const status = progress.days.find(s => s.id === d.id);
-      md += `- [${status.complete ? 'x' : ' '}] Day ${d.day} ${status.completionBasis === 'manual' ? '수동 목표' : '풀이 목표'} 완료 · ${status.done}/${status.total} (${status.percent}%)\n\n`;
+const status = progress.days.find(s => s.id === d.id);
+
+const actualSolved = status.newSolved + status.reviewSolved;
+const actualTotal =
+  status.problems.filter(p => !p.extra).length +
+  status.additional.candidates.length +
+  status.reviewTarget;
+
+md += `- [${status.complete ? 'x' : ' '}] Day ${d.day} ${
+  status.completionBasis === 'manual' ? '수동 목표' : '풀이 목표'
+} 완료 · 실제 ${actualSolved}/${actualTotal} · 목표 ${status.done}/${status.total} (${status.percent}%)\n\n`;
       if (!d.problems.length) md += '신규 지정 문제 없음. 복습·오답·학습 완료는 직접 기록하세요.\n\n';
       for (const p of d.problems) {
         const result = solved.get(p.key);

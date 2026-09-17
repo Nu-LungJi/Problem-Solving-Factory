@@ -14,10 +14,15 @@ export function calculate(days, solved, reviews, plan) {
     const candidates = (d.additional?.candidates || []).map(p => ({ ...p, solved: solved.has(p.key) }));
     const additional = { required: d.additional?.required ?? Math.max(0, d.target - requiredProblems.length),
       candidates, solved: candidates.filter(p => p.solved).length };
-    additional.credited = Math.min(additional.solved, additional.required);
-    additional.complete = additional.solved >= additional.required;
-    const requiredSolved = requiredProblems.filter(p => p.solved && p.countsAsNew).length;
-    const newSolved = requiredSolved + additional.credited;
+   additional.credited = Math.min(additional.solved, additional.required);
+   additional.complete = additional.solved >= additional.required;
+
+   const requiredSolved = requiredProblems.filter(p => p.solved && p.countsAsNew).length;
+   // 실제로 푼 신규 문제 수
+   const newSolved = requiredSolved + additional.solved;
+   // 목표 달성 판정용 인정 문제 수
+   const creditedNewSolved = requiredSolved + additional.credited;
+
     const attempts = reviews.filter(r => r.week === d.week && r.day === d.day);
     // A copied record with another id cannot manufacture another review of the same problem that day.
     const reviewSolved = new Set(attempts.filter(r => r.result === 'accepted').map(r => r.key)).size;
@@ -25,10 +30,23 @@ export function calculate(days, solved, reviews, plan) {
     const done = Math.min(newSolved, d.target) + Math.min(reviewSolved, d.reviewTarget);
     const manualComplete = new RegExp(`^- \\[x\\] W${d.week}-D${d.day}:`, 'm').test(plan);
     // A day without objective tasks requires its existing manual checklist.
-    const complete = total ? newSolved >= d.target && reviewSolved >= d.reviewTarget && requiredProblems.every(p => p.solved) && additional.complete : manualComplete;
-    return { ...d, problems, additional, requiredSolved, newSolved, reviewAttempts: attempts.length, reviewSolved,
-      done, total, percent: total ? percent(done, total) : (complete ? 100 : 0),
-      complete, manualComplete, completionBasis: total ? 'objective' : 'manual' };
+    const complete = total ? creditedNewSolved >= d.target && reviewSolved >= d.reviewTarget && requiredProblems.every(p => p.solved) && additional.complete : manualComplete;
+    return {
+  ...d,
+  problems,
+  additional,
+  requiredSolved,
+  newSolved,
+  creditedNewSolved,
+  reviewAttempts: attempts.length,
+  reviewSolved,
+  done,
+  total,
+  percent: total ? percent(done, total) : (complete ? 100 : 0),
+  complete,
+  manualComplete,
+  completionBasis: total ? 'objective' : 'manual'
+};
   });
   const summarize = ds => {
     const done = ds.reduce((s,d) => s + d.done, 0);
