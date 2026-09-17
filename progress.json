@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "repository": "Nu-LungJi/Problem-Solving-Factory",
-  "accepted": 11,
+  "accepted": 10,
   "registered": 254,
   "target": 208,
   "days": [
@@ -168,7 +168,7 @@
           "url": "https://school.programmers.co.kr/learn/courses/30/lessons/12930",
           "platform": "programmers",
           "problemId": "12930",
-          "solved": true,
+          "solved": false,
           "countsAsNew": true
         }
       ],
@@ -204,13 +204,13 @@
         "credited": 0,
         "complete": false
       },
-      "requiredSolved": 1,
-      "newSolved": 1,
+      "requiredSolved": 0,
+      "newSolved": 0,
       "reviewAttempts": 0,
       "reviewSolved": 0,
-      "done": 1,
+      "done": 0,
       "total": 4,
-      "percent": 25,
+      "percent": 0,
       "complete": false,
       "manualComplete": false,
       "completionBasis": "objective"
@@ -4484,9 +4484,9 @@
   "weeks": [
     {
       "week": 1,
-      "done": 9,
+      "done": 8,
       "total": 30,
-      "percent": 30,
+      "percent": 26.67,
       "completedDays": 2,
       "totalDays": 7,
       "complete": false
@@ -4592,9 +4592,9 @@
     }
   ],
   "overall": {
-    "done": 9,
+    "done": 8,
     "total": 283,
-    "percent": 3.18,
+    "percent": 2.83,
     "completedDays": 2,
     "totalDays": 84,
     "complete": false,
@@ -4642,10 +4642,6 @@
     "leetcode:running-sum-of-1d-array": {
       "code": "solutions/leetcode/running-sum-of-1d-array.cpp",
       "evidence": "정답 확인 후 저장한 로컬 풀이"
-    },
-    "programmers:12930": {
-      "code": "C++/프로그래머스/1/12930. 이상한 문자 만들기/이상한 문자 만들기.cpp",
-      "evidence": "BaekjoonHub 형식의 업로드"
     }
   }
 }
