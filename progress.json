@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "repository": "Nu-LungJi/Problem-Solving-Factory",
-  "accepted": 14,
+  "accepted": 15,
   "registered": 254,
   "target": 208,
   "days": [
@@ -197,10 +197,10 @@
             "problemId": "first-unique-character-in-a-string",
             "title": "First Unique Character In A String",
             "url": "https://leetcode.com/problems/first-unique-character-in-a-string/",
-            "solved": false
+            "solved": true
           }
         ],
-        "solved": 2,
+        "solved": 3,
         "credited": 2,
         "complete": true
       },
@@ -4622,6 +4622,10 @@
     "leetcode:add-digits": {
       "code": "solutions/leetcode/add-digits.cpp",
       "evidence": "사용자 정답 확인"
+    },
+    "leetcode:first-unique-character-in-a-string": {
+      "code": "solutions/leetcode/first-unique-character-in-a-string.cpp",
+      "evidence": "정답 확인 후 저장한 로컬 풀이"
     },
     "leetcode:fizz-buzz": {
       "code": "solutions/leetcode/fizz-buzz.cpp",
