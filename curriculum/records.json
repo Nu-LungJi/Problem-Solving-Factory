@@ -97,5 +97,49 @@
     "kind": "solve",
     "result": "accepted",
     "usedHint": true
+  },
+  {
+    "id": "2026-09-17-programmers-12925-first",
+    "date": "2026-09-17",
+    "week": 1,
+    "day": 3,
+    "url": "https://school.programmers.co.kr/learn/courses/30/lessons/12925",
+    "code": "solutions/programmers/12925.cpp",
+    "kind": "solve",
+    "result": "accepted",
+    "usedHint": true
+  },
+  {
+    "id": "2026-09-17-programmers-12930-first",
+    "date": "2026-09-17",
+    "week": 1,
+    "day": 3,
+    "url": "https://school.programmers.co.kr/learn/courses/30/lessons/12930",
+    "code": "solutions/programmers/12930.cpp",
+    "kind": "solve",
+    "result": "accepted",
+    "usedHint": false
+  },
+  {
+    "id": "2026-09-17-leetcode-valid-palindrome-first",
+    "date": "2026-09-17",
+    "week": 1,
+    "day": 3,
+    "url": "https://leetcode.com/problems/valid-palindrome/",
+    "code": "solutions/leetcode/valid-palindrome.cpp",
+    "kind": "solve",
+    "result": "accepted",
+    "usedHint": true
+  },
+  {
+    "id": "2026-09-17-leetcode-length-of-last-word-first",
+    "date": "2026-09-17",
+    "week": 1,
+    "day": 3,
+    "url": "https://leetcode.com/problems/length-of-last-word/",
+    "code": "solutions/leetcode/length-of-last-word.cpp",
+    "kind": "solve",
+    "result": "accepted",
+    "usedHint": false
   }
 ]
