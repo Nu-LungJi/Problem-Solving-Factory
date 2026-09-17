@@ -205,8 +205,9 @@ export function prepareToday(root, project, date = localDate()) {
   // Stable order: resume existing work, then choose new candidates in curriculum order.
   const priority=p=>same && pendingKeys.has(p.key) ? previous.entries.findIndex(e=>e.key===p.key) : existing(p)?1000:2000;
   pool.sort((a,b)=>priority(a)-priority(b));
-  const quota=day.reviewTarget ? Math.max(0,day.reviewTarget-day.reviewSolved) : Math.max(0,day.additional.required-day.additional.credited);
-  const chosen=pool.slice(0,quota);
+  const chosen = day.reviewTarget
+  ? pool.slice(0, Math.max(0, day.reviewTarget - day.reviewSolved))
+  : pool;
   for(const p of pool) if(pendingKeys.has(p.key) && !chosen.some(c=>c.key===p.key)) chosen.push(p);
   const selected=[...required,...chosen];
   if(!selected.length) return {session:null,message:`Week ${day.week} Day ${day.day}: 새로 준비할 문제가 없습니다.`};
