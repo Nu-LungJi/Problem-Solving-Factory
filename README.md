@@ -30,7 +30,7 @@
 ## Week 1
 
 <details open>
-<summary><strong>Day 1</strong> · ✅ 완료 · 4/4 (100%)</summary>
+<summary><strong>Day 1</strong> · ✅ 완료 · 5/5</summary>
 
 | 신규 목표 | 재풀이 목표 | 추가 후보 조건 | 후보 해결 / 목표 반영 |
 |:---:|:---:|:---:|:---:|
@@ -47,7 +47,7 @@
 </details>
 
 <details open>
-<summary><strong>Day 2</strong> · ✅ 완료 · 4/4 (100%)</summary>
+<summary><strong>Day 2</strong> · ✅ 완료 · 5/5</summary>
 
 | 신규 목표 | 재풀이 목표 | 추가 후보 조건 | 후보 해결 / 목표 반영 |
 |:---:|:---:|:---:|:---:|
@@ -64,7 +64,7 @@
 </details>
 
 <details>
-<summary><strong>Day 3</strong> · ✅ 완료 · 4/4 (100%)</summary>
+<summary><strong>Day 3</strong> · ✅ 완료 · 5/5</summary>
 
 | 신규 목표 | 재풀이 목표 | 추가 후보 조건 | 후보 해결 / 목표 반영 |
 |:---:|:---:|:---:|:---:|
@@ -81,7 +81,7 @@
 </details>
 
 <details>
-<summary><strong>Day 4</strong> · ⬜ 미완료 · 0/4 (0%)</summary>
+<summary><strong>Day 4</strong> · ⬜ 미완료 · 0/5</summary>
 
 | 신규 목표 | 재풀이 목표 | 추가 후보 조건 | 후보 해결 / 목표 반영 |
 |:---:|:---:|:---:|:---:|
@@ -98,7 +98,7 @@
 </details>
 
 <details>
-<summary><strong>Day 5</strong> · ⬜ 미완료 · 0/4 (0%)</summary>
+<summary><strong>Day 5</strong> · ⬜ 미완료 · 0/5</summary>
 
 | 신규 목표 | 재풀이 목표 | 추가 후보 조건 | 후보 해결 / 목표 반영 |
 |:---:|:---:|:---:|:---:|
@@ -115,7 +115,7 @@
 </details>
 
 <details>
-<summary><strong>Day 6</strong> · ⬜ 미완료 · 0/4 (0%)</summary>
+<summary><strong>Day 6</strong> · ⬜ 미완료 · 0/5</summary>
 
 | 신규 목표 | 재풀이 목표 | 추가 후보 조건 | 후보 해결 / 목표 반영 |
 |:---:|:---:|:---:|:---:|
@@ -132,7 +132,7 @@
 </details>
 
 <details>
-<summary><strong>Day 7</strong> · ⬜ 미완료 · 0/6 (0%)</summary>
+<summary><strong>Day 7</strong> · ⬜ 미완료 · 0/6</summary>
 
 | 신규 목표 | 재풀이 목표 | 추가 후보 조건 | 후보 해결 / 목표 반영 |
 |:---:|:---:|:---:|:---:|
@@ -146,7 +146,7 @@
 ## Week 2
 
 <details>
-<summary><strong>Day 1</strong> · ⬜ 미완료 · 0/4 (0%)</summary>
+<summary><strong>Day 1</strong> · ⬜ 미완료 · 0/5</summary>
 
 | 신규 목표 | 재풀이 목표 | 추가 후보 조건 | 후보 해결 / 목표 반영 |
 |:---:|:---:|:---:|:---:|
@@ -163,7 +163,7 @@
 </details>
 
 <details>
-<summary><strong>Day 2</strong> · ⬜ 미완료 · 0/4 (0%)</summary>
+<summary><strong>Day 2</strong> · ⬜ 미완료 · 0/5</summary>
 
 | 신규 목표 | 재풀이 목표 | 추가 후보 조건 | 후보 해결 / 목표 반영 |
 |:---:|:---:|:---:|:---:|
@@ -180,7 +180,7 @@
 </details>
 
 <details>
-<summary><strong>Day 3</strong> · ⬜ 미완료 · 0/4 (0%)</summary>
+<summary><strong>Day 3</strong> · ⬜ 미완료 · 0/5</summary>
 
 | 신규 목표 | 재풀이 목표 | 추가 후보 조건 | 후보 해결 / 목표 반영 |
 |:---:|:---:|:---:|:---:|
@@ -197,7 +197,7 @@
 </details>
 
 <details>
-<summary><strong>Day 4</strong> · ⬜ 미완료 · 0/4 (0%)</summary>
+<summary><strong>Day 4</strong> · ⬜ 미완료 · 0/5</summary>
 
 | 신규 목표 | 재풀이 목표 | 추가 후보 조건 | 후보 해결 / 목표 반영 |
 |:---:|:---:|:---:|:---:|
@@ -214,7 +214,7 @@
 </details>
 
 <details>
-<summary><strong>Day 5</strong> · ⬜ 미완료 · 0/4 (0%)</summary>
+<summary><strong>Day 5</strong> · ⬜ 미완료 · 0/5</summary>
 
 | 신규 목표 | 재풀이 목표 | 추가 후보 조건 | 후보 해결 / 목표 반영 |
 |:---:|:---:|:---:|:---:|
@@ -231,7 +231,7 @@
 </details>
 
 <details>
-<summary><strong>Day 6</strong> · ⬜ 미완료 · 0/4 (0%)</summary>
+<summary><strong>Day 6</strong> · ⬜ 미완료 · 0/5</summary>
 
 | 신규 목표 | 재풀이 목표 | 추가 후보 조건 | 후보 해결 / 목표 반영 |
 |:---:|:---:|:---:|:---:|
@@ -248,7 +248,7 @@
 </details>
 
 <details>
-<summary><strong>Day 7</strong> · ⬜ 미완료 · 0/6 (0%)</summary>
+<summary><strong>Day 7</strong> · ⬜ 미완료 · 0/6</summary>
 
 | 신규 목표 | 재풀이 목표 | 추가 후보 조건 | 후보 해결 / 목표 반영 |
 |:---:|:---:|:---:|:---:|
@@ -262,7 +262,7 @@
 ## Week 3
 
 <details>
-<summary><strong>Day 1</strong> · ⬜ 미완료 · 0/3 (0%)</summary>
+<summary><strong>Day 1</strong> · ⬜ 미완료 · 0/4</summary>
 
 | 신규 목표 | 재풀이 목표 | 추가 후보 조건 | 후보 해결 / 목표 반영 |
 |:---:|:---:|:---:|:---:|
@@ -278,7 +278,7 @@
 </details>
 
 <details>
-<summary><strong>Day 2</strong> · ⬜ 미완료 · 0/3 (0%)</summary>
+<summary><strong>Day 2</strong> · ⬜ 미완료 · 0/4</summary>
 
 | 신규 목표 | 재풀이 목표 | 추가 후보 조건 | 후보 해결 / 목표 반영 |
 |:---:|:---:|:---:|:---:|
@@ -294,7 +294,7 @@
 </details>
 
 <details>
-<summary><strong>Day 3</strong> · ⬜ 미완료 · 0/3 (0%)</summary>
+<summary><strong>Day 3</strong> · ⬜ 미완료 · 0/4</summary>
 
 | 신규 목표 | 재풀이 목표 | 추가 후보 조건 | 후보 해결 / 목표 반영 |
 |:---:|:---:|:---:|:---:|
@@ -310,7 +310,7 @@
 </details>
 
 <details>
-<summary><strong>Day 4</strong> · ⬜ 미완료 · 0/3 (0%)</summary>
+<summary><strong>Day 4</strong> · ⬜ 미완료 · 0/4</summary>
 
 | 신규 목표 | 재풀이 목표 | 추가 후보 조건 | 후보 해결 / 목표 반영 |
 |:---:|:---:|:---:|:---:|
@@ -326,7 +326,7 @@
 </details>
 
 <details>
-<summary><strong>Day 5</strong> · ⬜ 미완료 · 0/3 (0%)</summary>
+<summary><strong>Day 5</strong> · ⬜ 미완료 · 0/4</summary>
 
 | 신규 목표 | 재풀이 목표 | 추가 후보 조건 | 후보 해결 / 목표 반영 |
 |:---:|:---:|:---:|:---:|
@@ -342,7 +342,7 @@
 </details>
 
 <details>
-<summary><strong>Day 6</strong> · ⬜ 미완료 · 0/3 (0%)</summary>
+<summary><strong>Day 6</strong> · ⬜ 미완료 · 0/4</summary>
 
 | 신규 목표 | 재풀이 목표 | 추가 후보 조건 | 후보 해결 / 목표 반영 |
 |:---:|:---:|:---:|:---:|
@@ -358,7 +358,7 @@
 </details>
 
 <details>
-<summary><strong>Day 7</strong> · ⬜ 미완료 · 0/6 (0%)</summary>
+<summary><strong>Day 7</strong> · ⬜ 미완료 · 0/6</summary>
 
 | 신규 목표 | 재풀이 목표 | 추가 후보 조건 | 후보 해결 / 목표 반영 |
 |:---:|:---:|:---:|:---:|
@@ -372,7 +372,7 @@
 ## Week 4
 
 <details>
-<summary><strong>Day 1</strong> · ⬜ 미완료 · 0/3 (0%)</summary>
+<summary><strong>Day 1</strong> · ⬜ 미완료 · 0/4</summary>
 
 | 신규 목표 | 재풀이 목표 | 추가 후보 조건 | 후보 해결 / 목표 반영 |
 |:---:|:---:|:---:|:---:|
@@ -388,7 +388,7 @@
 </details>
 
 <details>
-<summary><strong>Day 2</strong> · ⬜ 미완료 · 0/3 (0%)</summary>
+<summary><strong>Day 2</strong> · ⬜ 미완료 · 0/4</summary>
 
 | 신규 목표 | 재풀이 목표 | 추가 후보 조건 | 후보 해결 / 목표 반영 |
 |:---:|:---:|:---:|:---:|
@@ -404,7 +404,7 @@
 </details>
 
 <details>
-<summary><strong>Day 3</strong> · ⬜ 미완료 · 0/3 (0%)</summary>
+<summary><strong>Day 3</strong> · ⬜ 미완료 · 0/4</summary>
 
 | 신규 목표 | 재풀이 목표 | 추가 후보 조건 | 후보 해결 / 목표 반영 |
 |:---:|:---:|:---:|:---:|
@@ -420,7 +420,7 @@
 </details>
 
 <details>
-<summary><strong>Day 4</strong> · ⬜ 미완료 · 0/3 (0%)</summary>
+<summary><strong>Day 4</strong> · ⬜ 미완료 · 0/4</summary>
 
 | 신규 목표 | 재풀이 목표 | 추가 후보 조건 | 후보 해결 / 목표 반영 |
 |:---:|:---:|:---:|:---:|
@@ -436,7 +436,7 @@
 </details>
 
 <details>
-<summary><strong>Day 5</strong> · ⬜ 미완료 · 0/3 (0%)</summary>
+<summary><strong>Day 5</strong> · ⬜ 미완료 · 0/4</summary>
 
 | 신규 목표 | 재풀이 목표 | 추가 후보 조건 | 후보 해결 / 목표 반영 |
 |:---:|:---:|:---:|:---:|
@@ -452,7 +452,7 @@
 </details>
 
 <details>
-<summary><strong>Day 6</strong> · ⬜ 미완료 · 0/3 (0%)</summary>
+<summary><strong>Day 6</strong> · ⬜ 미완료 · 0/4</summary>
 
 | 신규 목표 | 재풀이 목표 | 추가 후보 조건 | 후보 해결 / 목표 반영 |
 |:---:|:---:|:---:|:---:|
@@ -468,7 +468,7 @@
 </details>
 
 <details>
-<summary><strong>Day 7</strong> · ⬜ 미완료 · 0/6 (0%)</summary>
+<summary><strong>Day 7</strong> · ⬜ 미완료 · 0/6</summary>
 
 | 신규 목표 | 재풀이 목표 | 추가 후보 조건 | 후보 해결 / 목표 반영 |
 |:---:|:---:|:---:|:---:|
@@ -482,7 +482,7 @@
 ## Week 5
 
 <details>
-<summary><strong>Day 1</strong> · ⬜ 미완료 · 0/3 (0%)</summary>
+<summary><strong>Day 1</strong> · ⬜ 미완료 · 0/4</summary>
 
 | 신규 목표 | 재풀이 목표 | 추가 후보 조건 | 후보 해결 / 목표 반영 |
 |:---:|:---:|:---:|:---:|
@@ -498,7 +498,7 @@
 </details>
 
 <details>
-<summary><strong>Day 2</strong> · ⬜ 미완료 · 0/3 (0%)</summary>
+<summary><strong>Day 2</strong> · ⬜ 미완료 · 0/4</summary>
 
 | 신규 목표 | 재풀이 목표 | 추가 후보 조건 | 후보 해결 / 목표 반영 |
 |:---:|:---:|:---:|:---:|
@@ -514,7 +514,7 @@
 </details>
 
 <details>
-<summary><strong>Day 3</strong> · ⬜ 미완료 · 0/3 (0%)</summary>
+<summary><strong>Day 3</strong> · ⬜ 미완료 · 0/4</summary>
 
 | 신규 목표 | 재풀이 목표 | 추가 후보 조건 | 후보 해결 / 목표 반영 |
 |:---:|:---:|:---:|:---:|
@@ -530,7 +530,7 @@
 </details>
 
 <details>
-<summary><strong>Day 4</strong> · ⬜ 미완료 · 0/3 (0%)</summary>
+<summary><strong>Day 4</strong> · ⬜ 미완료 · 0/4</summary>
 
 | 신규 목표 | 재풀이 목표 | 추가 후보 조건 | 후보 해결 / 목표 반영 |
 |:---:|:---:|:---:|:---:|
@@ -546,7 +546,7 @@
 </details>
 
 <details>
-<summary><strong>Day 5</strong> · ⬜ 미완료 · 0/3 (0%)</summary>
+<summary><strong>Day 5</strong> · ⬜ 미완료 · 0/4</summary>
 
 | 신규 목표 | 재풀이 목표 | 추가 후보 조건 | 후보 해결 / 목표 반영 |
 |:---:|:---:|:---:|:---:|
@@ -562,7 +562,7 @@
 </details>
 
 <details>
-<summary><strong>Day 6</strong> · ⬜ 미완료 · 0/3 (0%)</summary>
+<summary><strong>Day 6</strong> · ⬜ 미완료 · 0/4</summary>
 
 | 신규 목표 | 재풀이 목표 | 추가 후보 조건 | 후보 해결 / 목표 반영 |
 |:---:|:---:|:---:|:---:|
@@ -578,7 +578,7 @@
 </details>
 
 <details>
-<summary><strong>Day 7</strong> · ⬜ 미완료 · 0/6 (0%)</summary>
+<summary><strong>Day 7</strong> · ⬜ 미완료 · 0/6</summary>
 
 | 신규 목표 | 재풀이 목표 | 추가 후보 조건 | 후보 해결 / 목표 반영 |
 |:---:|:---:|:---:|:---:|
@@ -592,7 +592,7 @@
 ## Week 6
 
 <details>
-<summary><strong>Day 1</strong> · ⬜ 미완료 · 0/4 (0%)</summary>
+<summary><strong>Day 1</strong> · ⬜ 미완료 · 0/5</summary>
 
 | 신규 목표 | 재풀이 목표 | 추가 후보 조건 | 후보 해결 / 목표 반영 |
 |:---:|:---:|:---:|:---:|
@@ -609,7 +609,7 @@
 </details>
 
 <details>
-<summary><strong>Day 2</strong> · ⬜ 미완료 · 0/4 (0%)</summary>
+<summary><strong>Day 2</strong> · ⬜ 미완료 · 0/5</summary>
 
 | 신규 목표 | 재풀이 목표 | 추가 후보 조건 | 후보 해결 / 목표 반영 |
 |:---:|:---:|:---:|:---:|
@@ -626,7 +626,7 @@
 </details>
 
 <details>
-<summary><strong>Day 3</strong> · ⬜ 미완료 · 0/4 (0%)</summary>
+<summary><strong>Day 3</strong> · ⬜ 미완료 · 0/5</summary>
 
 | 신규 목표 | 재풀이 목표 | 추가 후보 조건 | 후보 해결 / 목표 반영 |
 |:---:|:---:|:---:|:---:|
@@ -643,7 +643,7 @@
 </details>
 
 <details>
-<summary><strong>Day 4</strong> · ⬜ 미완료 · 0/4 (0%)</summary>
+<summary><strong>Day 4</strong> · ⬜ 미완료 · 0/5</summary>
 
 | 신규 목표 | 재풀이 목표 | 추가 후보 조건 | 후보 해결 / 목표 반영 |
 |:---:|:---:|:---:|:---:|
@@ -660,7 +660,7 @@
 </details>
 
 <details>
-<summary><strong>Day 5</strong> · ⬜ 미완료 · 0/4 (0%)</summary>
+<summary><strong>Day 5</strong> · ⬜ 미완료 · 0/5</summary>
 
 | 신규 목표 | 재풀이 목표 | 추가 후보 조건 | 후보 해결 / 목표 반영 |
 |:---:|:---:|:---:|:---:|
@@ -677,7 +677,7 @@
 </details>
 
 <details>
-<summary><strong>Day 6</strong> · ⬜ 미완료 · 0/4 (0%)</summary>
+<summary><strong>Day 6</strong> · ⬜ 미완료 · 0/5</summary>
 
 | 신규 목표 | 재풀이 목표 | 추가 후보 조건 | 후보 해결 / 목표 반영 |
 |:---:|:---:|:---:|:---:|
@@ -694,7 +694,7 @@
 </details>
 
 <details>
-<summary><strong>Day 7</strong> · ⬜ 미완료 · 0/6 (0%)</summary>
+<summary><strong>Day 7</strong> · ⬜ 미완료 · 0/6</summary>
 
 | 신규 목표 | 재풀이 목표 | 추가 후보 조건 | 후보 해결 / 목표 반영 |
 |:---:|:---:|:---:|:---:|
@@ -708,7 +708,7 @@
 ## Week 7
 
 <details>
-<summary><strong>Day 1</strong> · ⬜ 미완료 · 0/2 (0%)</summary>
+<summary><strong>Day 1</strong> · ⬜ 미완료 · 0/2</summary>
 
 | 신규 목표 | 재풀이 목표 | 추가 후보 조건 | 후보 해결 / 목표 반영 |
 |:---:|:---:|:---:|:---:|
@@ -722,7 +722,7 @@
 </details>
 
 <details>
-<summary><strong>Day 2</strong> · ⬜ 미완료 · 0/2 (0%)</summary>
+<summary><strong>Day 2</strong> · ⬜ 미완료 · 0/2</summary>
 
 | 신규 목표 | 재풀이 목표 | 추가 후보 조건 | 후보 해결 / 목표 반영 |
 |:---:|:---:|:---:|:---:|
@@ -736,7 +736,7 @@
 </details>
 
 <details>
-<summary><strong>Day 3</strong> · ⬜ 미완료 · 0/2 (0%)</summary>
+<summary><strong>Day 3</strong> · ⬜ 미완료 · 0/2</summary>
 
 | 신규 목표 | 재풀이 목표 | 추가 후보 조건 | 후보 해결 / 목표 반영 |
 |:---:|:---:|:---:|:---:|
@@ -750,7 +750,7 @@
 </details>
 
 <details>
-<summary><strong>Day 4</strong> · ⬜ 미완료 · 0/2 (0%)</summary>
+<summary><strong>Day 4</strong> · ⬜ 미완료 · 0/2</summary>
 
 | 신규 목표 | 재풀이 목표 | 추가 후보 조건 | 후보 해결 / 목표 반영 |
 |:---:|:---:|:---:|:---:|
@@ -764,7 +764,7 @@
 </details>
 
 <details>
-<summary><strong>Day 5</strong> · ⬜ 미완료 · 0/3 (0%)</summary>
+<summary><strong>Day 5</strong> · ⬜ 미완료 · 0/4</summary>
 
 | 신규 목표 | 재풀이 목표 | 추가 후보 조건 | 후보 해결 / 목표 반영 |
 |:---:|:---:|:---:|:---:|
@@ -780,7 +780,7 @@
 </details>
 
 <details>
-<summary><strong>Day 6</strong> · ⬜ 미완료 · 0/3 (0%)</summary>
+<summary><strong>Day 6</strong> · ⬜ 미완료 · 0/4</summary>
 
 | 신규 목표 | 재풀이 목표 | 추가 후보 조건 | 후보 해결 / 목표 반영 |
 |:---:|:---:|:---:|:---:|
@@ -796,7 +796,7 @@
 </details>
 
 <details>
-<summary><strong>Day 7</strong> · ⬜ 미완료 · 0/6 (0%)</summary>
+<summary><strong>Day 7</strong> · ⬜ 미완료 · 0/6</summary>
 
 | 신규 목표 | 재풀이 목표 | 추가 후보 조건 | 후보 해결 / 목표 반영 |
 |:---:|:---:|:---:|:---:|
@@ -810,7 +810,7 @@
 ## Week 8
 
 <details>
-<summary><strong>Day 1</strong> · ⬜ 미완료 · 0/2 (0%)</summary>
+<summary><strong>Day 1</strong> · ⬜ 미완료 · 0/2</summary>
 
 | 신규 목표 | 재풀이 목표 | 추가 후보 조건 | 후보 해결 / 목표 반영 |
 |:---:|:---:|:---:|:---:|
@@ -824,7 +824,7 @@
 </details>
 
 <details>
-<summary><strong>Day 2</strong> · ⬜ 미완료 · 0/2 (0%)</summary>
+<summary><strong>Day 2</strong> · ⬜ 미완료 · 0/2</summary>
 
 | 신규 목표 | 재풀이 목표 | 추가 후보 조건 | 후보 해결 / 목표 반영 |
 |:---:|:---:|:---:|:---:|
@@ -838,7 +838,7 @@
 </details>
 
 <details>
-<summary><strong>Day 3</strong> · ⬜ 미완료 · 0/2 (0%)</summary>
+<summary><strong>Day 3</strong> · ⬜ 미완료 · 0/2</summary>
 
 | 신규 목표 | 재풀이 목표 | 추가 후보 조건 | 후보 해결 / 목표 반영 |
 |:---:|:---:|:---:|:---:|
@@ -852,7 +852,7 @@
 </details>
 
 <details>
-<summary><strong>Day 4</strong> · ⬜ 미완료 · 0/2 (0%)</summary>
+<summary><strong>Day 4</strong> · ⬜ 미완료 · 0/2</summary>
 
 | 신규 목표 | 재풀이 목표 | 추가 후보 조건 | 후보 해결 / 목표 반영 |
 |:---:|:---:|:---:|:---:|
@@ -866,7 +866,7 @@
 </details>
 
 <details>
-<summary><strong>Day 5</strong> · ⬜ 미완료 · 0/3 (0%)</summary>
+<summary><strong>Day 5</strong> · ⬜ 미완료 · 0/4</summary>
 
 | 신규 목표 | 재풀이 목표 | 추가 후보 조건 | 후보 해결 / 목표 반영 |
 |:---:|:---:|:---:|:---:|
@@ -882,7 +882,7 @@
 </details>
 
 <details>
-<summary><strong>Day 6</strong> · ⬜ 미완료 · 0/3 (0%)</summary>
+<summary><strong>Day 6</strong> · ⬜ 미완료 · 0/4</summary>
 
 | 신규 목표 | 재풀이 목표 | 추가 후보 조건 | 후보 해결 / 목표 반영 |
 |:---:|:---:|:---:|:---:|
@@ -898,7 +898,7 @@
 </details>
 
 <details>
-<summary><strong>Day 7</strong> · ⬜ 미완료 · 0/6 (0%)</summary>
+<summary><strong>Day 7</strong> · ⬜ 미완료 · 0/6</summary>
 
 | 신규 목표 | 재풀이 목표 | 추가 후보 조건 | 후보 해결 / 목표 반영 |
 |:---:|:---:|:---:|:---:|
@@ -912,7 +912,7 @@
 ## Week 9
 
 <details>
-<summary><strong>Day 1</strong> · ⬜ 미완료 · 0/3 (0%)</summary>
+<summary><strong>Day 1</strong> · ⬜ 미완료 · 0/4</summary>
 
 | 신규 목표 | 재풀이 목표 | 추가 후보 조건 | 후보 해결 / 목표 반영 |
 |:---:|:---:|:---:|:---:|
@@ -928,7 +928,7 @@
 </details>
 
 <details>
-<summary><strong>Day 2</strong> · ⬜ 미완료 · 0/3 (0%)</summary>
+<summary><strong>Day 2</strong> · ⬜ 미완료 · 0/4</summary>
 
 | 신규 목표 | 재풀이 목표 | 추가 후보 조건 | 후보 해결 / 목표 반영 |
 |:---:|:---:|:---:|:---:|
@@ -944,7 +944,7 @@
 </details>
 
 <details>
-<summary><strong>Day 3</strong> · ⬜ 미완료 · 0/3 (0%)</summary>
+<summary><strong>Day 3</strong> · ⬜ 미완료 · 0/4</summary>
 
 | 신규 목표 | 재풀이 목표 | 추가 후보 조건 | 후보 해결 / 목표 반영 |
 |:---:|:---:|:---:|:---:|
@@ -960,7 +960,7 @@
 </details>
 
 <details>
-<summary><strong>Day 4</strong> · ⬜ 미완료 · 0/3 (0%)</summary>
+<summary><strong>Day 4</strong> · ⬜ 미완료 · 0/4</summary>
 
 | 신규 목표 | 재풀이 목표 | 추가 후보 조건 | 후보 해결 / 목표 반영 |
 |:---:|:---:|:---:|:---:|
@@ -976,7 +976,7 @@
 </details>
 
 <details>
-<summary><strong>Day 5</strong> · ⬜ 미완료 · 0/3 (0%)</summary>
+<summary><strong>Day 5</strong> · ⬜ 미완료 · 0/4</summary>
 
 | 신규 목표 | 재풀이 목표 | 추가 후보 조건 | 후보 해결 / 목표 반영 |
 |:---:|:---:|:---:|:---:|
@@ -992,7 +992,7 @@
 </details>
 
 <details>
-<summary><strong>Day 6</strong> · ⬜ 미완료 · 0/3 (0%)</summary>
+<summary><strong>Day 6</strong> · ⬜ 미완료 · 0/4</summary>
 
 | 신규 목표 | 재풀이 목표 | 추가 후보 조건 | 후보 해결 / 목표 반영 |
 |:---:|:---:|:---:|:---:|
@@ -1008,7 +1008,7 @@
 </details>
 
 <details>
-<summary><strong>Day 7</strong> · ⬜ 미완료 · 0/6 (0%)</summary>
+<summary><strong>Day 7</strong> · ⬜ 미완료 · 0/6</summary>
 
 | 신규 목표 | 재풀이 목표 | 추가 후보 조건 | 후보 해결 / 목표 반영 |
 |:---:|:---:|:---:|:---:|
@@ -1022,7 +1022,7 @@
 ## Week 10
 
 <details>
-<summary><strong>Day 1</strong> · ⬜ 미완료 · 0/2 (0%)</summary>
+<summary><strong>Day 1</strong> · ⬜ 미완료 · 0/2</summary>
 
 | 신규 목표 | 재풀이 목표 | 추가 후보 조건 | 후보 해결 / 목표 반영 |
 |:---:|:---:|:---:|:---:|
@@ -1036,7 +1036,7 @@
 </details>
 
 <details>
-<summary><strong>Day 2</strong> · ⬜ 미완료 · 0/2 (0%)</summary>
+<summary><strong>Day 2</strong> · ⬜ 미완료 · 0/2</summary>
 
 | 신규 목표 | 재풀이 목표 | 추가 후보 조건 | 후보 해결 / 목표 반영 |
 |:---:|:---:|:---:|:---:|
@@ -1050,7 +1050,7 @@
 </details>
 
 <details>
-<summary><strong>Day 3</strong> · ⬜ 미완료 · 0/2 (0%)</summary>
+<summary><strong>Day 3</strong> · ⬜ 미완료 · 0/2</summary>
 
 | 신규 목표 | 재풀이 목표 | 추가 후보 조건 | 후보 해결 / 목표 반영 |
 |:---:|:---:|:---:|:---:|
@@ -1064,7 +1064,7 @@
 </details>
 
 <details>
-<summary><strong>Day 4</strong> · ⬜ 미완료 · 0/2 (0%)</summary>
+<summary><strong>Day 4</strong> · ⬜ 미완료 · 0/2</summary>
 
 | 신규 목표 | 재풀이 목표 | 추가 후보 조건 | 후보 해결 / 목표 반영 |
 |:---:|:---:|:---:|:---:|
@@ -1078,7 +1078,7 @@
 </details>
 
 <details>
-<summary><strong>Day 5</strong> · ⬜ 미완료 · 0/2 (0%)</summary>
+<summary><strong>Day 5</strong> · ⬜ 미완료 · 0/2</summary>
 
 | 신규 목표 | 재풀이 목표 | 추가 후보 조건 | 후보 해결 / 목표 반영 |
 |:---:|:---:|:---:|:---:|
@@ -1092,7 +1092,7 @@
 </details>
 
 <details>
-<summary><strong>Day 6</strong> · ⬜ 미완료 · 0/2 (0%)</summary>
+<summary><strong>Day 6</strong> · ⬜ 미완료 · 0/2</summary>
 
 | 신규 목표 | 재풀이 목표 | 추가 후보 조건 | 후보 해결 / 목표 반영 |
 |:---:|:---:|:---:|:---:|
@@ -1106,7 +1106,7 @@
 </details>
 
 <details>
-<summary><strong>Day 7</strong> · ⬜ 미완료 · 0/6 (0%)</summary>
+<summary><strong>Day 7</strong> · ⬜ 미완료 · 0/6</summary>
 
 | 신규 목표 | 재풀이 목표 | 추가 후보 조건 | 후보 해결 / 목표 반영 |
 |:---:|:---:|:---:|:---:|
@@ -1120,7 +1120,7 @@
 ## Week 11
 
 <details>
-<summary><strong>Day 1</strong> · ⬜ 미완료 · 0/2 (0%)</summary>
+<summary><strong>Day 1</strong> · ⬜ 미완료 · 0/2</summary>
 
 | 신규 목표 | 재풀이 목표 | 추가 후보 조건 | 후보 해결 / 목표 반영 |
 |:---:|:---:|:---:|:---:|
@@ -1134,7 +1134,7 @@
 </details>
 
 <details>
-<summary><strong>Day 2</strong> · ⬜ 미완료 · 0/2 (0%)</summary>
+<summary><strong>Day 2</strong> · ⬜ 미완료 · 0/2</summary>
 
 | 신규 목표 | 재풀이 목표 | 추가 후보 조건 | 후보 해결 / 목표 반영 |
 |:---:|:---:|:---:|:---:|
@@ -1148,7 +1148,7 @@
 </details>
 
 <details>
-<summary><strong>Day 3</strong> · ⬜ 미완료 · 0/2 (0%)</summary>
+<summary><strong>Day 3</strong> · ⬜ 미완료 · 0/2</summary>
 
 | 신규 목표 | 재풀이 목표 | 추가 후보 조건 | 후보 해결 / 목표 반영 |
 |:---:|:---:|:---:|:---:|
@@ -1162,7 +1162,7 @@
 </details>
 
 <details>
-<summary><strong>Day 4</strong> · ⬜ 미완료 · 0/2 (0%)</summary>
+<summary><strong>Day 4</strong> · ⬜ 미완료 · 0/2</summary>
 
 | 신규 목표 | 재풀이 목표 | 추가 후보 조건 | 후보 해결 / 목표 반영 |
 |:---:|:---:|:---:|:---:|
@@ -1176,7 +1176,7 @@
 </details>
 
 <details>
-<summary><strong>Day 5</strong> · ⬜ 미완료 · 0/2 (0%)</summary>
+<summary><strong>Day 5</strong> · ⬜ 미완료 · 0/2</summary>
 
 | 신규 목표 | 재풀이 목표 | 추가 후보 조건 | 후보 해결 / 목표 반영 |
 |:---:|:---:|:---:|:---:|
@@ -1190,7 +1190,7 @@
 </details>
 
 <details>
-<summary><strong>Day 6</strong> · ⬜ 미완료 · 0/2 (0%)</summary>
+<summary><strong>Day 6</strong> · ⬜ 미완료 · 0/2</summary>
 
 | 신규 목표 | 재풀이 목표 | 추가 후보 조건 | 후보 해결 / 목표 반영 |
 |:---:|:---:|:---:|:---:|
@@ -1204,7 +1204,7 @@
 </details>
 
 <details>
-<summary><strong>Day 7</strong> · ⬜ 미완료 · 0/6 (0%)</summary>
+<summary><strong>Day 7</strong> · ⬜ 미완료 · 0/6</summary>
 
 | 신규 목표 | 재풀이 목표 | 추가 후보 조건 | 후보 해결 / 목표 반영 |
 |:---:|:---:|:---:|:---:|
@@ -1218,7 +1218,7 @@
 ## Week 12
 
 <details>
-<summary><strong>Day 1</strong> · ⬜ 미완료 · 0/4 (0%)</summary>
+<summary><strong>Day 1</strong> · ⬜ 미완료 · 0/4</summary>
 
 | 신규 목표 | 재풀이 목표 | 추가 후보 조건 | 후보 해결 / 목표 반영 |
 |:---:|:---:|:---:|:---:|
@@ -1234,7 +1234,7 @@
 </details>
 
 <details>
-<summary><strong>Day 2</strong> · ⬜ 미완료 · 0/3 (0%)</summary>
+<summary><strong>Day 2</strong> · ⬜ 미완료 · 0/3</summary>
 
 | 신규 목표 | 재풀이 목표 | 추가 후보 조건 | 후보 해결 / 목표 반영 |
 |:---:|:---:|:---:|:---:|
@@ -1245,7 +1245,7 @@
 </details>
 
 <details>
-<summary><strong>Day 3</strong> · ⬜ 미완료 · 0/4 (0%)</summary>
+<summary><strong>Day 3</strong> · ⬜ 미완료 · 0/4</summary>
 
 | 신규 목표 | 재풀이 목표 | 추가 후보 조건 | 후보 해결 / 목표 반영 |
 |:---:|:---:|:---:|:---:|
@@ -1261,7 +1261,7 @@
 </details>
 
 <details>
-<summary><strong>Day 4</strong> · ⬜ 미완료 · 0/3 (0%)</summary>
+<summary><strong>Day 4</strong> · ⬜ 미완료 · 0/3</summary>
 
 | 신규 목표 | 재풀이 목표 | 추가 후보 조건 | 후보 해결 / 목표 반영 |
 |:---:|:---:|:---:|:---:|
@@ -1272,7 +1272,7 @@
 </details>
 
 <details>
-<summary><strong>Day 5</strong> · ⬜ 미완료 · 0/4 (0%)</summary>
+<summary><strong>Day 5</strong> · ⬜ 미완료 · 0/4</summary>
 
 | 신규 목표 | 재풀이 목표 | 추가 후보 조건 | 후보 해결 / 목표 반영 |
 |:---:|:---:|:---:|:---:|
@@ -1288,7 +1288,7 @@
 </details>
 
 <details>
-<summary><strong>Day 6</strong> · ⬜ 미완료 · 0/3 (0%)</summary>
+<summary><strong>Day 6</strong> · ⬜ 미완료 · 0/3</summary>
 
 | 신규 목표 | 재풀이 목표 | 추가 후보 조건 | 후보 해결 / 목표 반영 |
 |:---:|:---:|:---:|:---:|
@@ -1299,7 +1299,7 @@
 </details>
 
 <details>
-<summary><strong>Day 7</strong> · ⬜ 미완료 · 0/0 (0%) · 수동 학습</summary>
+<summary><strong>Day 7</strong> · ⬜ 미완료 · 0/0 · 수동 학습</summary>
 
 | 신규 목표 | 재풀이 목표 | 추가 후보 조건 | 후보 해결 / 목표 반영 |
 |:---:|:---:|:---:|:---:|
