@@ -27,7 +27,7 @@ export function calculate(days, solved, reviews, plan) {
     // A copied record with another id cannot manufacture another review of the same problem that day.
     const reviewSolved = new Set(attempts.filter(r => r.result === 'accepted').map(r => r.key)).size;
     const total = d.target + d.reviewTarget;
-    const done = Math.min(newSolved, d.target) + Math.min(reviewSolved, d.reviewTarget);
+    const done = Math.min(creditedNewSolved, d.target) + Math.min(reviewSolved, d.reviewTarget);
     const manualComplete = new RegExp(`^- \\[x\\] W${d.week}-D${d.day}:`, 'm').test(plan);
     // A day without objective tasks requires its existing manual checklist.
     const complete = total ? creditedNewSolved >= d.target && reviewSolved >= d.reviewTarget && requiredProblems.every(p => p.solved) && additional.complete : manualComplete;
