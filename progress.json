@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "repository": "Nu-LungJi/Problem-Solving-Factory",
-  "accepted": 10,
+  "accepted": 14,
   "registered": 254,
   "target": 208,
   "days": [
@@ -159,7 +159,7 @@
           "url": "https://school.programmers.co.kr/learn/courses/30/lessons/12925",
           "platform": "programmers",
           "problemId": "12925",
-          "solved": false,
+          "solved": true,
           "countsAsNew": true
         },
         {
@@ -168,7 +168,7 @@
           "url": "https://school.programmers.co.kr/learn/courses/30/lessons/12930",
           "platform": "programmers",
           "problemId": "12930",
-          "solved": false,
+          "solved": true,
           "countsAsNew": true
         }
       ],
@@ -181,7 +181,7 @@
             "problemId": "valid-palindrome",
             "title": "Valid Palindrome",
             "url": "https://leetcode.com/problems/valid-palindrome/",
-            "solved": false
+            "solved": true
           },
           {
             "key": "leetcode:length-of-last-word",
@@ -189,7 +189,7 @@
             "problemId": "length-of-last-word",
             "title": "Length Of Last Word",
             "url": "https://leetcode.com/problems/length-of-last-word/",
-            "solved": false
+            "solved": true
           },
           {
             "key": "leetcode:first-unique-character-in-a-string",
@@ -200,18 +200,18 @@
             "solved": false
           }
         ],
-        "solved": 0,
-        "credited": 0,
-        "complete": false
+        "solved": 2,
+        "credited": 2,
+        "complete": true
       },
-      "requiredSolved": 0,
-      "newSolved": 0,
+      "requiredSolved": 2,
+      "newSolved": 4,
       "reviewAttempts": 0,
       "reviewSolved": 0,
-      "done": 0,
+      "done": 4,
       "total": 4,
-      "percent": 0,
-      "complete": false,
+      "percent": 100,
+      "complete": true,
       "manualComplete": false,
       "completionBasis": "objective"
     },
@@ -4484,10 +4484,10 @@
   "weeks": [
     {
       "week": 1,
-      "done": 8,
+      "done": 12,
       "total": 30,
-      "percent": 26.67,
-      "completedDays": 2,
+      "percent": 40,
+      "completedDays": 3,
       "totalDays": 7,
       "complete": false
     },
@@ -4592,10 +4592,10 @@
     }
   ],
   "overall": {
-    "done": 8,
+    "done": 12,
     "total": 283,
-    "percent": 2.83,
-    "completedDays": 2,
+    "percent": 4.24,
+    "completedDays": 3,
     "totalDays": 84,
     "complete": false,
     "completedWeeks": 0,
@@ -4631,6 +4631,10 @@
       "code": "solutions/leetcode/kids-with-the-greatest-number-of-candies.cpp",
       "evidence": "사용자 정답 확인"
     },
+    "leetcode:length-of-last-word": {
+      "code": "solutions/leetcode/length-of-last-word.cpp",
+      "evidence": "사용자 정답 확인"
+    },
     "leetcode:palindrome-number": {
       "code": "solutions/leetcode/palindrome-number.cpp",
       "evidence": "사용자 정답 확인"
@@ -4642,6 +4646,18 @@
     "leetcode:running-sum-of-1d-array": {
       "code": "solutions/leetcode/running-sum-of-1d-array.cpp",
       "evidence": "정답 확인 후 저장한 로컬 풀이"
+    },
+    "leetcode:valid-palindrome": {
+      "code": "solutions/leetcode/valid-palindrome.cpp",
+      "evidence": "사용자 정답 확인"
+    },
+    "programmers:12925": {
+      "code": "solutions/programmers/12925.cpp",
+      "evidence": "사용자 정답 확인"
+    },
+    "programmers:12930": {
+      "code": "solutions/programmers/12930.cpp",
+      "evidence": "사용자 정답 확인"
     }
   }
 }
