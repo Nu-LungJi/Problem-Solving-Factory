@@ -161,12 +161,12 @@ test('automatic START skips solved files, preserves existing drafts and reuses t
   const first=prepareToday(root,project,'2026-09-15').session;
   assert.equal(fs.existsSync(path.join(project,'Solved','2026-09-15','1068.cpp')),false);
   assert.equal(fs.existsSync(path.join(project,'Solved','2026-09-15','1083.cpp')),false);
-  assert.deepEqual(first.entries.map(e=>e.key),['leetcode:palindrome-number','leetcode:fizz-buzz']);
+  assert.deepEqual(first.entries.map(e=>e.key),['leetcode:palindrome-number','leetcode:fizz-buzz','leetcode:add-digits']);
   const before=first.entries.map(e=>fs.readFileSync(path.join(project,e.localFile)));
   const next=prepareToday(root,project,'2026-09-15').session;
   assert.equal(next.id,first.id);
   assert.deepEqual(next.entries,first.entries);
-  assert.equal(fs.existsSync(path.join(project,'Solved','2026-09-15','add-digits.cpp')),false);
+  assert.equal(fs.existsSync(path.join(project,'Solved','2026-09-15','add-digits.cpp')),true);
   next.entries.forEach((e,i)=>assert.deepEqual(fs.readFileSync(path.join(project,e.localFile)),before[i]));
   assert.deepEqual(pendingEntries(root,next).map(e=>e.key),['leetcode:palindrome-number']);
   const tomorrow=prepareToday(root,project,'2026-09-16').session;
