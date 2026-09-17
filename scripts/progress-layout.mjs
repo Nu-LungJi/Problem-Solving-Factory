@@ -25,7 +25,7 @@ for(const weekMatch of source.slice(firstWeek).matchAll(/\n## Week (\d+)\n([\s\S
   for(const d of weekMatch[2].matchAll(/### Day (\d+) — 신규 목표 (\d+) \/ 재풀이 목표 (\d+)\n([\s\S]*?)(?=### Day |$)/g)) {
     dayCount++;
     const [,day,newGoal,reviewGoal,body]=d;
-    const status=/- \[([ x])\] Day \d+ (.+?) 완료 · (\d+\/\d+ \([\d.]+%\))/.exec(body);
+    const status=/- \[([ x])\] Day \d+ (.+?) 완료 · 실제 (\d+\/\d+) · 목표 (\d+\/\d+ \([\d.]+%\))/.exec(body);
     if(!status) throw Error('No day status');
     const pool=/추가 후보 (\d+)개 중 (\d+)개 해결 필요 · 현재 (\d+)개 해결 · 목표 반영 (\d+\/\d+)/.exec(body);
     const isManual=status[2]==='수동 목표';
