@@ -2,15 +2,15 @@
 
 [전체 커리큘럼](https://github.com/Nu-LungJi/Problem-Solving-Factory/blob/main/curriculum/plan.md) · [수동 기록 방법](https://github.com/Nu-LungJi/Problem-Solving-Factory/blob/main/curriculum/README.md)
 
-**등록 문제 해결: 15/254** · 신규 학습 목표: 208문제
+**등록 문제 해결: 20/254** · 신규 학습 목표: 208문제
 
 필수 144문제와 Day별 후보 풀에서 선택하는 64문제를 합쳐 신규 목표는 208문제입니다. 후보를 전부 풀 필요는 없습니다. 후보 밖의 기존 수동 기록은 보존하지만 목표를 대체하지 않습니다. 업로드는 독립 해결·학습 완료의 증명이 아닙니다. BaekjoonHub 형식은 업로드 관례를 신뢰하며 온라인 저지에 재조회하지 않습니다. Day·Week 객관적 풀이 목표는 자동 계산하며 개념·오답 정리 체크는 원본 커리큘럼에서 직접 관리합니다.
 
-**전체 목표 진도: 12/283 (4.24%)** · 완료 Day 3/84 · Week 0/12
+**전체 목표 진도: 16/283 (5.65%)** · 완료 Day 4/84 · Week 0/12
 
 | Week | 목표 진도 | 완료 Day | 등록 문제 해결 | 신규 목표 | 재풀이 시도 / 목표 | 상태 |
 |:---:|---:|:---:|---:|---:|---:|:---:|
-| 1 | 12/30 (40%) | 3/7 | 15/30 | 24 | 0/6 | 미완료 |
+| 1 | 16/30 (53.33%) | 4/7 | 20/30 | 24 | 0/6 | 미완료 |
 | 2 | 0/30 (0%) | 0/7 | 0/30 | 24 | 0/6 | 미완료 |
 | 3 | 0/24 (0%) | 0/7 | 0/24 | 18 | 0/6 | 미완료 |
 | 4 | 0/24 (0%) | 0/7 | 0/24 | 18 | 0/6 | 미완료 |
@@ -98,19 +98,19 @@
 </details>
 
 <details>
-<summary><strong>Day 5</strong> · ⬜ 미완료 · 0/5</summary>
+<summary><strong>Day 5</strong> · ✅ 완료 · 5/5</summary>
 
 | 신규 목표 | 재풀이 목표 | 추가 후보 조건 | 후보 해결 / 목표 반영 |
 |:---:|:---:|:---:|:---:|
-| 4문제 | 0문제 | 3개 중 2개 | 0개 해결 · 0/2 반영 |
+| 4문제 | 0문제 | 3개 중 2개 | 3개 해결 · 2/2 반영 |
 
 | 상태 | 구분 | 플랫폼 | 문제 | 풀이 / 기록 |
 |:---:|:---:|:---:|---|---|
-| ⬜ | 필수 | CSES | [Distinct Numbers](https://cses.fi/problemset/task/1621/) | — |
-| ⬜ | 필수 | Programmers | [제일 작은 수 제거하기](https://school.programmers.co.kr/learn/courses/30/lessons/12935) | — |
-| ⬜ | 후보 | LeetCode | [Remove Duplicates From Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | leetcode:remove-duplicates-from-sorted-array |
-| ⬜ | 후보 | LeetCode | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | leetcode:contains-duplicate |
-| ⬜ | 후보 | LeetCode | [Intersection Of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/) | leetcode:intersection-of-two-arrays |
+| ✅ | 필수 | CSES | [Distinct Numbers](https://cses.fi/problemset/task/1621/) | [C++ 풀이](https://github.com/Nu-LungJi/Problem-Solving-Factory/blob/main/solutions/cses/1621.cpp) · 사용자 정답 확인 |
+| ✅ | 필수 | Programmers | [제일 작은 수 제거하기](https://school.programmers.co.kr/learn/courses/30/lessons/12935) | [C++ 풀이](https://github.com/Nu-LungJi/Problem-Solving-Factory/blob/main/solutions/programmers/12935.cpp) · 사용자 정답 확인 |
+| ✅ | 후보 | LeetCode | [Remove Duplicates From Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | leetcode:remove-duplicates-from-sorted-array |
+| ✅ | 후보 | LeetCode | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | leetcode:contains-duplicate |
+| ✅ | 후보 | LeetCode | [Intersection Of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/) | leetcode:intersection-of-two-arrays |
 
 </details>
 

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "repository": "Nu-LungJi/Problem-Solving-Factory",
-  "accepted": 15,
+  "accepted": 20,
   "registered": 254,
   "target": 208,
   "days": [
@@ -303,7 +303,7 @@
           "url": "https://cses.fi/problemset/task/1621/",
           "platform": "cses",
           "problemId": "1621",
-          "solved": false,
+          "solved": true,
           "countsAsNew": true
         },
         {
@@ -312,7 +312,7 @@
           "url": "https://school.programmers.co.kr/learn/courses/30/lessons/12935",
           "platform": "programmers",
           "problemId": "12935",
-          "solved": false,
+          "solved": true,
           "countsAsNew": true
         }
       ],
@@ -325,7 +325,7 @@
             "problemId": "remove-duplicates-from-sorted-array",
             "title": "Remove Duplicates From Sorted Array",
             "url": "https://leetcode.com/problems/remove-duplicates-from-sorted-array/",
-            "solved": false
+            "solved": true
           },
           {
             "key": "leetcode:contains-duplicate",
@@ -333,7 +333,7 @@
             "problemId": "contains-duplicate",
             "title": "Contains Duplicate",
             "url": "https://leetcode.com/problems/contains-duplicate/",
-            "solved": false
+            "solved": true
           },
           {
             "key": "leetcode:intersection-of-two-arrays",
@@ -341,22 +341,22 @@
             "problemId": "intersection-of-two-arrays",
             "title": "Intersection Of Two Arrays",
             "url": "https://leetcode.com/problems/intersection-of-two-arrays/",
-            "solved": false
+            "solved": true
           }
         ],
-        "solved": 0,
-        "credited": 0,
-        "complete": false
+        "solved": 3,
+        "credited": 2,
+        "complete": true
       },
-      "requiredSolved": 0,
-      "newSolved": 0,
-      "creditedNewSolved": 0,
+      "requiredSolved": 2,
+      "newSolved": 5,
+      "creditedNewSolved": 4,
       "reviewAttempts": 0,
       "reviewSolved": 0,
-      "done": 0,
+      "done": 4,
       "total": 4,
-      "percent": 0,
-      "complete": false,
+      "percent": 100,
+      "complete": true,
       "manualComplete": false,
       "completionBasis": "objective"
     },
@@ -4568,10 +4568,10 @@
   "weeks": [
     {
       "week": 1,
-      "done": 12,
+      "done": 16,
       "total": 30,
-      "percent": 40,
-      "completedDays": 3,
+      "percent": 53.33,
+      "completedDays": 4,
       "totalDays": 7,
       "complete": false
     },
@@ -4676,10 +4676,10 @@
     }
   ],
   "overall": {
-    "done": 12,
+    "done": 16,
     "total": 283,
-    "percent": 4.24,
-    "completedDays": 3,
+    "percent": 5.65,
+    "completedDays": 4,
     "totalDays": 84,
     "complete": false,
     "completedWeeks": 0,
@@ -4703,8 +4703,16 @@
       "code": "solutions/cses/1094.cpp",
       "evidence": "사용자 정답 확인"
     },
+    "cses:1621": {
+      "code": "solutions/cses/1621.cpp",
+      "evidence": "사용자 정답 확인"
+    },
     "leetcode:add-digits": {
       "code": "solutions/leetcode/add-digits.cpp",
+      "evidence": "사용자 정답 확인"
+    },
+    "leetcode:contains-duplicate": {
+      "code": "solutions/leetcode/contains-duplicate.cpp",
       "evidence": "사용자 정답 확인"
     },
     "leetcode:first-unique-character-in-a-string": {
@@ -4713,6 +4721,10 @@
     },
     "leetcode:fizz-buzz": {
       "code": "solutions/leetcode/fizz-buzz.cpp",
+      "evidence": "사용자 정답 확인"
+    },
+    "leetcode:intersection-of-two-arrays": {
+      "code": "solutions/leetcode/intersection-of-two-arrays.cpp",
       "evidence": "사용자 정답 확인"
     },
     "leetcode:kids-with-the-greatest-number-of-candies": {
@@ -4725,6 +4737,10 @@
     },
     "leetcode:palindrome-number": {
       "code": "solutions/leetcode/palindrome-number.cpp",
+      "evidence": "사용자 정답 확인"
+    },
+    "leetcode:remove-duplicates-from-sorted-array": {
+      "code": "solutions/leetcode/remove-duplicates-from-sorted-array.cpp",
       "evidence": "사용자 정답 확인"
     },
     "leetcode:richest-customer-wealth": {
@@ -4745,6 +4761,10 @@
     },
     "programmers:12930": {
       "code": "solutions/programmers/12930.cpp",
+      "evidence": "사용자 정답 확인"
+    },
+    "programmers:12935": {
+      "code": "solutions/programmers/12935.cpp",
       "evidence": "사용자 정답 확인"
     }
   }
