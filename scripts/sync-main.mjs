@@ -110,4 +110,5 @@ if (process.argv[1] && import.meta.url === pathToFileURL(path.resolve(process.ar
   const result = syncMain(root);
   console.log(`main 동기화: README ${result.changed.readme ? '갱신' : '변경 없음'}, 커리큘럼 ${result.changed.plan ? '갱신' : '변경 없음'}`);
   console.log(`전체 목표 진도 ${result.data.overall.done}/${result.data.overall.total} (${result.data.overall.percent}%)`);
+  console.log(`등록 문제 해결 ${result.data.accepted}/${result.data.registered}`);
 }
