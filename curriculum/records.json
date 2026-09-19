@@ -141,5 +141,60 @@
     "kind": "solve",
     "result": "accepted",
     "usedHint": false
+  },
+  {
+    "id": "2026-09-19-cses-1621-first",
+    "date": "2026-09-19",
+    "week": 1,
+    "day": 5,
+    "url": "https://cses.fi/problemset/task/1621/",
+    "code": "solutions/cses/1621.cpp",
+    "kind": "solve",
+    "result": "accepted",
+    "usedHint": true
+  },
+  {
+    "id": "2026-09-19-programmers-12935-first",
+    "date": "2026-09-19",
+    "week": 1,
+    "day": 5,
+    "url": "https://school.programmers.co.kr/learn/courses/30/lessons/12935",
+    "code": "solutions/programmers/12935.cpp",
+    "kind": "solve",
+    "result": "accepted",
+    "usedHint": true
+  },
+  {
+    "id": "2026-09-19-leetcode-remove-duplicates-from-sorted-array-first",
+    "date": "2026-09-19",
+    "week": 1,
+    "day": 5,
+    "url": "https://leetcode.com/problems/remove-duplicates-from-sorted-array/",
+    "code": "solutions/leetcode/remove-duplicates-from-sorted-array.cpp",
+    "kind": "solve",
+    "result": "accepted",
+    "usedHint": false
+  },
+  {
+    "id": "2026-09-19-leetcode-contains-duplicate-first",
+    "date": "2026-09-19",
+    "week": 1,
+    "day": 5,
+    "url": "https://leetcode.com/problems/contains-duplicate/",
+    "code": "solutions/leetcode/contains-duplicate.cpp",
+    "kind": "solve",
+    "result": "accepted",
+    "usedHint": false
+  },
+  {
+    "id": "2026-09-19-leetcode-intersection-of-two-arrays-first",
+    "date": "2026-09-19",
+    "week": 1,
+    "day": 5,
+    "url": "https://leetcode.com/problems/intersection-of-two-arrays/",
+    "code": "solutions/leetcode/intersection-of-two-arrays.cpp",
+    "kind": "solve",
+    "result": "accepted",
+    "usedHint": true
   }
 ]
