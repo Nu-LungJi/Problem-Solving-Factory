@@ -196,5 +196,60 @@
     "kind": "solve",
     "result": "accepted",
     "usedHint": true
+  },
+  {
+    "id": "2026-09-20-programmers-12917-first",
+    "date": "2026-09-20",
+    "week": 1,
+    "day": 6,
+    "url": "https://school.programmers.co.kr/learn/courses/30/lessons/12917",
+    "code": "solutions/programmers/12917.cpp",
+    "kind": "solve",
+    "result": "accepted",
+    "usedHint": false
+  },
+  {
+    "id": "2026-09-20-programmers-12901-first",
+    "date": "2026-09-20",
+    "week": 1,
+    "day": 6,
+    "url": "https://school.programmers.co.kr/learn/courses/30/lessons/12901",
+    "code": "solutions/programmers/12901.cpp",
+    "kind": "solve",
+    "result": "accepted",
+    "usedHint": false
+  },
+  {
+    "id": "2026-09-20-leetcode-plus-one-first",
+    "date": "2026-09-20",
+    "week": 1,
+    "day": 6,
+    "url": "https://leetcode.com/problems/plus-one/",
+    "code": "solutions/leetcode/plus-one.cpp",
+    "kind": "solve",
+    "result": "accepted",
+    "usedHint": false
+  },
+  {
+    "id": "2026-09-20-leetcode-roman-to-integer-first",
+    "date": "2026-09-20",
+    "week": 1,
+    "day": 6,
+    "url": "https://leetcode.com/problems/roman-to-integer/",
+    "code": "solutions/leetcode/roman-to-integer.cpp",
+    "kind": "solve",
+    "result": "accepted",
+    "usedHint": false
+  },
+  {
+    "id": "2026-09-20-leetcode-number-of-1-bits-first",
+    "date": "2026-09-20",
+    "week": 1,
+    "day": 6,
+    "url": "https://leetcode.com/problems/number-of-1-bits/",
+    "code": "solutions/leetcode/number-of-1-bits.cpp",
+    "kind": "solve",
+    "result": "accepted",
+    "usedHint": false
   }
 ]
