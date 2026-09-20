@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "repository": "Nu-LungJi/Problem-Solving-Factory",
-  "accepted": 21,
+  "accepted": 22,
   "registered": 254,
   "target": 208,
   "days": [
@@ -374,7 +374,7 @@
           "url": "https://school.programmers.co.kr/learn/courses/30/lessons/12917",
           "platform": "programmers",
           "problemId": "12917",
-          "solved": false,
+          "solved": true,
           "countsAsNew": true
         },
         {
@@ -419,14 +419,14 @@
         "credited": 0,
         "complete": false
       },
-      "requiredSolved": 1,
-      "newSolved": 1,
-      "creditedNewSolved": 1,
+      "requiredSolved": 2,
+      "newSolved": 2,
+      "creditedNewSolved": 2,
       "reviewAttempts": 0,
       "reviewSolved": 0,
-      "done": 1,
+      "done": 2,
       "total": 4,
-      "percent": 25,
+      "percent": 50,
       "complete": false,
       "manualComplete": false,
       "completionBasis": "objective"
@@ -4568,9 +4568,9 @@
   "weeks": [
     {
       "week": 1,
-      "done": 17,
+      "done": 18,
       "total": 30,
-      "percent": 56.67,
+      "percent": 60,
       "completedDays": 4,
       "totalDays": 7,
       "complete": false
@@ -4676,9 +4676,9 @@
     }
   ],
   "overall": {
-    "done": 17,
+    "done": 18,
     "total": 283,
-    "percent": 6.01,
+    "percent": 6.36,
     "completedDays": 4,
     "totalDays": 84,
     "complete": false,
@@ -4757,6 +4757,10 @@
     },
     "programmers:12901": {
       "code": "C++/프로그래머스/1/12901. 2016년/2016년.cpp",
+      "evidence": "BaekjoonHub 형식의 업로드"
+    },
+    "programmers:12917": {
+      "code": "C++/프로그래머스/1/12917. 문자열 내림차순으로 배치하기/문자열 내림차순으로 배치하기.cpp",
       "evidence": "BaekjoonHub 형식의 업로드"
     },
     "programmers:12925": {
