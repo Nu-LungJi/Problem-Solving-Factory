@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "repository": "Nu-LungJi/Problem-Solving-Factory",
-  "accepted": 22,
+  "accepted": 25,
   "registered": 254,
   "target": 208,
   "days": [
@@ -396,7 +396,7 @@
             "problemId": "plus-one",
             "title": "Plus One",
             "url": "https://leetcode.com/problems/plus-one/",
-            "solved": false
+            "solved": true
           },
           {
             "key": "leetcode:roman-to-integer",
@@ -404,7 +404,7 @@
             "problemId": "roman-to-integer",
             "title": "Roman To Integer",
             "url": "https://leetcode.com/problems/roman-to-integer/",
-            "solved": false
+            "solved": true
           },
           {
             "key": "leetcode:number-of-1-bits",
@@ -412,22 +412,22 @@
             "problemId": "number-of-1-bits",
             "title": "Number Of 1 Bits",
             "url": "https://leetcode.com/problems/number-of-1-bits/",
-            "solved": false
+            "solved": true
           }
         ],
-        "solved": 0,
-        "credited": 0,
-        "complete": false
+        "solved": 3,
+        "credited": 2,
+        "complete": true
       },
       "requiredSolved": 2,
-      "newSolved": 2,
-      "creditedNewSolved": 2,
+      "newSolved": 5,
+      "creditedNewSolved": 4,
       "reviewAttempts": 0,
       "reviewSolved": 0,
-      "done": 2,
+      "done": 4,
       "total": 4,
-      "percent": 50,
-      "complete": false,
+      "percent": 100,
+      "complete": true,
       "manualComplete": false,
       "completionBasis": "objective"
     },
@@ -4568,10 +4568,10 @@
   "weeks": [
     {
       "week": 1,
-      "done": 18,
+      "done": 20,
       "total": 30,
-      "percent": 60,
-      "completedDays": 4,
+      "percent": 66.67,
+      "completedDays": 5,
       "totalDays": 7,
       "complete": false
     },
@@ -4676,10 +4676,10 @@
     }
   ],
   "overall": {
-    "done": 18,
+    "done": 20,
     "total": 283,
-    "percent": 6.36,
-    "completedDays": 4,
+    "percent": 7.07,
+    "completedDays": 5,
     "totalDays": 84,
     "complete": false,
     "completedWeeks": 0,
@@ -4735,8 +4735,16 @@
       "code": "solutions/leetcode/length-of-last-word.cpp",
       "evidence": "사용자 정답 확인"
     },
+    "leetcode:number-of-1-bits": {
+      "code": "solutions/leetcode/number-of-1-bits.cpp",
+      "evidence": "사용자 정답 확인"
+    },
     "leetcode:palindrome-number": {
       "code": "solutions/leetcode/palindrome-number.cpp",
+      "evidence": "사용자 정답 확인"
+    },
+    "leetcode:plus-one": {
+      "code": "solutions/leetcode/plus-one.cpp",
       "evidence": "사용자 정답 확인"
     },
     "leetcode:remove-duplicates-from-sorted-array": {
@@ -4745,6 +4753,10 @@
     },
     "leetcode:richest-customer-wealth": {
       "code": "solutions/leetcode/richest-customer-wealth.cpp",
+      "evidence": "사용자 정답 확인"
+    },
+    "leetcode:roman-to-integer": {
+      "code": "solutions/leetcode/roman-to-integer.cpp",
       "evidence": "사용자 정답 확인"
     },
     "leetcode:running-sum-of-1d-array": {
@@ -4756,12 +4768,12 @@
       "evidence": "사용자 정답 확인"
     },
     "programmers:12901": {
-      "code": "C++/프로그래머스/1/12901. 2016년/2016년.cpp",
-      "evidence": "BaekjoonHub 형식의 업로드"
+      "code": "solutions/programmers/12901.cpp",
+      "evidence": "사용자 정답 확인"
     },
     "programmers:12917": {
-      "code": "C++/프로그래머스/1/12917. 문자열 내림차순으로 배치하기/문자열 내림차순으로 배치하기.cpp",
-      "evidence": "BaekjoonHub 형식의 업로드"
+      "code": "solutions/programmers/12917.cpp",
+      "evidence": "사용자 정답 확인"
     },
     "programmers:12925": {
       "code": "solutions/programmers/12925.cpp",
