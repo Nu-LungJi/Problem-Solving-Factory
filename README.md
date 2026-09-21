@@ -6,11 +6,11 @@
 
 필수 144문제와 Day별 후보 풀에서 선택하는 64문제를 합쳐 신규 목표는 208문제입니다. 후보를 전부 풀 필요는 없습니다. 후보 밖의 기존 수동 기록은 보존하지만 목표를 대체하지 않습니다. 업로드는 독립 해결·학습 완료의 증명이 아닙니다. BaekjoonHub 형식은 업로드 관례를 신뢰하며 온라인 저지에 재조회하지 않습니다. Day·Week 객관적 풀이 목표는 자동 계산하며 개념·오답 정리 체크는 원본 커리큘럼에서 직접 관리합니다.
 
-**전체 목표 진도: 20/283 (7.07%)** · 완료 Day 5/84 · Week 0/12
+**전체 목표 진도: 26/283 (9.19%)** · 완료 Day 6/84 · Week 0/12
 
 | Week | 목표 진도 | 완료 Day | 등록 문제 해결 | 신규 목표 | 재풀이 시도 / 목표 | 상태 |
 |:---:|---:|:---:|---:|---:|---:|:---:|
-| 1 | 20/30 (66.67%) | 5/7 | 25/30 | 24 | 0/6 | 미완료 |
+| 1 | 26/30 (86.67%) | 6/7 | 25/30 | 24 | 6/6 | 미완료 |
 | 2 | 0/30 (0%) | 0/7 | 0/30 | 24 | 0/6 | 미완료 |
 | 3 | 0/24 (0%) | 0/7 | 0/24 | 18 | 0/6 | 미완료 |
 | 4 | 0/24 (0%) | 0/7 | 0/24 | 18 | 0/6 | 미완료 |
@@ -38,8 +38,8 @@
 
 | 상태 | 구분 | 플랫폼 | 문제 | 풀이 / 기록 |
 |:---:|:---:|:---:|---|---|
-| ✅ | 필수 | CSES | [Weird Algorithm](https://cses.fi/problemset/task/1068/) | [C++ 풀이](https://github.com/Nu-LungJi/Problem-Solving-Factory/blob/main/solutions/cses/1068.cpp) · 사용자 정답 확인 |
-| ✅ | 필수 | CSES | [Missing Number](https://cses.fi/problemset/task/1083/) | [C++ 풀이](https://github.com/Nu-LungJi/Problem-Solving-Factory/blob/main/solutions/cses/1083.cpp) · 사용자 정답 확인 |
+| ✅ | 필수 | CSES | [Weird Algorithm](https://cses.fi/problemset/task/1068/) | [C++ 풀이](https://github.com/Nu-LungJi/Problem-Solving-Factory/blob/main/solutions/reviews/week-1-day-7/cses/1068-f8071796-26bb-43a6-b483-03e28c6db7c1.cpp) · 사용자 정답 확인 |
+| ✅ | 필수 | CSES | [Missing Number](https://cses.fi/problemset/task/1083/) | [C++ 풀이](https://github.com/Nu-LungJi/Problem-Solving-Factory/blob/main/solutions/reviews/week-1-day-7/cses/1083-f8071796-26bb-43a6-b483-03e28c6db7c1.cpp) · 사용자 정답 확인 |
 | ✅ | 후보 | LeetCode | [Fizz Buzz](https://leetcode.com/problems/fizz-buzz/) | leetcode:fizz-buzz |
 | ✅ | 후보 | LeetCode | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | leetcode:palindrome-number |
 | ✅ | 후보 | LeetCode | [Add Digits](https://leetcode.com/problems/add-digits/) | leetcode:add-digits |
@@ -55,7 +55,7 @@
 
 | 상태 | 구분 | 플랫폼 | 문제 | 풀이 / 기록 |
 |:---:|:---:|:---:|---|---|
-| ✅ | 필수 | CSES | [Repetitions](https://cses.fi/problemset/task/1069/) | [C++ 풀이](https://github.com/Nu-LungJi/Problem-Solving-Factory/blob/main/solutions/cses/1069.cpp) · 사용자 정답 확인 |
+| ✅ | 필수 | CSES | [Repetitions](https://cses.fi/problemset/task/1069/) | [C++ 풀이](https://github.com/Nu-LungJi/Problem-Solving-Factory/blob/main/solutions/reviews/week-1-day-7/cses/1069-f8071796-26bb-43a6-b483-03e28c6db7c1.cpp) · 사용자 정답 확인 |
 | ✅ | 필수 | CSES | [Increasing Array](https://cses.fi/problemset/task/1094/) | [C++ 풀이](https://github.com/Nu-LungJi/Problem-Solving-Factory/blob/main/solutions/cses/1094.cpp) · 사용자 정답 확인 |
 | ✅ | 후보 | LeetCode | [Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth/) | leetcode:richest-customer-wealth |
 | ✅ | 후보 | LeetCode | [Kids With The Greatest Number Of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/) | leetcode:kids-with-the-greatest-number-of-candies |
@@ -132,13 +132,14 @@
 </details>
 
 <details>
-<summary><strong>Day 7</strong> · ⬜ 미완료 · 0/6</summary>
+<summary><strong>Day 7</strong> · ✅ 완료 · 6/6</summary>
 
 | 신규 목표 | 재풀이 목표 | 추가 후보 조건 | 후보 해결 / 목표 반영 |
 |:---:|:---:|:---:|:---:|
 | 0문제 | 6문제 | 없음 | — |
 
 신규 지정 문제 없음. 복습·오답·학습 완료는 직접 기록하세요.
+재풀이 기록: 6회, 그중 정답·힌트 미사용 6회.
 
 </details>
 

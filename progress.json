@@ -449,12 +449,12 @@
       "requiredSolved": 0,
       "newSolved": 0,
       "creditedNewSolved": 0,
-      "reviewAttempts": 0,
-      "reviewSolved": 0,
-      "done": 0,
+      "reviewAttempts": 6,
+      "reviewSolved": 6,
+      "done": 6,
       "total": 6,
-      "percent": 0,
-      "complete": false,
+      "percent": 100,
+      "complete": true,
       "manualComplete": false,
       "completionBasis": "objective"
     },
@@ -4568,10 +4568,10 @@
   "weeks": [
     {
       "week": 1,
-      "done": 20,
+      "done": 26,
       "total": 30,
-      "percent": 66.67,
-      "completedDays": 5,
+      "percent": 86.67,
+      "completedDays": 6,
       "totalDays": 7,
       "complete": false
     },
@@ -4676,27 +4676,100 @@
     }
   ],
   "overall": {
-    "done": 20,
+    "done": 26,
     "total": 283,
-    "percent": 7.07,
-    "completedDays": 5,
+    "percent": 9.19,
+    "completedDays": 6,
     "totalDays": 84,
     "complete": false,
     "completedWeeks": 0,
     "totalWeeks": 12
   },
-  "reviews": [],
+  "reviews": [
+    {
+      "id": "2026-09-21-cses-1068-review-f8071796-26bb-43a6-b483-03e28c6db7c1",
+      "date": "2026-09-21",
+      "week": 1,
+      "day": 7,
+      "url": "https://cses.fi/problemset/task/1068/",
+      "code": "solutions/reviews/week-1-day-7/cses/1068-f8071796-26bb-43a6-b483-03e28c6db7c1.cpp",
+      "kind": "review",
+      "result": "accepted",
+      "usedHint": false,
+      "key": "cses:1068"
+    },
+    {
+      "id": "2026-09-21-cses-1083-review-f8071796-26bb-43a6-b483-03e28c6db7c1",
+      "date": "2026-09-21",
+      "week": 1,
+      "day": 7,
+      "url": "https://cses.fi/problemset/task/1083/",
+      "code": "solutions/reviews/week-1-day-7/cses/1083-f8071796-26bb-43a6-b483-03e28c6db7c1.cpp",
+      "kind": "review",
+      "result": "accepted",
+      "usedHint": false,
+      "key": "cses:1083"
+    },
+    {
+      "id": "2026-09-21-leetcode-fizz-buzz-review-f8071796-26bb-43a6-b483-03e28c6db7c1",
+      "date": "2026-09-21",
+      "week": 1,
+      "day": 7,
+      "url": "https://leetcode.com/problems/fizz-buzz/",
+      "code": "solutions/reviews/week-1-day-7/leetcode/fizz-buzz-f8071796-26bb-43a6-b483-03e28c6db7c1.cpp",
+      "kind": "review",
+      "result": "accepted",
+      "usedHint": false,
+      "key": "leetcode:fizz-buzz"
+    },
+    {
+      "id": "2026-09-21-leetcode-palindrome-number-review-f8071796-26bb-43a6-b483-03e28c6db7c1",
+      "date": "2026-09-21",
+      "week": 1,
+      "day": 7,
+      "url": "https://leetcode.com/problems/palindrome-number/",
+      "code": "solutions/reviews/week-1-day-7/leetcode/palindrome-number-f8071796-26bb-43a6-b483-03e28c6db7c1.cpp",
+      "kind": "review",
+      "result": "accepted",
+      "usedHint": false,
+      "key": "leetcode:palindrome-number"
+    },
+    {
+      "id": "2026-09-21-leetcode-add-digits-review-f8071796-26bb-43a6-b483-03e28c6db7c1",
+      "date": "2026-09-21",
+      "week": 1,
+      "day": 7,
+      "url": "https://leetcode.com/problems/add-digits/",
+      "code": "solutions/reviews/week-1-day-7/leetcode/add-digits-f8071796-26bb-43a6-b483-03e28c6db7c1.cpp",
+      "kind": "review",
+      "result": "accepted",
+      "usedHint": false,
+      "key": "leetcode:add-digits"
+    },
+    {
+      "id": "2026-09-21-cses-1069-review-f8071796-26bb-43a6-b483-03e28c6db7c1",
+      "date": "2026-09-21",
+      "week": 1,
+      "day": 7,
+      "url": "https://cses.fi/problemset/task/1069/",
+      "code": "solutions/reviews/week-1-day-7/cses/1069-f8071796-26bb-43a6-b483-03e28c6db7c1.cpp",
+      "kind": "review",
+      "result": "accepted",
+      "usedHint": false,
+      "key": "cses:1069"
+    }
+  ],
   "evidence": {
     "cses:1068": {
-      "code": "solutions/cses/1068.cpp",
+      "code": "solutions/reviews/week-1-day-7/cses/1068-f8071796-26bb-43a6-b483-03e28c6db7c1.cpp",
       "evidence": "사용자 정답 확인"
     },
     "cses:1069": {
-      "code": "solutions/cses/1069.cpp",
+      "code": "solutions/reviews/week-1-day-7/cses/1069-f8071796-26bb-43a6-b483-03e28c6db7c1.cpp",
       "evidence": "사용자 정답 확인"
     },
     "cses:1083": {
-      "code": "solutions/cses/1083.cpp",
+      "code": "solutions/reviews/week-1-day-7/cses/1083-f8071796-26bb-43a6-b483-03e28c6db7c1.cpp",
       "evidence": "사용자 정답 확인"
     },
     "cses:1094": {
@@ -4708,7 +4781,7 @@
       "evidence": "사용자 정답 확인"
     },
     "leetcode:add-digits": {
-      "code": "solutions/leetcode/add-digits.cpp",
+      "code": "solutions/reviews/week-1-day-7/leetcode/add-digits-f8071796-26bb-43a6-b483-03e28c6db7c1.cpp",
       "evidence": "사용자 정답 확인"
     },
     "leetcode:contains-duplicate": {
@@ -4720,7 +4793,7 @@
       "evidence": "정답 확인 후 저장한 로컬 풀이"
     },
     "leetcode:fizz-buzz": {
-      "code": "solutions/leetcode/fizz-buzz.cpp",
+      "code": "solutions/reviews/week-1-day-7/leetcode/fizz-buzz-f8071796-26bb-43a6-b483-03e28c6db7c1.cpp",
       "evidence": "사용자 정답 확인"
     },
     "leetcode:intersection-of-two-arrays": {
@@ -4740,7 +4813,7 @@
       "evidence": "사용자 정답 확인"
     },
     "leetcode:palindrome-number": {
-      "code": "solutions/leetcode/palindrome-number.cpp",
+      "code": "solutions/reviews/week-1-day-7/leetcode/palindrome-number-f8071796-26bb-43a6-b483-03e28c6db7c1.cpp",
       "evidence": "사용자 정답 확인"
     },
     "leetcode:plus-one": {
