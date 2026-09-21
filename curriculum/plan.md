@@ -83,7 +83,7 @@ C++ 기본 문법을 공부했고, OOP·상속·SOLID와 스택 등 자료구조
 | [ ] | 4 | sort·pair·비교 함수로 정렬 조건 표현 | [프로그래머스 · K번째수](https://school.programmers.co.kr/learn/courses/30/lessons/42748) · [LeetCode · Valid Anagram](https://leetcode.com/problems/valid-anagram/) · [후보 3개 중 2개 해결](pools.md#week-1-day-4) | 4 | 0 |
 | [x] | 5 | 중복 제거·unique·이진 탐색 STL 맛보기 | [CSES · Distinct Numbers](https://cses.fi/problemset/task/1621/) · [프로그래머스 · 제일 작은 수 제거하기](https://school.programmers.co.kr/learn/courses/30/lessons/12935) · [후보 3개 중 2개 해결](pools.md#week-1-day-5) | 4 | 0 |
 | [x] | 6 | 표준입출력과 solution 함수 제출 방식 모두 연습 | [프로그래머스 · 문자열 내림차순으로 배치하기](https://school.programmers.co.kr/learn/courses/30/lessons/12917) · [프로그래머스 · 2016년](https://school.programmers.co.kr/learn/courses/30/lessons/12901) · [후보 3개 중 2개 해결](pools.md#week-1-day-6) | 4 | 0 |
-| [ ] | 7 | 오답 6개 재풀이·주간 목표 설명·다음 주 준비 | 이번 주 3개 + 이전 오답 3개를 코드 없이 다시 풀기. Week 1은 이번 주 6개 | 0 | 6 |
+| [x] | 7 | 오답 6개 재풀이·주간 목표 설명·다음 주 준비 | 이번 주 3개 + 이전 오답 3개를 코드 없이 다시 풀기. Week 1은 이번 주 6개 | 0 | 6 |
 
 **완료 체크리스트**
 
