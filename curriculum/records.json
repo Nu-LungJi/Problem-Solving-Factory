@@ -251,5 +251,71 @@
     "kind": "solve",
     "result": "accepted",
     "usedHint": false
+  },
+  {
+    "id": "2026-09-21-cses-1068-review-f8071796-26bb-43a6-b483-03e28c6db7c1",
+    "date": "2026-09-21",
+    "week": 1,
+    "day": 7,
+    "url": "https://cses.fi/problemset/task/1068/",
+    "code": "solutions/reviews/week-1-day-7/cses/1068-f8071796-26bb-43a6-b483-03e28c6db7c1.cpp",
+    "kind": "review",
+    "result": "accepted",
+    "usedHint": false
+  },
+  {
+    "id": "2026-09-21-cses-1083-review-f8071796-26bb-43a6-b483-03e28c6db7c1",
+    "date": "2026-09-21",
+    "week": 1,
+    "day": 7,
+    "url": "https://cses.fi/problemset/task/1083/",
+    "code": "solutions/reviews/week-1-day-7/cses/1083-f8071796-26bb-43a6-b483-03e28c6db7c1.cpp",
+    "kind": "review",
+    "result": "accepted",
+    "usedHint": false
+  },
+  {
+    "id": "2026-09-21-leetcode-fizz-buzz-review-f8071796-26bb-43a6-b483-03e28c6db7c1",
+    "date": "2026-09-21",
+    "week": 1,
+    "day": 7,
+    "url": "https://leetcode.com/problems/fizz-buzz/",
+    "code": "solutions/reviews/week-1-day-7/leetcode/fizz-buzz-f8071796-26bb-43a6-b483-03e28c6db7c1.cpp",
+    "kind": "review",
+    "result": "accepted",
+    "usedHint": false
+  },
+  {
+    "id": "2026-09-21-leetcode-palindrome-number-review-f8071796-26bb-43a6-b483-03e28c6db7c1",
+    "date": "2026-09-21",
+    "week": 1,
+    "day": 7,
+    "url": "https://leetcode.com/problems/palindrome-number/",
+    "code": "solutions/reviews/week-1-day-7/leetcode/palindrome-number-f8071796-26bb-43a6-b483-03e28c6db7c1.cpp",
+    "kind": "review",
+    "result": "accepted",
+    "usedHint": false
+  },
+  {
+    "id": "2026-09-21-leetcode-add-digits-review-f8071796-26bb-43a6-b483-03e28c6db7c1",
+    "date": "2026-09-21",
+    "week": 1,
+    "day": 7,
+    "url": "https://leetcode.com/problems/add-digits/",
+    "code": "solutions/reviews/week-1-day-7/leetcode/add-digits-f8071796-26bb-43a6-b483-03e28c6db7c1.cpp",
+    "kind": "review",
+    "result": "accepted",
+    "usedHint": false
+  },
+  {
+    "id": "2026-09-21-cses-1069-review-f8071796-26bb-43a6-b483-03e28c6db7c1",
+    "date": "2026-09-21",
+    "week": 1,
+    "day": 7,
+    "url": "https://cses.fi/problemset/task/1069/",
+    "code": "solutions/reviews/week-1-day-7/cses/1069-f8071796-26bb-43a6-b483-03e28c6db7c1.cpp",
+    "kind": "review",
+    "result": "accepted",
+    "usedHint": false
   }
 ]
