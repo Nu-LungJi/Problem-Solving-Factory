@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "repository": "Nu-LungJi/Problem-Solving-Factory",
-  "accepted": 26,
+  "accepted": 30,
   "registered": 254,
   "target": 208,
   "days": [
@@ -472,7 +472,7 @@
           "url": "https://leetcode.com/problems/valid-parentheses/",
           "platform": "leetcode",
           "problemId": "valid-parentheses",
-          "solved": false,
+          "solved": true,
           "countsAsNew": true
         },
         {
@@ -494,7 +494,7 @@
             "problemId": "remove-all-adjacent-duplicates-in-string",
             "title": "Remove All Adjacent Duplicates In String",
             "url": "https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/",
-            "solved": false
+            "solved": true
           },
           {
             "key": "leetcode:baseball-game",
@@ -502,7 +502,7 @@
             "problemId": "baseball-game",
             "title": "Baseball Game",
             "url": "https://leetcode.com/problems/baseball-game/",
-            "solved": false
+            "solved": true
           },
           {
             "key": "leetcode:backspace-string-compare",
@@ -510,22 +510,22 @@
             "problemId": "backspace-string-compare",
             "title": "Backspace String Compare",
             "url": "https://leetcode.com/problems/backspace-string-compare/",
-            "solved": false
+            "solved": true
           }
         ],
-        "solved": 0,
-        "credited": 0,
-        "complete": false
+        "solved": 3,
+        "credited": 2,
+        "complete": true
       },
-      "requiredSolved": 1,
-      "newSolved": 1,
-      "creditedNewSolved": 1,
+      "requiredSolved": 2,
+      "newSolved": 5,
+      "creditedNewSolved": 4,
       "reviewAttempts": 0,
       "reviewSolved": 0,
-      "done": 1,
+      "done": 4,
       "total": 4,
-      "percent": 25,
-      "complete": false,
+      "percent": 100,
+      "complete": true,
       "manualComplete": false,
       "completionBasis": "objective"
     },
@@ -4577,10 +4577,10 @@
     },
     {
       "week": 2,
-      "done": 1,
+      "done": 4,
       "total": 30,
-      "percent": 3.33,
-      "completedDays": 0,
+      "percent": 13.33,
+      "completedDays": 1,
       "totalDays": 7,
       "complete": false
     },
@@ -4676,10 +4676,10 @@
     }
   ],
   "overall": {
-    "done": 27,
+    "done": 30,
     "total": 283,
-    "percent": 9.54,
-    "completedDays": 6,
+    "percent": 10.6,
+    "completedDays": 7,
     "totalDays": 84,
     "complete": false,
     "completedWeeks": 0,
@@ -4784,6 +4784,14 @@
       "code": "solutions/reviews/week-1-day-7/leetcode/add-digits-f8071796-26bb-43a6-b483-03e28c6db7c1.cpp",
       "evidence": "사용자 정답 확인"
     },
+    "leetcode:backspace-string-compare": {
+      "code": "solutions/leetcode/backspace-string-compare.cpp",
+      "evidence": "사용자 정답 확인"
+    },
+    "leetcode:baseball-game": {
+      "code": "solutions/leetcode/baseball-game.cpp",
+      "evidence": "사용자 정답 확인"
+    },
     "leetcode:contains-duplicate": {
       "code": "solutions/leetcode/contains-duplicate.cpp",
       "evidence": "사용자 정답 확인"
@@ -4820,6 +4828,10 @@
       "code": "solutions/leetcode/plus-one.cpp",
       "evidence": "사용자 정답 확인"
     },
+    "leetcode:remove-all-adjacent-duplicates-in-string": {
+      "code": "solutions/leetcode/remove-all-adjacent-duplicates-in-string.cpp",
+      "evidence": "사용자 정답 확인"
+    },
     "leetcode:remove-duplicates-from-sorted-array": {
       "code": "solutions/leetcode/remove-duplicates-from-sorted-array.cpp",
       "evidence": "사용자 정답 확인"
@@ -4840,13 +4852,17 @@
       "code": "solutions/leetcode/valid-palindrome.cpp",
       "evidence": "사용자 정답 확인"
     },
+    "leetcode:valid-parentheses": {
+      "code": "solutions/leetcode/valid-parentheses.cpp",
+      "evidence": "사용자 정답 확인"
+    },
     "programmers:12901": {
       "code": "solutions/programmers/12901.cpp",
       "evidence": "사용자 정답 확인"
     },
     "programmers:12909": {
-      "code": "C++/프로그래머스/2/12909. 올바른 괄호/올바른 괄호.cpp",
-      "evidence": "BaekjoonHub 형식의 업로드"
+      "code": "solutions/programmers/12909.cpp",
+      "evidence": "사용자 정답 확인"
     },
     "programmers:12917": {
       "code": "solutions/programmers/12917.cpp",
