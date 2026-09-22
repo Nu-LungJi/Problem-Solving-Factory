@@ -317,5 +317,60 @@
     "kind": "review",
     "result": "accepted",
     "usedHint": false
+  },
+  {
+    "id": "2026-09-22-leetcode-valid-parentheses-first",
+    "date": "2026-09-22",
+    "week": 2,
+    "day": 1,
+    "url": "https://leetcode.com/problems/valid-parentheses/",
+    "code": "solutions/leetcode/valid-parentheses.cpp",
+    "kind": "solve",
+    "result": "accepted",
+    "usedHint": false
+  },
+  {
+    "id": "2026-09-22-programmers-12909-first",
+    "date": "2026-09-22",
+    "week": 2,
+    "day": 1,
+    "url": "https://school.programmers.co.kr/learn/courses/30/lessons/12909",
+    "code": "solutions/programmers/12909.cpp",
+    "kind": "solve",
+    "result": "accepted",
+    "usedHint": false
+  },
+  {
+    "id": "2026-09-22-leetcode-remove-all-adjacent-duplicates-in-string-first",
+    "date": "2026-09-22",
+    "week": 2,
+    "day": 1,
+    "url": "https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/",
+    "code": "solutions/leetcode/remove-all-adjacent-duplicates-in-string.cpp",
+    "kind": "solve",
+    "result": "accepted",
+    "usedHint": true
+  },
+  {
+    "id": "2026-09-22-leetcode-baseball-game-first",
+    "date": "2026-09-22",
+    "week": 2,
+    "day": 1,
+    "url": "https://leetcode.com/problems/baseball-game/",
+    "code": "solutions/leetcode/baseball-game.cpp",
+    "kind": "solve",
+    "result": "accepted",
+    "usedHint": true
+  },
+  {
+    "id": "2026-09-22-leetcode-backspace-string-compare-first",
+    "date": "2026-09-22",
+    "week": 2,
+    "day": 1,
+    "url": "https://leetcode.com/problems/backspace-string-compare/",
+    "code": "solutions/leetcode/backspace-string-compare.cpp",
+    "kind": "solve",
+    "result": "accepted",
+    "usedHint": true
   }
 ]
