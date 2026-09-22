@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "repository": "Nu-LungJi/Problem-Solving-Factory",
-  "accepted": 25,
+  "accepted": 26,
   "registered": 254,
   "target": 208,
   "days": [
@@ -481,7 +481,7 @@
           "url": "https://school.programmers.co.kr/learn/courses/30/lessons/12909",
           "platform": "programmers",
           "problemId": "12909",
-          "solved": false,
+          "solved": true,
           "countsAsNew": true
         }
       ],
@@ -517,14 +517,14 @@
         "credited": 0,
         "complete": false
       },
-      "requiredSolved": 0,
-      "newSolved": 0,
-      "creditedNewSolved": 0,
+      "requiredSolved": 1,
+      "newSolved": 1,
+      "creditedNewSolved": 1,
       "reviewAttempts": 0,
       "reviewSolved": 0,
-      "done": 0,
+      "done": 1,
       "total": 4,
-      "percent": 0,
+      "percent": 25,
       "complete": false,
       "manualComplete": false,
       "completionBasis": "objective"
@@ -4577,9 +4577,9 @@
     },
     {
       "week": 2,
-      "done": 0,
+      "done": 1,
       "total": 30,
-      "percent": 0,
+      "percent": 3.33,
       "completedDays": 0,
       "totalDays": 7,
       "complete": false
@@ -4676,9 +4676,9 @@
     }
   ],
   "overall": {
-    "done": 26,
+    "done": 27,
     "total": 283,
-    "percent": 9.19,
+    "percent": 9.54,
     "completedDays": 6,
     "totalDays": 84,
     "complete": false,
@@ -4843,6 +4843,10 @@
     "programmers:12901": {
       "code": "solutions/programmers/12901.cpp",
       "evidence": "사용자 정답 확인"
+    },
+    "programmers:12909": {
+      "code": "C++/프로그래머스/2/12909. 올바른 괄호/올바른 괄호.cpp",
+      "evidence": "BaekjoonHub 형식의 업로드"
     },
     "programmers:12917": {
       "code": "solutions/programmers/12917.cpp",
