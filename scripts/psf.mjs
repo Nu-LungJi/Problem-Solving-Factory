@@ -16,8 +16,15 @@ const saveJson = (file, value) => {
   fs.writeFileSync(tmp, JSON.stringify(value, null, 2) + '\n');
   fs.renameSync(tmp, file);
 };
-export const localDate = (date = new Date()) => `${date.getFullYear()}-${String(date.getMonth()+1).padStart(2,'0')}-${String(date.getDate()).padStart(2,'0')}`;
+export const localDate = (date = new Date()) => {
+  const studyDate = new Date(date);
 
+  if (studyDate.getHours() < 6) {
+    studyDate.setDate(studyDate.getDate() - 1);
+  }
+
+  return `${studyDate.getFullYear()}-${String(studyDate.getMonth() + 1).padStart(2, '0')}-${String(studyDate.getDate()).padStart(2, '0')}`;
+};
 export function calendarDay(schedule, date = localDate()) {
   const parse = value => {
     if (!/^\d{4}-\d{2}-\d{2}$/.test(value)) throw new Error('날짜 형식 오류');
@@ -321,11 +328,23 @@ export function pushUploads(root) {
   catch(error) { throw new Error('자동 push에 실패했습니다. 로컬 커밋은 보존되어 있습니다. 연결/권한 확인 후 UPLOAD를 다시 실행하세요.\n'+error.message); }
 }
 
-export function commitAndPush(root,session,decisions,date=localDate()) {
-  const message=formatCommitMessage(session,decisions,readJson(path.join(root,'curriculum/english-titles.json')));
-  const result=uploadSolutions(root,session,decisions,message,date);
-  pushUploads(root);
-  return {...result,message};
+export function commitAndPush(root, session, decisions) {
+    const message = formatCommitMessage(
+        session,
+        decisions,
+        readJson(path.join(root,'curriculum/english-titles.json'))
+    );
+
+    const result = uploadSolutions(
+        root,
+        session,
+        decisions,
+        message,
+        session.date
+    );
+
+    pushUploads(root);
+    return {...result,message};
 }
 
 function openRider(root, session) {
