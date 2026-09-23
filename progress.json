@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "repository": "Nu-LungJi/Problem-Solving-Factory",
-  "accepted": 31,
+  "accepted": 32,
   "registered": 254,
   "target": 208,
   "days": [
@@ -552,7 +552,7 @@
           "url": "https://school.programmers.co.kr/learn/courses/30/lessons/42587",
           "platform": "programmers",
           "problemId": "42587",
-          "solved": false,
+          "solved": true,
           "countsAsNew": true
         }
       ],
@@ -588,14 +588,14 @@
         "credited": 0,
         "complete": false
       },
-      "requiredSolved": 1,
-      "newSolved": 1,
-      "creditedNewSolved": 1,
+      "requiredSolved": 2,
+      "newSolved": 2,
+      "creditedNewSolved": 2,
       "reviewAttempts": 0,
       "reviewSolved": 0,
-      "done": 1,
+      "done": 2,
       "total": 4,
-      "percent": 25,
+      "percent": 50,
       "complete": false,
       "manualComplete": false,
       "completionBasis": "objective"
@@ -4577,9 +4577,9 @@
     },
     {
       "week": 2,
-      "done": 5,
+      "done": 6,
       "total": 30,
-      "percent": 16.67,
+      "percent": 20,
       "completedDays": 1,
       "totalDays": 7,
       "complete": false
@@ -4676,9 +4676,9 @@
     }
   ],
   "overall": {
-    "done": 31,
+    "done": 32,
     "total": 283,
-    "percent": 10.95,
+    "percent": 11.31,
     "completedDays": 7,
     "totalDays": 84,
     "complete": false,
@@ -4882,6 +4882,10 @@
     },
     "programmers:42586": {
       "code": "C++/프로그래머스/2/42586. 기능개발/기능개발.cpp",
+      "evidence": "BaekjoonHub 형식의 업로드"
+    },
+    "programmers:42587": {
+      "code": "C++/프로그래머스/2/42587. 프로세스/프로세스.cpp",
       "evidence": "BaekjoonHub 형식의 업로드"
     }
   }
