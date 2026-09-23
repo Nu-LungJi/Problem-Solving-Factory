@@ -372,5 +372,60 @@
     "kind": "solve",
     "result": "accepted",
     "usedHint": true
+  },
+  {
+    "id": "2026-09-24-programmers-42586-first",
+    "date": "2026-09-24",
+    "week": 2,
+    "day": 2,
+    "url": "https://school.programmers.co.kr/learn/courses/30/lessons/42586",
+    "code": "solutions/programmers/42586.cpp",
+    "kind": "solve",
+    "result": "accepted",
+    "usedHint": true
+  },
+  {
+    "id": "2026-09-24-programmers-42587-first",
+    "date": "2026-09-24",
+    "week": 2,
+    "day": 2,
+    "url": "https://school.programmers.co.kr/learn/courses/30/lessons/42587",
+    "code": "solutions/programmers/42587.cpp",
+    "kind": "solve",
+    "result": "accepted",
+    "usedHint": true
+  },
+  {
+    "id": "2026-09-24-leetcode-implement-queue-using-stacks-first",
+    "date": "2026-09-24",
+    "week": 2,
+    "day": 2,
+    "url": "https://leetcode.com/problems/implement-queue-using-stacks/",
+    "code": "solutions/leetcode/implement-queue-using-stacks.cpp",
+    "kind": "solve",
+    "result": "accepted",
+    "usedHint": false
+  },
+  {
+    "id": "2026-09-24-leetcode-number-of-students-unable-to-eat-lunch-first",
+    "date": "2026-09-24",
+    "week": 2,
+    "day": 2,
+    "url": "https://leetcode.com/problems/number-of-students-unable-to-eat-lunch/",
+    "code": "solutions/leetcode/number-of-students-unable-to-eat-lunch.cpp",
+    "kind": "solve",
+    "result": "accepted",
+    "usedHint": false
+  },
+  {
+    "id": "2026-09-24-leetcode-time-needed-to-buy-tickets-first",
+    "date": "2026-09-24",
+    "week": 2,
+    "day": 2,
+    "url": "https://leetcode.com/problems/time-needed-to-buy-tickets/",
+    "code": "solutions/leetcode/time-needed-to-buy-tickets.cpp",
+    "kind": "solve",
+    "result": "accepted",
+    "usedHint": false
   }
 ]
