@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "repository": "Nu-LungJi/Problem-Solving-Factory",
-  "accepted": 32,
+  "accepted": 35,
   "registered": 254,
   "target": 208,
   "days": [
@@ -565,7 +565,7 @@
             "problemId": "implement-queue-using-stacks",
             "title": "Implement Queue Using Stacks",
             "url": "https://leetcode.com/problems/implement-queue-using-stacks/",
-            "solved": false
+            "solved": true
           },
           {
             "key": "leetcode:number-of-students-unable-to-eat-lunch",
@@ -573,7 +573,7 @@
             "problemId": "number-of-students-unable-to-eat-lunch",
             "title": "Number Of Students Unable To Eat Lunch",
             "url": "https://leetcode.com/problems/number-of-students-unable-to-eat-lunch/",
-            "solved": false
+            "solved": true
           },
           {
             "key": "leetcode:time-needed-to-buy-tickets",
@@ -581,22 +581,22 @@
             "problemId": "time-needed-to-buy-tickets",
             "title": "Time Needed To Buy Tickets",
             "url": "https://leetcode.com/problems/time-needed-to-buy-tickets/",
-            "solved": false
+            "solved": true
           }
         ],
-        "solved": 0,
-        "credited": 0,
-        "complete": false
+        "solved": 3,
+        "credited": 2,
+        "complete": true
       },
       "requiredSolved": 2,
-      "newSolved": 2,
-      "creditedNewSolved": 2,
+      "newSolved": 5,
+      "creditedNewSolved": 4,
       "reviewAttempts": 0,
       "reviewSolved": 0,
-      "done": 2,
+      "done": 4,
       "total": 4,
-      "percent": 50,
-      "complete": false,
+      "percent": 100,
+      "complete": true,
       "manualComplete": false,
       "completionBasis": "objective"
     },
@@ -4577,10 +4577,10 @@
     },
     {
       "week": 2,
-      "done": 6,
+      "done": 8,
       "total": 30,
-      "percent": 20,
-      "completedDays": 1,
+      "percent": 26.67,
+      "completedDays": 2,
       "totalDays": 7,
       "complete": false
     },
@@ -4676,10 +4676,10 @@
     }
   ],
   "overall": {
-    "done": 32,
+    "done": 34,
     "total": 283,
-    "percent": 11.31,
-    "completedDays": 7,
+    "percent": 12.01,
+    "completedDays": 8,
     "totalDays": 84,
     "complete": false,
     "completedWeeks": 0,
@@ -4804,6 +4804,10 @@
       "code": "solutions/reviews/week-1-day-7/leetcode/fizz-buzz-f8071796-26bb-43a6-b483-03e28c6db7c1.cpp",
       "evidence": "사용자 정답 확인"
     },
+    "leetcode:implement-queue-using-stacks": {
+      "code": "solutions/leetcode/implement-queue-using-stacks.cpp",
+      "evidence": "사용자 정답 확인"
+    },
     "leetcode:intersection-of-two-arrays": {
       "code": "solutions/leetcode/intersection-of-two-arrays.cpp",
       "evidence": "사용자 정답 확인"
@@ -4818,6 +4822,10 @@
     },
     "leetcode:number-of-1-bits": {
       "code": "solutions/leetcode/number-of-1-bits.cpp",
+      "evidence": "사용자 정답 확인"
+    },
+    "leetcode:number-of-students-unable-to-eat-lunch": {
+      "code": "solutions/leetcode/number-of-students-unable-to-eat-lunch.cpp",
       "evidence": "사용자 정답 확인"
     },
     "leetcode:palindrome-number": {
@@ -4847,6 +4855,10 @@
     "leetcode:running-sum-of-1d-array": {
       "code": "solutions/leetcode/running-sum-of-1d-array.cpp",
       "evidence": "정답 확인 후 저장한 로컬 풀이"
+    },
+    "leetcode:time-needed-to-buy-tickets": {
+      "code": "solutions/leetcode/time-needed-to-buy-tickets.cpp",
+      "evidence": "사용자 정답 확인"
     },
     "leetcode:valid-palindrome": {
       "code": "solutions/leetcode/valid-palindrome.cpp",
@@ -4881,12 +4893,12 @@
       "evidence": "사용자 정답 확인"
     },
     "programmers:42586": {
-      "code": "C++/프로그래머스/2/42586. 기능개발/기능개발.cpp",
-      "evidence": "BaekjoonHub 형식의 업로드"
+      "code": "solutions/programmers/42586.cpp",
+      "evidence": "사용자 정답 확인"
     },
     "programmers:42587": {
-      "code": "C++/프로그래머스/2/42587. 프로세스/프로세스.cpp",
-      "evidence": "BaekjoonHub 형식의 업로드"
+      "code": "solutions/programmers/42587.cpp",
+      "evidence": "사용자 정답 확인"
     }
   }
 }

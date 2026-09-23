@@ -2,16 +2,16 @@
 
 [전체 커리큘럼](https://github.com/Nu-LungJi/Problem-Solving-Factory/blob/main/curriculum/plan.md) · [수동 기록 방법](https://github.com/Nu-LungJi/Problem-Solving-Factory/blob/main/curriculum/README.md)
 
-**등록 문제 해결: 32/254** · 신규 학습 목표: 208문제
+**등록 문제 해결: 35/254** · 신규 학습 목표: 208문제
 
 필수 144문제와 Day별 후보 풀에서 선택하는 64문제를 합쳐 신규 목표는 208문제입니다. 후보를 전부 풀 필요는 없습니다. 후보 밖의 기존 수동 기록은 보존하지만 목표를 대체하지 않습니다. 업로드는 독립 해결·학습 완료의 증명이 아닙니다. BaekjoonHub 형식은 업로드 관례를 신뢰하며 온라인 저지에 재조회하지 않습니다. Day·Week 객관적 풀이 목표는 자동 계산하며 개념·오답 정리 체크는 원본 커리큘럼에서 직접 관리합니다.
 
-**전체 목표 진도: 32/283 (11.31%)** · 완료 Day 7/84 · Week 0/12
+**전체 목표 진도: 34/283 (12.01%)** · 완료 Day 8/84 · Week 0/12
 
 | Week | 목표 진도 | 완료 Day | 등록 문제 해결 | 신규 목표 | 재풀이 시도 / 목표 | 상태 |
 |:---:|---:|:---:|---:|---:|---:|:---:|
 | 1 | 26/30 (86.67%) | 6/7 | 25/30 | 24 | 6/6 | 미완료 |
-| 2 | 6/30 (20%) | 1/7 | 7/30 | 24 | 0/6 | 미완료 |
+| 2 | 8/30 (26.67%) | 2/7 | 10/30 | 24 | 0/6 | 미완료 |
 | 3 | 0/24 (0%) | 0/7 | 0/24 | 18 | 0/6 | 미완료 |
 | 4 | 0/24 (0%) | 0/7 | 0/24 | 18 | 0/6 | 미완료 |
 | 5 | 0/24 (0%) | 0/7 | 0/24 | 18 | 0/6 | 미완료 |
@@ -164,19 +164,19 @@
 </details>
 
 <details>
-<summary><strong>Day 2</strong> · ⬜ 미완료 · 2/5</summary>
+<summary><strong>Day 2</strong> · ✅ 완료 · 5/5</summary>
 
 | 신규 목표 | 재풀이 목표 | 추가 후보 조건 | 후보 해결 / 목표 반영 |
 |:---:|:---:|:---:|:---:|
-| 4문제 | 0문제 | 3개 중 2개 | 0개 해결 · 0/2 반영 |
+| 4문제 | 0문제 | 3개 중 2개 | 3개 해결 · 2/2 반영 |
 
 | 상태 | 구분 | 플랫폼 | 문제 | 풀이 / 기록 |
 |:---:|:---:|:---:|---|---|
-| ✅ | 필수 | Programmers | [기능개발](https://school.programmers.co.kr/learn/courses/30/lessons/42586) | [C++ 풀이](https://github.com/Nu-LungJi/Problem-Solving-Factory/blob/main/C%2B%2B/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/2/42586.%E2%80%85%EA%B8%B0%EB%8A%A5%EA%B0%9C%EB%B0%9C/%EA%B8%B0%EB%8A%A5%EA%B0%9C%EB%B0%9C.cpp) · BaekjoonHub 형식의 업로드 |
-| ✅ | 필수 | Programmers | [프로세스](https://school.programmers.co.kr/learn/courses/30/lessons/42587) | [C++ 풀이](https://github.com/Nu-LungJi/Problem-Solving-Factory/blob/main/C%2B%2B/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/2/42587.%E2%80%85%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4/%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4.cpp) · BaekjoonHub 형식의 업로드 |
-| ⬜ | 후보 | LeetCode | [Implement Queue Using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/) | leetcode:implement-queue-using-stacks |
-| ⬜ | 후보 | LeetCode | [Number Of Students Unable To Eat Lunch](https://leetcode.com/problems/number-of-students-unable-to-eat-lunch/) | leetcode:number-of-students-unable-to-eat-lunch |
-| ⬜ | 후보 | LeetCode | [Time Needed To Buy Tickets](https://leetcode.com/problems/time-needed-to-buy-tickets/) | leetcode:time-needed-to-buy-tickets |
+| ✅ | 필수 | Programmers | [기능개발](https://school.programmers.co.kr/learn/courses/30/lessons/42586) | [C++ 풀이](https://github.com/Nu-LungJi/Problem-Solving-Factory/blob/main/solutions/programmers/42586.cpp) · 사용자 정답 확인 |
+| ✅ | 필수 | Programmers | [프로세스](https://school.programmers.co.kr/learn/courses/30/lessons/42587) | [C++ 풀이](https://github.com/Nu-LungJi/Problem-Solving-Factory/blob/main/solutions/programmers/42587.cpp) · 사용자 정답 확인 |
+| ✅ | 후보 | LeetCode | [Implement Queue Using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/) | leetcode:implement-queue-using-stacks |
+| ✅ | 후보 | LeetCode | [Number Of Students Unable To Eat Lunch](https://leetcode.com/problems/number-of-students-unable-to-eat-lunch/) | leetcode:number-of-students-unable-to-eat-lunch |
+| ✅ | 후보 | LeetCode | [Time Needed To Buy Tickets](https://leetcode.com/problems/time-needed-to-buy-tickets/) | leetcode:time-needed-to-buy-tickets |
 
 </details>
 
