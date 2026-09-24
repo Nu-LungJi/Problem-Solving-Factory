@@ -427,5 +427,60 @@
     "kind": "solve",
     "result": "accepted",
     "usedHint": false
+  },
+  {
+    "id": "2026-09-24-programmers-12906-first",
+    "date": "2026-09-24",
+    "week": 2,
+    "day": 3,
+    "url": "https://school.programmers.co.kr/learn/courses/30/lessons/12906",
+    "code": "solutions/programmers/12906.cpp",
+    "kind": "solve",
+    "result": "accepted",
+    "usedHint": false
+  },
+  {
+    "id": "2026-09-24-cses-2162-first",
+    "date": "2026-09-24",
+    "week": 2,
+    "day": 3,
+    "url": "https://cses.fi/problemset/task/2162/",
+    "code": "solutions/cses/2162.cpp",
+    "kind": "solve",
+    "result": "accepted",
+    "usedHint": false
+  },
+  {
+    "id": "2026-09-24-leetcode-design-circular-deque-first",
+    "date": "2026-09-24",
+    "week": 2,
+    "day": 3,
+    "url": "https://leetcode.com/problems/design-circular-deque/",
+    "code": "solutions/leetcode/design-circular-deque.cpp",
+    "kind": "solve",
+    "result": "accepted",
+    "usedHint": false
+  },
+  {
+    "id": "2026-09-24-leetcode-design-circular-queue-first",
+    "date": "2026-09-24",
+    "week": 2,
+    "day": 3,
+    "url": "https://leetcode.com/problems/design-circular-queue/",
+    "code": "solutions/leetcode/design-circular-queue.cpp",
+    "kind": "solve",
+    "result": "accepted",
+    "usedHint": false
+  },
+  {
+    "id": "2026-09-24-leetcode-number-of-recent-calls-first",
+    "date": "2026-09-24",
+    "week": 2,
+    "day": 3,
+    "url": "https://leetcode.com/problems/number-of-recent-calls/",
+    "code": "solutions/leetcode/number-of-recent-calls.cpp",
+    "kind": "solve",
+    "result": "accepted",
+    "usedHint": false
   }
 ]
