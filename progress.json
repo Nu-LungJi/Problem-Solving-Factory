@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "repository": "Nu-LungJi/Problem-Solving-Factory",
-  "accepted": 36,
+  "accepted": 40,
   "registered": 254,
   "target": 208,
   "days": [
@@ -623,7 +623,7 @@
           "url": "https://cses.fi/problemset/task/2162/",
           "platform": "cses",
           "problemId": "2162",
-          "solved": false,
+          "solved": true,
           "countsAsNew": true
         }
       ],
@@ -636,7 +636,7 @@
             "problemId": "design-circular-deque",
             "title": "Design Circular Deque",
             "url": "https://leetcode.com/problems/design-circular-deque/",
-            "solved": false
+            "solved": true
           },
           {
             "key": "leetcode:design-circular-queue",
@@ -644,7 +644,7 @@
             "problemId": "design-circular-queue",
             "title": "Design Circular Queue",
             "url": "https://leetcode.com/problems/design-circular-queue/",
-            "solved": false
+            "solved": true
           },
           {
             "key": "leetcode:number-of-recent-calls",
@@ -652,22 +652,22 @@
             "problemId": "number-of-recent-calls",
             "title": "Number Of Recent Calls",
             "url": "https://leetcode.com/problems/number-of-recent-calls/",
-            "solved": false
+            "solved": true
           }
         ],
-        "solved": 0,
-        "credited": 0,
-        "complete": false
+        "solved": 3,
+        "credited": 2,
+        "complete": true
       },
-      "requiredSolved": 1,
-      "newSolved": 1,
-      "creditedNewSolved": 1,
+      "requiredSolved": 2,
+      "newSolved": 5,
+      "creditedNewSolved": 4,
       "reviewAttempts": 0,
       "reviewSolved": 0,
-      "done": 1,
+      "done": 4,
       "total": 4,
-      "percent": 25,
-      "complete": false,
+      "percent": 100,
+      "complete": true,
       "manualComplete": false,
       "completionBasis": "objective"
     },
@@ -4577,10 +4577,10 @@
     },
     {
       "week": 2,
-      "done": 9,
+      "done": 12,
       "total": 30,
-      "percent": 30,
-      "completedDays": 2,
+      "percent": 40,
+      "completedDays": 3,
       "totalDays": 7,
       "complete": false
     },
@@ -4676,10 +4676,10 @@
     }
   ],
   "overall": {
-    "done": 35,
+    "done": 38,
     "total": 283,
-    "percent": 12.37,
-    "completedDays": 8,
+    "percent": 13.43,
+    "completedDays": 9,
     "totalDays": 84,
     "complete": false,
     "completedWeeks": 0,
@@ -4780,6 +4780,10 @@
       "code": "solutions/cses/1621.cpp",
       "evidence": "사용자 정답 확인"
     },
+    "cses:2162": {
+      "code": "solutions/cses/2162.cpp",
+      "evidence": "사용자 정답 확인"
+    },
     "leetcode:add-digits": {
       "code": "solutions/reviews/week-1-day-7/leetcode/add-digits-f8071796-26bb-43a6-b483-03e28c6db7c1.cpp",
       "evidence": "사용자 정답 확인"
@@ -4794,6 +4798,14 @@
     },
     "leetcode:contains-duplicate": {
       "code": "solutions/leetcode/contains-duplicate.cpp",
+      "evidence": "사용자 정답 확인"
+    },
+    "leetcode:design-circular-deque": {
+      "code": "solutions/leetcode/design-circular-deque.cpp",
+      "evidence": "사용자 정답 확인"
+    },
+    "leetcode:design-circular-queue": {
+      "code": "solutions/leetcode/design-circular-queue.cpp",
       "evidence": "사용자 정답 확인"
     },
     "leetcode:first-unique-character-in-a-string": {
@@ -4822,6 +4834,10 @@
     },
     "leetcode:number-of-1-bits": {
       "code": "solutions/leetcode/number-of-1-bits.cpp",
+      "evidence": "사용자 정답 확인"
+    },
+    "leetcode:number-of-recent-calls": {
+      "code": "solutions/leetcode/number-of-recent-calls.cpp",
       "evidence": "사용자 정답 확인"
     },
     "leetcode:number-of-students-unable-to-eat-lunch": {
@@ -4873,8 +4889,8 @@
       "evidence": "사용자 정답 확인"
     },
     "programmers:12906": {
-      "code": "C++/프로그래머스/1/12906. 같은 숫자는 싫어/같은 숫자는 싫어.cpp",
-      "evidence": "BaekjoonHub 형식의 업로드"
+      "code": "solutions/programmers/12906.cpp",
+      "evidence": "사용자 정답 확인"
     },
     "programmers:12909": {
       "code": "solutions/programmers/12909.cpp",
