@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "repository": "Nu-LungJi/Problem-Solving-Factory",
-  "accepted": 35,
+  "accepted": 36,
   "registered": 254,
   "target": 208,
   "days": [
@@ -614,7 +614,7 @@
           "url": "https://school.programmers.co.kr/learn/courses/30/lessons/12906",
           "platform": "programmers",
           "problemId": "12906",
-          "solved": false,
+          "solved": true,
           "countsAsNew": true
         },
         {
@@ -659,14 +659,14 @@
         "credited": 0,
         "complete": false
       },
-      "requiredSolved": 0,
-      "newSolved": 0,
-      "creditedNewSolved": 0,
+      "requiredSolved": 1,
+      "newSolved": 1,
+      "creditedNewSolved": 1,
       "reviewAttempts": 0,
       "reviewSolved": 0,
-      "done": 0,
+      "done": 1,
       "total": 4,
-      "percent": 0,
+      "percent": 25,
       "complete": false,
       "manualComplete": false,
       "completionBasis": "objective"
@@ -4577,9 +4577,9 @@
     },
     {
       "week": 2,
-      "done": 8,
+      "done": 9,
       "total": 30,
-      "percent": 26.67,
+      "percent": 30,
       "completedDays": 2,
       "totalDays": 7,
       "complete": false
@@ -4676,9 +4676,9 @@
     }
   ],
   "overall": {
-    "done": 34,
+    "done": 35,
     "total": 283,
-    "percent": 12.01,
+    "percent": 12.37,
     "completedDays": 8,
     "totalDays": 84,
     "complete": false,
@@ -4871,6 +4871,10 @@
     "programmers:12901": {
       "code": "solutions/programmers/12901.cpp",
       "evidence": "사용자 정답 확인"
+    },
+    "programmers:12906": {
+      "code": "C++/프로그래머스/1/12906. 같은 숫자는 싫어/같은 숫자는 싫어.cpp",
+      "evidence": "BaekjoonHub 형식의 업로드"
     },
     "programmers:12909": {
       "code": "solutions/programmers/12909.cpp",
