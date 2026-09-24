@@ -6,9 +6,9 @@ C++ 코딩테스트 · 12주 / 84일 · 신규 208문제 + 재풀이 75회
 <!-- PSF_PROGRESS_START -->
 ## 현재 진도
 
-**전체 목표 진도: 34/283 (12.01%)** · 완료 Day 8/84 · Week 0/12
+**전체 목표 진도: 35/283 (12.37%)** · 완료 Day 8/84 · Week 0/12
 
-등록 문제 해결: **35/254** · 신규 학습 목표: **208문제**
+등록 문제 해결: **36/254** · 신규 학습 목표: **208문제**
 
 <!-- PSF_PROGRESS_END -->
 <a href="https://github.com/Nu-LungJi/Problem-Solving-Factory/tree/progress"><img src="assets/activity.svg" alt="월요일부터 일요일 순서로 보는 12주 풀이 잔디" width="100%"></a>
