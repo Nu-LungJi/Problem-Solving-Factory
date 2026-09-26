@@ -482,5 +482,38 @@
     "kind": "solve",
     "result": "accepted",
     "usedHint": false
+  },
+  {
+    "id": "2026-09-25-programmers-42576-first",
+    "date": "2026-09-25",
+    "week": 2,
+    "day": 4,
+    "url": "https://school.programmers.co.kr/learn/courses/30/lessons/42576",
+    "code": "solutions/programmers/42576.cpp",
+    "kind": "solve",
+    "result": "accepted",
+    "usedHint": true
+  },
+  {
+    "id": "2026-09-25-leetcode-isomorphic-strings-first",
+    "date": "2026-09-25",
+    "week": 2,
+    "day": 4,
+    "url": "https://leetcode.com/problems/isomorphic-strings/",
+    "code": "solutions/leetcode/isomorphic-strings.cpp",
+    "kind": "solve",
+    "result": "accepted",
+    "usedHint": true
+  },
+  {
+    "id": "2026-09-25-leetcode-word-pattern-first",
+    "date": "2026-09-25",
+    "week": 2,
+    "day": 4,
+    "url": "https://leetcode.com/problems/word-pattern/",
+    "code": "solutions/leetcode/word-pattern.cpp",
+    "kind": "solve",
+    "result": "accepted",
+    "usedHint": true
   }
 ]
