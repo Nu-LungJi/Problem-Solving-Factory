@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "repository": "Nu-LungJi/Problem-Solving-Factory",
-  "accepted": 41,
+  "accepted": 43,
   "registered": 254,
   "target": 208,
   "days": [
@@ -715,7 +715,7 @@
             "problemId": "isomorphic-strings",
             "title": "Isomorphic Strings",
             "url": "https://leetcode.com/problems/isomorphic-strings/",
-            "solved": false
+            "solved": true
           },
           {
             "key": "leetcode:word-pattern",
@@ -723,21 +723,21 @@
             "problemId": "word-pattern",
             "title": "Word Pattern",
             "url": "https://leetcode.com/problems/word-pattern/",
-            "solved": false
+            "solved": true
           }
         ],
-        "solved": 0,
-        "credited": 0,
-        "complete": false
+        "solved": 2,
+        "credited": 2,
+        "complete": true
       },
       "requiredSolved": 1,
-      "newSolved": 1,
-      "creditedNewSolved": 1,
+      "newSolved": 3,
+      "creditedNewSolved": 3,
       "reviewAttempts": 0,
       "reviewSolved": 0,
-      "done": 1,
+      "done": 3,
       "total": 4,
-      "percent": 25,
+      "percent": 75,
       "complete": false,
       "manualComplete": false,
       "completionBasis": "objective"
@@ -4577,9 +4577,9 @@
     },
     {
       "week": 2,
-      "done": 13,
+      "done": 15,
       "total": 30,
-      "percent": 43.33,
+      "percent": 50,
       "completedDays": 3,
       "totalDays": 7,
       "complete": false
@@ -4676,9 +4676,9 @@
     }
   ],
   "overall": {
-    "done": 39,
+    "done": 41,
     "total": 283,
-    "percent": 13.78,
+    "percent": 14.49,
     "completedDays": 9,
     "totalDays": 84,
     "complete": false,
@@ -4824,6 +4824,10 @@
       "code": "solutions/leetcode/intersection-of-two-arrays.cpp",
       "evidence": "사용자 정답 확인"
     },
+    "leetcode:isomorphic-strings": {
+      "code": "solutions/leetcode/isomorphic-strings.cpp",
+      "evidence": "사용자 정답 확인"
+    },
     "leetcode:kids-with-the-greatest-number-of-candies": {
       "code": "solutions/leetcode/kids-with-the-greatest-number-of-candies.cpp",
       "evidence": "사용자 정답 확인"
@@ -4884,6 +4888,10 @@
       "code": "solutions/leetcode/valid-parentheses.cpp",
       "evidence": "사용자 정답 확인"
     },
+    "leetcode:word-pattern": {
+      "code": "solutions/leetcode/word-pattern.cpp",
+      "evidence": "사용자 정답 확인"
+    },
     "programmers:12901": {
       "code": "solutions/programmers/12901.cpp",
       "evidence": "사용자 정답 확인"
@@ -4913,8 +4921,8 @@
       "evidence": "사용자 정답 확인"
     },
     "programmers:42576": {
-      "code": "C++/프로그래머스/1/42576. 완주하지 못한 선수/완주하지 못한 선수.cpp",
-      "evidence": "BaekjoonHub 형식의 업로드"
+      "code": "solutions/programmers/42576.cpp",
+      "evidence": "사용자 정답 확인"
     },
     "programmers:42586": {
       "code": "solutions/programmers/42586.cpp",
