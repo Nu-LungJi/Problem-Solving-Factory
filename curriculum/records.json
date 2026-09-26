@@ -515,5 +515,60 @@
     "kind": "solve",
     "result": "accepted",
     "usedHint": true
+  },
+  {
+    "id": "2026-09-26-programmers-42626-first",
+    "date": "2026-09-26",
+    "week": 2,
+    "day": 5,
+    "url": "https://school.programmers.co.kr/learn/courses/30/lessons/42626",
+    "code": "solutions/programmers/42626.cpp",
+    "kind": "solve",
+    "result": "accepted",
+    "usedHint": false
+  },
+  {
+    "id": "2026-09-26-leetcode-last-stone-weight-first",
+    "date": "2026-09-26",
+    "week": 2,
+    "day": 5,
+    "url": "https://leetcode.com/problems/last-stone-weight/",
+    "code": "solutions/leetcode/last-stone-weight.cpp",
+    "kind": "solve",
+    "result": "accepted",
+    "usedHint": false
+  },
+  {
+    "id": "2026-09-26-leetcode-kth-largest-element-in-a-stream-first",
+    "date": "2026-09-26",
+    "week": 2,
+    "day": 5,
+    "url": "https://leetcode.com/problems/kth-largest-element-in-a-stream/",
+    "code": "solutions/leetcode/kth-largest-element-in-a-stream.cpp",
+    "kind": "solve",
+    "result": "accepted",
+    "usedHint": true
+  },
+  {
+    "id": "2026-09-26-leetcode-take-gifts-from-the-richest-pile-first",
+    "date": "2026-09-26",
+    "week": 2,
+    "day": 5,
+    "url": "https://leetcode.com/problems/take-gifts-from-the-richest-pile/",
+    "code": "solutions/leetcode/take-gifts-from-the-richest-pile.cpp",
+    "kind": "solve",
+    "result": "accepted",
+    "usedHint": false
+  },
+  {
+    "id": "2026-09-26-leetcode-final-array-state-after-k-multiplication-operations-i-first",
+    "date": "2026-09-26",
+    "week": 2,
+    "day": 5,
+    "url": "https://leetcode.com/problems/final-array-state-after-k-multiplication-operations-i/",
+    "code": "solutions/leetcode/final-array-state-after-k-multiplication-operations-i.cpp",
+    "kind": "solve",
+    "result": "accepted",
+    "usedHint": false
   }
 ]
