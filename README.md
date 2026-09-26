@@ -2,16 +2,16 @@
 
 [전체 커리큘럼](https://github.com/Nu-LungJi/Problem-Solving-Factory/blob/main/curriculum/plan.md) · [수동 기록 방법](https://github.com/Nu-LungJi/Problem-Solving-Factory/blob/main/curriculum/README.md)
 
-**등록 문제 해결: 43/254** · 신규 학습 목표: 208문제
+**등록 문제 해결: 44/254** · 신규 학습 목표: 208문제
 
 필수 144문제와 Day별 후보 풀에서 선택하는 64문제를 합쳐 신규 목표는 208문제입니다. 후보를 전부 풀 필요는 없습니다. 후보 밖의 기존 수동 기록은 보존하지만 목표를 대체하지 않습니다. 업로드는 독립 해결·학습 완료의 증명이 아닙니다. BaekjoonHub 형식은 업로드 관례를 신뢰하며 온라인 저지에 재조회하지 않습니다. Day·Week 객관적 풀이 목표는 자동 계산하며 개념·오답 정리 체크는 원본 커리큘럼에서 직접 관리합니다.
 
-**전체 목표 진도: 41/283 (14.49%)** · 완료 Day 9/84 · Week 0/12
+**전체 목표 진도: 42/283 (14.84%)** · 완료 Day 9/84 · Week 0/12
 
 | Week | 목표 진도 | 완료 Day | 등록 문제 해결 | 신규 목표 | 재풀이 시도 / 목표 | 상태 |
 |:---:|---:|:---:|---:|---:|---:|:---:|
 | 1 | 26/30 (86.67%) | 6/7 | 25/30 | 24 | 6/6 | 미완료 |
-| 2 | 15/30 (50%) | 3/7 | 18/30 | 24 | 0/6 | 미완료 |
+| 2 | 16/30 (53.33%) | 3/7 | 19/30 | 24 | 0/6 | 미완료 |
 | 3 | 0/24 (0%) | 0/7 | 0/24 | 18 | 0/6 | 미완료 |
 | 4 | 0/24 (0%) | 0/7 | 0/24 | 18 | 0/6 | 미완료 |
 | 5 | 0/24 (0%) | 0/7 | 0/24 | 18 | 0/6 | 미완료 |
@@ -215,7 +215,7 @@
 </details>
 
 <details>
-<summary><strong>Day 5</strong> · ⬜ 미완료 · 0/5</summary>
+<summary><strong>Day 5</strong> · ⬜ 미완료 · 1/5</summary>
 
 | 신규 목표 | 재풀이 목표 | 추가 후보 조건 | 후보 해결 / 목표 반영 |
 |:---:|:---:|:---:|:---:|
@@ -223,7 +223,7 @@
 
 | 상태 | 구분 | 플랫폼 | 문제 | 풀이 / 기록 |
 |:---:|:---:|:---:|---|---|
-| ⬜ | 필수 | Programmers | [더 맵게](https://school.programmers.co.kr/learn/courses/30/lessons/42626) | — |
+| ✅ | 필수 | Programmers | [더 맵게](https://school.programmers.co.kr/learn/courses/30/lessons/42626) | [C++ 풀이](https://github.com/Nu-LungJi/Problem-Solving-Factory/blob/main/C%2B%2B/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/2/42626.%E2%80%85%EB%8D%94%E2%80%85%EB%A7%B5%EA%B2%8C/%EB%8D%94%E2%80%85%EB%A7%B5%EA%B2%8C.cpp) · BaekjoonHub 형식의 업로드 |
 | ⬜ | 필수 | LeetCode | [Last Stone Weight](https://leetcode.com/problems/last-stone-weight/) | — |
 | ⬜ | 후보 | LeetCode | [Kth Largest Element In A Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/) | leetcode:kth-largest-element-in-a-stream |
 | ⬜ | 후보 | LeetCode | [Take Gifts From The Richest Pile](https://leetcode.com/problems/take-gifts-from-the-richest-pile/) | leetcode:take-gifts-from-the-richest-pile |
