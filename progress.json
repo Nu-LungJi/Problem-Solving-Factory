@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "repository": "Nu-LungJi/Problem-Solving-Factory",
-  "accepted": 44,
+  "accepted": 48,
   "registered": 254,
   "target": 208,
   "days": [
@@ -765,7 +765,7 @@
           "url": "https://leetcode.com/problems/last-stone-weight/",
           "platform": "leetcode",
           "problemId": "last-stone-weight",
-          "solved": false,
+          "solved": true,
           "countsAsNew": true
         }
       ],
@@ -778,7 +778,7 @@
             "problemId": "kth-largest-element-in-a-stream",
             "title": "Kth Largest Element In A Stream",
             "url": "https://leetcode.com/problems/kth-largest-element-in-a-stream/",
-            "solved": false
+            "solved": true
           },
           {
             "key": "leetcode:take-gifts-from-the-richest-pile",
@@ -786,7 +786,7 @@
             "problemId": "take-gifts-from-the-richest-pile",
             "title": "Take Gifts From The Richest Pile",
             "url": "https://leetcode.com/problems/take-gifts-from-the-richest-pile/",
-            "solved": false
+            "solved": true
           },
           {
             "key": "leetcode:final-array-state-after-k-multiplication-operations-i",
@@ -794,22 +794,22 @@
             "problemId": "final-array-state-after-k-multiplication-operations-i",
             "title": "Final Array State After K Multiplication Operations I",
             "url": "https://leetcode.com/problems/final-array-state-after-k-multiplication-operations-i/",
-            "solved": false
+            "solved": true
           }
         ],
-        "solved": 0,
-        "credited": 0,
-        "complete": false
+        "solved": 3,
+        "credited": 2,
+        "complete": true
       },
-      "requiredSolved": 1,
-      "newSolved": 1,
-      "creditedNewSolved": 1,
+      "requiredSolved": 2,
+      "newSolved": 5,
+      "creditedNewSolved": 4,
       "reviewAttempts": 0,
       "reviewSolved": 0,
-      "done": 1,
+      "done": 4,
       "total": 4,
-      "percent": 25,
-      "complete": false,
+      "percent": 100,
+      "complete": true,
       "manualComplete": false,
       "completionBasis": "objective"
     },
@@ -4577,10 +4577,10 @@
     },
     {
       "week": 2,
-      "done": 16,
+      "done": 19,
       "total": 30,
-      "percent": 53.33,
-      "completedDays": 3,
+      "percent": 63.33,
+      "completedDays": 4,
       "totalDays": 7,
       "complete": false
     },
@@ -4676,10 +4676,10 @@
     }
   ],
   "overall": {
-    "done": 42,
+    "done": 45,
     "total": 283,
-    "percent": 14.84,
-    "completedDays": 9,
+    "percent": 15.9,
+    "completedDays": 10,
     "totalDays": 84,
     "complete": false,
     "completedWeeks": 0,
@@ -4808,6 +4808,10 @@
       "code": "solutions/leetcode/design-circular-queue.cpp",
       "evidence": "사용자 정답 확인"
     },
+    "leetcode:final-array-state-after-k-multiplication-operations-i": {
+      "code": "solutions/leetcode/final-array-state-after-k-multiplication-operations-i.cpp",
+      "evidence": "사용자 정답 확인"
+    },
     "leetcode:first-unique-character-in-a-string": {
       "code": "solutions/leetcode/first-unique-character-in-a-string.cpp",
       "evidence": "정답 확인 후 저장한 로컬 풀이"
@@ -4830,6 +4834,14 @@
     },
     "leetcode:kids-with-the-greatest-number-of-candies": {
       "code": "solutions/leetcode/kids-with-the-greatest-number-of-candies.cpp",
+      "evidence": "사용자 정답 확인"
+    },
+    "leetcode:kth-largest-element-in-a-stream": {
+      "code": "solutions/leetcode/kth-largest-element-in-a-stream.cpp",
+      "evidence": "사용자 정답 확인"
+    },
+    "leetcode:last-stone-weight": {
+      "code": "solutions/leetcode/last-stone-weight.cpp",
       "evidence": "사용자 정답 확인"
     },
     "leetcode:length-of-last-word": {
@@ -4875,6 +4887,10 @@
     "leetcode:running-sum-of-1d-array": {
       "code": "solutions/leetcode/running-sum-of-1d-array.cpp",
       "evidence": "정답 확인 후 저장한 로컬 풀이"
+    },
+    "leetcode:take-gifts-from-the-richest-pile": {
+      "code": "solutions/leetcode/take-gifts-from-the-richest-pile.cpp",
+      "evidence": "사용자 정답 확인"
     },
     "leetcode:time-needed-to-buy-tickets": {
       "code": "solutions/leetcode/time-needed-to-buy-tickets.cpp",
@@ -4933,8 +4949,8 @@
       "evidence": "사용자 정답 확인"
     },
     "programmers:42626": {
-      "code": "C++/프로그래머스/2/42626. 더 맵게/더 맵게.cpp",
-      "evidence": "BaekjoonHub 형식의 업로드"
+      "code": "solutions/programmers/42626.cpp",
+      "evidence": "사용자 정답 확인"
     }
   }
 }
