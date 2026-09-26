@@ -108,7 +108,7 @@ C++ 기본 문법을 공부했고, OOP·상속·SOLID와 스택 등 자료구조
 | [x] | 2 | queue로 처리 순서·대기열 모델링 | [프로그래머스 · 기능개발](https://school.programmers.co.kr/learn/courses/30/lessons/42586) · [프로그래머스 · 프로세스](https://school.programmers.co.kr/learn/courses/30/lessons/42587) · [후보 3개 중 2개 해결](pools.md#week-2-day-2) | 4 | 0 |
 | [x] | 3 | deque 양끝 연산·큐를 이용한 순환 처리 | [프로그래머스 · 같은 숫자는 싫어](https://school.programmers.co.kr/learn/courses/30/lessons/12906) · [CSES · Josephus Problem I](https://cses.fi/problemset/task/2162/) · [후보 3개 중 2개 해결](pools.md#week-2-day-3) | 4 | 0 |
 | [ ] | 4 | unordered_map 빈도·존재 검사 | [프로그래머스 · 완주하지 못한 선수](https://school.programmers.co.kr/learn/courses/30/lessons/42576) · [프로그래머스 · 전화번호 목록](https://school.programmers.co.kr/learn/courses/30/lessons/42577) · [후보 3개 중 2개 해결](pools.md#week-2-day-4) | 4 | 0 |
-| [ ] | 5 | 최소 힙·최대 힙 구현 및 반복 추출 | [프로그래머스 · 더 맵게](https://school.programmers.co.kr/learn/courses/30/lessons/42626) · [LeetCode · Last Stone Weight](https://leetcode.com/problems/last-stone-weight/) · [후보 3개 중 2개 해결](pools.md#week-2-day-5) | 4 | 0 |
+| [x] | 5 | 최소 힙·최대 힙 구현 및 반복 추출 | [프로그래머스 · 더 맵게](https://school.programmers.co.kr/learn/courses/30/lessons/42626) · [LeetCode · Last Stone Weight](https://leetcode.com/problems/last-stone-weight/) · [후보 3개 중 2개 해결](pools.md#week-2-day-5) | 4 | 0 |
 | [ ] | 6 | set·map·multiset 차이와 lower_bound | [CSES · Concert Tickets](https://cses.fi/problemset/task/1091/) · [프로그래머스 · 의상](https://school.programmers.co.kr/learn/courses/30/lessons/42578) · [후보 3개 중 2개 해결](pools.md#week-2-day-6) | 4 | 0 |
 | [ ] | 7 | 오답 6개 재풀이·주간 목표 설명·다음 주 준비 | 이번 주 3개 + 이전 오답 3개를 코드 없이 다시 풀기. Week 1은 이번 주 6개 | 0 | 6 |
 
