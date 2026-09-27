@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "repository": "Nu-LungJi/Problem-Solving-Factory",
-  "accepted": 49,
+  "accepted": 53,
   "registered": 254,
   "target": 208,
   "days": [
@@ -827,7 +827,7 @@
           "url": "https://cses.fi/problemset/task/1091/",
           "platform": "cses",
           "problemId": "1091",
-          "solved": false,
+          "solved": true,
           "countsAsNew": true
         },
         {
@@ -849,7 +849,7 @@
             "problemId": "intersection-of-two-arrays-ii",
             "title": "Intersection Of Two Arrays Ii",
             "url": "https://leetcode.com/problems/intersection-of-two-arrays-ii/",
-            "solved": false
+            "solved": true
           },
           {
             "key": "leetcode:contains-duplicate-ii",
@@ -857,7 +857,7 @@
             "problemId": "contains-duplicate-ii",
             "title": "Contains Duplicate Ii",
             "url": "https://leetcode.com/problems/contains-duplicate-ii/",
-            "solved": false
+            "solved": true
           },
           {
             "key": "leetcode:merge-similar-items",
@@ -865,22 +865,22 @@
             "problemId": "merge-similar-items",
             "title": "Merge Similar Items",
             "url": "https://leetcode.com/problems/merge-similar-items/",
-            "solved": false
+            "solved": true
           }
         ],
-        "solved": 0,
-        "credited": 0,
-        "complete": false
+        "solved": 3,
+        "credited": 2,
+        "complete": true
       },
-      "requiredSolved": 1,
-      "newSolved": 1,
-      "creditedNewSolved": 1,
+      "requiredSolved": 2,
+      "newSolved": 5,
+      "creditedNewSolved": 4,
       "reviewAttempts": 0,
       "reviewSolved": 0,
-      "done": 1,
+      "done": 4,
       "total": 4,
-      "percent": 25,
-      "complete": false,
+      "percent": 100,
+      "complete": true,
       "manualComplete": false,
       "completionBasis": "objective"
     },
@@ -4577,10 +4577,10 @@
     },
     {
       "week": 2,
-      "done": 20,
+      "done": 23,
       "total": 30,
-      "percent": 66.67,
-      "completedDays": 4,
+      "percent": 76.67,
+      "completedDays": 5,
       "totalDays": 7,
       "complete": false
     },
@@ -4676,10 +4676,10 @@
     }
   ],
   "overall": {
-    "done": 46,
+    "done": 49,
     "total": 283,
-    "percent": 16.25,
-    "completedDays": 10,
+    "percent": 17.31,
+    "completedDays": 11,
     "totalDays": 84,
     "complete": false,
     "completedWeeks": 0,
@@ -4772,6 +4772,10 @@
       "code": "solutions/reviews/week-1-day-7/cses/1083-f8071796-26bb-43a6-b483-03e28c6db7c1.cpp",
       "evidence": "사용자 정답 확인"
     },
+    "cses:1091": {
+      "code": "solutions/cses/1091.cpp",
+      "evidence": "사용자 정답 확인"
+    },
     "cses:1094": {
       "code": "solutions/cses/1094.cpp",
       "evidence": "사용자 정답 확인"
@@ -4798,6 +4802,10 @@
     },
     "leetcode:contains-duplicate": {
       "code": "solutions/leetcode/contains-duplicate.cpp",
+      "evidence": "사용자 정답 확인"
+    },
+    "leetcode:contains-duplicate-ii": {
+      "code": "solutions/leetcode/contains-duplicate-ii.cpp",
       "evidence": "사용자 정답 확인"
     },
     "leetcode:design-circular-deque": {
@@ -4828,6 +4836,10 @@
       "code": "solutions/leetcode/intersection-of-two-arrays.cpp",
       "evidence": "사용자 정답 확인"
     },
+    "leetcode:intersection-of-two-arrays-ii": {
+      "code": "solutions/leetcode/intersection-of-two-arrays-ii.cpp",
+      "evidence": "사용자 정답 확인"
+    },
     "leetcode:isomorphic-strings": {
       "code": "solutions/leetcode/isomorphic-strings.cpp",
       "evidence": "사용자 정답 확인"
@@ -4846,6 +4858,10 @@
     },
     "leetcode:length-of-last-word": {
       "code": "solutions/leetcode/length-of-last-word.cpp",
+      "evidence": "사용자 정답 확인"
+    },
+    "leetcode:merge-similar-items": {
+      "code": "solutions/leetcode/merge-similar-items.cpp",
       "evidence": "사용자 정답 확인"
     },
     "leetcode:number-of-1-bits": {
@@ -4941,8 +4957,8 @@
       "evidence": "사용자 정답 확인"
     },
     "programmers:42578": {
-      "code": "C++/프로그래머스/2/42578. 의상/의상.cpp",
-      "evidence": "BaekjoonHub 형식의 업로드"
+      "code": "solutions/programmers/42578.cpp",
+      "evidence": "사용자 정답 확인"
     },
     "programmers:42586": {
       "code": "solutions/programmers/42586.cpp",
