@@ -570,5 +570,60 @@
     "kind": "solve",
     "result": "accepted",
     "usedHint": false
+  },
+  {
+    "id": "2026-09-27-cses-1091-first",
+    "date": "2026-09-27",
+    "week": 2,
+    "day": 6,
+    "url": "https://cses.fi/problemset/task/1091/",
+    "code": "solutions/cses/1091.cpp",
+    "kind": "solve",
+    "result": "accepted",
+    "usedHint": true
+  },
+  {
+    "id": "2026-09-27-programmers-42578-first",
+    "date": "2026-09-27",
+    "week": 2,
+    "day": 6,
+    "url": "https://school.programmers.co.kr/learn/courses/30/lessons/42578",
+    "code": "solutions/programmers/42578.cpp",
+    "kind": "solve",
+    "result": "accepted",
+    "usedHint": false
+  },
+  {
+    "id": "2026-09-27-leetcode-intersection-of-two-arrays-ii-first",
+    "date": "2026-09-27",
+    "week": 2,
+    "day": 6,
+    "url": "https://leetcode.com/problems/intersection-of-two-arrays-ii/",
+    "code": "solutions/leetcode/intersection-of-two-arrays-ii.cpp",
+    "kind": "solve",
+    "result": "accepted",
+    "usedHint": false
+  },
+  {
+    "id": "2026-09-27-leetcode-contains-duplicate-ii-first",
+    "date": "2026-09-27",
+    "week": 2,
+    "day": 6,
+    "url": "https://leetcode.com/problems/contains-duplicate-ii/",
+    "code": "solutions/leetcode/contains-duplicate-ii.cpp",
+    "kind": "solve",
+    "result": "accepted",
+    "usedHint": true
+  },
+  {
+    "id": "2026-09-27-leetcode-merge-similar-items-first",
+    "date": "2026-09-27",
+    "week": 2,
+    "day": 6,
+    "url": "https://leetcode.com/problems/merge-similar-items/",
+    "code": "solutions/leetcode/merge-similar-items.cpp",
+    "kind": "solve",
+    "result": "accepted",
+    "usedHint": false
   }
 ]
