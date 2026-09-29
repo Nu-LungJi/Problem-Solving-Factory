@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "repository": "Nu-LungJi/Problem-Solving-Factory",
-  "accepted": 54,
+  "accepted": 57,
   "registered": 254,
   "target": 208,
   "days": [
@@ -925,7 +925,7 @@
           "url": "https://school.programmers.co.kr/learn/courses/30/lessons/42840",
           "platform": "programmers",
           "problemId": "42840",
-          "solved": false,
+          "solved": true,
           "countsAsNew": true
         },
         {
@@ -947,7 +947,7 @@
             "problemId": "find-numbers-with-even-number-of-digits",
             "title": "Find Numbers With Even Number Of Digits",
             "url": "https://leetcode.com/problems/find-numbers-with-even-number-of-digits/",
-            "solved": false
+            "solved": true
           },
           {
             "key": "leetcode:count-equal-and-divisible-pairs-in-an-array",
@@ -955,22 +955,22 @@
             "problemId": "count-equal-and-divisible-pairs-in-an-array",
             "title": "Count Equal And Divisible Pairs In An Array",
             "url": "https://leetcode.com/problems/count-equal-and-divisible-pairs-in-an-array/",
-            "solved": false
+            "solved": true
           }
         ],
-        "solved": 0,
-        "credited": 0,
-        "complete": false
+        "solved": 2,
+        "credited": 1,
+        "complete": true
       },
-      "requiredSolved": 1,
-      "newSolved": 1,
-      "creditedNewSolved": 1,
+      "requiredSolved": 2,
+      "newSolved": 4,
+      "creditedNewSolved": 3,
       "reviewAttempts": 0,
       "reviewSolved": 0,
-      "done": 1,
+      "done": 3,
       "total": 3,
-      "percent": 33.33,
-      "complete": false,
+      "percent": 100,
+      "complete": true,
       "manualComplete": false,
       "completionBasis": "objective"
     },
@@ -4586,10 +4586,10 @@
     },
     {
       "week": 3,
-      "done": 1,
+      "done": 3,
       "total": 24,
-      "percent": 4.17,
-      "completedDays": 0,
+      "percent": 12.5,
+      "completedDays": 1,
       "totalDays": 7,
       "complete": false
     },
@@ -4676,10 +4676,10 @@
     }
   ],
   "overall": {
-    "done": 56,
+    "done": 58,
     "total": 283,
-    "percent": 19.79,
-    "completedDays": 12,
+    "percent": 20.49,
+    "completedDays": 13,
     "totalDays": 84,
     "complete": false,
     "completedWeeks": 0,
@@ -4880,6 +4880,10 @@
       "code": "solutions/leetcode/contains-duplicate-ii.cpp",
       "evidence": "사용자 정답 확인"
     },
+    "leetcode:count-equal-and-divisible-pairs-in-an-array": {
+      "code": "solutions/leetcode/count-equal-and-divisible-pairs-in-an-array.cpp",
+      "evidence": "사용자 정답 확인"
+    },
     "leetcode:design-circular-deque": {
       "code": "solutions/leetcode/design-circular-deque.cpp",
       "evidence": "사용자 정답 확인"
@@ -4890,6 +4894,10 @@
     },
     "leetcode:final-array-state-after-k-multiplication-operations-i": {
       "code": "solutions/leetcode/final-array-state-after-k-multiplication-operations-i.cpp",
+      "evidence": "사용자 정답 확인"
+    },
+    "leetcode:find-numbers-with-even-number-of-digits": {
+      "code": "solutions/leetcode/find-numbers-with-even-number-of-digits.cpp",
       "evidence": "사용자 정답 확인"
     },
     "leetcode:first-unique-character-in-a-string": {
@@ -5044,9 +5052,13 @@
       "code": "solutions/programmers/42626.cpp",
       "evidence": "사용자 정답 확인"
     },
+    "programmers:42840": {
+      "code": "solutions/programmers/42840.cpp",
+      "evidence": "사용자 정답 확인"
+    },
     "programmers:42842": {
-      "code": "C++/프로그래머스/2/42842. 카펫/카펫.cpp",
-      "evidence": "BaekjoonHub 형식의 업로드"
+      "code": "solutions/programmers/42842.cpp",
+      "evidence": "사용자 정답 확인"
     }
   }
 }
