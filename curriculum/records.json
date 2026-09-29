@@ -691,5 +691,49 @@
     "kind": "review",
     "result": "accepted",
     "usedHint": false
+  },
+  {
+    "id": "2026-09-29-programmers-42840-first",
+    "date": "2026-09-29",
+    "week": 3,
+    "day": 1,
+    "url": "https://school.programmers.co.kr/learn/courses/30/lessons/42840",
+    "code": "solutions/programmers/42840.cpp",
+    "kind": "solve",
+    "result": "accepted",
+    "usedHint": false
+  },
+  {
+    "id": "2026-09-29-programmers-42842-first",
+    "date": "2026-09-29",
+    "week": 3,
+    "day": 1,
+    "url": "https://school.programmers.co.kr/learn/courses/30/lessons/42842",
+    "code": "solutions/programmers/42842.cpp",
+    "kind": "solve",
+    "result": "accepted",
+    "usedHint": false
+  },
+  {
+    "id": "2026-09-29-leetcode-find-numbers-with-even-number-of-digits-first",
+    "date": "2026-09-29",
+    "week": 3,
+    "day": 1,
+    "url": "https://leetcode.com/problems/find-numbers-with-even-number-of-digits/",
+    "code": "solutions/leetcode/find-numbers-with-even-number-of-digits.cpp",
+    "kind": "solve",
+    "result": "accepted",
+    "usedHint": false
+  },
+  {
+    "id": "2026-09-29-leetcode-count-equal-and-divisible-pairs-in-an-array-first",
+    "date": "2026-09-29",
+    "week": 3,
+    "day": 1,
+    "url": "https://leetcode.com/problems/count-equal-and-divisible-pairs-in-an-array/",
+    "code": "solutions/leetcode/count-equal-and-divisible-pairs-in-an-array.cpp",
+    "kind": "solve",
+    "result": "accepted",
+    "usedHint": false
   }
 ]
