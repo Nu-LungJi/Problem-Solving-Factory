@@ -735,5 +735,49 @@
     "kind": "solve",
     "result": "accepted",
     "usedHint": false
+  },
+  {
+    "id": "2026-09-30-cses-2165-first",
+    "date": "2026-09-30",
+    "week": 3,
+    "day": 2,
+    "url": "https://cses.fi/problemset/task/2165/",
+    "code": "solutions/cses/2165.cpp",
+    "kind": "solve",
+    "result": "accepted",
+    "usedHint": true
+  },
+  {
+    "id": "2026-09-30-leetcode-subsets-first",
+    "date": "2026-09-30",
+    "week": 3,
+    "day": 2,
+    "url": "https://leetcode.com/problems/subsets/",
+    "code": "solutions/leetcode/subsets.cpp",
+    "kind": "solve",
+    "result": "accepted",
+    "usedHint": false
+  },
+  {
+    "id": "2026-09-30-leetcode-fibonacci-number-first",
+    "date": "2026-09-30",
+    "week": 3,
+    "day": 2,
+    "url": "https://leetcode.com/problems/fibonacci-number/",
+    "code": "solutions/leetcode/fibonacci-number.cpp",
+    "kind": "solve",
+    "result": "accepted",
+    "usedHint": false
+  },
+  {
+    "id": "2026-09-30-leetcode-powx-n-first",
+    "date": "2026-09-30",
+    "week": 3,
+    "day": 2,
+    "url": "https://leetcode.com/problems/powx-n/",
+    "code": "solutions/leetcode/powx-n.cpp",
+    "kind": "solve",
+    "result": "accepted",
+    "usedHint": true
   }
 ]
