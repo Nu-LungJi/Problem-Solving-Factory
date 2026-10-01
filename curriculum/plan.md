@@ -133,7 +133,7 @@ C++ 기본 문법을 공부했고, OOP·상속·SOLID와 스택 등 자료구조
 |---|---|---|---|---:|---:|
 | [x] | 1 | 중첩 반복문 완전탐색·가능한 연산 수 추정 | [프로그래머스 · 모의고사](https://school.programmers.co.kr/learn/courses/30/lessons/42840) · [프로그래머스 · 카펫](https://school.programmers.co.kr/learn/courses/30/lessons/42842) · [후보 2개 중 1개 해결](pools.md#week-3-day-1) | 3 | 0 |
 | [x] | 2 | 재귀 종료 조건·호출 흐름 그리기 | [CSES · Tower of Hanoi](https://cses.fi/problemset/task/2165/) · [LeetCode · Subsets](https://leetcode.com/problems/subsets/) · [후보 2개 중 1개 해결](pools.md#week-3-day-2) | 3 | 0 |
-| [ ] | 3 | next_permutation과 직접 순열 생성 비교 | [CSES · Creating Strings](https://cses.fi/problemset/task/1622/) · [LeetCode · Permutations](https://leetcode.com/problems/permutations/) · [후보 2개 중 1개 해결](pools.md#week-3-day-3) | 3 | 0 |
+| [x] | 3 | next_permutation과 직접 순열 생성 비교 | [CSES · Creating Strings](https://cses.fi/problemset/task/1622/) · [LeetCode · Permutations](https://leetcode.com/problems/permutations/) · [후보 2개 중 1개 해결](pools.md#week-3-day-3) | 3 | 0 |
 | [ ] | 4 | 조합 탐색·선택 취소·중복 방지 | [LeetCode · Combinations](https://leetcode.com/problems/combinations/) · [LeetCode · Combination Sum](https://leetcode.com/problems/combination-sum/) · [후보 2개 중 1개 해결](pools.md#week-3-day-4) | 3 | 0 |
 | [ ] | 5 | 비트마스크로 부분집합 열거 | [CSES · Apple Division](https://cses.fi/problemset/task/1623/) · [프로그래머스 · 피로도](https://school.programmers.co.kr/learn/courses/30/lessons/87946) · [후보 2개 중 1개 해결](pools.md#week-3-day-5) | 3 | 0 |
 | [ ] | 6 | 가지치기 조건 설명·백트래킹 종합 | [CSES · Chessboard and Queens](https://cses.fi/problemset/task/1624/) · [프로그래머스 · 소수 찾기](https://school.programmers.co.kr/learn/courses/30/lessons/42839) · [후보 2개 중 1개 해결](pools.md#week-3-day-6) | 3 | 0 |
