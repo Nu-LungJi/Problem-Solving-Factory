@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "repository": "Nu-LungJi/Problem-Solving-Factory",
-  "accepted": 61,
+  "accepted": 65,
   "registered": 254,
   "target": 208,
   "days": [
@@ -1051,7 +1051,7 @@
           "url": "https://cses.fi/problemset/task/1622/",
           "platform": "cses",
           "problemId": "1622",
-          "solved": false,
+          "solved": true,
           "countsAsNew": true
         },
         {
@@ -1060,7 +1060,7 @@
           "url": "https://leetcode.com/problems/permutations/",
           "platform": "leetcode",
           "problemId": "permutations",
-          "solved": false,
+          "solved": true,
           "countsAsNew": true
         }
       ],
@@ -1073,7 +1073,7 @@
             "problemId": "permutations-ii",
             "title": "Permutations Ii",
             "url": "https://leetcode.com/problems/permutations-ii/",
-            "solved": false
+            "solved": true
           },
           {
             "key": "leetcode:letter-case-permutation",
@@ -1081,22 +1081,22 @@
             "problemId": "letter-case-permutation",
             "title": "Letter Case Permutation",
             "url": "https://leetcode.com/problems/letter-case-permutation/",
-            "solved": false
+            "solved": true
           }
         ],
-        "solved": 0,
-        "credited": 0,
-        "complete": false
+        "solved": 2,
+        "credited": 1,
+        "complete": true
       },
-      "requiredSolved": 0,
-      "newSolved": 0,
-      "creditedNewSolved": 0,
+      "requiredSolved": 2,
+      "newSolved": 4,
+      "creditedNewSolved": 3,
       "reviewAttempts": 0,
       "reviewSolved": 0,
-      "done": 0,
+      "done": 3,
       "total": 3,
-      "percent": 0,
-      "complete": false,
+      "percent": 100,
+      "complete": true,
       "manualComplete": false,
       "completionBasis": "objective"
     },
@@ -4586,10 +4586,10 @@
     },
     {
       "week": 3,
-      "done": 6,
+      "done": 9,
       "total": 24,
-      "percent": 25,
-      "completedDays": 2,
+      "percent": 37.5,
+      "completedDays": 3,
       "totalDays": 7,
       "complete": false
     },
@@ -4676,10 +4676,10 @@
     }
   ],
   "overall": {
-    "done": 61,
+    "done": 64,
     "total": 283,
-    "percent": 21.55,
-    "completedDays": 14,
+    "percent": 22.61,
+    "completedDays": 15,
     "totalDays": 84,
     "complete": false,
     "completedWeeks": 0,
@@ -4856,6 +4856,10 @@
       "code": "solutions/cses/1621.cpp",
       "evidence": "사용자 정답 확인"
     },
+    "cses:1622": {
+      "code": "solutions/cses/1622.cpp",
+      "evidence": "사용자 정답 확인"
+    },
     "cses:2162": {
       "code": "solutions/cses/2162.cpp",
       "evidence": "사용자 정답 확인"
@@ -4948,6 +4952,10 @@
       "code": "solutions/leetcode/length-of-last-word.cpp",
       "evidence": "사용자 정답 확인"
     },
+    "leetcode:letter-case-permutation": {
+      "code": "solutions/leetcode/letter-case-permutation.cpp",
+      "evidence": "사용자 정답 확인"
+    },
     "leetcode:merge-similar-items": {
       "code": "solutions/leetcode/merge-similar-items.cpp",
       "evidence": "사용자 정답 확인"
@@ -4966,6 +4974,14 @@
     },
     "leetcode:palindrome-number": {
       "code": "solutions/reviews/week-2-day-7/leetcode/palindrome-number-fd2d408e-9516-40d9-8089-77b5780ff52e.cpp",
+      "evidence": "사용자 정답 확인"
+    },
+    "leetcode:permutations": {
+      "code": "solutions/leetcode/permutations.cpp",
+      "evidence": "사용자 정답 확인"
+    },
+    "leetcode:permutations-ii": {
+      "code": "solutions/leetcode/permutations-ii.cpp",
       "evidence": "사용자 정답 확인"
     },
     "leetcode:plus-one": {
