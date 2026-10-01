@@ -779,5 +779,49 @@
     "kind": "solve",
     "result": "accepted",
     "usedHint": true
+  },
+  {
+    "id": "2026-10-01-cses-1622-first",
+    "date": "2026-10-01",
+    "week": 3,
+    "day": 3,
+    "url": "https://cses.fi/problemset/task/1622/",
+    "code": "solutions/cses/1622.cpp",
+    "kind": "solve",
+    "result": "accepted",
+    "usedHint": false
+  },
+  {
+    "id": "2026-10-01-leetcode-permutations-first",
+    "date": "2026-10-01",
+    "week": 3,
+    "day": 3,
+    "url": "https://leetcode.com/problems/permutations/",
+    "code": "solutions/leetcode/permutations.cpp",
+    "kind": "solve",
+    "result": "accepted",
+    "usedHint": true
+  },
+  {
+    "id": "2026-10-01-leetcode-permutations-ii-first",
+    "date": "2026-10-01",
+    "week": 3,
+    "day": 3,
+    "url": "https://leetcode.com/problems/permutations-ii/",
+    "code": "solutions/leetcode/permutations-ii.cpp",
+    "kind": "solve",
+    "result": "accepted",
+    "usedHint": false
+  },
+  {
+    "id": "2026-10-01-leetcode-letter-case-permutation-first",
+    "date": "2026-10-01",
+    "week": 3,
+    "day": 3,
+    "url": "https://leetcode.com/problems/letter-case-permutation/",
+    "code": "solutions/leetcode/letter-case-permutation.cpp",
+    "kind": "solve",
+    "result": "accepted",
+    "usedHint": true
   }
 ]
