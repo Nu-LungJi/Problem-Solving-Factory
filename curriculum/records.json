@@ -823,5 +823,49 @@
     "kind": "solve",
     "result": "accepted",
     "usedHint": true
+  },
+  {
+    "id": "2026-10-03-cses-1623-first",
+    "date": "2026-10-03",
+    "week": 3,
+    "day": 5,
+    "url": "https://cses.fi/problemset/task/1623/",
+    "code": "solutions/cses/1623.cpp",
+    "kind": "solve",
+    "result": "accepted",
+    "usedHint": true
+  },
+  {
+    "id": "2026-10-03-programmers-87946-first",
+    "date": "2026-10-03",
+    "week": 3,
+    "day": 5,
+    "url": "https://school.programmers.co.kr/learn/courses/30/lessons/87946",
+    "code": "solutions/programmers/87946.cpp",
+    "kind": "solve",
+    "result": "accepted",
+    "usedHint": true
+  },
+  {
+    "id": "2026-10-03-leetcode-subsets-ii-first",
+    "date": "2026-10-03",
+    "week": 3,
+    "day": 5,
+    "url": "https://leetcode.com/problems/subsets-ii/",
+    "code": "solutions/leetcode/subsets-ii.cpp",
+    "kind": "solve",
+    "result": "accepted",
+    "usedHint": true
+  },
+  {
+    "id": "2026-10-03-leetcode-sum-of-all-subset-xor-totals-first",
+    "date": "2026-10-03",
+    "week": 3,
+    "day": 5,
+    "url": "https://leetcode.com/problems/sum-of-all-subset-xor-totals/",
+    "code": "solutions/leetcode/sum-of-all-subset-xor-totals.cpp",
+    "kind": "solve",
+    "result": "accepted",
+    "usedHint": true
   }
 ]
