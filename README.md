@@ -2,17 +2,17 @@
 
 [전체 커리큘럼](https://github.com/Nu-LungJi/Problem-Solving-Factory/blob/main/curriculum/plan.md) · [수동 기록 방법](https://github.com/Nu-LungJi/Problem-Solving-Factory/blob/main/curriculum/README.md)
 
-**등록 문제 해결: 69/254** · 신규 학습 목표: 208문제
+**등록 문제 해결: 70/254** · 신규 학습 목표: 208문제
 
 필수 144문제와 Day별 후보 풀에서 선택하는 64문제를 합쳐 신규 목표는 208문제입니다. 후보를 전부 풀 필요는 없습니다. 후보 밖의 기존 수동 기록은 보존하지만 목표를 대체하지 않습니다. 업로드는 독립 해결·학습 완료의 증명이 아닙니다. BaekjoonHub 형식은 업로드 관례를 신뢰하며 온라인 저지에 재조회하지 않습니다. Day·Week 객관적 풀이 목표는 자동 계산하며 개념·오답 정리 체크는 원본 커리큘럼에서 직접 관리합니다.
 
-**전체 목표 진도: 67/283 (23.67%)** · 완료 Day 16/84 · Week 0/12
+**전체 목표 진도: 68/283 (24.03%)** · 완료 Day 16/84 · Week 0/12
 
 | Week | 목표 진도 | 완료 Day | 등록 문제 해결 | 신규 목표 | 재풀이 시도 / 목표 | 상태 |
 |:---:|---:|:---:|---:|---:|---:|:---:|
 | 1 | 26/30 (86.67%) | 6/7 | 25/30 | 24 | 6/6 | 미완료 |
 | 2 | 29/30 (96.67%) | 6/7 | 28/30 | 24 | 6/6 | 미완료 |
-| 3 | 12/24 (50%) | 4/7 | 16/24 | 18 | 0/6 | 미완료 |
+| 3 | 13/24 (54.17%) | 4/7 | 17/24 | 18 | 0/6 | 미완료 |
 | 4 | 0/24 (0%) | 0/7 | 0/24 | 18 | 0/6 | 미완료 |
 | 5 | 0/24 (0%) | 0/7 | 0/24 | 18 | 0/6 | 미완료 |
 | 6 | 0/30 (0%) | 0/7 | 0/30 | 24 | 0/6 | 미완료 |
@@ -344,7 +344,7 @@
 </details>
 
 <details>
-<summary><strong>Day 6</strong> · ⬜ 미완료 · 0/4</summary>
+<summary><strong>Day 6</strong> · ⬜ 미완료 · 1/4</summary>
 
 | 신규 목표 | 재풀이 목표 | 추가 후보 조건 | 후보 해결 / 목표 반영 |
 |:---:|:---:|:---:|:---:|
@@ -353,7 +353,7 @@
 | 상태 | 구분 | 플랫폼 | 문제 | 풀이 / 기록 |
 |:---:|:---:|:---:|---|---|
 | ⬜ | 필수 | CSES | [Chessboard and Queens](https://cses.fi/problemset/task/1624/) | — |
-| ⬜ | 필수 | Programmers | [소수 찾기](https://school.programmers.co.kr/learn/courses/30/lessons/42839) | — |
+| ✅ | 필수 | Programmers | [소수 찾기](https://school.programmers.co.kr/learn/courses/30/lessons/42839) | [C++ 풀이](https://github.com/Nu-LungJi/Problem-Solving-Factory/blob/main/C%2B%2B/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/2/42839.%E2%80%85%EC%86%8C%EC%88%98%E2%80%85%EC%B0%BE%EA%B8%B0/%EC%86%8C%EC%88%98%E2%80%85%EC%B0%BE%EA%B8%B0.cpp) · BaekjoonHub 형식의 업로드 |
 | ⬜ | 후보 | LeetCode | [N Queens Ii](https://leetcode.com/problems/n-queens-ii/) | leetcode:n-queens-ii |
 | ⬜ | 후보 | LeetCode | [Word Search](https://leetcode.com/problems/word-search/) | leetcode:word-search |
 
