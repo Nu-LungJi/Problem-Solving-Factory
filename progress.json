@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "repository": "Nu-LungJi/Problem-Solving-Factory",
-  "accepted": 66,
+  "accepted": 69,
   "registered": 254,
   "target": 208,
   "days": [
@@ -1177,7 +1177,7 @@
           "url": "https://cses.fi/problemset/task/1623/",
           "platform": "cses",
           "problemId": "1623",
-          "solved": false,
+          "solved": true,
           "countsAsNew": true
         },
         {
@@ -1199,7 +1199,7 @@
             "problemId": "subsets-ii",
             "title": "Subsets Ii",
             "url": "https://leetcode.com/problems/subsets-ii/",
-            "solved": false
+            "solved": true
           },
           {
             "key": "leetcode:sum-of-all-subset-xor-totals",
@@ -1207,22 +1207,22 @@
             "problemId": "sum-of-all-subset-xor-totals",
             "title": "Sum Of All Subset Xor Totals",
             "url": "https://leetcode.com/problems/sum-of-all-subset-xor-totals/",
-            "solved": false
+            "solved": true
           }
         ],
-        "solved": 0,
-        "credited": 0,
-        "complete": false
+        "solved": 2,
+        "credited": 1,
+        "complete": true
       },
-      "requiredSolved": 1,
-      "newSolved": 1,
-      "creditedNewSolved": 1,
+      "requiredSolved": 2,
+      "newSolved": 4,
+      "creditedNewSolved": 3,
       "reviewAttempts": 0,
       "reviewSolved": 0,
-      "done": 1,
+      "done": 3,
       "total": 3,
-      "percent": 33.33,
-      "complete": false,
+      "percent": 100,
+      "complete": true,
       "manualComplete": false,
       "completionBasis": "objective"
     },
@@ -4586,10 +4586,10 @@
     },
     {
       "week": 3,
-      "done": 10,
+      "done": 12,
       "total": 24,
-      "percent": 41.67,
-      "completedDays": 3,
+      "percent": 50,
+      "completedDays": 4,
       "totalDays": 7,
       "complete": false
     },
@@ -4676,10 +4676,10 @@
     }
   ],
   "overall": {
-    "done": 65,
+    "done": 67,
     "total": 283,
-    "percent": 22.97,
-    "completedDays": 15,
+    "percent": 23.67,
+    "completedDays": 16,
     "totalDays": 84,
     "complete": false,
     "completedWeeks": 0,
@@ -4860,6 +4860,10 @@
       "code": "solutions/cses/1622.cpp",
       "evidence": "사용자 정답 확인"
     },
+    "cses:1623": {
+      "code": "solutions/cses/1623.cpp",
+      "evidence": "사용자 정답 확인"
+    },
     "cses:2162": {
       "code": "solutions/cses/2162.cpp",
       "evidence": "사용자 정답 확인"
@@ -5016,6 +5020,14 @@
       "code": "solutions/leetcode/subsets.cpp",
       "evidence": "사용자 정답 확인"
     },
+    "leetcode:subsets-ii": {
+      "code": "solutions/leetcode/subsets-ii.cpp",
+      "evidence": "사용자 정답 확인"
+    },
+    "leetcode:sum-of-all-subset-xor-totals": {
+      "code": "solutions/leetcode/sum-of-all-subset-xor-totals.cpp",
+      "evidence": "사용자 정답 확인"
+    },
     "leetcode:take-gifts-from-the-richest-pile": {
       "code": "solutions/leetcode/take-gifts-from-the-richest-pile.cpp",
       "evidence": "사용자 정답 확인"
@@ -5093,8 +5105,8 @@
       "evidence": "사용자 정답 확인"
     },
     "programmers:87946": {
-      "code": "C++/프로그래머스/2/87946. 피로도/피로도.cpp",
-      "evidence": "BaekjoonHub 형식의 업로드"
+      "code": "solutions/programmers/87946.cpp",
+      "evidence": "사용자 정답 확인"
     }
   }
 }
