@@ -158,7 +158,7 @@ C++ 기본 문법을 공부했고, OOP·상속·SOLID와 스택 등 자료구조
 
 | 완료 | Day | Daily 목표 | 지정 문제·실행 내용 | 신규 | 재풀이 |
 |---|---|---|---|---:|---:|
-| [ ] | 1 | 1차원 누적합·반열린 구간·인덱스 검증 | [CSES · Static Range Sum Queries](https://cses.fi/problemset/task/1646/) · [LeetCode · Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/) · [후보 2개 중 1개 해결](pools.md#week-4-day-1) | 3 | 0 |
+| [x] | 1 | 1차원 누적합·반열린 구간·인덱스 검증 | [CSES · Static Range Sum Queries](https://cses.fi/problemset/task/1646/) · [LeetCode · Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/) · [후보 2개 중 1개 해결](pools.md#week-4-day-1) | 3 | 0 |
 | [ ] | 2 | 2차원 누적합·포함 배제 공식 도출 | [CSES · Forest Queries](https://cses.fi/problemset/task/1652/) · [LeetCode · Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable/) · [후보 2개 중 1개 해결](pools.md#week-4-day-2) | 3 | 0 |
 | [ ] | 3 | 정렬 후 양끝 포인터 이동 근거 쓰기 | [CSES · Sum of Two Values](https://cses.fi/problemset/task/1640/) · [CSES · Apartments](https://cses.fi/problemset/task/1084/) · [후보 2개 중 1개 해결](pools.md#week-4-day-3) | 3 | 0 |
 | [ ] | 4 | 고정 길이 윈도우 합 갱신 | [LeetCode · Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/) · [프로그래머스 · 숫자의 표현](https://school.programmers.co.kr/learn/courses/30/lessons/12924) · [후보 2개 중 1개 해결](pools.md#week-4-day-4) | 3 | 0 |
