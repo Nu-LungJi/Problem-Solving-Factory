@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "repository": "Nu-LungJi/Problem-Solving-Factory",
-  "accepted": 70,
+  "accepted": 74,
   "registered": 254,
   "target": 208,
   "days": [
@@ -1330,7 +1330,7 @@
           "url": "https://cses.fi/problemset/task/1646/",
           "platform": "cses",
           "problemId": "1646",
-          "solved": false,
+          "solved": true,
           "countsAsNew": true
         },
         {
@@ -1339,7 +1339,7 @@
           "url": "https://leetcode.com/problems/range-sum-query-immutable/",
           "platform": "leetcode",
           "problemId": "range-sum-query-immutable",
-          "solved": false,
+          "solved": true,
           "countsAsNew": true
         }
       ],
@@ -1352,7 +1352,7 @@
             "problemId": "find-pivot-index",
             "title": "Find Pivot Index",
             "url": "https://leetcode.com/problems/find-pivot-index/",
-            "solved": false
+            "solved": true
           },
           {
             "key": "leetcode:find-the-highest-altitude",
@@ -1360,22 +1360,22 @@
             "problemId": "find-the-highest-altitude",
             "title": "Find The Highest Altitude",
             "url": "https://leetcode.com/problems/find-the-highest-altitude/",
-            "solved": false
+            "solved": true
           }
         ],
-        "solved": 0,
-        "credited": 0,
-        "complete": false
+        "solved": 2,
+        "credited": 1,
+        "complete": true
       },
-      "requiredSolved": 0,
-      "newSolved": 0,
-      "creditedNewSolved": 0,
+      "requiredSolved": 2,
+      "newSolved": 4,
+      "creditedNewSolved": 3,
       "reviewAttempts": 0,
       "reviewSolved": 0,
-      "done": 0,
+      "done": 3,
       "total": 3,
-      "percent": 0,
-      "complete": false,
+      "percent": 100,
+      "complete": true,
       "manualComplete": false,
       "completionBasis": "objective"
     },
@@ -4595,10 +4595,10 @@
     },
     {
       "week": 4,
-      "done": 0,
+      "done": 3,
       "total": 24,
-      "percent": 0,
-      "completedDays": 0,
+      "percent": 12.5,
+      "completedDays": 1,
       "totalDays": 7,
       "complete": false
     },
@@ -4676,10 +4676,10 @@
     }
   ],
   "overall": {
-    "done": 68,
+    "done": 71,
     "total": 283,
-    "percent": 24.03,
-    "completedDays": 16,
+    "percent": 25.09,
+    "completedDays": 17,
     "totalDays": 84,
     "complete": false,
     "completedWeeks": 0,
@@ -4864,6 +4864,10 @@
       "code": "solutions/cses/1623.cpp",
       "evidence": "사용자 정답 확인"
     },
+    "cses:1646": {
+      "code": "solutions/cses/1646.cpp",
+      "evidence": "사용자 정답 확인"
+    },
     "cses:2162": {
       "code": "solutions/cses/2162.cpp",
       "evidence": "사용자 정답 확인"
@@ -4914,6 +4918,14 @@
     },
     "leetcode:find-numbers-with-even-number-of-digits": {
       "code": "solutions/leetcode/find-numbers-with-even-number-of-digits.cpp",
+      "evidence": "사용자 정답 확인"
+    },
+    "leetcode:find-pivot-index": {
+      "code": "solutions/leetcode/find-pivot-index.cpp",
+      "evidence": "사용자 정답 확인"
+    },
+    "leetcode:find-the-highest-altitude": {
+      "code": "solutions/leetcode/find-the-highest-altitude.cpp",
       "evidence": "사용자 정답 확인"
     },
     "leetcode:first-unique-character-in-a-string": {
@@ -4994,6 +5006,10 @@
     },
     "leetcode:powx-n": {
       "code": "solutions/leetcode/powx-n.cpp",
+      "evidence": "사용자 정답 확인"
+    },
+    "leetcode:range-sum-query-immutable": {
+      "code": "solutions/leetcode/range-sum-query-immutable.cpp",
       "evidence": "사용자 정답 확인"
     },
     "leetcode:remove-all-adjacent-duplicates-in-string": {
