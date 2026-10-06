@@ -867,5 +867,49 @@
     "kind": "solve",
     "result": "accepted",
     "usedHint": true
+  },
+  {
+    "id": "2026-10-06-cses-1646-first",
+    "date": "2026-10-06",
+    "week": 4,
+    "day": 1,
+    "url": "https://cses.fi/problemset/task/1646/",
+    "code": "solutions/cses/1646.cpp",
+    "kind": "solve",
+    "result": "accepted",
+    "usedHint": false
+  },
+  {
+    "id": "2026-10-06-leetcode-range-sum-query-immutable-first",
+    "date": "2026-10-06",
+    "week": 4,
+    "day": 1,
+    "url": "https://leetcode.com/problems/range-sum-query-immutable/",
+    "code": "solutions/leetcode/range-sum-query-immutable.cpp",
+    "kind": "solve",
+    "result": "accepted",
+    "usedHint": true
+  },
+  {
+    "id": "2026-10-06-leetcode-find-pivot-index-first",
+    "date": "2026-10-06",
+    "week": 4,
+    "day": 1,
+    "url": "https://leetcode.com/problems/find-pivot-index/",
+    "code": "solutions/leetcode/find-pivot-index.cpp",
+    "kind": "solve",
+    "result": "accepted",
+    "usedHint": false
+  },
+  {
+    "id": "2026-10-06-leetcode-find-the-highest-altitude-first",
+    "date": "2026-10-06",
+    "week": 4,
+    "day": 1,
+    "url": "https://leetcode.com/problems/find-the-highest-altitude/",
+    "code": "solutions/leetcode/find-the-highest-altitude.cpp",
+    "kind": "solve",
+    "result": "accepted",
+    "usedHint": false
   }
 ]
