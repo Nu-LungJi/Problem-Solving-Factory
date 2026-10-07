@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "repository": "Nu-LungJi/Problem-Solving-Factory",
-  "accepted": 74,
+  "accepted": 78,
   "registered": 254,
   "target": 208,
   "days": [
@@ -1393,7 +1393,7 @@
           "url": "https://cses.fi/problemset/task/1652/",
           "platform": "cses",
           "problemId": "1652",
-          "solved": false,
+          "solved": true,
           "countsAsNew": true
         },
         {
@@ -1402,7 +1402,7 @@
           "url": "https://leetcode.com/problems/range-sum-query-2d-immutable/",
           "platform": "leetcode",
           "problemId": "range-sum-query-2d-immutable",
-          "solved": false,
+          "solved": true,
           "countsAsNew": true
         }
       ],
@@ -1415,7 +1415,7 @@
             "problemId": "matrix-block-sum",
             "title": "Matrix Block Sum",
             "url": "https://leetcode.com/problems/matrix-block-sum/",
-            "solved": false
+            "solved": true
           },
           {
             "key": "leetcode:range-addition-ii",
@@ -1423,22 +1423,22 @@
             "problemId": "range-addition-ii",
             "title": "Range Addition Ii",
             "url": "https://leetcode.com/problems/range-addition-ii/",
-            "solved": false
+            "solved": true
           }
         ],
-        "solved": 0,
-        "credited": 0,
-        "complete": false
+        "solved": 2,
+        "credited": 1,
+        "complete": true
       },
-      "requiredSolved": 0,
-      "newSolved": 0,
-      "creditedNewSolved": 0,
+      "requiredSolved": 2,
+      "newSolved": 4,
+      "creditedNewSolved": 3,
       "reviewAttempts": 0,
       "reviewSolved": 0,
-      "done": 0,
+      "done": 3,
       "total": 3,
-      "percent": 0,
-      "complete": false,
+      "percent": 100,
+      "complete": true,
       "manualComplete": false,
       "completionBasis": "objective"
     },
@@ -4595,10 +4595,10 @@
     },
     {
       "week": 4,
-      "done": 3,
+      "done": 6,
       "total": 24,
-      "percent": 12.5,
-      "completedDays": 1,
+      "percent": 25,
+      "completedDays": 2,
       "totalDays": 7,
       "complete": false
     },
@@ -4676,10 +4676,10 @@
     }
   ],
   "overall": {
-    "done": 71,
+    "done": 74,
     "total": 283,
-    "percent": 25.09,
-    "completedDays": 17,
+    "percent": 26.15,
+    "completedDays": 18,
     "totalDays": 84,
     "complete": false,
     "completedWeeks": 0,
@@ -4868,6 +4868,10 @@
       "code": "solutions/cses/1646.cpp",
       "evidence": "사용자 정답 확인"
     },
+    "cses:1652": {
+      "code": "solutions/cses/1652.cpp",
+      "evidence": "사용자 정답 확인"
+    },
     "cses:2162": {
       "code": "solutions/cses/2162.cpp",
       "evidence": "사용자 정답 확인"
@@ -4972,6 +4976,10 @@
       "code": "solutions/leetcode/letter-case-permutation.cpp",
       "evidence": "사용자 정답 확인"
     },
+    "leetcode:matrix-block-sum": {
+      "code": "solutions/leetcode/matrix-block-sum.cpp",
+      "evidence": "사용자 정답 확인"
+    },
     "leetcode:merge-similar-items": {
       "code": "solutions/leetcode/merge-similar-items.cpp",
       "evidence": "사용자 정답 확인"
@@ -5006,6 +5014,14 @@
     },
     "leetcode:powx-n": {
       "code": "solutions/leetcode/powx-n.cpp",
+      "evidence": "사용자 정답 확인"
+    },
+    "leetcode:range-addition-ii": {
+      "code": "solutions/leetcode/range-addition-ii.cpp",
+      "evidence": "사용자 정답 확인"
+    },
+    "leetcode:range-sum-query-2d-immutable": {
+      "code": "solutions/leetcode/range-sum-query-2d-immutable.cpp",
       "evidence": "사용자 정답 확인"
     },
     "leetcode:range-sum-query-immutable": {
