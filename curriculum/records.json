@@ -911,5 +911,49 @@
     "kind": "solve",
     "result": "accepted",
     "usedHint": false
+  },
+  {
+    "id": "2026-10-07-cses-1652-first",
+    "date": "2026-10-07",
+    "week": 4,
+    "day": 2,
+    "url": "https://cses.fi/problemset/task/1652/",
+    "code": "solutions/cses/1652.cpp",
+    "kind": "solve",
+    "result": "accepted",
+    "usedHint": false
+  },
+  {
+    "id": "2026-10-07-leetcode-range-sum-query-2d-immutable-first",
+    "date": "2026-10-07",
+    "week": 4,
+    "day": 2,
+    "url": "https://leetcode.com/problems/range-sum-query-2d-immutable/",
+    "code": "solutions/leetcode/range-sum-query-2d-immutable.cpp",
+    "kind": "solve",
+    "result": "accepted",
+    "usedHint": false
+  },
+  {
+    "id": "2026-10-07-leetcode-matrix-block-sum-first",
+    "date": "2026-10-07",
+    "week": 4,
+    "day": 2,
+    "url": "https://leetcode.com/problems/matrix-block-sum/",
+    "code": "solutions/leetcode/matrix-block-sum.cpp",
+    "kind": "solve",
+    "result": "accepted",
+    "usedHint": true
+  },
+  {
+    "id": "2026-10-07-leetcode-range-addition-ii-first",
+    "date": "2026-10-07",
+    "week": 4,
+    "day": 2,
+    "url": "https://leetcode.com/problems/range-addition-ii/",
+    "code": "solutions/leetcode/range-addition-ii.cpp",
+    "kind": "solve",
+    "result": "accepted",
+    "usedHint": false
   }
 ]
