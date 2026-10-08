@@ -955,5 +955,49 @@
     "kind": "solve",
     "result": "accepted",
     "usedHint": false
+  },
+  {
+    "id": "2026-10-08-cses-1640-first",
+    "date": "2026-10-08",
+    "week": 4,
+    "day": 3,
+    "url": "https://cses.fi/problemset/task/1640/",
+    "code": "solutions/cses/1640.cpp",
+    "kind": "solve",
+    "result": "accepted",
+    "usedHint": false
+  },
+  {
+    "id": "2026-10-08-cses-1084-first",
+    "date": "2026-10-08",
+    "week": 4,
+    "day": 3,
+    "url": "https://cses.fi/problemset/task/1084/",
+    "code": "solutions/cses/1084.cpp",
+    "kind": "solve",
+    "result": "accepted",
+    "usedHint": true
+  },
+  {
+    "id": "2026-10-08-leetcode-two-sum-ii-input-array-is-sorted-first",
+    "date": "2026-10-08",
+    "week": 4,
+    "day": 3,
+    "url": "https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/",
+    "code": "solutions/leetcode/two-sum-ii-input-array-is-sorted.cpp",
+    "kind": "solve",
+    "result": "accepted",
+    "usedHint": false
+  },
+  {
+    "id": "2026-10-08-leetcode-squares-of-a-sorted-array-first",
+    "date": "2026-10-08",
+    "week": 4,
+    "day": 3,
+    "url": "https://leetcode.com/problems/squares-of-a-sorted-array/",
+    "code": "solutions/leetcode/squares-of-a-sorted-array.cpp",
+    "kind": "solve",
+    "result": "accepted",
+    "usedHint": false
   }
 ]
