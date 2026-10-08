@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "repository": "Nu-LungJi/Problem-Solving-Factory",
-  "accepted": 78,
+  "accepted": 82,
   "registered": 254,
   "target": 208,
   "days": [
@@ -1456,7 +1456,7 @@
           "url": "https://cses.fi/problemset/task/1640/",
           "platform": "cses",
           "problemId": "1640",
-          "solved": false,
+          "solved": true,
           "countsAsNew": true
         },
         {
@@ -1465,7 +1465,7 @@
           "url": "https://cses.fi/problemset/task/1084/",
           "platform": "cses",
           "problemId": "1084",
-          "solved": false,
+          "solved": true,
           "countsAsNew": true
         }
       ],
@@ -1478,7 +1478,7 @@
             "problemId": "two-sum-ii-input-array-is-sorted",
             "title": "Two Sum Ii Input Array Is Sorted",
             "url": "https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/",
-            "solved": false
+            "solved": true
           },
           {
             "key": "leetcode:squares-of-a-sorted-array",
@@ -1486,22 +1486,22 @@
             "problemId": "squares-of-a-sorted-array",
             "title": "Squares Of A Sorted Array",
             "url": "https://leetcode.com/problems/squares-of-a-sorted-array/",
-            "solved": false
+            "solved": true
           }
         ],
-        "solved": 0,
-        "credited": 0,
-        "complete": false
+        "solved": 2,
+        "credited": 1,
+        "complete": true
       },
-      "requiredSolved": 0,
-      "newSolved": 0,
-      "creditedNewSolved": 0,
+      "requiredSolved": 2,
+      "newSolved": 4,
+      "creditedNewSolved": 3,
       "reviewAttempts": 0,
       "reviewSolved": 0,
-      "done": 0,
+      "done": 3,
       "total": 3,
-      "percent": 0,
-      "complete": false,
+      "percent": 100,
+      "complete": true,
       "manualComplete": false,
       "completionBasis": "objective"
     },
@@ -4595,10 +4595,10 @@
     },
     {
       "week": 4,
-      "done": 6,
+      "done": 9,
       "total": 24,
-      "percent": 25,
-      "completedDays": 2,
+      "percent": 37.5,
+      "completedDays": 3,
       "totalDays": 7,
       "complete": false
     },
@@ -4676,10 +4676,10 @@
     }
   ],
   "overall": {
-    "done": 74,
+    "done": 77,
     "total": 283,
-    "percent": 26.15,
-    "completedDays": 18,
+    "percent": 27.21,
+    "completedDays": 19,
     "totalDays": 84,
     "complete": false,
     "completedWeeks": 0,
@@ -4844,6 +4844,10 @@
       "code": "solutions/reviews/week-2-day-7/cses/1083-fd2d408e-9516-40d9-8089-77b5780ff52e.cpp",
       "evidence": "사용자 정답 확인"
     },
+    "cses:1084": {
+      "code": "solutions/cses/1084.cpp",
+      "evidence": "사용자 정답 확인"
+    },
     "cses:1091": {
       "code": "solutions/cses/1091.cpp",
       "evidence": "사용자 정답 확인"
@@ -4862,6 +4866,10 @@
     },
     "cses:1623": {
       "code": "solutions/cses/1623.cpp",
+      "evidence": "사용자 정답 확인"
+    },
+    "cses:1640": {
+      "code": "solutions/cses/1640.cpp",
       "evidence": "사용자 정답 확인"
     },
     "cses:1646": {
@@ -5048,6 +5056,10 @@
       "code": "solutions/leetcode/running-sum-of-1d-array.cpp",
       "evidence": "정답 확인 후 저장한 로컬 풀이"
     },
+    "leetcode:squares-of-a-sorted-array": {
+      "code": "solutions/leetcode/squares-of-a-sorted-array.cpp",
+      "evidence": "사용자 정답 확인"
+    },
     "leetcode:subsets": {
       "code": "solutions/leetcode/subsets.cpp",
       "evidence": "사용자 정답 확인"
@@ -5066,6 +5078,10 @@
     },
     "leetcode:time-needed-to-buy-tickets": {
       "code": "solutions/leetcode/time-needed-to-buy-tickets.cpp",
+      "evidence": "사용자 정답 확인"
+    },
+    "leetcode:two-sum-ii-input-array-is-sorted": {
+      "code": "solutions/leetcode/two-sum-ii-input-array-is-sorted.cpp",
       "evidence": "사용자 정답 확인"
     },
     "leetcode:valid-palindrome": {
