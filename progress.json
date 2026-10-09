@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "repository": "Nu-LungJi/Problem-Solving-Factory",
-  "accepted": 82,
+  "accepted": 83,
   "registered": 254,
   "target": 208,
   "days": [
@@ -1528,7 +1528,7 @@
           "url": "https://school.programmers.co.kr/learn/courses/30/lessons/12924",
           "platform": "programmers",
           "problemId": "12924",
-          "solved": false,
+          "solved": true,
           "countsAsNew": true
         }
       ],
@@ -1556,14 +1556,14 @@
         "credited": 0,
         "complete": false
       },
-      "requiredSolved": 0,
-      "newSolved": 0,
-      "creditedNewSolved": 0,
+      "requiredSolved": 1,
+      "newSolved": 1,
+      "creditedNewSolved": 1,
       "reviewAttempts": 0,
       "reviewSolved": 0,
-      "done": 0,
+      "done": 1,
       "total": 3,
-      "percent": 0,
+      "percent": 33.33,
       "complete": false,
       "manualComplete": false,
       "completionBasis": "objective"
@@ -4595,9 +4595,9 @@
     },
     {
       "week": 4,
-      "done": 9,
+      "done": 10,
       "total": 24,
-      "percent": 37.5,
+      "percent": 41.67,
       "completedDays": 3,
       "totalDays": 7,
       "complete": false
@@ -4676,9 +4676,9 @@
     }
   ],
   "overall": {
-    "done": 77,
+    "done": 78,
     "total": 283,
-    "percent": 27.21,
+    "percent": 27.56,
     "completedDays": 19,
     "totalDays": 84,
     "complete": false,
@@ -5111,6 +5111,10 @@
     "programmers:12917": {
       "code": "solutions/programmers/12917.cpp",
       "evidence": "사용자 정답 확인"
+    },
+    "programmers:12924": {
+      "code": "C++/프로그래머스/2/12924. 숫자의 표현/숫자의 표현.cpp",
+      "evidence": "BaekjoonHub 형식의 업로드"
     },
     "programmers:12925": {
       "code": "solutions/programmers/12925.cpp",
