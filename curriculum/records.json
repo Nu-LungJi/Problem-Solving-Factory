@@ -999,5 +999,38 @@
     "kind": "solve",
     "result": "accepted",
     "usedHint": false
+  },
+  {
+    "id": "2026-10-09-leetcode-maximum-average-subarray-i-first",
+    "date": "2026-10-09",
+    "week": 4,
+    "day": 4,
+    "url": "https://leetcode.com/problems/maximum-average-subarray-i/",
+    "code": "solutions/leetcode/maximum-average-subarray-i.cpp",
+    "kind": "solve",
+    "result": "accepted",
+    "usedHint": false
+  },
+  {
+    "id": "2026-10-09-programmers-12924-first",
+    "date": "2026-10-09",
+    "week": 4,
+    "day": 4,
+    "url": "https://school.programmers.co.kr/learn/courses/30/lessons/12924",
+    "code": "solutions/programmers/12924.cpp",
+    "kind": "solve",
+    "result": "accepted",
+    "usedHint": false
+  },
+  {
+    "id": "2026-10-09-leetcode-find-all-anagrams-in-a-string-first",
+    "date": "2026-10-09",
+    "week": 4,
+    "day": 4,
+    "url": "https://leetcode.com/problems/find-all-anagrams-in-a-string/",
+    "code": "solutions/leetcode/find-all-anagrams-in-a-string.cpp",
+    "kind": "solve",
+    "result": "accepted",
+    "usedHint": true
   }
 ]
