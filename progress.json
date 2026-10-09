@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "repository": "Nu-LungJi/Problem-Solving-Factory",
-  "accepted": 83,
+  "accepted": 85,
   "registered": 254,
   "target": 208,
   "days": [
@@ -1519,7 +1519,7 @@
           "url": "https://leetcode.com/problems/maximum-average-subarray-i/",
           "platform": "leetcode",
           "problemId": "maximum-average-subarray-i",
-          "solved": false,
+          "solved": true,
           "countsAsNew": true
         },
         {
@@ -1549,22 +1549,22 @@
             "problemId": "find-all-anagrams-in-a-string",
             "title": "Find All Anagrams In A String",
             "url": "https://leetcode.com/problems/find-all-anagrams-in-a-string/",
-            "solved": false
+            "solved": true
           }
         ],
-        "solved": 0,
-        "credited": 0,
-        "complete": false
+        "solved": 1,
+        "credited": 1,
+        "complete": true
       },
-      "requiredSolved": 1,
-      "newSolved": 1,
-      "creditedNewSolved": 1,
+      "requiredSolved": 2,
+      "newSolved": 3,
+      "creditedNewSolved": 3,
       "reviewAttempts": 0,
       "reviewSolved": 0,
-      "done": 1,
+      "done": 3,
       "total": 3,
-      "percent": 33.33,
-      "complete": false,
+      "percent": 100,
+      "complete": true,
       "manualComplete": false,
       "completionBasis": "objective"
     },
@@ -4595,10 +4595,10 @@
     },
     {
       "week": 4,
-      "done": 10,
+      "done": 12,
       "total": 24,
-      "percent": 41.67,
-      "completedDays": 3,
+      "percent": 50,
+      "completedDays": 4,
       "totalDays": 7,
       "complete": false
     },
@@ -4676,10 +4676,10 @@
     }
   ],
   "overall": {
-    "done": 78,
+    "done": 80,
     "total": 283,
-    "percent": 27.56,
-    "completedDays": 19,
+    "percent": 28.27,
+    "completedDays": 20,
     "totalDays": 84,
     "complete": false,
     "completedWeeks": 0,
@@ -4928,6 +4928,10 @@
       "code": "solutions/leetcode/final-array-state-after-k-multiplication-operations-i.cpp",
       "evidence": "사용자 정답 확인"
     },
+    "leetcode:find-all-anagrams-in-a-string": {
+      "code": "solutions/leetcode/find-all-anagrams-in-a-string.cpp",
+      "evidence": "사용자 정답 확인"
+    },
     "leetcode:find-numbers-with-even-number-of-digits": {
       "code": "solutions/leetcode/find-numbers-with-even-number-of-digits.cpp",
       "evidence": "사용자 정답 확인"
@@ -4986,6 +4990,10 @@
     },
     "leetcode:matrix-block-sum": {
       "code": "solutions/leetcode/matrix-block-sum.cpp",
+      "evidence": "사용자 정답 확인"
+    },
+    "leetcode:maximum-average-subarray-i": {
+      "code": "solutions/leetcode/maximum-average-subarray-i.cpp",
       "evidence": "사용자 정답 확인"
     },
     "leetcode:merge-similar-items": {
@@ -5113,8 +5121,8 @@
       "evidence": "사용자 정답 확인"
     },
     "programmers:12924": {
-      "code": "C++/프로그래머스/2/12924. 숫자의 표현/숫자의 표현.cpp",
-      "evidence": "BaekjoonHub 형식의 업로드"
+      "code": "solutions/programmers/12924.cpp",
+      "evidence": "사용자 정답 확인"
     },
     "programmers:12925": {
       "code": "solutions/programmers/12925.cpp",

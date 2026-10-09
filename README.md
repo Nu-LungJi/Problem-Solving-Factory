@@ -2,18 +2,18 @@
 
 [전체 커리큘럼](https://github.com/Nu-LungJi/Problem-Solving-Factory/blob/main/curriculum/plan.md) · [수동 기록 방법](https://github.com/Nu-LungJi/Problem-Solving-Factory/blob/main/curriculum/README.md)
 
-**등록 문제 해결: 83/254** · 신규 학습 목표: 208문제
+**등록 문제 해결: 85/254** · 신규 학습 목표: 208문제
 
 필수 144문제와 Day별 후보 풀에서 선택하는 64문제를 합쳐 신규 목표는 208문제입니다. 후보를 전부 풀 필요는 없습니다. 후보 밖의 기존 수동 기록은 보존하지만 목표를 대체하지 않습니다. 업로드는 독립 해결·학습 완료의 증명이 아닙니다. BaekjoonHub 형식은 업로드 관례를 신뢰하며 온라인 저지에 재조회하지 않습니다. Day·Week 객관적 풀이 목표는 자동 계산하며 개념·오답 정리 체크는 원본 커리큘럼에서 직접 관리합니다.
 
-**전체 목표 진도: 78/283 (27.56%)** · 완료 Day 19/84 · Week 0/12
+**전체 목표 진도: 80/283 (28.27%)** · 완료 Day 20/84 · Week 0/12
 
 | Week | 목표 진도 | 완료 Day | 등록 문제 해결 | 신규 목표 | 재풀이 시도 / 목표 | 상태 |
 |:---:|---:|:---:|---:|---:|---:|:---:|
 | 1 | 26/30 (86.67%) | 6/7 | 25/30 | 24 | 6/6 | 미완료 |
 | 2 | 29/30 (96.67%) | 6/7 | 28/30 | 24 | 6/6 | 미완료 |
 | 3 | 13/24 (54.17%) | 4/7 | 17/24 | 18 | 0/6 | 미완료 |
-| 4 | 10/24 (41.67%) | 3/7 | 13/24 | 18 | 0/6 | 미완료 |
+| 4 | 12/24 (50%) | 4/7 | 15/24 | 18 | 0/6 | 미완료 |
 | 5 | 0/24 (0%) | 0/7 | 0/24 | 18 | 0/6 | 미완료 |
 | 6 | 0/30 (0%) | 0/7 | 0/30 | 24 | 0/6 | 미완료 |
 | 7 | 0/20 (0%) | 0/7 | 0/16 | 14 | 0/6 | 미완료 |
@@ -422,18 +422,18 @@
 </details>
 
 <details>
-<summary><strong>Day 4</strong> · ⬜ 미완료 · 1/4</summary>
+<summary><strong>Day 4</strong> · ✅ 완료 · 3/4</summary>
 
 | 신규 목표 | 재풀이 목표 | 추가 후보 조건 | 후보 해결 / 목표 반영 |
 |:---:|:---:|:---:|:---:|
-| 3문제 | 0문제 | 2개 중 1개 | 0개 해결 · 0/1 반영 |
+| 3문제 | 0문제 | 2개 중 1개 | 1개 해결 · 1/1 반영 |
 
 | 상태 | 구분 | 플랫폼 | 문제 | 풀이 / 기록 |
 |:---:|:---:|:---:|---|---|
-| ⬜ | 필수 | LeetCode | [Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/) | — |
-| ✅ | 필수 | Programmers | [숫자의 표현](https://school.programmers.co.kr/learn/courses/30/lessons/12924) | [C++ 풀이](https://github.com/Nu-LungJi/Problem-Solving-Factory/blob/main/C%2B%2B/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/2/12924.%E2%80%85%EC%88%AB%EC%9E%90%EC%9D%98%E2%80%85%ED%91%9C%ED%98%84/%EC%88%AB%EC%9E%90%EC%9D%98%E2%80%85%ED%91%9C%ED%98%84.cpp) · BaekjoonHub 형식의 업로드 |
+| ✅ | 필수 | LeetCode | [Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/) | [C++ 풀이](https://github.com/Nu-LungJi/Problem-Solving-Factory/blob/main/solutions/leetcode/maximum-average-subarray-i.cpp) · 사용자 정답 확인 |
+| ✅ | 필수 | Programmers | [숫자의 표현](https://school.programmers.co.kr/learn/courses/30/lessons/12924) | [C++ 풀이](https://github.com/Nu-LungJi/Problem-Solving-Factory/blob/main/solutions/programmers/12924.cpp) · 사용자 정답 확인 |
 | ⬜ | 후보 | LeetCode | [Maximum Number Of Vowels In A Substring Of Given Length](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/) | leetcode:maximum-number-of-vowels-in-a-substring-of-given-length |
-| ⬜ | 후보 | LeetCode | [Find All Anagrams In A String](https://leetcode.com/problems/find-all-anagrams-in-a-string/) | leetcode:find-all-anagrams-in-a-string |
+| ✅ | 후보 | LeetCode | [Find All Anagrams In A String](https://leetcode.com/problems/find-all-anagrams-in-a-string/) | leetcode:find-all-anagrams-in-a-string |
 
 </details>
 
