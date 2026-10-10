@@ -1032,5 +1032,49 @@
     "kind": "solve",
     "result": "accepted",
     "usedHint": true
+  },
+  {
+    "id": "2026-10-10-cses-1660-first",
+    "date": "2026-10-10",
+    "week": 4,
+    "day": 5,
+    "url": "https://cses.fi/problemset/task/1660/",
+    "code": "solutions/cses/1660.cpp",
+    "kind": "solve",
+    "result": "accepted",
+    "usedHint": true
+  },
+  {
+    "id": "2026-10-10-leetcode-longest-substring-without-repeating-characters-first",
+    "date": "2026-10-10",
+    "week": 4,
+    "day": 5,
+    "url": "https://leetcode.com/problems/longest-substring-without-repeating-characters/",
+    "code": "solutions/leetcode/longest-substring-without-repeating-characters.cpp",
+    "kind": "solve",
+    "result": "accepted",
+    "usedHint": false
+  },
+  {
+    "id": "2026-10-10-leetcode-minimum-size-subarray-sum-first",
+    "date": "2026-10-10",
+    "week": 4,
+    "day": 5,
+    "url": "https://leetcode.com/problems/minimum-size-subarray-sum/",
+    "code": "solutions/leetcode/minimum-size-subarray-sum.cpp",
+    "kind": "solve",
+    "result": "accepted",
+    "usedHint": true
+  },
+  {
+    "id": "2026-10-10-leetcode-fruit-into-baskets-first",
+    "date": "2026-10-10",
+    "week": 4,
+    "day": 5,
+    "url": "https://leetcode.com/problems/fruit-into-baskets/",
+    "code": "solutions/leetcode/fruit-into-baskets.cpp",
+    "kind": "solve",
+    "result": "accepted",
+    "usedHint": true
   }
 ]
