@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "repository": "Nu-LungJi/Problem-Solving-Factory",
-  "accepted": 85,
+  "accepted": 89,
   "registered": 254,
   "target": 208,
   "days": [
@@ -1582,7 +1582,7 @@
           "url": "https://cses.fi/problemset/task/1660/",
           "platform": "cses",
           "problemId": "1660",
-          "solved": false,
+          "solved": true,
           "countsAsNew": true
         },
         {
@@ -1591,7 +1591,7 @@
           "url": "https://leetcode.com/problems/longest-substring-without-repeating-characters/",
           "platform": "leetcode",
           "problemId": "longest-substring-without-repeating-characters",
-          "solved": false,
+          "solved": true,
           "countsAsNew": true
         }
       ],
@@ -1604,7 +1604,7 @@
             "problemId": "minimum-size-subarray-sum",
             "title": "Minimum Size Subarray Sum",
             "url": "https://leetcode.com/problems/minimum-size-subarray-sum/",
-            "solved": false
+            "solved": true
           },
           {
             "key": "leetcode:fruit-into-baskets",
@@ -1612,22 +1612,22 @@
             "problemId": "fruit-into-baskets",
             "title": "Fruit Into Baskets",
             "url": "https://leetcode.com/problems/fruit-into-baskets/",
-            "solved": false
+            "solved": true
           }
         ],
-        "solved": 0,
-        "credited": 0,
-        "complete": false
+        "solved": 2,
+        "credited": 1,
+        "complete": true
       },
-      "requiredSolved": 0,
-      "newSolved": 0,
-      "creditedNewSolved": 0,
+      "requiredSolved": 2,
+      "newSolved": 4,
+      "creditedNewSolved": 3,
       "reviewAttempts": 0,
       "reviewSolved": 0,
-      "done": 0,
+      "done": 3,
       "total": 3,
-      "percent": 0,
-      "complete": false,
+      "percent": 100,
+      "complete": true,
       "manualComplete": false,
       "completionBasis": "objective"
     },
@@ -4595,10 +4595,10 @@
     },
     {
       "week": 4,
-      "done": 12,
+      "done": 15,
       "total": 24,
-      "percent": 50,
-      "completedDays": 4,
+      "percent": 62.5,
+      "completedDays": 5,
       "totalDays": 7,
       "complete": false
     },
@@ -4676,10 +4676,10 @@
     }
   ],
   "overall": {
-    "done": 80,
+    "done": 83,
     "total": 283,
-    "percent": 28.27,
-    "completedDays": 20,
+    "percent": 29.33,
+    "completedDays": 21,
     "totalDays": 84,
     "complete": false,
     "completedWeeks": 0,
@@ -4880,6 +4880,10 @@
       "code": "solutions/cses/1652.cpp",
       "evidence": "사용자 정답 확인"
     },
+    "cses:1660": {
+      "code": "solutions/cses/1660.cpp",
+      "evidence": "사용자 정답 확인"
+    },
     "cses:2162": {
       "code": "solutions/cses/2162.cpp",
       "evidence": "사용자 정답 확인"
@@ -4952,6 +4956,10 @@
       "code": "solutions/reviews/week-2-day-7/leetcode/fizz-buzz-fd2d408e-9516-40d9-8089-77b5780ff52e.cpp",
       "evidence": "사용자 정답 확인"
     },
+    "leetcode:fruit-into-baskets": {
+      "code": "solutions/leetcode/fruit-into-baskets.cpp",
+      "evidence": "사용자 정답 확인"
+    },
     "leetcode:implement-queue-using-stacks": {
       "code": "solutions/leetcode/implement-queue-using-stacks.cpp",
       "evidence": "사용자 정답 확인"
@@ -4988,6 +4996,10 @@
       "code": "solutions/leetcode/letter-case-permutation.cpp",
       "evidence": "사용자 정답 확인"
     },
+    "leetcode:longest-substring-without-repeating-characters": {
+      "code": "solutions/leetcode/longest-substring-without-repeating-characters.cpp",
+      "evidence": "사용자 정답 확인"
+    },
     "leetcode:matrix-block-sum": {
       "code": "solutions/leetcode/matrix-block-sum.cpp",
       "evidence": "사용자 정답 확인"
@@ -4998,6 +5010,10 @@
     },
     "leetcode:merge-similar-items": {
       "code": "solutions/leetcode/merge-similar-items.cpp",
+      "evidence": "사용자 정답 확인"
+    },
+    "leetcode:minimum-size-subarray-sum": {
+      "code": "solutions/leetcode/minimum-size-subarray-sum.cpp",
       "evidence": "사용자 정답 확인"
     },
     "leetcode:number-of-1-bits": {
