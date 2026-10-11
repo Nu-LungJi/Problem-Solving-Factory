@@ -1076,5 +1076,49 @@
     "kind": "solve",
     "result": "accepted",
     "usedHint": true
+  },
+  {
+    "id": "2026-10-11-cses-1643-first",
+    "date": "2026-10-11",
+    "week": 4,
+    "day": 6,
+    "url": "https://cses.fi/problemset/task/1643/",
+    "code": "solutions/cses/1643.cpp",
+    "kind": "solve",
+    "result": "accepted",
+    "usedHint": false
+  },
+  {
+    "id": "2026-10-11-cses-1661-first",
+    "date": "2026-10-11",
+    "week": 4,
+    "day": 6,
+    "url": "https://cses.fi/problemset/task/1661/",
+    "code": "solutions/cses/1661.cpp",
+    "kind": "solve",
+    "result": "accepted",
+    "usedHint": true
+  },
+  {
+    "id": "2026-10-11-leetcode-maximum-subarray-first",
+    "date": "2026-10-11",
+    "week": 4,
+    "day": 6,
+    "url": "https://leetcode.com/problems/maximum-subarray/",
+    "code": "solutions/leetcode/maximum-subarray.cpp",
+    "kind": "solve",
+    "result": "accepted",
+    "usedHint": true
+  },
+  {
+    "id": "2026-10-11-leetcode-contiguous-array-first",
+    "date": "2026-10-11",
+    "week": 4,
+    "day": 6,
+    "url": "https://leetcode.com/problems/contiguous-array/",
+    "code": "solutions/leetcode/contiguous-array.cpp",
+    "kind": "solve",
+    "result": "accepted",
+    "usedHint": true
   }
 ]
