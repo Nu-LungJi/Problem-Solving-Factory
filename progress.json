@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "repository": "Nu-LungJi/Problem-Solving-Factory",
-  "accepted": 89,
+  "accepted": 93,
   "registered": 254,
   "target": 208,
   "days": [
@@ -1645,7 +1645,7 @@
           "url": "https://cses.fi/problemset/task/1643/",
           "platform": "cses",
           "problemId": "1643",
-          "solved": false,
+          "solved": true,
           "countsAsNew": true
         },
         {
@@ -1654,7 +1654,7 @@
           "url": "https://cses.fi/problemset/task/1661/",
           "platform": "cses",
           "problemId": "1661",
-          "solved": false,
+          "solved": true,
           "countsAsNew": true
         }
       ],
@@ -1667,7 +1667,7 @@
             "problemId": "maximum-subarray",
             "title": "Maximum Subarray",
             "url": "https://leetcode.com/problems/maximum-subarray/",
-            "solved": false
+            "solved": true
           },
           {
             "key": "leetcode:contiguous-array",
@@ -1675,22 +1675,22 @@
             "problemId": "contiguous-array",
             "title": "Contiguous Array",
             "url": "https://leetcode.com/problems/contiguous-array/",
-            "solved": false
+            "solved": true
           }
         ],
-        "solved": 0,
-        "credited": 0,
-        "complete": false
+        "solved": 2,
+        "credited": 1,
+        "complete": true
       },
-      "requiredSolved": 0,
-      "newSolved": 0,
-      "creditedNewSolved": 0,
+      "requiredSolved": 2,
+      "newSolved": 4,
+      "creditedNewSolved": 3,
       "reviewAttempts": 0,
       "reviewSolved": 0,
-      "done": 0,
+      "done": 3,
       "total": 3,
-      "percent": 0,
-      "complete": false,
+      "percent": 100,
+      "complete": true,
       "manualComplete": false,
       "completionBasis": "objective"
     },
@@ -4595,10 +4595,10 @@
     },
     {
       "week": 4,
-      "done": 15,
+      "done": 18,
       "total": 24,
-      "percent": 62.5,
-      "completedDays": 5,
+      "percent": 75,
+      "completedDays": 6,
       "totalDays": 7,
       "complete": false
     },
@@ -4676,10 +4676,10 @@
     }
   ],
   "overall": {
-    "done": 83,
+    "done": 86,
     "total": 283,
-    "percent": 29.33,
-    "completedDays": 21,
+    "percent": 30.39,
+    "completedDays": 22,
     "totalDays": 84,
     "complete": false,
     "completedWeeks": 0,
@@ -4872,6 +4872,10 @@
       "code": "solutions/cses/1640.cpp",
       "evidence": "사용자 정답 확인"
     },
+    "cses:1643": {
+      "code": "solutions/cses/1643.cpp",
+      "evidence": "사용자 정답 확인"
+    },
     "cses:1646": {
       "code": "solutions/cses/1646.cpp",
       "evidence": "사용자 정답 확인"
@@ -4882,6 +4886,10 @@
     },
     "cses:1660": {
       "code": "solutions/cses/1660.cpp",
+      "evidence": "사용자 정답 확인"
+    },
+    "cses:1661": {
+      "code": "solutions/cses/1661.cpp",
       "evidence": "사용자 정답 확인"
     },
     "cses:2162": {
@@ -4910,6 +4918,10 @@
     },
     "leetcode:contains-duplicate-ii": {
       "code": "solutions/leetcode/contains-duplicate-ii.cpp",
+      "evidence": "사용자 정답 확인"
+    },
+    "leetcode:contiguous-array": {
+      "code": "solutions/leetcode/contiguous-array.cpp",
       "evidence": "사용자 정답 확인"
     },
     "leetcode:count-equal-and-divisible-pairs-in-an-array": {
@@ -5006,6 +5018,10 @@
     },
     "leetcode:maximum-average-subarray-i": {
       "code": "solutions/leetcode/maximum-average-subarray-i.cpp",
+      "evidence": "사용자 정답 확인"
+    },
+    "leetcode:maximum-subarray": {
+      "code": "solutions/leetcode/maximum-subarray.cpp",
       "evidence": "사용자 정답 확인"
     },
     "leetcode:merge-similar-items": {
