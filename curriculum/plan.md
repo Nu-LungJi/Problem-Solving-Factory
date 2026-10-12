@@ -58,7 +58,7 @@ C++ 기본 문법을 공부했고, OOP·상속·SOLID와 스택 등 자료구조
 | [ ] | 1 | STL·배열·문자열·정렬 | 기본 STL을 검색 없이 사용하고 입력 크기에서 복잡도를 추정한다. | 24 | 6 |
 | [ ] | 2 | 스택·큐·덱·해시·힙 | 요구 연산에 맞는 컨테이너를 고르고 연산 비용을 설명한다. | 24 | 6 |
 | [ ] | 3 | 완전탐색·재귀·백트래킹 | 탐색 공간 크기를 계산하고 선택·재귀·복구를 구현한다. | 18 | 6 |
-| [ ] | 4 | 누적합·투포인터·슬라이딩 윈도우 | 구간 문제를 선형 시간으로 바꾸고 음수 포함 시 조건을 구별한다. | 18 | 6 |
+| [x] | 4 | 누적합·투포인터·슬라이딩 윈도우 | 구간 문제를 선형 시간으로 바꾸고 음수 포함 시 조건을 구별한다. | 18 | 6 |
 | [ ] | 5 | 이분탐색·그리디 | 단조 판정식을 만들고 그리디 선택의 정당성을 설명한다. | 18 | 6 |
 | [ ] | 6 | DFS·BFS·격자 탐색 | 연결 요소와 무가중치 최단거리를 구현하고 방문 시점을 설명한다. | 24 | 6 |
 | [ ] | 7 | 트리·DSU·최소 신장 트리 | 트리 순회·집합 병합·Kruskal을 구현하고 용도를 구별한다. | 14 | 6 |
@@ -164,7 +164,7 @@ C++ 기본 문법을 공부했고, OOP·상속·SOLID와 스택 등 자료구조
 | [x] | 4 | 고정 길이 윈도우 합 갱신 | [LeetCode · Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/) · [프로그래머스 · 숫자의 표현](https://school.programmers.co.kr/learn/courses/30/lessons/12924) · [후보 2개 중 1개 해결](pools.md#week-4-day-4) | 3 | 0 |
 | [x] | 5 | 가변 길이 윈도우·양수 조건 확인 | [CSES · Subarray Sums I](https://cses.fi/problemset/task/1660/) · [LeetCode · Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) · [후보 2개 중 1개 해결](pools.md#week-4-day-5) | 3 | 0 |
 | [x] | 6 | Kadane 상태 정의·누적합과 해시 결합 | [CSES · Maximum Subarray Sum](https://cses.fi/problemset/task/1643/) · [CSES · Subarray Sums II](https://cses.fi/problemset/task/1661/) · [후보 2개 중 1개 해결](pools.md#week-4-day-6) | 3 | 0 |
-| [ ] | 7 | 오답 6개 재풀이·주간 목표 설명·다음 주 준비 | 이번 주 3개 + 이전 오답 3개를 코드 없이 다시 풀기. Week 1은 이번 주 6개 | 0 | 6 |
+| [x] | 7 | 오답 6개 재풀이·주간 목표 설명·다음 주 준비 | 이번 주 3개 + 이전 오답 3개를 코드 없이 다시 풀기. Week 1은 이번 주 6개 | 0 | 6 |
 
 **완료 체크리스트**
 
