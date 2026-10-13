@@ -185,7 +185,7 @@ C++ 기본 문법을 공부했고, OOP·상속·SOLID와 스택 등 자료구조
 
 | 완료 | Day | Daily 목표 | 지정 문제·실행 내용 | 신규 | 재풀이 |
 |---|---|---|---|---:|---:|
-| [ ] | 1 | 이분탐색 경계·lower_bound와 upper_bound 비교 | [LeetCode · Binary Search](https://leetcode.com/problems/binary-search/) · [LeetCode · Search Insert Position](https://leetcode.com/problems/search-insert-position/) · [후보 2개 중 1개 해결](pools.md#week-5-day-1) | 3 | 0 |
+| [x] | 1 | 이분탐색 경계·lower_bound와 upper_bound 비교 | [LeetCode · Binary Search](https://leetcode.com/problems/binary-search/) · [LeetCode · Search Insert Position](https://leetcode.com/problems/search-insert-position/) · [후보 2개 중 1개 해결](pools.md#week-5-day-1) | 3 | 0 |
 | [ ] | 2 | 정답 이분탐색·가능 여부 함수 분리 | [CSES · Factory Machines](https://cses.fi/problemset/task/1620/) · [LeetCode · Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/) · [후보 2개 중 1개 해결](pools.md#week-5-day-2) | 3 | 0 |
 | [ ] | 3 | 64비트 범위·최소 가능 답 찾기 | [프로그래머스 · 입국심사](https://school.programmers.co.kr/learn/courses/30/lessons/43238) · [CSES · Array Division](https://cses.fi/problemset/task/1085/) · [후보 2개 중 1개 해결](pools.md#week-5-day-3) | 3 | 0 |
 | [ ] | 4 | 정렬·구간 선택·교환 논증 | [CSES · Movie Festival](https://cses.fi/problemset/task/1629/) · [LeetCode · Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/) · [후보 2개 중 1개 해결](pools.md#week-5-day-4) | 3 | 0 |
