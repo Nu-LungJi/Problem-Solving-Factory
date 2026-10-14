@@ -173,7 +173,8 @@ md += `- [${status.complete ? 'x' : ' '}] Day ${d.day} ${
     }
   }
   return { markdown: formatProgressMarkdown(md), data: { schemaVersion: 2, repository: repo, accepted, registered: planned.size,
-    target, ...progress, reviews, evidence: Object.fromEntries([...solved].sort(([a],[b]) => a.localeCompare(b, 'en'))) } };
+    target, ...progress, reviews, studyRecords: records.map(r => ({ ...r, key: problemKey(r.url) })),
+    evidence: Object.fromEntries([...solved].sort(([a],[b]) => a.localeCompare(b, 'en'))) } };
 }
 
 if (process.argv[1] && import.meta.url === pathToFileURL(path.resolve(process.argv[1])).href) {

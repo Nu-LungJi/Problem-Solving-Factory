@@ -72,7 +72,9 @@ function identity(p) {
   return { platform, problemId };
 }
 
-export function dayOptions(data, day) {
+const weeklyReviewPlan = readJson(new URL('../curriculum/review-plan.json', import.meta.url));
+
+export function dayOptions(data, day, reviewPlan = weeklyReviewPlan) {
   if (day.reviewTarget) {
     const completed = new Set(data.reviews.filter(r => r.week === day.week && r.day === day.day && r.result === 'accepted').map(r => r.key));
     const lastReviewed = new Map();
@@ -96,6 +98,36 @@ export function dayOptions(data, day) {
       });
     all.sort((a,b) => a.priority - b.priority || a.lastReviewed - b.lastReviewed || b.sourceWeek - a.sourceWeek);
     const options = [...new Map(all.map(p => [p.key, p])).values()];
+    if (day.week <= 11 && day.day === 7) {
+      const config = reviewPlan.find(w => w.week === day.week);
+      const byKey = new Map(options.map(p => [p.key, p]));
+      if (!config || config.core.length !== 4 || config.challengeFallback.length !== 2 ||
+          new Set([...config.core, ...config.challengeFallback]).size !== 6 ||
+          [...config.core, ...config.challengeFallback].some(key => byKey.get(key)?.sourceWeek !== day.week)) {
+        throw new Error(`Week ${day.week}: 주차별 핵심 복습 문제 설정 오류`);
+      }
+      const core = config.core.map(key => ({...byKey.get(key), reviewRole:'핵심'}));
+      const challenge = options.filter(p => p.sourceWeek === day.week && !config.core.includes(p.key));
+      const records = (data.studyRecords || []).filter(r => r.week === day.week && r.day < day.day);
+      const difficulty = p => {
+        const attempts = records.filter(r => r.key === p.key);
+        if (attempts.some(r => r.result === 'attempted')) return 0;
+        if (attempts.some(r => r.usedHint)) return 1;
+        // Unselected optional problems are not evidence of difficulty.
+        if (!data.evidence[p.key] && p.priority < 6) return 2;
+        return 3;
+      };
+      const fallbackOrder = p => {
+        const index = config.challengeFallback.indexOf(p.key);
+        return index < 0 ? 2 : index;
+      };
+      challenge.sort((a,b) => difficulty(a) - difficulty(b) || fallbackOrder(a) - fallbackOrder(b) ||
+        a.lastReviewed - b.lastReviewed);
+      const selected = [...core, ...challenge.slice(0,2).map(p => ({...p,reviewRole:'어려웠던 문제'}))];
+      const selectedKeys = new Set(selected.map(p => p.key));
+      // Old sessions remain valid, but new weekly sessions always start with this week's six.
+      options.splice(0, options.length, ...selected, ...options.filter(p => !selectedKeys.has(p.key)));
+    }
     // Keep all eligible problems for validating and resuming existing sessions.
     return [...options.filter(p => !completed.has(p.key)), ...options.filter(p => completed.has(p.key))];
   }

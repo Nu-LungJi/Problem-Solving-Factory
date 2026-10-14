@@ -1,0 +1,145 @@
+[
+  {
+    "week": 1,
+    "core": [
+      "cses:1069",
+      "programmers:12930",
+      "leetcode:valid-anagram",
+      "cses:1621"
+    ],
+    "challengeFallback": [
+      "cses:1094",
+      "programmers:42748"
+    ]
+  },
+  {
+    "week": 2,
+    "core": [
+      "leetcode:valid-parentheses",
+      "programmers:42586",
+      "programmers:42577",
+      "programmers:42626"
+    ],
+    "challengeFallback": [
+      "cses:1091",
+      "programmers:42587"
+    ]
+  },
+  {
+    "week": 3,
+    "core": [
+      "leetcode:subsets",
+      "leetcode:permutations",
+      "leetcode:combination-sum",
+      "programmers:87946"
+    ],
+    "challengeFallback": [
+      "cses:1624",
+      "programmers:42839"
+    ]
+  },
+  {
+    "week": 4,
+    "core": [
+      "cses:1646",
+      "cses:1652",
+      "leetcode:longest-substring-without-repeating-characters",
+      "cses:1661"
+    ],
+    "challengeFallback": [
+      "cses:1084",
+      "cses:1643"
+    ]
+  },
+  {
+    "week": 5,
+    "core": [
+      "leetcode:binary-search",
+      "programmers:43238",
+      "cses:1629",
+      "programmers:42885"
+    ],
+    "challengeFallback": [
+      "cses:1085",
+      "cses:1630"
+    ]
+  },
+  {
+    "week": 6,
+    "core": [
+      "programmers:43162",
+      "leetcode:number-of-islands",
+      "programmers:1844",
+      "leetcode:rotting-oranges"
+    ],
+    "challengeFallback": [
+      "cses:1668",
+      "programmers:43163"
+    ]
+  },
+  {
+    "week": 7,
+    "core": [
+      "cses:1674",
+      "cses:1131",
+      "cses:1676",
+      "programmers:42861"
+    ],
+    "challengeFallback": [
+      "cses:1669",
+      "leetcode:validate-binary-search-tree"
+    ]
+  },
+  {
+    "week": 8,
+    "core": [
+      "cses:1671",
+      "cses:1672",
+      "cses:1679",
+      "cses:1195"
+    ],
+    "challengeFallback": [
+      "leetcode:path-with-minimum-effort",
+      "leetcode:find-eventual-safe-states"
+    ]
+  },
+  {
+    "week": 9,
+    "core": [
+      "cses:1634",
+      "cses:1158",
+      "leetcode:longest-increasing-subsequence",
+      "leetcode:longest-common-subsequence"
+    ],
+    "challengeFallback": [
+      "cses:1635",
+      "cses:1639"
+    ]
+  },
+  {
+    "week": 10,
+    "core": [
+      "cses:1662",
+      "cses:1194",
+      "programmers:42627",
+      "leetcode:implement-trie-prefix-tree"
+    ],
+    "challengeFallback": [
+      "cses:1680",
+      "cses:1145"
+    ]
+  },
+  {
+    "week": 11,
+    "core": [
+      "programmers:92341",
+      "programmers:72411",
+      "programmers:72412",
+      "programmers:60057"
+    ],
+    "challengeFallback": [
+      "programmers:17686",
+      "programmers:12913"
+    ]
+  }
+]

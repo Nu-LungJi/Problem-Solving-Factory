@@ -149,28 +149,49 @@ test('candidate and Programmers sessions choose stable destination paths',t=>{
   assert.throws(()=>parseSelection('0',3),/번호/);
 });
 
-test('weekly review prioritizes current unsolved requirements and rotates solved problems',()=>{
+test('weekly review keeps four curated cores and selects two distinct current-week challenges',()=>{
   const problem = key => ({key, url:`https://leetcode.com/problems/${key.split(':')[1]}/`});
-  const day = {week:2,day:7,reviewTarget:6,reviewSolved:0};
-  const data = {
+  const core=['leetcode:core-one','leetcode:core-two','leetcode:core-three','leetcode:core-four'];
+  const day={week:2,day:7,reviewTarget:6,reviewSolved:0};
+  const config=[{week:2,core,challengeFallback:['leetcode:fallback-one','leetcode:fallback-two']}];
+  const current=[...core,'leetcode:fallback-one','leetcode:fallback-two','leetcode:failed','leetcode:hinted','leetcode:missing'];
+  const data={
     days:[
-      {week:1,day:1,problems:[problem('leetcode:fizz-buzz'),problem('leetcode:old-missing')],additional:{required:0,credited:0,candidates:[]}},
-      {week:2,day:1,problems:[problem('leetcode:current-missing'),problem('leetcode:recent-review'),problem('leetcode:never-reviewed')],additional:{required:1,credited:0,candidates:[problem('leetcode:needed-candidate')]}},
-      {week:2,day:2,problems:[],additional:{required:1,credited:1,candidates:[problem('leetcode:unused-candidate')]}}
+      {week:1,day:1,problems:[problem('leetcode:fizz-buzz')],additional:{required:0,credited:0,candidates:[]}},
+      {week:2,day:1,problems:current.map(problem),additional:{required:0,credited:0,candidates:[problem('leetcode:unselected')]}}
     ],
-    evidence:{'leetcode:fizz-buzz':{},'leetcode:recent-review':{},'leetcode:never-reviewed':{}},
-    reviews:[{week:1,day:7,key:'leetcode:recent-review',result:'accepted'}]
+    evidence:Object.fromEntries([...core,'leetcode:fallback-one','leetcode:fallback-two','leetcode:hinted','leetcode:fizz-buzz'].map(key=>[key,{}])),
+    reviews:[],studyRecords:[
+      {week:2,day:1,key:'leetcode:failed',result:'attempted',usedHint:false},
+      {week:2,day:1,key:'leetcode:hinted',result:'accepted',usedHint:true}
+    ]
   };
-  const options = dayOptions(data,day);
-  assert.deepEqual(options.map(p=>p.key),[
-    'leetcode:current-missing','leetcode:needed-candidate','leetcode:never-reviewed',
-    'leetcode:recent-review','leetcode:old-missing','leetcode:fizz-buzz','leetcode:unused-candidate'
-  ]);
-  data.reviews.push({week:2,day:7,key:'leetcode:current-missing',result:'accepted'});
+  assert.deepEqual(dayOptions(data,day,config).slice(0,6).map(p=>p.key),[...core,'leetcode:failed','leetcode:hinted']);
+  data.studyRecords=[];
+  data.evidence=Object.fromEntries([...current,'leetcode:fizz-buzz'].map(key=>[key,{}]));
+  assert.deepEqual(dayOptions(data,day,config).slice(0,6).map(p=>p.key),[...core,...config[0].challengeFallback]);
+  delete data.evidence['leetcode:missing'];
+  assert.deepEqual(dayOptions(data,day,config).slice(0,6).map(p=>p.key),[...core,'leetcode:missing','leetcode:fallback-one']);
+  data.reviews.push({week:2,day:7,key:core[0],result:'accepted'});
   day.reviewSolved=1;
-  const next=dayOptions(data,day);
-  assert.equal(next.at(-1).key,'leetcode:current-missing');
-  assert.ok(suggestedIndexes(day,next).every(i=>next[i].key!=='leetcode:current-missing'));
+  const next=dayOptions(data,day,config);
+  assert.equal(next.at(-1).key,core[0]);
+  assert.ok(suggestedIndexes(day,next).every(i=>next[i].key!==core[0]));
+  assert.throws(()=>dayOptions(data,day,[{...config[0],core:[core[0],core[0],core[2],core[3]]}]),/설정 오류/);
+});
+
+test('all eleven weekly review plans contain four cores and two same-week fallback problems',()=>{
+  const data=build(fileURLToPath(new URL('../',import.meta.url))).data;
+  const config=JSON.parse(fs.readFileSync(new URL('../curriculum/review-plan.json',import.meta.url),'utf8'));
+  assert.equal(config.length,11);
+  for (let week=1;week<=11;week++) {
+    const day=data.days.find(d=>d.week===week && d.day===7);
+    const options=dayOptions({...data,reviews:[]},day).slice(0,6);
+    assert.equal(new Set(options.map(p=>p.key)).size,6);
+    assert.ok(options.every(p=>p.sourceWeek===week));
+    assert.deepEqual(options.slice(0,4).map(p=>p.key),config.find(w=>w.week===week).core);
+    assert.ok(options.slice(0,4).every(p=>p.reviewRole==='핵심'));
+  }
 });
 
 test('Monday prepares six current-week missing problems and credits successful retry to original day',t=>{
