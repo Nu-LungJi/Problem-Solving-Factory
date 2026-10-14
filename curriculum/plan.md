@@ -20,7 +20,7 @@ C++ 기본 문법을 공부했고, OOP·상속·SOLID와 스택 등 자료구조
 - **지정 링크를 먼저 풀고**, 각 Day의 [추가 후보 풀](pools.md)에서 지정된 개수를 해결한다. 신규 목표는 필수 144개 + 후보 선택 64개 = 208개다. 이미 해결한 파일은 등록된 문제의 해결 상태로 반영되며, 재풀이는 별도 기록한다.
 - 추가 후보는 `pools.json`에 Day별로 고정되어 있다. 필요한 개수만 해결하면 되며 후보 밖의 풀이로 자동 대체하지 않는다. 후보 변경은 데이터 수정 후 `node scripts/render-pools.mjs`로 문서를 갱신하고 테스트한다.
 - Week 10~12는 지정 문제만으로 신규 목표를 채운다. 특히 Week 11~12는 문제만 열고 태그·해설·이 문서의 앞 주차 분류를 보지 않는다.
-- Week 1~11 Day 7은 **재풀이 6회**: 이번 주 오답 3개 + 7일 이상 지난 오답 3개. Week 1은 이번 주 문제 6개로 대체한다. 오답이 부족하면 가장 오래 걸린 문제를 고른다.
+- Week 1~11 Day 7(현재 일정의 월요일)은 **복습·재도전 6문제, 신규 배정 0개**: 해당 주차 Day 1~6의 미해결 필수 문제를 먼저 고르고, 추가 목표가 부족한 Day의 미해결 후보 문제로 보충한다. 이어서 해당 주차의 해결 문제를 복습하며, 그래도 6개가 부족하면 이전 주차의 미해결 문제와 해결 문제로 보충한다. 같은 우선순위에서는 재풀이 정답 기록이 없거나 가장 오래전에 복습한 문제를 먼저 고른다. 추가 목표를 이미 채운 Day의 미선택 후보는 마지막 보충용이다. 기존 코드·해설 없이 다시 풀고, 월요일 정답 기록은 `review`로 남긴다. 미해결 문제를 해결하면 원래 배정 Day의 신규 목표에도 반영된다.
 - Week 12 Day 2·4·6은 각각 **재풀이 3회**. 직전 시험 미해결이 3개 미만이면 이전 오답을 더한다.
 - 시간이 부족하면 추가 선택 문제부터 줄이고 실제 수를 기록한다. 다음날 10분 회상은 별도 문제 풀이 횟수로 세지 않는다.
 
@@ -83,7 +83,7 @@ C++ 기본 문법을 공부했고, OOP·상속·SOLID와 스택 등 자료구조
 | [ ] | 4 | sort·pair·비교 함수로 정렬 조건 표현 | [프로그래머스 · K번째수](https://school.programmers.co.kr/learn/courses/30/lessons/42748) · [LeetCode · Valid Anagram](https://leetcode.com/problems/valid-anagram/) · [후보 3개 중 2개 해결](pools.md#week-1-day-4) | 4 | 0 |
 | [x] | 5 | 중복 제거·unique·이진 탐색 STL 맛보기 | [CSES · Distinct Numbers](https://cses.fi/problemset/task/1621/) · [프로그래머스 · 제일 작은 수 제거하기](https://school.programmers.co.kr/learn/courses/30/lessons/12935) · [후보 3개 중 2개 해결](pools.md#week-1-day-5) | 4 | 0 |
 | [x] | 6 | 표준입출력과 solution 함수 제출 방식 모두 연습 | [프로그래머스 · 문자열 내림차순으로 배치하기](https://school.programmers.co.kr/learn/courses/30/lessons/12917) · [프로그래머스 · 2016년](https://school.programmers.co.kr/learn/courses/30/lessons/12901) · [후보 3개 중 2개 해결](pools.md#week-1-day-6) | 4 | 0 |
-| [x] | 7 | 오답 6개 재풀이·주간 목표 설명·다음 주 준비 | 이번 주 3개 + 이전 오답 3개를 코드 없이 다시 풀기. Week 1은 이번 주 6개 | 0 | 6 |
+| [x] | 7 | 복습·재도전 6문제·주간 목표 설명·다음 주 준비 | 이번 주 미해결 필수 → 추가 목표가 부족한 후보 → 이번 주 해결 문제 순서. 부족하면 이전 주차에서 보충; 기존 코드 없이 풀기 | 0 | 6 |
 
 **완료 체크리스트**
 
@@ -94,7 +94,7 @@ C++ 기본 문법을 공부했고, OOP·상속·SOLID와 스택 등 자료구조
 - [ ] W01-D4: sort·pair·비교 함수로 정렬 조건 표현
 - [ ] W01-D5: 중복 제거·unique·이진 탐색 STL 맛보기
 - [ ] W01-D6: 표준입출력과 solution 함수 제출 방식 모두 연습
-- [ ] W01-D7: 재풀이 6회와 주간 점검
+- [ ] W01-D7: 복습·재도전 6문제와 주간 점검
 
 ## Week 2 — 스택·큐·덱·해시·힙
 
@@ -110,7 +110,7 @@ C++ 기본 문법을 공부했고, OOP·상속·SOLID와 스택 등 자료구조
 | [ ] | 4 | unordered_map 빈도·존재 검사 | [프로그래머스 · 완주하지 못한 선수](https://school.programmers.co.kr/learn/courses/30/lessons/42576) · [프로그래머스 · 전화번호 목록](https://school.programmers.co.kr/learn/courses/30/lessons/42577) · [후보 3개 중 2개 해결](pools.md#week-2-day-4) | 4 | 0 |
 | [x] | 5 | 최소 힙·최대 힙 구현 및 반복 추출 | [프로그래머스 · 더 맵게](https://school.programmers.co.kr/learn/courses/30/lessons/42626) · [LeetCode · Last Stone Weight](https://leetcode.com/problems/last-stone-weight/) · [후보 3개 중 2개 해결](pools.md#week-2-day-5) | 4 | 0 |
 | [x] | 6 | set·map·multiset 차이와 lower_bound | [CSES · Concert Tickets](https://cses.fi/problemset/task/1091/) · [프로그래머스 · 의상](https://school.programmers.co.kr/learn/courses/30/lessons/42578) · [후보 3개 중 2개 해결](pools.md#week-2-day-6) | 4 | 0 |
-| [x] | 7 | 오답 6개 재풀이·주간 목표 설명·다음 주 준비 | 이번 주 3개 + 이전 오답 3개를 코드 없이 다시 풀기. Week 1은 이번 주 6개 | 0 | 6 |
+| [x] | 7 | 복습·재도전 6문제·주간 목표 설명·다음 주 준비 | 이번 주 미해결 필수 → 추가 목표가 부족한 후보 → 이번 주 해결 문제 순서. 부족하면 이전 주차에서 보충; 기존 코드 없이 풀기 | 0 | 6 |
 
 **완료 체크리스트**
 
@@ -121,7 +121,7 @@ C++ 기본 문법을 공부했고, OOP·상속·SOLID와 스택 등 자료구조
 - [ ] W02-D4: unordered_map 빈도·존재 검사
 - [ ] W02-D5: 최소 힙·최대 힙 구현 및 반복 추출
 - [ ] W02-D6: set·map·multiset 차이와 lower_bound
-- [ ] W02-D7: 재풀이 6회와 주간 점검
+- [ ] W02-D7: 복습·재도전 6문제와 주간 점검
 
 ## Week 3 — 완전탐색·재귀·백트래킹
 
@@ -137,7 +137,7 @@ C++ 기본 문법을 공부했고, OOP·상속·SOLID와 스택 등 자료구조
 | [ ] | 4 | 조합 탐색·선택 취소·중복 방지 | [LeetCode · Combinations](https://leetcode.com/problems/combinations/) · [LeetCode · Combination Sum](https://leetcode.com/problems/combination-sum/) · [후보 2개 중 1개 해결](pools.md#week-3-day-4) | 3 | 0 |
 | [x] | 5 | 비트마스크로 부분집합 열거 | [CSES · Apple Division](https://cses.fi/problemset/task/1623/) · [프로그래머스 · 피로도](https://school.programmers.co.kr/learn/courses/30/lessons/87946) · [후보 2개 중 1개 해결](pools.md#week-3-day-5) | 3 | 0 |
 | [ ] | 6 | 가지치기 조건 설명·백트래킹 종합 | [CSES · Chessboard and Queens](https://cses.fi/problemset/task/1624/) · [프로그래머스 · 소수 찾기](https://school.programmers.co.kr/learn/courses/30/lessons/42839) · [후보 2개 중 1개 해결](pools.md#week-3-day-6) | 3 | 0 |
-| [ ] | 7 | 오답 6개 재풀이·주간 목표 설명·다음 주 준비 | 이번 주 3개 + 이전 오답 3개를 코드 없이 다시 풀기. Week 1은 이번 주 6개 | 0 | 6 |
+| [ ] | 7 | 복습·재도전 6문제·주간 목표 설명·다음 주 준비 | 이번 주 미해결 필수 → 추가 목표가 부족한 후보 → 이번 주 해결 문제 순서. 부족하면 이전 주차에서 보충; 기존 코드 없이 풀기 | 0 | 6 |
 
 **완료 체크리스트**
 
@@ -148,7 +148,7 @@ C++ 기본 문법을 공부했고, OOP·상속·SOLID와 스택 등 자료구조
 - [ ] W03-D4: 조합 탐색·선택 취소·중복 방지
 - [ ] W03-D5: 비트마스크로 부분집합 열거
 - [ ] W03-D6: 가지치기 조건 설명·백트래킹 종합
-- [ ] W03-D7: 재풀이 6회와 주간 점검
+- [ ] W03-D7: 복습·재도전 6문제와 주간 점검
 
 ## Week 4 — 누적합·투포인터·슬라이딩 윈도우
 
@@ -164,7 +164,7 @@ C++ 기본 문법을 공부했고, OOP·상속·SOLID와 스택 등 자료구조
 | [x] | 4 | 고정 길이 윈도우 합 갱신 | [LeetCode · Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/) · [프로그래머스 · 숫자의 표현](https://school.programmers.co.kr/learn/courses/30/lessons/12924) · [후보 2개 중 1개 해결](pools.md#week-4-day-4) | 3 | 0 |
 | [x] | 5 | 가변 길이 윈도우·양수 조건 확인 | [CSES · Subarray Sums I](https://cses.fi/problemset/task/1660/) · [LeetCode · Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) · [후보 2개 중 1개 해결](pools.md#week-4-day-5) | 3 | 0 |
 | [x] | 6 | Kadane 상태 정의·누적합과 해시 결합 | [CSES · Maximum Subarray Sum](https://cses.fi/problemset/task/1643/) · [CSES · Subarray Sums II](https://cses.fi/problemset/task/1661/) · [후보 2개 중 1개 해결](pools.md#week-4-day-6) | 3 | 0 |
-| [x] | 7 | 오답 6개 재풀이·주간 목표 설명·다음 주 준비 | 이번 주 3개 + 이전 오답 3개를 코드 없이 다시 풀기. Week 1은 이번 주 6개 | 0 | 6 |
+| [x] | 7 | 복습·재도전 6문제·주간 목표 설명·다음 주 준비 | 이번 주 미해결 필수 → 추가 목표가 부족한 후보 → 이번 주 해결 문제 순서. 부족하면 이전 주차에서 보충; 기존 코드 없이 풀기 | 0 | 6 |
 
 **완료 체크리스트**
 
@@ -175,7 +175,7 @@ C++ 기본 문법을 공부했고, OOP·상속·SOLID와 스택 등 자료구조
 - [ ] W04-D4: 고정 길이 윈도우 합 갱신
 - [ ] W04-D5: 가변 길이 윈도우·양수 조건 확인
 - [ ] W04-D6: Kadane 상태 정의·누적합과 해시 결합
-- [ ] W04-D7: 재풀이 6회와 주간 점검
+- [ ] W04-D7: 복습·재도전 6문제와 주간 점검
 
 ## Week 5 — 이분탐색·그리디
 
@@ -191,7 +191,7 @@ C++ 기본 문법을 공부했고, OOP·상속·SOLID와 스택 등 자료구조
 | [ ] | 4 | 정렬·구간 선택·교환 논증 | [CSES · Movie Festival](https://cses.fi/problemset/task/1629/) · [LeetCode · Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/) · [후보 2개 중 1개 해결](pools.md#week-5-day-4) | 3 | 0 |
 | [ ] | 5 | 작은 선택을 누적하는 근거 설명 | [CSES · Ferris Wheel](https://cses.fi/problemset/task/1090/) · [프로그래머스 · 구명보트](https://school.programmers.co.kr/learn/courses/30/lessons/42885) · [후보 2개 중 1개 해결](pools.md#week-5-day-5) | 3 | 0 |
 | [ ] | 6 | 그리디 반례 찾기·다른 전략과 비교 | [CSES · Tasks and Deadlines](https://cses.fi/problemset/task/1630/) · [프로그래머스 · 체육복](https://school.programmers.co.kr/learn/courses/30/lessons/42862) · [후보 2개 중 1개 해결](pools.md#week-5-day-6) | 3 | 0 |
-| [ ] | 7 | 오답 6개 재풀이·주간 목표 설명·다음 주 준비 | 이번 주 3개 + 이전 오답 3개를 코드 없이 다시 풀기. Week 1은 이번 주 6개 | 0 | 6 |
+| [ ] | 7 | 복습·재도전 6문제·주간 목표 설명·다음 주 준비 | 이번 주 미해결 필수 → 추가 목표가 부족한 후보 → 이번 주 해결 문제 순서. 부족하면 이전 주차에서 보충; 기존 코드 없이 풀기 | 0 | 6 |
 
 **완료 체크리스트**
 
@@ -202,7 +202,7 @@ C++ 기본 문법을 공부했고, OOP·상속·SOLID와 스택 등 자료구조
 - [ ] W05-D4: 정렬·구간 선택·교환 논증
 - [ ] W05-D5: 작은 선택을 누적하는 근거 설명
 - [ ] W05-D6: 그리디 반례 찾기·다른 전략과 비교
-- [ ] W05-D7: 재풀이 6회와 주간 점검
+- [ ] W05-D7: 복습·재도전 6문제와 주간 점검
 
 ## Week 6 — DFS·BFS·격자 탐색
 
@@ -218,7 +218,7 @@ C++ 기본 문법을 공부했고, OOP·상속·SOLID와 스택 등 자료구조
 | [ ] | 4 | 부모 기록·경로 복원 | [CSES · Labyrinth](https://cses.fi/problemset/task/1193/) · [LeetCode · Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix/) · [후보 3개 중 2개 해결](pools.md#week-6-day-4) | 4 | 0 |
 | [ ] | 5 | 여러 시작점 BFS·상태를 정점으로 모델링 | [LeetCode · Rotting Oranges](https://leetcode.com/problems/rotting-oranges/) · [프로그래머스 · 단어 변환](https://school.programmers.co.kr/learn/courses/30/lessons/43163) · [후보 3개 중 2개 해결](pools.md#week-6-day-5) | 4 | 0 |
 | [ ] | 6 | 이분 그래프·상태 탐색 응용 | [CSES · Building Teams](https://cses.fi/problemset/task/1668/) · [프로그래머스 · 타겟 넘버](https://school.programmers.co.kr/learn/courses/30/lessons/43165) · [후보 3개 중 2개 해결](pools.md#week-6-day-6) | 4 | 0 |
-| [ ] | 7 | 오답 6개 재풀이·주간 목표 설명·다음 주 준비 | 이번 주 3개 + 이전 오답 3개를 코드 없이 다시 풀기. Week 1은 이번 주 6개 | 0 | 6 |
+| [ ] | 7 | 복습·재도전 6문제·주간 목표 설명·다음 주 준비 | 이번 주 미해결 필수 → 추가 목표가 부족한 후보 → 이번 주 해결 문제 순서. 부족하면 이전 주차에서 보충; 기존 코드 없이 풀기 | 0 | 6 |
 
 **완료 체크리스트**
 
@@ -229,7 +229,7 @@ C++ 기본 문법을 공부했고, OOP·상속·SOLID와 스택 등 자료구조
 - [ ] W06-D4: 부모 기록·경로 복원
 - [ ] W06-D5: 여러 시작점 BFS·상태를 정점으로 모델링
 - [ ] W06-D6: 이분 그래프·상태 탐색 응용
-- [ ] W06-D7: 재풀이 6회와 주간 점검
+- [ ] W06-D7: 복습·재도전 6문제와 주간 점검
 
 ## Week 7 — 트리·DSU·최소 신장 트리
 
@@ -245,7 +245,7 @@ C++ 기본 문법을 공부했고, OOP·상속·SOLID와 스택 등 자료구조
 | [ ] | 4 | DSU 경로 압축·크기 기준 병합 | [CSES · Road Construction](https://cses.fi/problemset/task/1676/) · [LeetCode · Redundant Connection](https://leetcode.com/problems/redundant-connection/) | 2 | 0 |
 | [ ] | 5 | Kruskal·간선 정렬·연결 불가능 처리 | [CSES · Road Reparation](https://cses.fi/problemset/task/1675/) · [프로그래머스 · 섬 연결하기](https://school.programmers.co.kr/learn/courses/30/lessons/42861) · [후보 2개 중 1개 해결](pools.md#week-7-day-5) | 3 | 0 |
 | [ ] | 6 | 트리와 일반 그래프의 사이클 차이 | [CSES · Round Trip](https://cses.fi/problemset/task/1669/) · [LeetCode · Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) · [후보 2개 중 1개 해결](pools.md#week-7-day-6) | 3 | 0 |
-| [ ] | 7 | 오답 6개 재풀이·주간 목표 설명·다음 주 준비 | 이번 주 3개 + 이전 오답 3개를 코드 없이 다시 풀기. Week 1은 이번 주 6개 | 0 | 6 |
+| [ ] | 7 | 복습·재도전 6문제·주간 목표 설명·다음 주 준비 | 이번 주 미해결 필수 → 추가 목표가 부족한 후보 → 이번 주 해결 문제 순서. 부족하면 이전 주차에서 보충; 기존 코드 없이 풀기 | 0 | 6 |
 
 **완료 체크리스트**
 
@@ -256,7 +256,7 @@ C++ 기본 문법을 공부했고, OOP·상속·SOLID와 스택 등 자료구조
 - [ ] W07-D4: DSU 경로 압축·크기 기준 병합
 - [ ] W07-D5: Kruskal·간선 정렬·연결 불가능 처리
 - [ ] W07-D6: 트리와 일반 그래프의 사이클 차이
-- [ ] W07-D7: 재풀이 6회와 주간 점검
+- [ ] W07-D7: 복습·재도전 6문제와 주간 점검
 
 ## Week 8 — 최단경로·위상정렬
 
@@ -274,7 +274,7 @@ C++ 기본 문법을 공부했고, OOP·상속·SOLID와 스택 등 자료구조
 | [ ] | 4 | 진입차수·Kahn 위상정렬·사이클 감지 | [CSES · Course Schedule](https://cses.fi/problemset/task/1679/) · [LeetCode · Course Schedule](https://leetcode.com/problems/course-schedule/) | 2 | 0 |
 | [ ] | 5 | 위상정렬 결과와 선행 관계 검증 | [LeetCode · Course Schedule II](https://leetcode.com/problems/course-schedule-ii/) · [LeetCode · Find Eventual Safe States](https://leetcode.com/problems/find-eventual-safe-states/) · [후보 2개 중 1개 해결](pools.md#week-8-day-5) | 3 | 0 |
 | [ ] | 6 | 격자 최단거리와 가중치 그래프 혼합 복습 | [프로그래머스 · 가장 먼 노드](https://school.programmers.co.kr/learn/courses/30/lessons/49189) · [CSES · Flight Discount](https://cses.fi/problemset/task/1195/) · [후보 2개 중 1개 해결](pools.md#week-8-day-6) | 3 | 0 |
-| [ ] | 7 | 오답 6개 재풀이·주간 목표 설명·다음 주 준비 | 이번 주 3개 + 이전 오답 3개를 코드 없이 다시 풀기. Week 1은 이번 주 6개 | 0 | 6 |
+| [ ] | 7 | 복습·재도전 6문제·주간 목표 설명·다음 주 준비 | 이번 주 미해결 필수 → 추가 목표가 부족한 후보 → 이번 주 해결 문제 순서. 부족하면 이전 주차에서 보충; 기존 코드 없이 풀기 | 0 | 6 |
 
 **완료 체크리스트**
 
@@ -285,7 +285,7 @@ C++ 기본 문법을 공부했고, OOP·상속·SOLID와 스택 등 자료구조
 - [ ] W08-D4: 진입차수·Kahn 위상정렬·사이클 감지
 - [ ] W08-D5: 위상정렬 결과와 선행 관계 검증
 - [ ] W08-D6: 격자 최단거리와 가중치 그래프 혼합 복습
-- [ ] W08-D7: 재풀이 6회와 주간 점검
+- [ ] W08-D7: 복습·재도전 6문제와 주간 점검
 
 ## Week 9 — DP 집중
 
@@ -301,7 +301,7 @@ C++ 기본 문법을 공부했고, OOP·상속·SOLID와 스택 등 자료구조
 | [ ] | 4 | 0/1 배낭·역순 갱신 이유 | [CSES · Book Shop](https://cses.fi/problemset/task/1158/) · [CSES · Money Sums](https://cses.fi/problemset/task/1745/) · [후보 2개 중 1개 해결](pools.md#week-9-day-4) | 3 | 0 |
 | [ ] | 5 | LIS O(N²)·선택과 비선택 상태 | [LeetCode · Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) · [LeetCode · House Robber](https://leetcode.com/problems/house-robber/) · [후보 2개 중 1개 해결](pools.md#week-9-day-5) | 3 | 0 |
 | [ ] | 6 | 문자열 DP·두 인덱스 상태 | [CSES · Edit Distance](https://cses.fi/problemset/task/1639/) · [LeetCode · Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/) · [후보 2개 중 1개 해결](pools.md#week-9-day-6) | 3 | 0 |
-| [ ] | 7 | 오답 6개 재풀이·주간 목표 설명·다음 주 준비 | 이번 주 3개 + 이전 오답 3개를 코드 없이 다시 풀기. Week 1은 이번 주 6개 | 0 | 6 |
+| [ ] | 7 | 복습·재도전 6문제·주간 목표 설명·다음 주 준비 | 이번 주 미해결 필수 → 추가 목표가 부족한 후보 → 이번 주 해결 문제 순서. 부족하면 이전 주차에서 보충; 기존 코드 없이 풀기 | 0 | 6 |
 
 **완료 체크리스트**
 
@@ -312,7 +312,7 @@ C++ 기본 문법을 공부했고, OOP·상속·SOLID와 스택 등 자료구조
 - [ ] W09-D4: 0/1 배낭·역순 갱신 이유
 - [ ] W09-D5: LIS O(N²)·선택과 비선택 상태
 - [ ] W09-D6: 문자열 DP·두 인덱스 상태
-- [ ] W09-D7: 재풀이 6회와 주간 점검
+- [ ] W09-D7: 복습·재도전 6문제와 주간 점검
 
 ## Week 10 — 혼합 패턴·선택 심화
 
@@ -330,7 +330,7 @@ C++ 기본 문법을 공부했고, OOP·상속·SOLID와 스택 등 자료구조
 | [ ] | 4 | DAG 위상 순서에 DP 적용 | [CSES · Longest Flight Route](https://cses.fi/problemset/task/1680/) · [CSES · Game Routes](https://cses.fi/problemset/task/1681/) | 2 | 0 |
 | [ ] | 5 | LIS O(N log N)·좌표 압축 직접 예제 작성 | [CSES · Increasing Subsequence](https://cses.fi/problemset/task/1145/) · [LeetCode · Rank Transform of an Array](https://leetcode.com/problems/rank-transform-of-an-array/) | 2 | 0 |
 | [ ] | 6 | Trie 삽입·검색·접두사 검사 | [LeetCode · Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) · [LeetCode · Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/) | 2 | 0 |
-| [ ] | 7 | 오답 6개 재풀이·주간 목표 설명·다음 주 준비 | 이번 주 3개 + 이전 오답 3개를 코드 없이 다시 풀기. Week 1은 이번 주 6개 | 0 | 6 |
+| [ ] | 7 | 복습·재도전 6문제·주간 목표 설명·다음 주 준비 | 이번 주 미해결 필수 → 추가 목표가 부족한 후보 → 이번 주 해결 문제 순서. 부족하면 이전 주차에서 보충; 기존 코드 없이 풀기 | 0 | 6 |
 
 **완료 체크리스트**
 
@@ -341,7 +341,7 @@ C++ 기본 문법을 공부했고, OOP·상속·SOLID와 스택 등 자료구조
 - [ ] W10-D4: DAG 위상 순서에 DP 적용
 - [ ] W10-D5: LIS O(N log N)·좌표 압축 직접 예제 작성
 - [ ] W10-D6: Trie 삽입·검색·접두사 검사
-- [ ] W10-D7: 재풀이 6회와 주간 점검
+- [ ] W10-D7: 복습·재도전 6문제와 주간 점검
 
 ## Week 11 — 유형을 숨긴 혼합 문제
 
@@ -357,7 +357,7 @@ C++ 기본 문법을 공부했고, OOP·상속·SOLID와 스택 등 자료구조
 | [ ] | 4 | 혼합 세트 D·코딩 전 예외 사례 3개 | [프로그래머스 · n진수 게임](https://school.programmers.co.kr/learn/courses/30/lessons/17687) · [프로그래머스 · 압축](https://school.programmers.co.kr/learn/courses/30/lessons/17684) | 2 | 0 |
 | [ ] | 5 | 혼합 세트 E·시간 제한 120분 | [프로그래머스 · 순위 검색](https://school.programmers.co.kr/learn/courses/30/lessons/72412) · [프로그래머스 · k진수에서 소수 개수 구하기](https://school.programmers.co.kr/learn/courses/30/lessons/92335) | 2 | 0 |
 | [ ] | 6 | 혼합 세트 F·풀이 후 복잡도와 대안 비교 | [프로그래머스 · 문자열 압축](https://school.programmers.co.kr/learn/courses/30/lessons/60057) · [프로그래머스 · 땅따먹기](https://school.programmers.co.kr/learn/courses/30/lessons/12913) | 2 | 0 |
-| [ ] | 7 | 오답 6개 재풀이·주간 목표 설명·다음 주 준비 | 이번 주 3개 + 이전 오답 3개를 코드 없이 다시 풀기. Week 1은 이번 주 6개 | 0 | 6 |
+| [ ] | 7 | 복습·재도전 6문제·주간 목표 설명·다음 주 준비 | 이번 주 미해결 필수 → 추가 목표가 부족한 후보 → 이번 주 해결 문제 순서. 부족하면 이전 주차에서 보충; 기존 코드 없이 풀기 | 0 | 6 |
 
 **완료 체크리스트**
 
@@ -368,7 +368,7 @@ C++ 기본 문법을 공부했고, OOP·상속·SOLID와 스택 등 자료구조
 - [ ] W11-D4: 혼합 세트 D·코딩 전 예외 사례 3개
 - [ ] W11-D5: 혼합 세트 E·시간 제한 120분
 - [ ] W11-D6: 혼합 세트 F·풀이 후 복잡도와 대안 비교
-- [ ] W11-D7: 재풀이 6회와 주간 점검
+- [ ] W11-D7: 복습·재도전 6문제와 주간 점검
 
 ## Week 12 — 실전 모의고사·약점 보완
 

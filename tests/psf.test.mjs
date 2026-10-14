@@ -122,7 +122,7 @@ test('review sessions use separate files and explicit accepted review records',t
   fs.writeFileSync(path.join(project,first.entries[0].localFile),'int main() {}');
   uploadSolutions(root,first,[{key:'cses:1068',accepted:true,usedHint:false}],'first','2026-09-15');
   data=build(root).data;
-  const review=prepareSession(root,project,data.days[6],dayOptions(data,data.days[6]).slice(0,1),'2026-09-21');
+  const review=prepareSession(root,project,data.days[6],dayOptions(data,data.days[6]).filter(p=>p.key==='cses:1068'),'2026-09-21');
   assert.match(review.entries[0].localFile,/^Solved\/2026-09-21\/1068-review-[a-f0-9]{8}\.cpp$/);
   fs.writeFileSync(path.join(project,review.entries[0].localFile),'int main() {return 0;}');
   uploadSolutions(root,review,[{key:'cses:1068',accepted:true,usedHint:false}],'review','2026-09-21');
@@ -147,6 +147,64 @@ test('candidate and Programmers sessions choose stable destination paths',t=>{
   assert.equal(progress.additional.solved,1);
   assert.deepEqual(parseSelection('1, 2 2',3),[0,1]);
   assert.throws(()=>parseSelection('0',3),/번호/);
+});
+
+test('weekly review prioritizes current unsolved requirements and rotates solved problems',()=>{
+  const problem = key => ({key, url:`https://leetcode.com/problems/${key.split(':')[1]}/`});
+  const day = {week:2,day:7,reviewTarget:6,reviewSolved:0};
+  const data = {
+    days:[
+      {week:1,day:1,problems:[problem('leetcode:fizz-buzz'),problem('leetcode:old-missing')],additional:{required:0,credited:0,candidates:[]}},
+      {week:2,day:1,problems:[problem('leetcode:current-missing'),problem('leetcode:recent-review'),problem('leetcode:never-reviewed')],additional:{required:1,credited:0,candidates:[problem('leetcode:needed-candidate')]}},
+      {week:2,day:2,problems:[],additional:{required:1,credited:1,candidates:[problem('leetcode:unused-candidate')]}}
+    ],
+    evidence:{'leetcode:fizz-buzz':{},'leetcode:recent-review':{},'leetcode:never-reviewed':{}},
+    reviews:[{week:1,day:7,key:'leetcode:recent-review',result:'accepted'}]
+  };
+  const options = dayOptions(data,day);
+  assert.deepEqual(options.map(p=>p.key),[
+    'leetcode:current-missing','leetcode:needed-candidate','leetcode:never-reviewed',
+    'leetcode:recent-review','leetcode:old-missing','leetcode:fizz-buzz','leetcode:unused-candidate'
+  ]);
+  data.reviews.push({week:2,day:7,key:'leetcode:current-missing',result:'accepted'});
+  day.reviewSolved=1;
+  const next=dayOptions(data,day);
+  assert.equal(next.at(-1).key,'leetcode:current-missing');
+  assert.ok(suggestedIndexes(day,next).every(i=>next[i].key!=='leetcode:current-missing'));
+});
+
+test('Monday prepares six current-week missing problems and credits successful retry to original day',t=>{
+  const {root,project}=fixture(t);
+  const session=prepareToday(root,project,'2026-10-19').session;
+  const data=build(root).data;
+  const required=new Set(data.days.filter(d=>d.week===5 && d.day<7).flatMap(d=>d.problems).map(p=>p.key));
+  assert.equal(session.entries.length,6);
+  assert.ok(session.entries.every(e=>e.kind==='review' && required.has(e.key)));
+  assert.ok(session.entries.every(e=>!['leetcode:fizz-buzz','leetcode:palindrome-number'].includes(e.key)));
+  const retry=prepareToday(root,project,'2026-10-19').session;
+  assert.equal(retry.id,session.id);
+  assert.deepEqual(retry.entries,session.entries);
+  const entry=session.entries[0];
+  fs.writeFileSync(path.join(project,entry.localFile),'int main() {return 0;}');
+  uploadSolutions(root,session,[{key:entry.key,accepted:true,usedHint:false}],'Monday retry','2026-10-19');
+  const after=build(root).data;
+  assert.equal(after.days.find(d=>d.week===5 && d.day===7).reviewSolved,1);
+  assert.equal(after.days.find(d=>d.problems.some(p=>p.key===entry.key)).requiredSolved,1);
+  const resumed=prepareToday(root,project,'2026-10-19').session;
+  assert.equal(resumed.id,session.id);
+  assert.equal(resumed.entries.length,5);
+  assert.ok(resumed.entries.every(e=>e.key!==entry.key));
+});
+
+test('final-week review starts with the immediately preceding mock exam',t=>{
+  const {root}=fixture(t);
+  const data=build(root).data;
+  for (const reviewDay of [2,4,6]) {
+    const day=data.days.find(d=>d.week===12 && d.day===reviewDay);
+    const exam=data.days.find(d=>d.week===12 && d.day===reviewDay-1);
+    const expected=new Set(exam.problems.map(p=>p.key));
+    assert.ok(dayOptions(data,day).slice(0,3).every(p=>expected.has(p.key)));
+  }
 });
 
 test('automatic START skips solved files, preserves existing drafts and reuses today session',t=>{

@@ -74,9 +74,30 @@ function identity(p) {
 
 export function dayOptions(data, day) {
   if (day.reviewTarget) {
+    const completed = new Set(data.reviews.filter(r => r.week === day.week && r.day === day.day && r.result === 'accepted').map(r => r.key));
+    const lastReviewed = new Map();
+    for (const r of data.reviews) {
+      if (r.result !== 'accepted' || r.week > day.week || r.week === day.week && r.day >= day.day) continue;
+      lastReviewed.set(r.key, Math.max(lastReviewed.get(r.key) || 0, r.week * 7 + r.day));
+    }
     const all = data.days.filter(d => d.week < day.week || d.week === day.week && d.day < day.day)
-      .flatMap(d => [...d.problems, ...d.additional.candidates]);
-    return [...new Map(all.filter(p => data.evidence[p.key]).map(p => [p.key, { ...p, kind:'review' }])).values()];
+      .flatMap(d => {
+        const current = d.week === day.week && (day.week !== 12 || d.day === day.day - 1);
+        const missingCandidates = d.additional.credited < d.additional.required;
+        return [...d.problems, ...d.additional.candidates].map(p => {
+          const solved = Boolean(data.evidence[p.key]);
+          const required = d.problems.some(required => required.key === p.key && !required.extra);
+          // Unchosen optional candidates are not missing homework once the daily target is met.
+          const priority = !solved && !required && !missingCandidates ? 6
+            : current ? solved ? 2 : required ? 0 : 1
+            : solved ? 5 : required ? 3 : 4;
+          return { ...p, kind:'review', priority, sourceWeek:d.week, lastReviewed:lastReviewed.get(p.key) || 0 };
+        });
+      });
+    all.sort((a,b) => a.priority - b.priority || a.lastReviewed - b.lastReviewed || b.sourceWeek - a.sourceWeek);
+    const options = [...new Map(all.map(p => [p.key, p])).values()];
+    // Keep all eligible problems for validating and resuming existing sessions.
+    return [...options.filter(p => !completed.has(p.key)), ...options.filter(p => completed.has(p.key))];
   }
   return [...day.problems.filter(p => !p.extra).map(p => ({...p, kind:'solve', group:'필수'})),
     ...day.additional.candidates.map(p => ({...p, kind:'solve', group:'후보'}))];
