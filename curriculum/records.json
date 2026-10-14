@@ -1230,5 +1230,38 @@
     "kind": "solve",
     "result": "accepted",
     "usedHint": true
+  },
+  {
+    "id": "2026-10-14-cses-1620-first",
+    "date": "2026-10-14",
+    "week": 5,
+    "day": 2,
+    "url": "https://cses.fi/problemset/task/1620/",
+    "code": "solutions/cses/1620.cpp",
+    "kind": "solve",
+    "result": "accepted",
+    "usedHint": false
+  },
+  {
+    "id": "2026-10-14-leetcode-koko-eating-bananas-first",
+    "date": "2026-10-14",
+    "week": 5,
+    "day": 2,
+    "url": "https://leetcode.com/problems/koko-eating-bananas/",
+    "code": "solutions/leetcode/koko-eating-bananas.cpp",
+    "kind": "solve",
+    "result": "accepted",
+    "usedHint": true
+  },
+  {
+    "id": "2026-10-14-leetcode-capacity-to-ship-packages-within-d-days-first",
+    "date": "2026-10-14",
+    "week": 5,
+    "day": 2,
+    "url": "https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/",
+    "code": "solutions/leetcode/capacity-to-ship-packages-within-d-days.cpp",
+    "kind": "solve",
+    "result": "accepted",
+    "usedHint": false
   }
 ]
