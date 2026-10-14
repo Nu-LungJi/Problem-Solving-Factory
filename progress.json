@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "repository": "Nu-LungJi/Problem-Solving-Factory",
-  "accepted": 97,
+  "accepted": 100,
   "registered": 254,
   "target": 208,
   "days": [
@@ -1798,7 +1798,7 @@
           "url": "https://cses.fi/problemset/task/1620/",
           "platform": "cses",
           "problemId": "1620",
-          "solved": false,
+          "solved": true,
           "countsAsNew": true
         },
         {
@@ -1807,7 +1807,7 @@
           "url": "https://leetcode.com/problems/koko-eating-bananas/",
           "platform": "leetcode",
           "problemId": "koko-eating-bananas",
-          "solved": false,
+          "solved": true,
           "countsAsNew": true
         }
       ],
@@ -1820,7 +1820,7 @@
             "problemId": "capacity-to-ship-packages-within-d-days",
             "title": "Capacity To Ship Packages Within D Days",
             "url": "https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/",
-            "solved": false
+            "solved": true
           },
           {
             "key": "leetcode:minimum-time-to-complete-trips",
@@ -1831,19 +1831,19 @@
             "solved": false
           }
         ],
-        "solved": 0,
-        "credited": 0,
-        "complete": false
+        "solved": 1,
+        "credited": 1,
+        "complete": true
       },
-      "requiredSolved": 0,
-      "newSolved": 0,
-      "creditedNewSolved": 0,
+      "requiredSolved": 2,
+      "newSolved": 3,
+      "creditedNewSolved": 3,
       "reviewAttempts": 0,
       "reviewSolved": 0,
-      "done": 0,
+      "done": 3,
       "total": 3,
-      "percent": 0,
-      "complete": false,
+      "percent": 100,
+      "complete": true,
       "manualComplete": false,
       "completionBasis": "objective"
     },
@@ -4604,10 +4604,10 @@
     },
     {
       "week": 5,
-      "done": 3,
+      "done": 6,
       "total": 24,
-      "percent": 12.5,
-      "completedDays": 1,
+      "percent": 25,
+      "completedDays": 2,
       "totalDays": 7,
       "complete": false
     },
@@ -4676,10 +4676,10 @@
     }
   ],
   "overall": {
-    "done": 95,
+    "done": 98,
     "total": 283,
-    "percent": 33.57,
-    "completedDays": 24,
+    "percent": 34.63,
+    "completedDays": 25,
     "totalDays": 84,
     "complete": false,
     "completedWeeks": 1,
@@ -4928,6 +4928,10 @@
       "code": "solutions/cses/1094.cpp",
       "evidence": "사용자 정답 확인"
     },
+    "cses:1620": {
+      "code": "solutions/cses/1620.cpp",
+      "evidence": "사용자 정답 확인"
+    },
     "cses:1621": {
       "code": "solutions/cses/1621.cpp",
       "evidence": "사용자 정답 확인"
@@ -4986,6 +4990,10 @@
     },
     "leetcode:binary-search": {
       "code": "solutions/leetcode/binary-search.cpp",
+      "evidence": "사용자 정답 확인"
+    },
+    "leetcode:capacity-to-ship-packages-within-d-days": {
+      "code": "solutions/leetcode/capacity-to-ship-packages-within-d-days.cpp",
       "evidence": "사용자 정답 확인"
     },
     "leetcode:contains-duplicate": {
@@ -5070,6 +5078,10 @@
     },
     "leetcode:kids-with-the-greatest-number-of-candies": {
       "code": "solutions/leetcode/kids-with-the-greatest-number-of-candies.cpp",
+      "evidence": "사용자 정답 확인"
+    },
+    "leetcode:koko-eating-bananas": {
+      "code": "solutions/leetcode/koko-eating-bananas.cpp",
       "evidence": "사용자 정답 확인"
     },
     "leetcode:kth-largest-element-in-a-stream": {
