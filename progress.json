@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "repository": "Nu-LungJi/Problem-Solving-Factory",
-  "accepted": 101,
+  "accepted": 104,
   "registered": 254,
   "target": 208,
   "days": [
@@ -1870,7 +1870,7 @@
           "url": "https://cses.fi/problemset/task/1085/",
           "platform": "cses",
           "problemId": "1085",
-          "solved": false,
+          "solved": true,
           "countsAsNew": true
         }
       ],
@@ -1883,7 +1883,7 @@
             "problemId": "minimum-number-of-days-to-make-m-bouquets",
             "title": "Minimum Number Of Days To Make M Bouquets",
             "url": "https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/",
-            "solved": false
+            "solved": true
           },
           {
             "key": "leetcode:find-the-smallest-divisor-given-a-threshold",
@@ -1891,22 +1891,22 @@
             "problemId": "find-the-smallest-divisor-given-a-threshold",
             "title": "Find The Smallest Divisor Given A Threshold",
             "url": "https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold/",
-            "solved": false
+            "solved": true
           }
         ],
-        "solved": 0,
-        "credited": 0,
-        "complete": false
+        "solved": 2,
+        "credited": 1,
+        "complete": true
       },
-      "requiredSolved": 1,
-      "newSolved": 1,
-      "creditedNewSolved": 1,
+      "requiredSolved": 2,
+      "newSolved": 4,
+      "creditedNewSolved": 3,
       "reviewAttempts": 0,
       "reviewSolved": 0,
-      "done": 1,
+      "done": 3,
       "total": 3,
-      "percent": 33.33,
-      "complete": false,
+      "percent": 100,
+      "complete": true,
       "manualComplete": false,
       "completionBasis": "objective"
     },
@@ -4604,10 +4604,10 @@
     },
     {
       "week": 5,
-      "done": 7,
+      "done": 9,
       "total": 24,
-      "percent": 29.17,
-      "completedDays": 2,
+      "percent": 37.5,
+      "completedDays": 3,
       "totalDays": 7,
       "complete": false
     },
@@ -4676,10 +4676,10 @@
     }
   ],
   "overall": {
-    "done": 99,
+    "done": 101,
     "total": 283,
-    "percent": 34.98,
-    "completedDays": 25,
+    "percent": 35.69,
+    "completedDays": 26,
     "totalDays": 84,
     "complete": false,
     "completedWeeks": 1,
@@ -6283,6 +6283,54 @@
       "result": "accepted",
       "usedHint": false,
       "key": "leetcode:capacity-to-ship-packages-within-d-days"
+    },
+    {
+      "id": "2026-10-15-programmers-43238-first",
+      "date": "2026-10-15",
+      "week": 5,
+      "day": 3,
+      "url": "https://school.programmers.co.kr/learn/courses/30/lessons/43238",
+      "code": "solutions/programmers/43238.cpp",
+      "kind": "solve",
+      "result": "accepted",
+      "usedHint": false,
+      "key": "programmers:43238"
+    },
+    {
+      "id": "2026-10-15-cses-1085-first",
+      "date": "2026-10-15",
+      "week": 5,
+      "day": 3,
+      "url": "https://cses.fi/problemset/task/1085/",
+      "code": "solutions/cses/1085.cpp",
+      "kind": "solve",
+      "result": "accepted",
+      "usedHint": true,
+      "key": "cses:1085"
+    },
+    {
+      "id": "2026-10-15-leetcode-minimum-number-of-days-to-make-m-bouquets-first",
+      "date": "2026-10-15",
+      "week": 5,
+      "day": 3,
+      "url": "https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/",
+      "code": "solutions/leetcode/minimum-number-of-days-to-make-m-bouquets.cpp",
+      "kind": "solve",
+      "result": "accepted",
+      "usedHint": true,
+      "key": "leetcode:minimum-number-of-days-to-make-m-bouquets"
+    },
+    {
+      "id": "2026-10-15-leetcode-find-the-smallest-divisor-given-a-threshold-first",
+      "date": "2026-10-15",
+      "week": 5,
+      "day": 3,
+      "url": "https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold/",
+      "code": "solutions/leetcode/find-the-smallest-divisor-given-a-threshold.cpp",
+      "kind": "solve",
+      "result": "accepted",
+      "usedHint": false,
+      "key": "leetcode:find-the-smallest-divisor-given-a-threshold"
     }
   ],
   "evidence": {
@@ -6300,6 +6348,10 @@
     },
     "cses:1084": {
       "code": "solutions/cses/1084.cpp",
+      "evidence": "사용자 정답 확인"
+    },
+    "cses:1085": {
+      "code": "solutions/cses/1085.cpp",
       "evidence": "사용자 정답 확인"
     },
     "cses:1091": {
@@ -6430,6 +6482,10 @@
       "code": "solutions/leetcode/find-the-highest-altitude.cpp",
       "evidence": "사용자 정답 확인"
     },
+    "leetcode:find-the-smallest-divisor-given-a-threshold": {
+      "code": "solutions/leetcode/find-the-smallest-divisor-given-a-threshold.cpp",
+      "evidence": "사용자 정답 확인"
+    },
     "leetcode:first-unique-character-in-a-string": {
       "code": "solutions/leetcode/first-unique-character-in-a-string.cpp",
       "evidence": "정답 확인 후 저장한 로컬 풀이"
@@ -6500,6 +6556,10 @@
     },
     "leetcode:merge-similar-items": {
       "code": "solutions/leetcode/merge-similar-items.cpp",
+      "evidence": "사용자 정답 확인"
+    },
+    "leetcode:minimum-number-of-days-to-make-m-bouquets": {
+      "code": "solutions/leetcode/minimum-number-of-days-to-make-m-bouquets.cpp",
       "evidence": "사용자 정답 확인"
     },
     "leetcode:minimum-size-subarray-sum": {
@@ -6683,8 +6743,8 @@
       "evidence": "사용자 정답 확인"
     },
     "programmers:43238": {
-      "code": "C++/프로그래머스/3/43238. 입국심사/입국심사.cpp",
-      "evidence": "BaekjoonHub 형식의 업로드"
+      "code": "solutions/programmers/43238.cpp",
+      "evidence": "사용자 정답 확인"
     },
     "programmers:87946": {
       "code": "solutions/programmers/87946.cpp",

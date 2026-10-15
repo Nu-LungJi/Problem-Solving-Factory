@@ -2,11 +2,11 @@
 
 [전체 커리큘럼](https://github.com/Nu-LungJi/Problem-Solving-Factory/blob/main/curriculum/plan.md) · [수동 기록 방법](https://github.com/Nu-LungJi/Problem-Solving-Factory/blob/main/curriculum/README.md)
 
-**등록 문제 해결: 101/254** · 신규 학습 목표: 208문제
+**등록 문제 해결: 104/254** · 신규 학습 목표: 208문제
 
 필수 144문제와 Day별 후보 풀에서 선택하는 64문제를 합쳐 신규 목표는 208문제입니다. 후보를 전부 풀 필요는 없습니다. 후보 밖의 기존 수동 기록은 보존하지만 목표를 대체하지 않습니다. 업로드는 독립 해결·학습 완료의 증명이 아닙니다. BaekjoonHub 형식은 업로드 관례를 신뢰하며 온라인 저지에 재조회하지 않습니다. Day·Week 객관적 풀이 목표는 자동 계산하며 개념·오답 정리 체크는 원본 커리큘럼에서 직접 관리합니다.
 
-**전체 목표 진도: 99/283 (34.98%)** · 완료 Day 25/84 · Week 1/12
+**전체 목표 진도: 101/283 (35.69%)** · 완료 Day 26/84 · Week 1/12
 
 | Week | 목표 진도 | 완료 Day | 등록 문제 해결 | 신규 목표 | 재풀이 시도 / 목표 | 상태 |
 |:---:|---:|:---:|---:|---:|---:|:---:|
@@ -14,7 +14,7 @@
 | 2 | 29/30 (96.67%) | 6/7 | 28/30 | 24 | 6/6 | 미완료 |
 | 3 | 13/24 (54.17%) | 4/7 | 17/24 | 18 | 0/6 | 미완료 |
 | 4 | 24/24 (100%) | 7/7 | 23/24 | 18 | 6/6 | ✅ |
-| 5 | 7/24 (29.17%) | 2/7 | 8/24 | 18 | 0/6 | 미완료 |
+| 5 | 9/24 (37.5%) | 3/7 | 11/24 | 18 | 0/6 | 미완료 |
 | 6 | 0/30 (0%) | 0/7 | 0/30 | 24 | 0/6 | 미완료 |
 | 7 | 0/20 (0%) | 0/7 | 0/16 | 14 | 0/6 | 미완료 |
 | 8 | 0/20 (0%) | 0/7 | 0/16 | 14 | 0/6 | 미완료 |
@@ -517,18 +517,18 @@
 </details>
 
 <details>
-<summary><strong>Day 3</strong> · ⬜ 미완료 · 1/4</summary>
+<summary><strong>Day 3</strong> · ✅ 완료 · 4/4</summary>
 
 | 신규 목표 | 재풀이 목표 | 추가 후보 조건 | 후보 해결 / 목표 반영 |
 |:---:|:---:|:---:|:---:|
-| 3문제 | 0문제 | 2개 중 1개 | 0개 해결 · 0/1 반영 |
+| 3문제 | 0문제 | 2개 중 1개 | 2개 해결 · 1/1 반영 |
 
 | 상태 | 구분 | 플랫폼 | 문제 | 풀이 / 기록 |
 |:---:|:---:|:---:|---|---|
-| ✅ | 필수 | Programmers | [입국심사](https://school.programmers.co.kr/learn/courses/30/lessons/43238) | [C++ 풀이](https://github.com/Nu-LungJi/Problem-Solving-Factory/blob/main/C%2B%2B/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/3/43238.%E2%80%85%EC%9E%85%EA%B5%AD%EC%8B%AC%EC%82%AC/%EC%9E%85%EA%B5%AD%EC%8B%AC%EC%82%AC.cpp) · BaekjoonHub 형식의 업로드 |
-| ⬜ | 필수 | CSES | [Array Division](https://cses.fi/problemset/task/1085/) | — |
-| ⬜ | 후보 | LeetCode | [Minimum Number Of Days To Make M Bouquets](https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/) | leetcode:minimum-number-of-days-to-make-m-bouquets |
-| ⬜ | 후보 | LeetCode | [Find The Smallest Divisor Given A Threshold](https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold/) | leetcode:find-the-smallest-divisor-given-a-threshold |
+| ✅ | 필수 | Programmers | [입국심사](https://school.programmers.co.kr/learn/courses/30/lessons/43238) | [C++ 풀이](https://github.com/Nu-LungJi/Problem-Solving-Factory/blob/main/solutions/programmers/43238.cpp) · 사용자 정답 확인 |
+| ✅ | 필수 | CSES | [Array Division](https://cses.fi/problemset/task/1085/) | [C++ 풀이](https://github.com/Nu-LungJi/Problem-Solving-Factory/blob/main/solutions/cses/1085.cpp) · 사용자 정답 확인 |
+| ✅ | 후보 | LeetCode | [Minimum Number Of Days To Make M Bouquets](https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/) | leetcode:minimum-number-of-days-to-make-m-bouquets |
+| ✅ | 후보 | LeetCode | [Find The Smallest Divisor Given A Threshold](https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold/) | leetcode:find-the-smallest-divisor-given-a-threshold |
 
 </details>
 
