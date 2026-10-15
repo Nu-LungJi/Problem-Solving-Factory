@@ -1263,5 +1263,49 @@
     "kind": "solve",
     "result": "accepted",
     "usedHint": false
+  },
+  {
+    "id": "2026-10-15-programmers-43238-first",
+    "date": "2026-10-15",
+    "week": 5,
+    "day": 3,
+    "url": "https://school.programmers.co.kr/learn/courses/30/lessons/43238",
+    "code": "solutions/programmers/43238.cpp",
+    "kind": "solve",
+    "result": "accepted",
+    "usedHint": false
+  },
+  {
+    "id": "2026-10-15-cses-1085-first",
+    "date": "2026-10-15",
+    "week": 5,
+    "day": 3,
+    "url": "https://cses.fi/problemset/task/1085/",
+    "code": "solutions/cses/1085.cpp",
+    "kind": "solve",
+    "result": "accepted",
+    "usedHint": true
+  },
+  {
+    "id": "2026-10-15-leetcode-minimum-number-of-days-to-make-m-bouquets-first",
+    "date": "2026-10-15",
+    "week": 5,
+    "day": 3,
+    "url": "https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/",
+    "code": "solutions/leetcode/minimum-number-of-days-to-make-m-bouquets.cpp",
+    "kind": "solve",
+    "result": "accepted",
+    "usedHint": true
+  },
+  {
+    "id": "2026-10-15-leetcode-find-the-smallest-divisor-given-a-threshold-first",
+    "date": "2026-10-15",
+    "week": 5,
+    "day": 3,
+    "url": "https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold/",
+    "code": "solutions/leetcode/find-the-smallest-divisor-given-a-threshold.cpp",
+    "kind": "solve",
+    "result": "accepted",
+    "usedHint": false
   }
 ]
