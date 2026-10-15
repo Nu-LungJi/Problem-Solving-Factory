@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "repository": "Nu-LungJi/Problem-Solving-Factory",
-  "accepted": 100,
+  "accepted": 101,
   "registered": 254,
   "target": 208,
   "days": [
@@ -1861,7 +1861,7 @@
           "url": "https://school.programmers.co.kr/learn/courses/30/lessons/43238",
           "platform": "programmers",
           "problemId": "43238",
-          "solved": false,
+          "solved": true,
           "countsAsNew": true
         },
         {
@@ -1898,14 +1898,14 @@
         "credited": 0,
         "complete": false
       },
-      "requiredSolved": 0,
-      "newSolved": 0,
-      "creditedNewSolved": 0,
+      "requiredSolved": 1,
+      "newSolved": 1,
+      "creditedNewSolved": 1,
       "reviewAttempts": 0,
       "reviewSolved": 0,
-      "done": 0,
+      "done": 1,
       "total": 3,
-      "percent": 0,
+      "percent": 33.33,
       "complete": false,
       "manualComplete": false,
       "completionBasis": "objective"
@@ -4604,9 +4604,9 @@
     },
     {
       "week": 5,
-      "done": 6,
+      "done": 7,
       "total": 24,
-      "percent": 25,
+      "percent": 29.17,
       "completedDays": 2,
       "totalDays": 7,
       "complete": false
@@ -4676,9 +4676,9 @@
     }
   ],
   "overall": {
-    "done": 98,
+    "done": 99,
     "total": 283,
-    "percent": 34.63,
+    "percent": 34.98,
     "completedDays": 25,
     "totalDays": 84,
     "complete": false,
@@ -6681,6 +6681,10 @@
     "programmers:42842": {
       "code": "solutions/programmers/42842.cpp",
       "evidence": "사용자 정답 확인"
+    },
+    "programmers:43238": {
+      "code": "C++/프로그래머스/3/43238. 입국심사/입국심사.cpp",
+      "evidence": "BaekjoonHub 형식의 업로드"
     },
     "programmers:87946": {
       "code": "solutions/programmers/87946.cpp",
