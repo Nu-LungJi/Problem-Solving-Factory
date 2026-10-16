@@ -1307,5 +1307,38 @@
     "kind": "solve",
     "result": "accepted",
     "usedHint": false
+  },
+  {
+    "id": "2026-10-16-cses-1629-first",
+    "date": "2026-10-16",
+    "week": 5,
+    "day": 4,
+    "url": "https://cses.fi/problemset/task/1629/",
+    "code": "solutions/cses/1629.cpp",
+    "kind": "solve",
+    "result": "accepted",
+    "usedHint": true
+  },
+  {
+    "id": "2026-10-16-leetcode-non-overlapping-intervals-first",
+    "date": "2026-10-16",
+    "week": 5,
+    "day": 4,
+    "url": "https://leetcode.com/problems/non-overlapping-intervals/",
+    "code": "solutions/leetcode/non-overlapping-intervals.cpp",
+    "kind": "solve",
+    "result": "accepted",
+    "usedHint": true
+  },
+  {
+    "id": "2026-10-16-leetcode-merge-intervals-first",
+    "date": "2026-10-16",
+    "week": 5,
+    "day": 4,
+    "url": "https://leetcode.com/problems/merge-intervals/",
+    "code": "solutions/leetcode/merge-intervals.cpp",
+    "kind": "solve",
+    "result": "accepted",
+    "usedHint": false
   }
 ]
