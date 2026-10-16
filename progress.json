@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "repository": "Nu-LungJi/Problem-Solving-Factory",
-  "accepted": 104,
+  "accepted": 107,
   "registered": 254,
   "target": 208,
   "days": [
@@ -1924,7 +1924,7 @@
           "url": "https://cses.fi/problemset/task/1629/",
           "platform": "cses",
           "problemId": "1629",
-          "solved": false,
+          "solved": true,
           "countsAsNew": true
         },
         {
@@ -1933,7 +1933,7 @@
           "url": "https://leetcode.com/problems/non-overlapping-intervals/",
           "platform": "leetcode",
           "problemId": "non-overlapping-intervals",
-          "solved": false,
+          "solved": true,
           "countsAsNew": true
         }
       ],
@@ -1954,22 +1954,22 @@
             "problemId": "merge-intervals",
             "title": "Merge Intervals",
             "url": "https://leetcode.com/problems/merge-intervals/",
-            "solved": false
+            "solved": true
           }
         ],
-        "solved": 0,
-        "credited": 0,
-        "complete": false
+        "solved": 1,
+        "credited": 1,
+        "complete": true
       },
-      "requiredSolved": 0,
-      "newSolved": 0,
-      "creditedNewSolved": 0,
+      "requiredSolved": 2,
+      "newSolved": 3,
+      "creditedNewSolved": 3,
       "reviewAttempts": 0,
       "reviewSolved": 0,
-      "done": 0,
+      "done": 3,
       "total": 3,
-      "percent": 0,
-      "complete": false,
+      "percent": 100,
+      "complete": true,
       "manualComplete": false,
       "completionBasis": "objective"
     },
@@ -4604,10 +4604,10 @@
     },
     {
       "week": 5,
-      "done": 9,
+      "done": 12,
       "total": 24,
-      "percent": 37.5,
-      "completedDays": 3,
+      "percent": 50,
+      "completedDays": 4,
       "totalDays": 7,
       "complete": false
     },
@@ -4676,10 +4676,10 @@
     }
   ],
   "overall": {
-    "done": 101,
+    "done": 104,
     "total": 283,
-    "percent": 35.69,
-    "completedDays": 26,
+    "percent": 36.75,
+    "completedDays": 27,
     "totalDays": 84,
     "complete": false,
     "completedWeeks": 1,
@@ -6331,6 +6331,42 @@
       "result": "accepted",
       "usedHint": false,
       "key": "leetcode:find-the-smallest-divisor-given-a-threshold"
+    },
+    {
+      "id": "2026-10-16-cses-1629-first",
+      "date": "2026-10-16",
+      "week": 5,
+      "day": 4,
+      "url": "https://cses.fi/problemset/task/1629/",
+      "code": "solutions/cses/1629.cpp",
+      "kind": "solve",
+      "result": "accepted",
+      "usedHint": true,
+      "key": "cses:1629"
+    },
+    {
+      "id": "2026-10-16-leetcode-non-overlapping-intervals-first",
+      "date": "2026-10-16",
+      "week": 5,
+      "day": 4,
+      "url": "https://leetcode.com/problems/non-overlapping-intervals/",
+      "code": "solutions/leetcode/non-overlapping-intervals.cpp",
+      "kind": "solve",
+      "result": "accepted",
+      "usedHint": true,
+      "key": "leetcode:non-overlapping-intervals"
+    },
+    {
+      "id": "2026-10-16-leetcode-merge-intervals-first",
+      "date": "2026-10-16",
+      "week": 5,
+      "day": 4,
+      "url": "https://leetcode.com/problems/merge-intervals/",
+      "code": "solutions/leetcode/merge-intervals.cpp",
+      "kind": "solve",
+      "result": "accepted",
+      "usedHint": false,
+      "key": "leetcode:merge-intervals"
     }
   ],
   "evidence": {
@@ -6376,6 +6412,10 @@
     },
     "cses:1623": {
       "code": "solutions/cses/1623.cpp",
+      "evidence": "사용자 정답 확인"
+    },
+    "cses:1629": {
+      "code": "solutions/cses/1629.cpp",
       "evidence": "사용자 정답 확인"
     },
     "cses:1640": {
@@ -6554,6 +6594,10 @@
       "code": "solutions/leetcode/maximum-subarray.cpp",
       "evidence": "사용자 정답 확인"
     },
+    "leetcode:merge-intervals": {
+      "code": "solutions/leetcode/merge-intervals.cpp",
+      "evidence": "사용자 정답 확인"
+    },
     "leetcode:merge-similar-items": {
       "code": "solutions/leetcode/merge-similar-items.cpp",
       "evidence": "사용자 정답 확인"
@@ -6564,6 +6608,10 @@
     },
     "leetcode:minimum-size-subarray-sum": {
       "code": "solutions/leetcode/minimum-size-subarray-sum.cpp",
+      "evidence": "사용자 정답 확인"
+    },
+    "leetcode:non-overlapping-intervals": {
+      "code": "solutions/leetcode/non-overlapping-intervals.cpp",
       "evidence": "사용자 정답 확인"
     },
     "leetcode:number-of-1-bits": {
