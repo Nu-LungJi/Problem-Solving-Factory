@@ -10,7 +10,7 @@ if errorlevel 1 (
 )
 
 REM Rider C++ 프로젝트 루트
-set "PSF_PROJECT=C:\Users\Yun\Documents\Rider\PSFactory"
+set "PSF_PROJECT=C:\Users\pc\Documents\Rider\PSFactory"
 
 echo.
 echo Rider 프로젝트:
