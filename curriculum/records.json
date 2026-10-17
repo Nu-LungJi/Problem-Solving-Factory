@@ -1340,5 +1340,49 @@
     "kind": "solve",
     "result": "accepted",
     "usedHint": false
+  },
+  {
+    "id": "2026-10-17-cses-1090-first",
+    "date": "2026-10-17",
+    "week": 5,
+    "day": 5,
+    "url": "https://cses.fi/problemset/task/1090/",
+    "code": "solutions/cses/1090.cpp",
+    "kind": "solve",
+    "result": "accepted",
+    "usedHint": false
+  },
+  {
+    "id": "2026-10-17-programmers-42885-first",
+    "date": "2026-10-17",
+    "week": 5,
+    "day": 5,
+    "url": "https://school.programmers.co.kr/learn/courses/30/lessons/42885",
+    "code": "solutions/programmers/42885.cpp",
+    "kind": "solve",
+    "result": "accepted",
+    "usedHint": false
+  },
+  {
+    "id": "2026-10-17-leetcode-assign-cookies-first",
+    "date": "2026-10-17",
+    "week": 5,
+    "day": 5,
+    "url": "https://leetcode.com/problems/assign-cookies/",
+    "code": "solutions/leetcode/assign-cookies.cpp",
+    "kind": "solve",
+    "result": "accepted",
+    "usedHint": false
+  },
+  {
+    "id": "2026-10-17-leetcode-lemonade-change-first",
+    "date": "2026-10-17",
+    "week": 5,
+    "day": 5,
+    "url": "https://leetcode.com/problems/lemonade-change/",
+    "code": "solutions/leetcode/lemonade-change.cpp",
+    "kind": "solve",
+    "result": "accepted",
+    "usedHint": false
   }
 ]
