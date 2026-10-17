@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "repository": "Nu-LungJi/Problem-Solving-Factory",
-  "accepted": 107,
+  "accepted": 111,
   "registered": 254,
   "target": 208,
   "days": [
@@ -1987,7 +1987,7 @@
           "url": "https://cses.fi/problemset/task/1090/",
           "platform": "cses",
           "problemId": "1090",
-          "solved": false,
+          "solved": true,
           "countsAsNew": true
         },
         {
@@ -1996,7 +1996,7 @@
           "url": "https://school.programmers.co.kr/learn/courses/30/lessons/42885",
           "platform": "programmers",
           "problemId": "42885",
-          "solved": false,
+          "solved": true,
           "countsAsNew": true
         }
       ],
@@ -2009,7 +2009,7 @@
             "problemId": "assign-cookies",
             "title": "Assign Cookies",
             "url": "https://leetcode.com/problems/assign-cookies/",
-            "solved": false
+            "solved": true
           },
           {
             "key": "leetcode:lemonade-change",
@@ -2017,22 +2017,22 @@
             "problemId": "lemonade-change",
             "title": "Lemonade Change",
             "url": "https://leetcode.com/problems/lemonade-change/",
-            "solved": false
+            "solved": true
           }
         ],
-        "solved": 0,
-        "credited": 0,
-        "complete": false
+        "solved": 2,
+        "credited": 1,
+        "complete": true
       },
-      "requiredSolved": 0,
-      "newSolved": 0,
-      "creditedNewSolved": 0,
+      "requiredSolved": 2,
+      "newSolved": 4,
+      "creditedNewSolved": 3,
       "reviewAttempts": 0,
       "reviewSolved": 0,
-      "done": 0,
+      "done": 3,
       "total": 3,
-      "percent": 0,
-      "complete": false,
+      "percent": 100,
+      "complete": true,
       "manualComplete": false,
       "completionBasis": "objective"
     },
@@ -4604,10 +4604,10 @@
     },
     {
       "week": 5,
-      "done": 12,
+      "done": 15,
       "total": 24,
-      "percent": 50,
-      "completedDays": 4,
+      "percent": 62.5,
+      "completedDays": 5,
       "totalDays": 7,
       "complete": false
     },
@@ -4676,10 +4676,10 @@
     }
   ],
   "overall": {
-    "done": 104,
+    "done": 107,
     "total": 283,
-    "percent": 36.75,
-    "completedDays": 27,
+    "percent": 37.81,
+    "completedDays": 28,
     "totalDays": 84,
     "complete": false,
     "completedWeeks": 1,
@@ -6367,6 +6367,54 @@
       "result": "accepted",
       "usedHint": false,
       "key": "leetcode:merge-intervals"
+    },
+    {
+      "id": "2026-10-17-cses-1090-first",
+      "date": "2026-10-17",
+      "week": 5,
+      "day": 5,
+      "url": "https://cses.fi/problemset/task/1090/",
+      "code": "solutions/cses/1090.cpp",
+      "kind": "solve",
+      "result": "accepted",
+      "usedHint": false,
+      "key": "cses:1090"
+    },
+    {
+      "id": "2026-10-17-programmers-42885-first",
+      "date": "2026-10-17",
+      "week": 5,
+      "day": 5,
+      "url": "https://school.programmers.co.kr/learn/courses/30/lessons/42885",
+      "code": "solutions/programmers/42885.cpp",
+      "kind": "solve",
+      "result": "accepted",
+      "usedHint": false,
+      "key": "programmers:42885"
+    },
+    {
+      "id": "2026-10-17-leetcode-assign-cookies-first",
+      "date": "2026-10-17",
+      "week": 5,
+      "day": 5,
+      "url": "https://leetcode.com/problems/assign-cookies/",
+      "code": "solutions/leetcode/assign-cookies.cpp",
+      "kind": "solve",
+      "result": "accepted",
+      "usedHint": false,
+      "key": "leetcode:assign-cookies"
+    },
+    {
+      "id": "2026-10-17-leetcode-lemonade-change-first",
+      "date": "2026-10-17",
+      "week": 5,
+      "day": 5,
+      "url": "https://leetcode.com/problems/lemonade-change/",
+      "code": "solutions/leetcode/lemonade-change.cpp",
+      "kind": "solve",
+      "result": "accepted",
+      "usedHint": false,
+      "key": "leetcode:lemonade-change"
     }
   ],
   "evidence": {
@@ -6388,6 +6436,10 @@
     },
     "cses:1085": {
       "code": "solutions/cses/1085.cpp",
+      "evidence": "사용자 정답 확인"
+    },
+    "cses:1090": {
+      "code": "solutions/cses/1090.cpp",
       "evidence": "사용자 정답 확인"
     },
     "cses:1091": {
@@ -6452,6 +6504,10 @@
     },
     "leetcode:add-digits": {
       "code": "solutions/reviews/week-4-day-7/leetcode/add-digits-e5298748-eac2-4a4d-8461-48e39ef222c7.cpp",
+      "evidence": "사용자 정답 확인"
+    },
+    "leetcode:assign-cookies": {
+      "code": "solutions/leetcode/assign-cookies.cpp",
       "evidence": "사용자 정답 확인"
     },
     "leetcode:backspace-string-compare": {
@@ -6568,6 +6624,10 @@
     },
     "leetcode:last-stone-weight": {
       "code": "solutions/leetcode/last-stone-weight.cpp",
+      "evidence": "사용자 정답 확인"
+    },
+    "leetcode:lemonade-change": {
+      "code": "solutions/leetcode/lemonade-change.cpp",
       "evidence": "사용자 정답 확인"
     },
     "leetcode:length-of-last-word": {
@@ -6788,6 +6848,10 @@
     },
     "programmers:42842": {
       "code": "solutions/programmers/42842.cpp",
+      "evidence": "사용자 정답 확인"
+    },
+    "programmers:42885": {
+      "code": "solutions/programmers/42885.cpp",
       "evidence": "사용자 정답 확인"
     },
     "programmers:43238": {
