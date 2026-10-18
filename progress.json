@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "repository": "Nu-LungJi/Problem-Solving-Factory",
-  "accepted": 111,
+  "accepted": 115,
   "registered": 254,
   "target": 208,
   "days": [
@@ -2050,7 +2050,7 @@
           "url": "https://cses.fi/problemset/task/1630/",
           "platform": "cses",
           "problemId": "1630",
-          "solved": false,
+          "solved": true,
           "countsAsNew": true
         },
         {
@@ -2059,7 +2059,7 @@
           "url": "https://school.programmers.co.kr/learn/courses/30/lessons/42862",
           "platform": "programmers",
           "problemId": "42862",
-          "solved": false,
+          "solved": true,
           "countsAsNew": true
         }
       ],
@@ -2072,7 +2072,7 @@
             "problemId": "gas-station",
             "title": "Gas Station",
             "url": "https://leetcode.com/problems/gas-station/",
-            "solved": false
+            "solved": true
           },
           {
             "key": "leetcode:minimum-number-of-moves-to-seat-everyone",
@@ -2080,22 +2080,22 @@
             "problemId": "minimum-number-of-moves-to-seat-everyone",
             "title": "Minimum Number Of Moves To Seat Everyone",
             "url": "https://leetcode.com/problems/minimum-number-of-moves-to-seat-everyone/",
-            "solved": false
+            "solved": true
           }
         ],
-        "solved": 0,
-        "credited": 0,
-        "complete": false
+        "solved": 2,
+        "credited": 1,
+        "complete": true
       },
-      "requiredSolved": 0,
-      "newSolved": 0,
-      "creditedNewSolved": 0,
+      "requiredSolved": 2,
+      "newSolved": 4,
+      "creditedNewSolved": 3,
       "reviewAttempts": 0,
       "reviewSolved": 0,
-      "done": 0,
+      "done": 3,
       "total": 3,
-      "percent": 0,
-      "complete": false,
+      "percent": 100,
+      "complete": true,
       "manualComplete": false,
       "completionBasis": "objective"
     },
@@ -4604,10 +4604,10 @@
     },
     {
       "week": 5,
-      "done": 15,
+      "done": 18,
       "total": 24,
-      "percent": 62.5,
-      "completedDays": 5,
+      "percent": 75,
+      "completedDays": 6,
       "totalDays": 7,
       "complete": false
     },
@@ -4676,10 +4676,10 @@
     }
   ],
   "overall": {
-    "done": 107,
+    "done": 110,
     "total": 283,
-    "percent": 37.81,
-    "completedDays": 28,
+    "percent": 38.87,
+    "completedDays": 29,
     "totalDays": 84,
     "complete": false,
     "completedWeeks": 1,
@@ -6415,6 +6415,54 @@
       "result": "accepted",
       "usedHint": false,
       "key": "leetcode:lemonade-change"
+    },
+    {
+      "id": "2026-10-18-cses-1630-first",
+      "date": "2026-10-18",
+      "week": 5,
+      "day": 6,
+      "url": "https://cses.fi/problemset/task/1630/",
+      "code": "solutions/cses/1630.cpp",
+      "kind": "solve",
+      "result": "accepted",
+      "usedHint": true,
+      "key": "cses:1630"
+    },
+    {
+      "id": "2026-10-18-programmers-42862-first",
+      "date": "2026-10-18",
+      "week": 5,
+      "day": 6,
+      "url": "https://school.programmers.co.kr/learn/courses/30/lessons/42862",
+      "code": "solutions/programmers/42862.cpp",
+      "kind": "solve",
+      "result": "accepted",
+      "usedHint": false,
+      "key": "programmers:42862"
+    },
+    {
+      "id": "2026-10-18-leetcode-gas-station-first",
+      "date": "2026-10-18",
+      "week": 5,
+      "day": 6,
+      "url": "https://leetcode.com/problems/gas-station/",
+      "code": "solutions/leetcode/gas-station.cpp",
+      "kind": "solve",
+      "result": "accepted",
+      "usedHint": false,
+      "key": "leetcode:gas-station"
+    },
+    {
+      "id": "2026-10-18-leetcode-minimum-number-of-moves-to-seat-everyone-first",
+      "date": "2026-10-18",
+      "week": 5,
+      "day": 6,
+      "url": "https://leetcode.com/problems/minimum-number-of-moves-to-seat-everyone/",
+      "code": "solutions/leetcode/minimum-number-of-moves-to-seat-everyone.cpp",
+      "kind": "solve",
+      "result": "accepted",
+      "usedHint": false,
+      "key": "leetcode:minimum-number-of-moves-to-seat-everyone"
     }
   ],
   "evidence": {
@@ -6468,6 +6516,10 @@
     },
     "cses:1629": {
       "code": "solutions/cses/1629.cpp",
+      "evidence": "사용자 정답 확인"
+    },
+    "cses:1630": {
+      "code": "solutions/cses/1630.cpp",
       "evidence": "사용자 정답 확인"
     },
     "cses:1640": {
@@ -6594,6 +6646,10 @@
       "code": "solutions/leetcode/fruit-into-baskets.cpp",
       "evidence": "사용자 정답 확인"
     },
+    "leetcode:gas-station": {
+      "code": "solutions/leetcode/gas-station.cpp",
+      "evidence": "사용자 정답 확인"
+    },
     "leetcode:implement-queue-using-stacks": {
       "code": "solutions/leetcode/implement-queue-using-stacks.cpp",
       "evidence": "사용자 정답 확인"
@@ -6664,6 +6720,10 @@
     },
     "leetcode:minimum-number-of-days-to-make-m-bouquets": {
       "code": "solutions/leetcode/minimum-number-of-days-to-make-m-bouquets.cpp",
+      "evidence": "사용자 정답 확인"
+    },
+    "leetcode:minimum-number-of-moves-to-seat-everyone": {
+      "code": "solutions/leetcode/minimum-number-of-moves-to-seat-everyone.cpp",
       "evidence": "사용자 정답 확인"
     },
     "leetcode:minimum-size-subarray-sum": {
@@ -6848,6 +6908,10 @@
     },
     "programmers:42842": {
       "code": "solutions/programmers/42842.cpp",
+      "evidence": "사용자 정답 확인"
+    },
+    "programmers:42862": {
+      "code": "solutions/programmers/42862.cpp",
       "evidence": "사용자 정답 확인"
     },
     "programmers:42885": {
