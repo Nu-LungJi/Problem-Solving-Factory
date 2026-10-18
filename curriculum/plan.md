@@ -208,7 +208,7 @@ C++ 기본 문법을 공부했고, OOP·상속·SOLID와 스택 등 자료구조
 | [x] | 3 | 64비트 범위·최소 가능 답 찾기 | [프로그래머스 · 입국심사](https://school.programmers.co.kr/learn/courses/30/lessons/43238) · [CSES · Array Division](https://cses.fi/problemset/task/1085/) · [후보 2개 중 1개 해결](pools.md#week-5-day-3) | 3 | 0 |
 | [x] | 4 | 정렬·구간 선택·교환 논증 | [CSES · Movie Festival](https://cses.fi/problemset/task/1629/) · [LeetCode · Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/) · [후보 2개 중 1개 해결](pools.md#week-5-day-4) | 3 | 0 |
 | [x] | 5 | 작은 선택을 누적하는 근거 설명 | [CSES · Ferris Wheel](https://cses.fi/problemset/task/1090/) · [프로그래머스 · 구명보트](https://school.programmers.co.kr/learn/courses/30/lessons/42885) · [후보 2개 중 1개 해결](pools.md#week-5-day-5) | 3 | 0 |
-| [ ] | 6 | 그리디 반례 찾기·다른 전략과 비교 | [CSES · Tasks and Deadlines](https://cses.fi/problemset/task/1630/) · [프로그래머스 · 체육복](https://school.programmers.co.kr/learn/courses/30/lessons/42862) · [후보 2개 중 1개 해결](pools.md#week-5-day-6) | 3 | 0 |
+| [x] | 6 | 그리디 반례 찾기·다른 전략과 비교 | [CSES · Tasks and Deadlines](https://cses.fi/problemset/task/1630/) · [프로그래머스 · 체육복](https://school.programmers.co.kr/learn/courses/30/lessons/42862) · [후보 2개 중 1개 해결](pools.md#week-5-day-6) | 3 | 0 |
 | [ ] | 7 | 핵심 4개·어려웠던 2개 복습·주간 점검 | 아래 주차별 핵심 4개 + 해당 주차 어려웠던 2개. 기존 코드·해설 없이 다시 풀기 | 0 | 6 |
 
 **완료 체크리스트**
