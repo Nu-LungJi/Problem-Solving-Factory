@@ -1384,5 +1384,49 @@
     "kind": "solve",
     "result": "accepted",
     "usedHint": false
+  },
+  {
+    "id": "2026-10-18-cses-1630-first",
+    "date": "2026-10-18",
+    "week": 5,
+    "day": 6,
+    "url": "https://cses.fi/problemset/task/1630/",
+    "code": "solutions/cses/1630.cpp",
+    "kind": "solve",
+    "result": "accepted",
+    "usedHint": true
+  },
+  {
+    "id": "2026-10-18-programmers-42862-first",
+    "date": "2026-10-18",
+    "week": 5,
+    "day": 6,
+    "url": "https://school.programmers.co.kr/learn/courses/30/lessons/42862",
+    "code": "solutions/programmers/42862.cpp",
+    "kind": "solve",
+    "result": "accepted",
+    "usedHint": false
+  },
+  {
+    "id": "2026-10-18-leetcode-gas-station-first",
+    "date": "2026-10-18",
+    "week": 5,
+    "day": 6,
+    "url": "https://leetcode.com/problems/gas-station/",
+    "code": "solutions/leetcode/gas-station.cpp",
+    "kind": "solve",
+    "result": "accepted",
+    "usedHint": false
+  },
+  {
+    "id": "2026-10-18-leetcode-minimum-number-of-moves-to-seat-everyone-first",
+    "date": "2026-10-18",
+    "week": 5,
+    "day": 6,
+    "url": "https://leetcode.com/problems/minimum-number-of-moves-to-seat-everyone/",
+    "code": "solutions/leetcode/minimum-number-of-moves-to-seat-everyone.cpp",
+    "kind": "solve",
+    "result": "accepted",
+    "usedHint": false
   }
 ]
