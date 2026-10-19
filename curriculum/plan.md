@@ -77,7 +77,7 @@ C++ 기본 문법을 공부했고, OOP·상속·SOLID와 스택 등 자료구조
 | [ ] | 2 | 스택·큐·덱·해시·힙 | 요구 연산에 맞는 컨테이너를 고르고 연산 비용을 설명한다. | 24 | 6 |
 | [ ] | 3 | 완전탐색·재귀·백트래킹 | 탐색 공간 크기를 계산하고 선택·재귀·복구를 구현한다. | 18 | 6 |
 | [x] | 4 | 누적합·투포인터·슬라이딩 윈도우 | 구간 문제를 선형 시간으로 바꾸고 음수 포함 시 조건을 구별한다. | 18 | 6 |
-| [ ] | 5 | 이분탐색·그리디 | 단조 판정식을 만들고 그리디 선택의 정당성을 설명한다. | 18 | 6 |
+| [x] | 5 | 이분탐색·그리디 | 단조 판정식을 만들고 그리디 선택의 정당성을 설명한다. | 18 | 6 |
 | [ ] | 6 | DFS·BFS·격자 탐색 | 연결 요소와 무가중치 최단거리를 구현하고 방문 시점을 설명한다. | 24 | 6 |
 | [ ] | 7 | 트리·DSU·최소 신장 트리 | 트리 순회·집합 병합·Kruskal을 구현하고 용도를 구별한다. | 14 | 6 |
 | [ ] | 8 | 최단경로·위상정렬 | 가중치·정점 수·선행 관계를 보고 알고리즘을 선택한다. | 14 | 6 |
@@ -209,7 +209,7 @@ C++ 기본 문법을 공부했고, OOP·상속·SOLID와 스택 등 자료구조
 | [x] | 4 | 정렬·구간 선택·교환 논증 | [CSES · Movie Festival](https://cses.fi/problemset/task/1629/) · [LeetCode · Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/) · [후보 2개 중 1개 해결](pools.md#week-5-day-4) | 3 | 0 |
 | [x] | 5 | 작은 선택을 누적하는 근거 설명 | [CSES · Ferris Wheel](https://cses.fi/problemset/task/1090/) · [프로그래머스 · 구명보트](https://school.programmers.co.kr/learn/courses/30/lessons/42885) · [후보 2개 중 1개 해결](pools.md#week-5-day-5) | 3 | 0 |
 | [x] | 6 | 그리디 반례 찾기·다른 전략과 비교 | [CSES · Tasks and Deadlines](https://cses.fi/problemset/task/1630/) · [프로그래머스 · 체육복](https://school.programmers.co.kr/learn/courses/30/lessons/42862) · [후보 2개 중 1개 해결](pools.md#week-5-day-6) | 3 | 0 |
-| [ ] | 7 | 핵심 4개·어려웠던 2개 복습·주간 점검 | 아래 주차별 핵심 4개 + 해당 주차 어려웠던 2개. 기존 코드·해설 없이 다시 풀기 | 0 | 6 |
+| [x] | 7 | 핵심 4개·어려웠던 2개 복습·주간 점검 | 아래 주차별 핵심 4개 + 해당 주차 어려웠던 2개. 기존 코드·해설 없이 다시 풀기 | 0 | 6 |
 
 **완료 체크리스트**
 
