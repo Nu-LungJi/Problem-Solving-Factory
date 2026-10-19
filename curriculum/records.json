@@ -1428,5 +1428,71 @@
     "kind": "solve",
     "result": "accepted",
     "usedHint": false
+  },
+  {
+    "id": "2026-10-19-leetcode-binary-search-review-95035737-bc7a-4a1d-8cf6-62f6beb5c69a",
+    "date": "2026-10-19",
+    "week": 5,
+    "day": 7,
+    "url": "https://leetcode.com/problems/binary-search/",
+    "code": "solutions/reviews/week-5-day-7/leetcode/binary-search-95035737-bc7a-4a1d-8cf6-62f6beb5c69a.cpp",
+    "kind": "review",
+    "result": "accepted",
+    "usedHint": false
+  },
+  {
+    "id": "2026-10-19-programmers-43238-review-95035737-bc7a-4a1d-8cf6-62f6beb5c69a",
+    "date": "2026-10-19",
+    "week": 5,
+    "day": 7,
+    "url": "https://school.programmers.co.kr/learn/courses/30/lessons/43238",
+    "code": "solutions/reviews/week-5-day-7/programmers/43238-95035737-bc7a-4a1d-8cf6-62f6beb5c69a.cpp",
+    "kind": "review",
+    "result": "accepted",
+    "usedHint": true
+  },
+  {
+    "id": "2026-10-19-cses-1629-review-95035737-bc7a-4a1d-8cf6-62f6beb5c69a",
+    "date": "2026-10-19",
+    "week": 5,
+    "day": 7,
+    "url": "https://cses.fi/problemset/task/1629/",
+    "code": "solutions/reviews/week-5-day-7/cses/1629-95035737-bc7a-4a1d-8cf6-62f6beb5c69a.cpp",
+    "kind": "review",
+    "result": "accepted",
+    "usedHint": true
+  },
+  {
+    "id": "2026-10-19-programmers-42885-review-95035737-bc7a-4a1d-8cf6-62f6beb5c69a",
+    "date": "2026-10-19",
+    "week": 5,
+    "day": 7,
+    "url": "https://school.programmers.co.kr/learn/courses/30/lessons/42885",
+    "code": "solutions/reviews/week-5-day-7/programmers/42885-95035737-bc7a-4a1d-8cf6-62f6beb5c69a.cpp",
+    "kind": "review",
+    "result": "accepted",
+    "usedHint": true
+  },
+  {
+    "id": "2026-10-19-cses-1085-review-95035737-bc7a-4a1d-8cf6-62f6beb5c69a",
+    "date": "2026-10-19",
+    "week": 5,
+    "day": 7,
+    "url": "https://cses.fi/problemset/task/1085/",
+    "code": "solutions/reviews/week-5-day-7/cses/1085-95035737-bc7a-4a1d-8cf6-62f6beb5c69a.cpp",
+    "kind": "review",
+    "result": "accepted",
+    "usedHint": true
+  },
+  {
+    "id": "2026-10-19-cses-1630-review-95035737-bc7a-4a1d-8cf6-62f6beb5c69a",
+    "date": "2026-10-19",
+    "week": 5,
+    "day": 7,
+    "url": "https://cses.fi/problemset/task/1630/",
+    "code": "solutions/reviews/week-5-day-7/cses/1630-95035737-bc7a-4a1d-8cf6-62f6beb5c69a.cpp",
+    "kind": "review",
+    "result": "accepted",
+    "usedHint": true
   }
 ]
