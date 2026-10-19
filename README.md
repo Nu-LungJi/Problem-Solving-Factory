@@ -6,7 +6,7 @@
 
 필수 144문제와 Day별 후보 풀에서 선택하는 64문제를 합쳐 신규 목표는 208문제입니다. 후보를 전부 풀 필요는 없습니다. 후보 밖의 기존 수동 기록은 보존하지만 목표를 대체하지 않습니다. 업로드는 독립 해결·학습 완료의 증명이 아닙니다. BaekjoonHub 형식은 업로드 관례를 신뢰하며 온라인 저지에 재조회하지 않습니다. Day·Week 객관적 풀이 목표는 자동 계산하며 개념·오답 정리 체크는 원본 커리큘럼에서 직접 관리합니다.
 
-**전체 목표 진도: 110/283 (38.87%)** · 완료 Day 29/84 · Week 1/12
+**전체 목표 진도: 116/283 (40.99%)** · 완료 Day 30/84 · Week 2/12
 
 | Week | 목표 진도 | 완료 Day | 등록 문제 해결 | 신규 목표 | 재풀이 시도 / 목표 | 상태 |
 |:---:|---:|:---:|---:|---:|---:|:---:|
@@ -14,7 +14,7 @@
 | 2 | 29/30 (96.67%) | 6/7 | 28/30 | 24 | 6/6 | 미완료 |
 | 3 | 13/24 (54.17%) | 4/7 | 17/24 | 18 | 0/6 | 미완료 |
 | 4 | 24/24 (100%) | 7/7 | 23/24 | 18 | 6/6 | ✅ |
-| 5 | 18/24 (75%) | 6/7 | 22/24 | 18 | 0/6 | 미완료 |
+| 5 | 24/24 (100%) | 7/7 | 22/24 | 18 | 6/6 | ✅ |
 | 6 | 0/30 (0%) | 0/7 | 0/30 | 24 | 0/6 | 미완료 |
 | 7 | 0/20 (0%) | 0/7 | 0/16 | 14 | 0/6 | 미완료 |
 | 8 | 0/20 (0%) | 0/7 | 0/16 | 14 | 0/6 | 미완료 |
@@ -493,7 +493,7 @@
 
 | 상태 | 구분 | 플랫폼 | 문제 | 풀이 / 기록 |
 |:---:|:---:|:---:|---|---|
-| ✅ | 필수 | LeetCode | [Binary Search](https://leetcode.com/problems/binary-search/) | [C++ 풀이](https://github.com/Nu-LungJi/Problem-Solving-Factory/blob/main/solutions/leetcode/binary-search.cpp) · 사용자 정답 확인 |
+| ✅ | 필수 | LeetCode | [Binary Search](https://leetcode.com/problems/binary-search/) | [C++ 풀이](https://github.com/Nu-LungJi/Problem-Solving-Factory/blob/main/solutions/reviews/week-5-day-7/leetcode/binary-search-95035737-bc7a-4a1d-8cf6-62f6beb5c69a.cpp) · 사용자 정답 확인 |
 | ✅ | 필수 | LeetCode | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | [C++ 풀이](https://github.com/Nu-LungJi/Problem-Solving-Factory/blob/main/solutions/leetcode/search-insert-position.cpp) · 사용자 정답 확인 |
 | ✅ | 후보 | LeetCode | [Find First And Last Position Of Element In Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | leetcode:find-first-and-last-position-of-element-in-sorted-array |
 | ✅ | 후보 | LeetCode | [Sqrtx](https://leetcode.com/problems/sqrtx/) | leetcode:sqrtx |
@@ -525,8 +525,8 @@
 
 | 상태 | 구분 | 플랫폼 | 문제 | 풀이 / 기록 |
 |:---:|:---:|:---:|---|---|
-| ✅ | 필수 | Programmers | [입국심사](https://school.programmers.co.kr/learn/courses/30/lessons/43238) | [C++ 풀이](https://github.com/Nu-LungJi/Problem-Solving-Factory/blob/main/solutions/programmers/43238.cpp) · 사용자 정답 확인 |
-| ✅ | 필수 | CSES | [Array Division](https://cses.fi/problemset/task/1085/) | [C++ 풀이](https://github.com/Nu-LungJi/Problem-Solving-Factory/blob/main/solutions/cses/1085.cpp) · 사용자 정답 확인 |
+| ✅ | 필수 | Programmers | [입국심사](https://school.programmers.co.kr/learn/courses/30/lessons/43238) | [C++ 풀이](https://github.com/Nu-LungJi/Problem-Solving-Factory/blob/main/solutions/reviews/week-5-day-7/programmers/43238-95035737-bc7a-4a1d-8cf6-62f6beb5c69a.cpp) · 사용자 정답 확인 |
+| ✅ | 필수 | CSES | [Array Division](https://cses.fi/problemset/task/1085/) | [C++ 풀이](https://github.com/Nu-LungJi/Problem-Solving-Factory/blob/main/solutions/reviews/week-5-day-7/cses/1085-95035737-bc7a-4a1d-8cf6-62f6beb5c69a.cpp) · 사용자 정답 확인 |
 | ✅ | 후보 | LeetCode | [Minimum Number Of Days To Make M Bouquets](https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/) | leetcode:minimum-number-of-days-to-make-m-bouquets |
 | ✅ | 후보 | LeetCode | [Find The Smallest Divisor Given A Threshold](https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold/) | leetcode:find-the-smallest-divisor-given-a-threshold |
 
@@ -541,7 +541,7 @@
 
 | 상태 | 구분 | 플랫폼 | 문제 | 풀이 / 기록 |
 |:---:|:---:|:---:|---|---|
-| ✅ | 필수 | CSES | [Movie Festival](https://cses.fi/problemset/task/1629/) | [C++ 풀이](https://github.com/Nu-LungJi/Problem-Solving-Factory/blob/main/solutions/cses/1629.cpp) · 사용자 정답 확인 |
+| ✅ | 필수 | CSES | [Movie Festival](https://cses.fi/problemset/task/1629/) | [C++ 풀이](https://github.com/Nu-LungJi/Problem-Solving-Factory/blob/main/solutions/reviews/week-5-day-7/cses/1629-95035737-bc7a-4a1d-8cf6-62f6beb5c69a.cpp) · 사용자 정답 확인 |
 | ✅ | 필수 | LeetCode | [Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/) | [C++ 풀이](https://github.com/Nu-LungJi/Problem-Solving-Factory/blob/main/solutions/leetcode/non-overlapping-intervals.cpp) · 사용자 정답 확인 |
 | ⬜ | 후보 | LeetCode | [Minimum Number Of Arrows To Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/) | leetcode:minimum-number-of-arrows-to-burst-balloons |
 | ✅ | 후보 | LeetCode | [Merge Intervals](https://leetcode.com/problems/merge-intervals/) | leetcode:merge-intervals |
@@ -558,7 +558,7 @@
 | 상태 | 구분 | 플랫폼 | 문제 | 풀이 / 기록 |
 |:---:|:---:|:---:|---|---|
 | ✅ | 필수 | CSES | [Ferris Wheel](https://cses.fi/problemset/task/1090/) | [C++ 풀이](https://github.com/Nu-LungJi/Problem-Solving-Factory/blob/main/solutions/cses/1090.cpp) · 사용자 정답 확인 |
-| ✅ | 필수 | Programmers | [구명보트](https://school.programmers.co.kr/learn/courses/30/lessons/42885) | [C++ 풀이](https://github.com/Nu-LungJi/Problem-Solving-Factory/blob/main/solutions/programmers/42885.cpp) · 사용자 정답 확인 |
+| ✅ | 필수 | Programmers | [구명보트](https://school.programmers.co.kr/learn/courses/30/lessons/42885) | [C++ 풀이](https://github.com/Nu-LungJi/Problem-Solving-Factory/blob/main/solutions/reviews/week-5-day-7/programmers/42885-95035737-bc7a-4a1d-8cf6-62f6beb5c69a.cpp) · 사용자 정답 확인 |
 | ✅ | 후보 | LeetCode | [Assign Cookies](https://leetcode.com/problems/assign-cookies/) | leetcode:assign-cookies |
 | ✅ | 후보 | LeetCode | [Lemonade Change](https://leetcode.com/problems/lemonade-change/) | leetcode:lemonade-change |
 
@@ -573,7 +573,7 @@
 
 | 상태 | 구분 | 플랫폼 | 문제 | 풀이 / 기록 |
 |:---:|:---:|:---:|---|---|
-| ✅ | 필수 | CSES | [Tasks and Deadlines](https://cses.fi/problemset/task/1630/) | [C++ 풀이](https://github.com/Nu-LungJi/Problem-Solving-Factory/blob/main/solutions/cses/1630.cpp) · 사용자 정답 확인 |
+| ✅ | 필수 | CSES | [Tasks and Deadlines](https://cses.fi/problemset/task/1630/) | [C++ 풀이](https://github.com/Nu-LungJi/Problem-Solving-Factory/blob/main/solutions/reviews/week-5-day-7/cses/1630-95035737-bc7a-4a1d-8cf6-62f6beb5c69a.cpp) · 사용자 정답 확인 |
 | ✅ | 필수 | Programmers | [체육복](https://school.programmers.co.kr/learn/courses/30/lessons/42862) | [C++ 풀이](https://github.com/Nu-LungJi/Problem-Solving-Factory/blob/main/solutions/programmers/42862.cpp) · 사용자 정답 확인 |
 | ✅ | 후보 | LeetCode | [Gas Station](https://leetcode.com/problems/gas-station/) | leetcode:gas-station |
 | ✅ | 후보 | LeetCode | [Minimum Number Of Moves To Seat Everyone](https://leetcode.com/problems/minimum-number-of-moves-to-seat-everyone/) | leetcode:minimum-number-of-moves-to-seat-everyone |
@@ -581,13 +581,14 @@
 </details>
 
 <details>
-<summary><strong>Day 7</strong> · ⬜ 미완료 · 0/6</summary>
+<summary><strong>Day 7</strong> · ✅ 완료 · 6/6</summary>
 
 | 신규 목표 | 재풀이 목표 | 추가 후보 조건 | 후보 해결 / 목표 반영 |
 |:---:|:---:|:---:|:---:|
 | 0문제 | 6문제 | 없음 | — |
 
 신규 지정 문제 없음. 복습·오답·학습 완료는 직접 기록하세요.
+재풀이 기록: 6회, 그중 정답·힌트 미사용 1회.
 
 </details>
 

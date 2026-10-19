@@ -2117,12 +2117,12 @@
       "requiredSolved": 0,
       "newSolved": 0,
       "creditedNewSolved": 0,
-      "reviewAttempts": 0,
-      "reviewSolved": 0,
-      "done": 0,
+      "reviewAttempts": 6,
+      "reviewSolved": 6,
+      "done": 6,
       "total": 6,
-      "percent": 0,
-      "complete": false,
+      "percent": 100,
+      "complete": true,
       "manualComplete": false,
       "completionBasis": "objective"
     },
@@ -4604,12 +4604,12 @@
     },
     {
       "week": 5,
-      "done": 18,
+      "done": 24,
       "total": 24,
-      "percent": 75,
-      "completedDays": 6,
+      "percent": 100,
+      "completedDays": 7,
       "totalDays": 7,
-      "complete": false
+      "complete": true
     },
     {
       "week": 6,
@@ -4676,13 +4676,13 @@
     }
   ],
   "overall": {
-    "done": 110,
+    "done": 116,
     "total": 283,
-    "percent": 38.87,
-    "completedDays": 29,
+    "percent": 40.99,
+    "completedDays": 30,
     "totalDays": 84,
     "complete": false,
-    "completedWeeks": 1,
+    "completedWeeks": 2,
     "totalWeeks": 12
   },
   "reviews": [
@@ -4901,6 +4901,78 @@
       "result": "accepted",
       "usedHint": false,
       "key": "cses:1069"
+    },
+    {
+      "id": "2026-10-19-leetcode-binary-search-review-95035737-bc7a-4a1d-8cf6-62f6beb5c69a",
+      "date": "2026-10-19",
+      "week": 5,
+      "day": 7,
+      "url": "https://leetcode.com/problems/binary-search/",
+      "code": "solutions/reviews/week-5-day-7/leetcode/binary-search-95035737-bc7a-4a1d-8cf6-62f6beb5c69a.cpp",
+      "kind": "review",
+      "result": "accepted",
+      "usedHint": false,
+      "key": "leetcode:binary-search"
+    },
+    {
+      "id": "2026-10-19-programmers-43238-review-95035737-bc7a-4a1d-8cf6-62f6beb5c69a",
+      "date": "2026-10-19",
+      "week": 5,
+      "day": 7,
+      "url": "https://school.programmers.co.kr/learn/courses/30/lessons/43238",
+      "code": "solutions/reviews/week-5-day-7/programmers/43238-95035737-bc7a-4a1d-8cf6-62f6beb5c69a.cpp",
+      "kind": "review",
+      "result": "accepted",
+      "usedHint": true,
+      "key": "programmers:43238"
+    },
+    {
+      "id": "2026-10-19-cses-1629-review-95035737-bc7a-4a1d-8cf6-62f6beb5c69a",
+      "date": "2026-10-19",
+      "week": 5,
+      "day": 7,
+      "url": "https://cses.fi/problemset/task/1629/",
+      "code": "solutions/reviews/week-5-day-7/cses/1629-95035737-bc7a-4a1d-8cf6-62f6beb5c69a.cpp",
+      "kind": "review",
+      "result": "accepted",
+      "usedHint": true,
+      "key": "cses:1629"
+    },
+    {
+      "id": "2026-10-19-programmers-42885-review-95035737-bc7a-4a1d-8cf6-62f6beb5c69a",
+      "date": "2026-10-19",
+      "week": 5,
+      "day": 7,
+      "url": "https://school.programmers.co.kr/learn/courses/30/lessons/42885",
+      "code": "solutions/reviews/week-5-day-7/programmers/42885-95035737-bc7a-4a1d-8cf6-62f6beb5c69a.cpp",
+      "kind": "review",
+      "result": "accepted",
+      "usedHint": true,
+      "key": "programmers:42885"
+    },
+    {
+      "id": "2026-10-19-cses-1085-review-95035737-bc7a-4a1d-8cf6-62f6beb5c69a",
+      "date": "2026-10-19",
+      "week": 5,
+      "day": 7,
+      "url": "https://cses.fi/problemset/task/1085/",
+      "code": "solutions/reviews/week-5-day-7/cses/1085-95035737-bc7a-4a1d-8cf6-62f6beb5c69a.cpp",
+      "kind": "review",
+      "result": "accepted",
+      "usedHint": true,
+      "key": "cses:1085"
+    },
+    {
+      "id": "2026-10-19-cses-1630-review-95035737-bc7a-4a1d-8cf6-62f6beb5c69a",
+      "date": "2026-10-19",
+      "week": 5,
+      "day": 7,
+      "url": "https://cses.fi/problemset/task/1630/",
+      "code": "solutions/reviews/week-5-day-7/cses/1630-95035737-bc7a-4a1d-8cf6-62f6beb5c69a.cpp",
+      "kind": "review",
+      "result": "accepted",
+      "usedHint": true,
+      "key": "cses:1630"
     }
   ],
   "studyRecords": [
@@ -6463,6 +6535,78 @@
       "result": "accepted",
       "usedHint": false,
       "key": "leetcode:minimum-number-of-moves-to-seat-everyone"
+    },
+    {
+      "id": "2026-10-19-leetcode-binary-search-review-95035737-bc7a-4a1d-8cf6-62f6beb5c69a",
+      "date": "2026-10-19",
+      "week": 5,
+      "day": 7,
+      "url": "https://leetcode.com/problems/binary-search/",
+      "code": "solutions/reviews/week-5-day-7/leetcode/binary-search-95035737-bc7a-4a1d-8cf6-62f6beb5c69a.cpp",
+      "kind": "review",
+      "result": "accepted",
+      "usedHint": false,
+      "key": "leetcode:binary-search"
+    },
+    {
+      "id": "2026-10-19-programmers-43238-review-95035737-bc7a-4a1d-8cf6-62f6beb5c69a",
+      "date": "2026-10-19",
+      "week": 5,
+      "day": 7,
+      "url": "https://school.programmers.co.kr/learn/courses/30/lessons/43238",
+      "code": "solutions/reviews/week-5-day-7/programmers/43238-95035737-bc7a-4a1d-8cf6-62f6beb5c69a.cpp",
+      "kind": "review",
+      "result": "accepted",
+      "usedHint": true,
+      "key": "programmers:43238"
+    },
+    {
+      "id": "2026-10-19-cses-1629-review-95035737-bc7a-4a1d-8cf6-62f6beb5c69a",
+      "date": "2026-10-19",
+      "week": 5,
+      "day": 7,
+      "url": "https://cses.fi/problemset/task/1629/",
+      "code": "solutions/reviews/week-5-day-7/cses/1629-95035737-bc7a-4a1d-8cf6-62f6beb5c69a.cpp",
+      "kind": "review",
+      "result": "accepted",
+      "usedHint": true,
+      "key": "cses:1629"
+    },
+    {
+      "id": "2026-10-19-programmers-42885-review-95035737-bc7a-4a1d-8cf6-62f6beb5c69a",
+      "date": "2026-10-19",
+      "week": 5,
+      "day": 7,
+      "url": "https://school.programmers.co.kr/learn/courses/30/lessons/42885",
+      "code": "solutions/reviews/week-5-day-7/programmers/42885-95035737-bc7a-4a1d-8cf6-62f6beb5c69a.cpp",
+      "kind": "review",
+      "result": "accepted",
+      "usedHint": true,
+      "key": "programmers:42885"
+    },
+    {
+      "id": "2026-10-19-cses-1085-review-95035737-bc7a-4a1d-8cf6-62f6beb5c69a",
+      "date": "2026-10-19",
+      "week": 5,
+      "day": 7,
+      "url": "https://cses.fi/problemset/task/1085/",
+      "code": "solutions/reviews/week-5-day-7/cses/1085-95035737-bc7a-4a1d-8cf6-62f6beb5c69a.cpp",
+      "kind": "review",
+      "result": "accepted",
+      "usedHint": true,
+      "key": "cses:1085"
+    },
+    {
+      "id": "2026-10-19-cses-1630-review-95035737-bc7a-4a1d-8cf6-62f6beb5c69a",
+      "date": "2026-10-19",
+      "week": 5,
+      "day": 7,
+      "url": "https://cses.fi/problemset/task/1630/",
+      "code": "solutions/reviews/week-5-day-7/cses/1630-95035737-bc7a-4a1d-8cf6-62f6beb5c69a.cpp",
+      "kind": "review",
+      "result": "accepted",
+      "usedHint": true,
+      "key": "cses:1630"
     }
   ],
   "evidence": {
@@ -6483,7 +6627,7 @@
       "evidence": "사용자 정답 확인"
     },
     "cses:1085": {
-      "code": "solutions/cses/1085.cpp",
+      "code": "solutions/reviews/week-5-day-7/cses/1085-95035737-bc7a-4a1d-8cf6-62f6beb5c69a.cpp",
       "evidence": "사용자 정답 확인"
     },
     "cses:1090": {
@@ -6515,11 +6659,11 @@
       "evidence": "사용자 정답 확인"
     },
     "cses:1629": {
-      "code": "solutions/cses/1629.cpp",
+      "code": "solutions/reviews/week-5-day-7/cses/1629-95035737-bc7a-4a1d-8cf6-62f6beb5c69a.cpp",
       "evidence": "사용자 정답 확인"
     },
     "cses:1630": {
-      "code": "solutions/cses/1630.cpp",
+      "code": "solutions/reviews/week-5-day-7/cses/1630-95035737-bc7a-4a1d-8cf6-62f6beb5c69a.cpp",
       "evidence": "사용자 정답 확인"
     },
     "cses:1640": {
@@ -6571,7 +6715,7 @@
       "evidence": "사용자 정답 확인"
     },
     "leetcode:binary-search": {
-      "code": "solutions/leetcode/binary-search.cpp",
+      "code": "solutions/reviews/week-5-day-7/leetcode/binary-search-95035737-bc7a-4a1d-8cf6-62f6beb5c69a.cpp",
       "evidence": "사용자 정답 확인"
     },
     "leetcode:capacity-to-ship-packages-within-d-days": {
@@ -6915,11 +7059,11 @@
       "evidence": "사용자 정답 확인"
     },
     "programmers:42885": {
-      "code": "solutions/programmers/42885.cpp",
+      "code": "solutions/reviews/week-5-day-7/programmers/42885-95035737-bc7a-4a1d-8cf6-62f6beb5c69a.cpp",
       "evidence": "사용자 정답 확인"
     },
     "programmers:43238": {
-      "code": "solutions/programmers/43238.cpp",
+      "code": "solutions/reviews/week-5-day-7/programmers/43238-95035737-bc7a-4a1d-8cf6-62f6beb5c69a.cpp",
       "evidence": "사용자 정답 확인"
     },
     "programmers:87946": {
