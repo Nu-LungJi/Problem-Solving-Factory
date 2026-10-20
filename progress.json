@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "repository": "Nu-LungJi/Problem-Solving-Factory",
-  "accepted": 115,
+  "accepted": 119,
   "registered": 254,
   "target": 208,
   "days": [
@@ -2140,7 +2140,7 @@
           "url": "https://cses.fi/problemset/task/1666/",
           "platform": "cses",
           "problemId": "1666",
-          "solved": false,
+          "solved": true,
           "countsAsNew": true
         },
         {
@@ -2162,7 +2162,7 @@
             "problemId": "find-if-path-exists-in-graph",
             "title": "Find If Path Exists In Graph",
             "url": "https://leetcode.com/problems/find-if-path-exists-in-graph/",
-            "solved": false
+            "solved": true
           },
           {
             "key": "leetcode:keys-and-rooms",
@@ -2170,7 +2170,7 @@
             "problemId": "keys-and-rooms",
             "title": "Keys And Rooms",
             "url": "https://leetcode.com/problems/keys-and-rooms/",
-            "solved": false
+            "solved": true
           },
           {
             "key": "leetcode:all-paths-from-source-to-target",
@@ -2178,21 +2178,21 @@
             "problemId": "all-paths-from-source-to-target",
             "title": "All Paths From Source To Target",
             "url": "https://leetcode.com/problems/all-paths-from-source-to-target/",
-            "solved": false
+            "solved": true
           }
         ],
-        "solved": 0,
-        "credited": 0,
-        "complete": false
+        "solved": 3,
+        "credited": 2,
+        "complete": true
       },
-      "requiredSolved": 0,
-      "newSolved": 0,
-      "creditedNewSolved": 0,
+      "requiredSolved": 1,
+      "newSolved": 4,
+      "creditedNewSolved": 3,
       "reviewAttempts": 0,
       "reviewSolved": 0,
-      "done": 0,
+      "done": 3,
       "total": 4,
-      "percent": 0,
+      "percent": 75,
       "complete": false,
       "manualComplete": false,
       "completionBasis": "objective"
@@ -4613,9 +4613,9 @@
     },
     {
       "week": 6,
-      "done": 0,
+      "done": 3,
       "total": 30,
-      "percent": 0,
+      "percent": 10,
       "completedDays": 0,
       "totalDays": 7,
       "complete": false
@@ -4676,9 +4676,9 @@
     }
   ],
   "overall": {
-    "done": 116,
+    "done": 119,
     "total": 283,
-    "percent": 40.99,
+    "percent": 42.05,
     "completedDays": 30,
     "totalDays": 84,
     "complete": false,
@@ -6607,6 +6607,54 @@
       "result": "accepted",
       "usedHint": true,
       "key": "cses:1630"
+    },
+    {
+      "id": "2026-10-20-cses-1666-first",
+      "date": "2026-10-20",
+      "week": 6,
+      "day": 1,
+      "url": "https://cses.fi/problemset/task/1666/",
+      "code": "solutions/cses/1666.cpp",
+      "kind": "solve",
+      "result": "accepted",
+      "usedHint": true,
+      "key": "cses:1666"
+    },
+    {
+      "id": "2026-10-20-leetcode-find-if-path-exists-in-graph-first",
+      "date": "2026-10-20",
+      "week": 6,
+      "day": 1,
+      "url": "https://leetcode.com/problems/find-if-path-exists-in-graph/",
+      "code": "solutions/leetcode/find-if-path-exists-in-graph.cpp",
+      "kind": "solve",
+      "result": "accepted",
+      "usedHint": true,
+      "key": "leetcode:find-if-path-exists-in-graph"
+    },
+    {
+      "id": "2026-10-20-leetcode-keys-and-rooms-first",
+      "date": "2026-10-20",
+      "week": 6,
+      "day": 1,
+      "url": "https://leetcode.com/problems/keys-and-rooms/",
+      "code": "solutions/leetcode/keys-and-rooms.cpp",
+      "kind": "solve",
+      "result": "accepted",
+      "usedHint": false,
+      "key": "leetcode:keys-and-rooms"
+    },
+    {
+      "id": "2026-10-20-leetcode-all-paths-from-source-to-target-first",
+      "date": "2026-10-20",
+      "week": 6,
+      "day": 1,
+      "url": "https://leetcode.com/problems/all-paths-from-source-to-target/",
+      "code": "solutions/leetcode/all-paths-from-source-to-target.cpp",
+      "kind": "solve",
+      "result": "accepted",
+      "usedHint": true,
+      "key": "leetcode:all-paths-from-source-to-target"
     }
   ],
   "evidence": {
@@ -6690,6 +6738,10 @@
       "code": "solutions/cses/1661.cpp",
       "evidence": "사용자 정답 확인"
     },
+    "cses:1666": {
+      "code": "solutions/cses/1666.cpp",
+      "evidence": "사용자 정답 확인"
+    },
     "cses:2162": {
       "code": "solutions/cses/2162.cpp",
       "evidence": "사용자 정답 확인"
@@ -6700,6 +6752,10 @@
     },
     "leetcode:add-digits": {
       "code": "solutions/reviews/week-4-day-7/leetcode/add-digits-e5298748-eac2-4a4d-8461-48e39ef222c7.cpp",
+      "evidence": "사용자 정답 확인"
+    },
+    "leetcode:all-paths-from-source-to-target": {
+      "code": "solutions/leetcode/all-paths-from-source-to-target.cpp",
       "evidence": "사용자 정답 확인"
     },
     "leetcode:assign-cookies": {
@@ -6762,6 +6818,10 @@
       "code": "solutions/leetcode/find-first-and-last-position-of-element-in-sorted-array.cpp",
       "evidence": "사용자 정답 확인"
     },
+    "leetcode:find-if-path-exists-in-graph": {
+      "code": "solutions/leetcode/find-if-path-exists-in-graph.cpp",
+      "evidence": "사용자 정답 확인"
+    },
     "leetcode:find-numbers-with-even-number-of-digits": {
       "code": "solutions/leetcode/find-numbers-with-even-number-of-digits.cpp",
       "evidence": "사용자 정답 확인"
@@ -6808,6 +6868,10 @@
     },
     "leetcode:isomorphic-strings": {
       "code": "solutions/leetcode/isomorphic-strings.cpp",
+      "evidence": "사용자 정답 확인"
+    },
+    "leetcode:keys-and-rooms": {
+      "code": "solutions/leetcode/keys-and-rooms.cpp",
       "evidence": "사용자 정답 확인"
     },
     "leetcode:kids-with-the-greatest-number-of-candies": {
