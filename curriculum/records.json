@@ -1494,5 +1494,49 @@
     "kind": "review",
     "result": "accepted",
     "usedHint": true
+  },
+  {
+    "id": "2026-10-20-cses-1666-first",
+    "date": "2026-10-20",
+    "week": 6,
+    "day": 1,
+    "url": "https://cses.fi/problemset/task/1666/",
+    "code": "solutions/cses/1666.cpp",
+    "kind": "solve",
+    "result": "accepted",
+    "usedHint": true
+  },
+  {
+    "id": "2026-10-20-leetcode-find-if-path-exists-in-graph-first",
+    "date": "2026-10-20",
+    "week": 6,
+    "day": 1,
+    "url": "https://leetcode.com/problems/find-if-path-exists-in-graph/",
+    "code": "solutions/leetcode/find-if-path-exists-in-graph.cpp",
+    "kind": "solve",
+    "result": "accepted",
+    "usedHint": true
+  },
+  {
+    "id": "2026-10-20-leetcode-keys-and-rooms-first",
+    "date": "2026-10-20",
+    "week": 6,
+    "day": 1,
+    "url": "https://leetcode.com/problems/keys-and-rooms/",
+    "code": "solutions/leetcode/keys-and-rooms.cpp",
+    "kind": "solve",
+    "result": "accepted",
+    "usedHint": false
+  },
+  {
+    "id": "2026-10-20-leetcode-all-paths-from-source-to-target-first",
+    "date": "2026-10-20",
+    "week": 6,
+    "day": 1,
+    "url": "https://leetcode.com/problems/all-paths-from-source-to-target/",
+    "code": "solutions/leetcode/all-paths-from-source-to-target.cpp",
+    "kind": "solve",
+    "result": "accepted",
+    "usedHint": true
   }
 ]
