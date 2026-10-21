@@ -231,7 +231,7 @@ C++ 기본 문법을 공부했고, OOP·상속·SOLID와 스택 등 자료구조
 | 완료 | Day | Daily 목표 | 지정 문제·실행 내용 | 신규 | 재풀이 |
 |---|---|---|---|---:|---:|
 | [ ] | 1 | 인접 리스트·DFS·반복형 스택 탐색 | [CSES · Building Roads](https://cses.fi/problemset/task/1666/) · [프로그래머스 · 네트워크](https://school.programmers.co.kr/learn/courses/30/lessons/43162) · [후보 3개 중 2개 해결](pools.md#week-6-day-1) | 4 | 0 |
-| [ ] | 2 | 격자 좌표·경계 검사·Flood Fill | [CSES · Counting Rooms](https://cses.fi/problemset/task/1192/) · [LeetCode · Number of Islands](https://leetcode.com/problems/number-of-islands/) · [후보 3개 중 2개 해결](pools.md#week-6-day-2) | 4 | 0 |
+| [x] | 2 | 격자 좌표·경계 검사·Flood Fill | [CSES · Counting Rooms](https://cses.fi/problemset/task/1192/) · [LeetCode · Number of Islands](https://leetcode.com/problems/number-of-islands/) · [후보 3개 중 2개 해결](pools.md#week-6-day-2) | 4 | 0 |
 | [ ] | 3 | BFS 거리 배열·큐에 넣을 때 방문 처리 | [CSES · Message Route](https://cses.fi/problemset/task/1667/) · [프로그래머스 · 게임 맵 최단거리](https://school.programmers.co.kr/learn/courses/30/lessons/1844) · [후보 3개 중 2개 해결](pools.md#week-6-day-3) | 4 | 0 |
 | [ ] | 4 | 부모 기록·경로 복원 | [CSES · Labyrinth](https://cses.fi/problemset/task/1193/) · [LeetCode · Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix/) · [후보 3개 중 2개 해결](pools.md#week-6-day-4) | 4 | 0 |
 | [ ] | 5 | 여러 시작점 BFS·상태를 정점으로 모델링 | [LeetCode · Rotting Oranges](https://leetcode.com/problems/rotting-oranges/) · [프로그래머스 · 단어 변환](https://school.programmers.co.kr/learn/courses/30/lessons/43163) · [후보 3개 중 2개 해결](pools.md#week-6-day-5) | 4 | 0 |
