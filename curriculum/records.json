@@ -1571,5 +1571,16 @@
     "kind": "solve",
     "result": "accepted",
     "usedHint": true
+  },
+  {
+    "id": "2026-10-21-leetcode-max-area-of-island-first",
+    "date": "2026-10-21",
+    "week": 6,
+    "day": 2,
+    "url": "https://leetcode.com/problems/max-area-of-island/",
+    "code": "solutions/leetcode/max-area-of-island.cpp",
+    "kind": "solve",
+    "result": "accepted",
+    "usedHint": false
   }
 ]
