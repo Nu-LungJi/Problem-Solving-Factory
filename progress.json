@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "repository": "Nu-LungJi/Problem-Solving-Factory",
-  "accepted": 121,
+  "accepted": 122,
   "registered": 254,
   "target": 208,
   "days": [
@@ -2220,7 +2220,7 @@
           "url": "https://leetcode.com/problems/number-of-islands/",
           "platform": "leetcode",
           "problemId": "number-of-islands",
-          "solved": false,
+          "solved": true,
           "countsAsNew": true
         }
       ],
@@ -2256,14 +2256,14 @@
         "credited": 1,
         "complete": false
       },
-      "requiredSolved": 1,
-      "newSolved": 2,
-      "creditedNewSolved": 2,
+      "requiredSolved": 2,
+      "newSolved": 3,
+      "creditedNewSolved": 3,
       "reviewAttempts": 0,
       "reviewSolved": 0,
-      "done": 2,
+      "done": 3,
       "total": 4,
-      "percent": 50,
+      "percent": 75,
       "complete": false,
       "manualComplete": false,
       "completionBasis": "objective"
@@ -4613,9 +4613,9 @@
     },
     {
       "week": 6,
-      "done": 5,
+      "done": 6,
       "total": 30,
-      "percent": 16.67,
+      "percent": 20,
       "completedDays": 0,
       "totalDays": 7,
       "complete": false
@@ -4676,9 +4676,9 @@
     }
   ],
   "overall": {
-    "done": 121,
+    "done": 122,
     "total": 283,
-    "percent": 42.76,
+    "percent": 43.11,
     "completedDays": 30,
     "totalDays": 84,
     "complete": false,
@@ -6679,6 +6679,18 @@
       "result": "accepted",
       "usedHint": true,
       "key": "leetcode:flood-fill"
+    },
+    {
+      "id": "2026-10-21-leetcode-number-of-islands-first",
+      "date": "2026-10-21",
+      "week": 6,
+      "day": 2,
+      "url": "https://leetcode.com/problems/number-of-islands/",
+      "code": "solutions/leetcode/number-of-islands.cpp",
+      "kind": "solve",
+      "result": "accepted",
+      "usedHint": true,
+      "key": "leetcode:number-of-islands"
     }
   ],
   "evidence": {
@@ -6976,6 +6988,10 @@
     },
     "leetcode:number-of-1-bits": {
       "code": "solutions/leetcode/number-of-1-bits.cpp",
+      "evidence": "사용자 정답 확인"
+    },
+    "leetcode:number-of-islands": {
+      "code": "solutions/leetcode/number-of-islands.cpp",
       "evidence": "사용자 정답 확인"
     },
     "leetcode:number-of-recent-calls": {
