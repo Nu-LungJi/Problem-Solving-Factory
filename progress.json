@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "repository": "Nu-LungJi/Problem-Solving-Factory",
-  "accepted": 122,
+  "accepted": 123,
   "registered": 254,
   "target": 208,
   "days": [
@@ -2241,7 +2241,7 @@
             "problemId": "max-area-of-island",
             "title": "Max Area Of Island",
             "url": "https://leetcode.com/problems/max-area-of-island/",
-            "solved": false
+            "solved": true
           },
           {
             "key": "leetcode:island-perimeter",
@@ -2252,19 +2252,19 @@
             "solved": false
           }
         ],
-        "solved": 1,
-        "credited": 1,
-        "complete": false
+        "solved": 2,
+        "credited": 2,
+        "complete": true
       },
       "requiredSolved": 2,
-      "newSolved": 3,
-      "creditedNewSolved": 3,
+      "newSolved": 4,
+      "creditedNewSolved": 4,
       "reviewAttempts": 0,
       "reviewSolved": 0,
-      "done": 3,
+      "done": 4,
       "total": 4,
-      "percent": 75,
-      "complete": false,
+      "percent": 100,
+      "complete": true,
       "manualComplete": false,
       "completionBasis": "objective"
     },
@@ -4613,10 +4613,10 @@
     },
     {
       "week": 6,
-      "done": 6,
+      "done": 7,
       "total": 30,
-      "percent": 20,
-      "completedDays": 0,
+      "percent": 23.33,
+      "completedDays": 1,
       "totalDays": 7,
       "complete": false
     },
@@ -4676,10 +4676,10 @@
     }
   ],
   "overall": {
-    "done": 122,
+    "done": 123,
     "total": 283,
-    "percent": 43.11,
-    "completedDays": 30,
+    "percent": 43.46,
+    "completedDays": 31,
     "totalDays": 84,
     "complete": false,
     "completedWeeks": 2,
@@ -6691,6 +6691,18 @@
       "result": "accepted",
       "usedHint": true,
       "key": "leetcode:number-of-islands"
+    },
+    {
+      "id": "2026-10-21-leetcode-max-area-of-island-first",
+      "date": "2026-10-21",
+      "week": 6,
+      "day": 2,
+      "url": "https://leetcode.com/problems/max-area-of-island/",
+      "code": "solutions/leetcode/max-area-of-island.cpp",
+      "kind": "solve",
+      "result": "accepted",
+      "usedHint": false,
+      "key": "leetcode:max-area-of-island"
     }
   ],
   "evidence": {
@@ -6952,6 +6964,10 @@
     },
     "leetcode:matrix-block-sum": {
       "code": "solutions/leetcode/matrix-block-sum.cpp",
+      "evidence": "사용자 정답 확인"
+    },
+    "leetcode:max-area-of-island": {
+      "code": "solutions/leetcode/max-area-of-island.cpp",
       "evidence": "사용자 정답 확인"
     },
     "leetcode:maximum-average-subarray-i": {
