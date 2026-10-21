@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "repository": "Nu-LungJi/Problem-Solving-Factory",
-  "accepted": 119,
+  "accepted": 121,
   "registered": 254,
   "target": 208,
   "days": [
@@ -2211,7 +2211,7 @@
           "url": "https://cses.fi/problemset/task/1192/",
           "platform": "cses",
           "problemId": "1192",
-          "solved": false,
+          "solved": true,
           "countsAsNew": true
         },
         {
@@ -2233,7 +2233,7 @@
             "problemId": "flood-fill",
             "title": "Flood Fill",
             "url": "https://leetcode.com/problems/flood-fill/",
-            "solved": false
+            "solved": true
           },
           {
             "key": "leetcode:max-area-of-island",
@@ -2252,18 +2252,18 @@
             "solved": false
           }
         ],
-        "solved": 0,
-        "credited": 0,
+        "solved": 1,
+        "credited": 1,
         "complete": false
       },
-      "requiredSolved": 0,
-      "newSolved": 0,
-      "creditedNewSolved": 0,
+      "requiredSolved": 1,
+      "newSolved": 2,
+      "creditedNewSolved": 2,
       "reviewAttempts": 0,
       "reviewSolved": 0,
-      "done": 0,
+      "done": 2,
       "total": 4,
-      "percent": 0,
+      "percent": 50,
       "complete": false,
       "manualComplete": false,
       "completionBasis": "objective"
@@ -4613,9 +4613,9 @@
     },
     {
       "week": 6,
-      "done": 3,
+      "done": 5,
       "total": 30,
-      "percent": 10,
+      "percent": 16.67,
       "completedDays": 0,
       "totalDays": 7,
       "complete": false
@@ -4676,9 +4676,9 @@
     }
   ],
   "overall": {
-    "done": 119,
+    "done": 121,
     "total": 283,
-    "percent": 42.05,
+    "percent": 42.76,
     "completedDays": 30,
     "totalDays": 84,
     "complete": false,
@@ -6655,6 +6655,30 @@
       "result": "accepted",
       "usedHint": true,
       "key": "leetcode:all-paths-from-source-to-target"
+    },
+    {
+      "id": "2026-10-21-cses-1192-first",
+      "date": "2026-10-21",
+      "week": 6,
+      "day": 2,
+      "url": "https://cses.fi/problemset/task/1192/",
+      "code": "solutions/cses/1192.cpp",
+      "kind": "solve",
+      "result": "accepted",
+      "usedHint": true,
+      "key": "cses:1192"
+    },
+    {
+      "id": "2026-10-21-leetcode-flood-fill-first",
+      "date": "2026-10-21",
+      "week": 6,
+      "day": 2,
+      "url": "https://leetcode.com/problems/flood-fill/",
+      "code": "solutions/leetcode/flood-fill.cpp",
+      "kind": "solve",
+      "result": "accepted",
+      "usedHint": true,
+      "key": "leetcode:flood-fill"
     }
   ],
   "evidence": {
@@ -6688,6 +6712,10 @@
     },
     "cses:1094": {
       "code": "solutions/cses/1094.cpp",
+      "evidence": "사용자 정답 확인"
+    },
+    "cses:1192": {
+      "code": "solutions/cses/1192.cpp",
       "evidence": "사용자 정답 확인"
     },
     "cses:1620": {
@@ -6844,6 +6872,10 @@
     },
     "leetcode:fizz-buzz": {
       "code": "solutions/reviews/week-4-day-7/leetcode/fizz-buzz-e5298748-eac2-4a4d-8461-48e39ef222c7.cpp",
+      "evidence": "사용자 정답 확인"
+    },
+    "leetcode:flood-fill": {
+      "code": "solutions/leetcode/flood-fill.cpp",
       "evidence": "사용자 정답 확인"
     },
     "leetcode:fruit-into-baskets": {
