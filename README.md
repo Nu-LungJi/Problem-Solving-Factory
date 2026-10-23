@@ -2,11 +2,11 @@
 
 [전체 커리큘럼](https://github.com/Nu-LungJi/Problem-Solving-Factory/blob/main/curriculum/plan.md) · [수동 기록 방법](https://github.com/Nu-LungJi/Problem-Solving-Factory/blob/main/curriculum/README.md)
 
-**등록 문제 해결: 123/254** · 신규 학습 목표: 208문제
+**등록 문제 해결: 127/254** · 신규 학습 목표: 208문제
 
 필수 144문제와 Day별 후보 풀에서 선택하는 64문제를 합쳐 신규 목표는 208문제입니다. 후보를 전부 풀 필요는 없습니다. 후보 밖의 기존 수동 기록은 보존하지만 목표를 대체하지 않습니다. 업로드는 독립 해결·학습 완료의 증명이 아닙니다. BaekjoonHub 형식은 업로드 관례를 신뢰하며 온라인 저지에 재조회하지 않습니다. Day·Week 객관적 풀이 목표는 자동 계산하며 개념·오답 정리 체크는 원본 커리큘럼에서 직접 관리합니다.
 
-**전체 목표 진도: 123/283 (43.46%)** · 완료 Day 31/84 · Week 2/12
+**전체 목표 진도: 127/283 (44.88%)** · 완료 Day 32/84 · Week 2/12
 
 | Week | 목표 진도 | 완료 Day | 등록 문제 해결 | 신규 목표 | 재풀이 시도 / 목표 | 상태 |
 |:---:|---:|:---:|---:|---:|---:|:---:|
@@ -15,7 +15,7 @@
 | 3 | 13/24 (54.17%) | 4/7 | 17/24 | 18 | 0/6 | 미완료 |
 | 4 | 24/24 (100%) | 7/7 | 23/24 | 18 | 6/6 | ✅ |
 | 5 | 24/24 (100%) | 7/7 | 22/24 | 18 | 6/6 | ✅ |
-| 6 | 7/30 (23.33%) | 1/7 | 8/30 | 24 | 0/6 | 미완료 |
+| 6 | 11/30 (36.67%) | 2/7 | 12/30 | 24 | 0/6 | 미완료 |
 | 7 | 0/20 (0%) | 0/7 | 0/16 | 14 | 0/6 | 미완료 |
 | 8 | 0/20 (0%) | 0/7 | 0/16 | 14 | 0/6 | 미완료 |
 | 9 | 0/24 (0%) | 0/7 | 0/24 | 18 | 0/6 | 미완료 |
@@ -647,18 +647,18 @@
 </details>
 
 <details>
-<summary><strong>Day 4</strong> · ⬜ 미완료 · 0/5</summary>
+<summary><strong>Day 4</strong> · ✅ 완료 · 4/5</summary>
 
 | 신규 목표 | 재풀이 목표 | 추가 후보 조건 | 후보 해결 / 목표 반영 |
 |:---:|:---:|:---:|:---:|
-| 4문제 | 0문제 | 3개 중 2개 | 0개 해결 · 0/2 반영 |
+| 4문제 | 0문제 | 3개 중 2개 | 2개 해결 · 2/2 반영 |
 
 | 상태 | 구분 | 플랫폼 | 문제 | 풀이 / 기록 |
 |:---:|:---:|:---:|---|---|
-| ⬜ | 필수 | CSES | [Labyrinth](https://cses.fi/problemset/task/1193/) | — |
-| ⬜ | 필수 | LeetCode | [Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix/) | — |
-| ⬜ | 후보 | LeetCode | [Snakes And Ladders](https://leetcode.com/problems/snakes-and-ladders/) | leetcode:snakes-and-ladders |
-| ⬜ | 후보 | LeetCode | [Shortest Bridge](https://leetcode.com/problems/shortest-bridge/) | leetcode:shortest-bridge |
+| ✅ | 필수 | CSES | [Labyrinth](https://cses.fi/problemset/task/1193/) | [C++ 풀이](https://github.com/Nu-LungJi/Problem-Solving-Factory/blob/main/solutions/cses/1193.cpp) · 사용자 정답 확인 |
+| ✅ | 필수 | LeetCode | [Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix/) | [C++ 풀이](https://github.com/Nu-LungJi/Problem-Solving-Factory/blob/main/solutions/leetcode/shortest-path-in-binary-matrix.cpp) · 사용자 정답 확인 |
+| ✅ | 후보 | LeetCode | [Snakes And Ladders](https://leetcode.com/problems/snakes-and-ladders/) | leetcode:snakes-and-ladders |
+| ✅ | 후보 | LeetCode | [Shortest Bridge](https://leetcode.com/problems/shortest-bridge/) | leetcode:shortest-bridge |
 | ⬜ | 후보 | LeetCode | [Shortest Path In A Grid With Obstacles Elimination](https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/) | leetcode:shortest-path-in-a-grid-with-obstacles-elimination |
 
 </details>

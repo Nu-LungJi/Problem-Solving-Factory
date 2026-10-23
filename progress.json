@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "repository": "Nu-LungJi/Problem-Solving-Factory",
-  "accepted": 123,
+  "accepted": 127,
   "registered": 254,
   "target": 208,
   "days": [
@@ -2353,7 +2353,7 @@
           "url": "https://cses.fi/problemset/task/1193/",
           "platform": "cses",
           "problemId": "1193",
-          "solved": false,
+          "solved": true,
           "countsAsNew": true
         },
         {
@@ -2362,7 +2362,7 @@
           "url": "https://leetcode.com/problems/shortest-path-in-binary-matrix/",
           "platform": "leetcode",
           "problemId": "shortest-path-in-binary-matrix",
-          "solved": false,
+          "solved": true,
           "countsAsNew": true
         }
       ],
@@ -2375,7 +2375,7 @@
             "problemId": "snakes-and-ladders",
             "title": "Snakes And Ladders",
             "url": "https://leetcode.com/problems/snakes-and-ladders/",
-            "solved": false
+            "solved": true
           },
           {
             "key": "leetcode:shortest-bridge",
@@ -2383,7 +2383,7 @@
             "problemId": "shortest-bridge",
             "title": "Shortest Bridge",
             "url": "https://leetcode.com/problems/shortest-bridge/",
-            "solved": false
+            "solved": true
           },
           {
             "key": "leetcode:shortest-path-in-a-grid-with-obstacles-elimination",
@@ -2394,19 +2394,19 @@
             "solved": false
           }
         ],
-        "solved": 0,
-        "credited": 0,
-        "complete": false
+        "solved": 2,
+        "credited": 2,
+        "complete": true
       },
-      "requiredSolved": 0,
-      "newSolved": 0,
-      "creditedNewSolved": 0,
+      "requiredSolved": 2,
+      "newSolved": 4,
+      "creditedNewSolved": 4,
       "reviewAttempts": 0,
       "reviewSolved": 0,
-      "done": 0,
+      "done": 4,
       "total": 4,
-      "percent": 0,
-      "complete": false,
+      "percent": 100,
+      "complete": true,
       "manualComplete": false,
       "completionBasis": "objective"
     },
@@ -4613,10 +4613,10 @@
     },
     {
       "week": 6,
-      "done": 7,
+      "done": 11,
       "total": 30,
-      "percent": 23.33,
-      "completedDays": 1,
+      "percent": 36.67,
+      "completedDays": 2,
       "totalDays": 7,
       "complete": false
     },
@@ -4676,10 +4676,10 @@
     }
   ],
   "overall": {
-    "done": 123,
+    "done": 127,
     "total": 283,
-    "percent": 43.46,
-    "completedDays": 31,
+    "percent": 44.88,
+    "completedDays": 32,
     "totalDays": 84,
     "complete": false,
     "completedWeeks": 2,
@@ -6703,6 +6703,54 @@
       "result": "accepted",
       "usedHint": false,
       "key": "leetcode:max-area-of-island"
+    },
+    {
+      "id": "2026-10-23-cses-1193-first",
+      "date": "2026-10-23",
+      "week": 6,
+      "day": 4,
+      "url": "https://cses.fi/problemset/task/1193/",
+      "code": "solutions/cses/1193.cpp",
+      "kind": "solve",
+      "result": "accepted",
+      "usedHint": true,
+      "key": "cses:1193"
+    },
+    {
+      "id": "2026-10-23-leetcode-shortest-path-in-binary-matrix-first",
+      "date": "2026-10-23",
+      "week": 6,
+      "day": 4,
+      "url": "https://leetcode.com/problems/shortest-path-in-binary-matrix/",
+      "code": "solutions/leetcode/shortest-path-in-binary-matrix.cpp",
+      "kind": "solve",
+      "result": "accepted",
+      "usedHint": true,
+      "key": "leetcode:shortest-path-in-binary-matrix"
+    },
+    {
+      "id": "2026-10-23-leetcode-snakes-and-ladders-first",
+      "date": "2026-10-23",
+      "week": 6,
+      "day": 4,
+      "url": "https://leetcode.com/problems/snakes-and-ladders/",
+      "code": "solutions/leetcode/snakes-and-ladders.cpp",
+      "kind": "solve",
+      "result": "accepted",
+      "usedHint": true,
+      "key": "leetcode:snakes-and-ladders"
+    },
+    {
+      "id": "2026-10-23-leetcode-shortest-bridge-first",
+      "date": "2026-10-23",
+      "week": 6,
+      "day": 4,
+      "url": "https://leetcode.com/problems/shortest-bridge/",
+      "code": "solutions/leetcode/shortest-bridge.cpp",
+      "kind": "solve",
+      "result": "accepted",
+      "usedHint": true,
+      "key": "leetcode:shortest-bridge"
     }
   ],
   "evidence": {
@@ -6740,6 +6788,10 @@
     },
     "cses:1192": {
       "code": "solutions/cses/1192.cpp",
+      "evidence": "사용자 정답 확인"
+    },
+    "cses:1193": {
+      "code": "solutions/cses/1193.cpp",
       "evidence": "사용자 정답 확인"
     },
     "cses:1620": {
@@ -7072,6 +7124,18 @@
     },
     "leetcode:search-insert-position": {
       "code": "solutions/leetcode/search-insert-position.cpp",
+      "evidence": "사용자 정답 확인"
+    },
+    "leetcode:shortest-bridge": {
+      "code": "solutions/leetcode/shortest-bridge.cpp",
+      "evidence": "사용자 정답 확인"
+    },
+    "leetcode:shortest-path-in-binary-matrix": {
+      "code": "solutions/leetcode/shortest-path-in-binary-matrix.cpp",
+      "evidence": "사용자 정답 확인"
+    },
+    "leetcode:snakes-and-ladders": {
+      "code": "solutions/leetcode/snakes-and-ladders.cpp",
       "evidence": "사용자 정답 확인"
     },
     "leetcode:sqrtx": {
