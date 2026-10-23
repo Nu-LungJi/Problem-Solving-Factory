@@ -1582,5 +1582,49 @@
     "kind": "solve",
     "result": "accepted",
     "usedHint": false
+  },
+  {
+    "id": "2026-10-23-cses-1193-first",
+    "date": "2026-10-23",
+    "week": 6,
+    "day": 4,
+    "url": "https://cses.fi/problemset/task/1193/",
+    "code": "solutions/cses/1193.cpp",
+    "kind": "solve",
+    "result": "accepted",
+    "usedHint": true
+  },
+  {
+    "id": "2026-10-23-leetcode-shortest-path-in-binary-matrix-first",
+    "date": "2026-10-23",
+    "week": 6,
+    "day": 4,
+    "url": "https://leetcode.com/problems/shortest-path-in-binary-matrix/",
+    "code": "solutions/leetcode/shortest-path-in-binary-matrix.cpp",
+    "kind": "solve",
+    "result": "accepted",
+    "usedHint": true
+  },
+  {
+    "id": "2026-10-23-leetcode-snakes-and-ladders-first",
+    "date": "2026-10-23",
+    "week": 6,
+    "day": 4,
+    "url": "https://leetcode.com/problems/snakes-and-ladders/",
+    "code": "solutions/leetcode/snakes-and-ladders.cpp",
+    "kind": "solve",
+    "result": "accepted",
+    "usedHint": true
+  },
+  {
+    "id": "2026-10-23-leetcode-shortest-bridge-first",
+    "date": "2026-10-23",
+    "week": 6,
+    "day": 4,
+    "url": "https://leetcode.com/problems/shortest-bridge/",
+    "code": "solutions/leetcode/shortest-bridge.cpp",
+    "kind": "solve",
+    "result": "accepted",
+    "usedHint": true
   }
 ]
