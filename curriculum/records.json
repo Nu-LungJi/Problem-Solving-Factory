@@ -1626,5 +1626,60 @@
     "kind": "solve",
     "result": "accepted",
     "usedHint": true
+  },
+  {
+    "id": "2026-10-24-leetcode-rotting-oranges-first",
+    "date": "2026-10-24",
+    "week": 6,
+    "day": 5,
+    "url": "https://leetcode.com/problems/rotting-oranges/",
+    "code": "solutions/leetcode/rotting-oranges.cpp",
+    "kind": "solve",
+    "result": "accepted",
+    "usedHint": true
+  },
+  {
+    "id": "2026-10-24-programmers-43163-first",
+    "date": "2026-10-24",
+    "week": 6,
+    "day": 5,
+    "url": "https://school.programmers.co.kr/learn/courses/30/lessons/43163",
+    "code": "solutions/programmers/43163.cpp",
+    "kind": "solve",
+    "result": "accepted",
+    "usedHint": true
+  },
+  {
+    "id": "2026-10-24-leetcode-01-matrix-first",
+    "date": "2026-10-24",
+    "week": 6,
+    "day": 5,
+    "url": "https://leetcode.com/problems/01-matrix/",
+    "code": "solutions/leetcode/01-matrix.cpp",
+    "kind": "solve",
+    "result": "accepted",
+    "usedHint": true
+  },
+  {
+    "id": "2026-10-24-leetcode-as-far-from-land-as-possible-first",
+    "date": "2026-10-24",
+    "week": 6,
+    "day": 5,
+    "url": "https://leetcode.com/problems/as-far-from-land-as-possible/",
+    "code": "solutions/leetcode/as-far-from-land-as-possible.cpp",
+    "kind": "solve",
+    "result": "accepted",
+    "usedHint": false
+  },
+  {
+    "id": "2026-10-24-leetcode-map-of-highest-peak-first",
+    "date": "2026-10-24",
+    "week": 6,
+    "day": 5,
+    "url": "https://leetcode.com/problems/map-of-highest-peak/",
+    "code": "solutions/leetcode/map-of-highest-peak.cpp",
+    "kind": "solve",
+    "result": "accepted",
+    "usedHint": false
   }
 ]
