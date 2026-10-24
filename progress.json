@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "repository": "Nu-LungJi/Problem-Solving-Factory",
-  "accepted": 127,
+  "accepted": 132,
   "registered": 254,
   "target": 208,
   "days": [
@@ -2424,7 +2424,7 @@
           "url": "https://leetcode.com/problems/rotting-oranges/",
           "platform": "leetcode",
           "problemId": "rotting-oranges",
-          "solved": false,
+          "solved": true,
           "countsAsNew": true
         },
         {
@@ -2433,7 +2433,7 @@
           "url": "https://school.programmers.co.kr/learn/courses/30/lessons/43163",
           "platform": "programmers",
           "problemId": "43163",
-          "solved": false,
+          "solved": true,
           "countsAsNew": true
         }
       ],
@@ -2446,7 +2446,7 @@
             "problemId": "01-matrix",
             "title": "01 Matrix",
             "url": "https://leetcode.com/problems/01-matrix/",
-            "solved": false
+            "solved": true
           },
           {
             "key": "leetcode:as-far-from-land-as-possible",
@@ -2454,7 +2454,7 @@
             "problemId": "as-far-from-land-as-possible",
             "title": "As Far From Land As Possible",
             "url": "https://leetcode.com/problems/as-far-from-land-as-possible/",
-            "solved": false
+            "solved": true
           },
           {
             "key": "leetcode:map-of-highest-peak",
@@ -2462,22 +2462,22 @@
             "problemId": "map-of-highest-peak",
             "title": "Map Of Highest Peak",
             "url": "https://leetcode.com/problems/map-of-highest-peak/",
-            "solved": false
+            "solved": true
           }
         ],
-        "solved": 0,
-        "credited": 0,
-        "complete": false
+        "solved": 3,
+        "credited": 2,
+        "complete": true
       },
-      "requiredSolved": 0,
-      "newSolved": 0,
-      "creditedNewSolved": 0,
+      "requiredSolved": 2,
+      "newSolved": 5,
+      "creditedNewSolved": 4,
       "reviewAttempts": 0,
       "reviewSolved": 0,
-      "done": 0,
+      "done": 4,
       "total": 4,
-      "percent": 0,
-      "complete": false,
+      "percent": 100,
+      "complete": true,
       "manualComplete": false,
       "completionBasis": "objective"
     },
@@ -4613,10 +4613,10 @@
     },
     {
       "week": 6,
-      "done": 11,
+      "done": 15,
       "total": 30,
-      "percent": 36.67,
-      "completedDays": 2,
+      "percent": 50,
+      "completedDays": 3,
       "totalDays": 7,
       "complete": false
     },
@@ -4676,10 +4676,10 @@
     }
   ],
   "overall": {
-    "done": 127,
+    "done": 131,
     "total": 283,
-    "percent": 44.88,
-    "completedDays": 32,
+    "percent": 46.29,
+    "completedDays": 33,
     "totalDays": 84,
     "complete": false,
     "completedWeeks": 2,
@@ -6751,6 +6751,66 @@
       "result": "accepted",
       "usedHint": true,
       "key": "leetcode:shortest-bridge"
+    },
+    {
+      "id": "2026-10-24-leetcode-rotting-oranges-first",
+      "date": "2026-10-24",
+      "week": 6,
+      "day": 5,
+      "url": "https://leetcode.com/problems/rotting-oranges/",
+      "code": "solutions/leetcode/rotting-oranges.cpp",
+      "kind": "solve",
+      "result": "accepted",
+      "usedHint": true,
+      "key": "leetcode:rotting-oranges"
+    },
+    {
+      "id": "2026-10-24-programmers-43163-first",
+      "date": "2026-10-24",
+      "week": 6,
+      "day": 5,
+      "url": "https://school.programmers.co.kr/learn/courses/30/lessons/43163",
+      "code": "solutions/programmers/43163.cpp",
+      "kind": "solve",
+      "result": "accepted",
+      "usedHint": true,
+      "key": "programmers:43163"
+    },
+    {
+      "id": "2026-10-24-leetcode-01-matrix-first",
+      "date": "2026-10-24",
+      "week": 6,
+      "day": 5,
+      "url": "https://leetcode.com/problems/01-matrix/",
+      "code": "solutions/leetcode/01-matrix.cpp",
+      "kind": "solve",
+      "result": "accepted",
+      "usedHint": true,
+      "key": "leetcode:01-matrix"
+    },
+    {
+      "id": "2026-10-24-leetcode-as-far-from-land-as-possible-first",
+      "date": "2026-10-24",
+      "week": 6,
+      "day": 5,
+      "url": "https://leetcode.com/problems/as-far-from-land-as-possible/",
+      "code": "solutions/leetcode/as-far-from-land-as-possible.cpp",
+      "kind": "solve",
+      "result": "accepted",
+      "usedHint": false,
+      "key": "leetcode:as-far-from-land-as-possible"
+    },
+    {
+      "id": "2026-10-24-leetcode-map-of-highest-peak-first",
+      "date": "2026-10-24",
+      "week": 6,
+      "day": 5,
+      "url": "https://leetcode.com/problems/map-of-highest-peak/",
+      "code": "solutions/leetcode/map-of-highest-peak.cpp",
+      "kind": "solve",
+      "result": "accepted",
+      "usedHint": false,
+      "key": "leetcode:map-of-highest-peak"
     }
   ],
   "evidence": {
@@ -6854,12 +6914,20 @@
       "code": "solutions/cses/2165.cpp",
       "evidence": "사용자 정답 확인"
     },
+    "leetcode:01-matrix": {
+      "code": "solutions/leetcode/01-matrix.cpp",
+      "evidence": "사용자 정답 확인"
+    },
     "leetcode:add-digits": {
       "code": "solutions/reviews/week-4-day-7/leetcode/add-digits-e5298748-eac2-4a4d-8461-48e39ef222c7.cpp",
       "evidence": "사용자 정답 확인"
     },
     "leetcode:all-paths-from-source-to-target": {
       "code": "solutions/leetcode/all-paths-from-source-to-target.cpp",
+      "evidence": "사용자 정답 확인"
+    },
+    "leetcode:as-far-from-land-as-possible": {
+      "code": "solutions/leetcode/as-far-from-land-as-possible.cpp",
       "evidence": "사용자 정답 확인"
     },
     "leetcode:assign-cookies": {
@@ -7014,6 +7082,10 @@
       "code": "solutions/leetcode/longest-substring-without-repeating-characters.cpp",
       "evidence": "사용자 정답 확인"
     },
+    "leetcode:map-of-highest-peak": {
+      "code": "solutions/leetcode/map-of-highest-peak.cpp",
+      "evidence": "사용자 정답 확인"
+    },
     "leetcode:matrix-block-sum": {
       "code": "solutions/leetcode/matrix-block-sum.cpp",
       "evidence": "사용자 정답 확인"
@@ -7116,6 +7188,10 @@
     },
     "leetcode:roman-to-integer": {
       "code": "solutions/leetcode/roman-to-integer.cpp",
+      "evidence": "사용자 정답 확인"
+    },
+    "leetcode:rotting-oranges": {
+      "code": "solutions/leetcode/rotting-oranges.cpp",
       "evidence": "사용자 정답 확인"
     },
     "leetcode:running-sum-of-1d-array": {
@@ -7252,6 +7328,10 @@
     },
     "programmers:42885": {
       "code": "solutions/reviews/week-5-day-7/programmers/42885-95035737-bc7a-4a1d-8cf6-62f6beb5c69a.cpp",
+      "evidence": "사용자 정답 확인"
+    },
+    "programmers:43163": {
+      "code": "solutions/programmers/43163.cpp",
       "evidence": "사용자 정답 확인"
     },
     "programmers:43238": {
