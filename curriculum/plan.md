@@ -234,7 +234,7 @@ C++ 기본 문법을 공부했고, OOP·상속·SOLID와 스택 등 자료구조
 | [x] | 2 | 격자 좌표·경계 검사·Flood Fill | [CSES · Counting Rooms](https://cses.fi/problemset/task/1192/) · [LeetCode · Number of Islands](https://leetcode.com/problems/number-of-islands/) · [후보 3개 중 2개 해결](pools.md#week-6-day-2) | 4 | 0 |
 | [ ] | 3 | BFS 거리 배열·큐에 넣을 때 방문 처리 | [CSES · Message Route](https://cses.fi/problemset/task/1667/) · [프로그래머스 · 게임 맵 최단거리](https://school.programmers.co.kr/learn/courses/30/lessons/1844) · [후보 3개 중 2개 해결](pools.md#week-6-day-3) | 4 | 0 |
 | [x] | 4 | 부모 기록·경로 복원 | [CSES · Labyrinth](https://cses.fi/problemset/task/1193/) · [LeetCode · Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix/) · [후보 3개 중 2개 해결](pools.md#week-6-day-4) | 4 | 0 |
-| [ ] | 5 | 여러 시작점 BFS·상태를 정점으로 모델링 | [LeetCode · Rotting Oranges](https://leetcode.com/problems/rotting-oranges/) · [프로그래머스 · 단어 변환](https://school.programmers.co.kr/learn/courses/30/lessons/43163) · [후보 3개 중 2개 해결](pools.md#week-6-day-5) | 4 | 0 |
+| [x] | 5 | 여러 시작점 BFS·상태를 정점으로 모델링 | [LeetCode · Rotting Oranges](https://leetcode.com/problems/rotting-oranges/) · [프로그래머스 · 단어 변환](https://school.programmers.co.kr/learn/courses/30/lessons/43163) · [후보 3개 중 2개 해결](pools.md#week-6-day-5) | 4 | 0 |
 | [ ] | 6 | 이분 그래프·상태 탐색 응용 | [CSES · Building Teams](https://cses.fi/problemset/task/1668/) · [프로그래머스 · 타겟 넘버](https://school.programmers.co.kr/learn/courses/30/lessons/43165) · [후보 3개 중 2개 해결](pools.md#week-6-day-6) | 4 | 0 |
 | [ ] | 7 | 핵심 4개·어려웠던 2개 복습·주간 점검 | 아래 주차별 핵심 4개 + 해당 주차 어려웠던 2개. 기존 코드·해설 없이 다시 풀기 | 0 | 6 |
 
