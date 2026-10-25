@@ -1681,5 +1681,49 @@
     "kind": "solve",
     "result": "accepted",
     "usedHint": false
+  },
+  {
+    "id": "2026-10-25-cses-1668-first",
+    "date": "2026-10-25",
+    "week": 6,
+    "day": 6,
+    "url": "https://cses.fi/problemset/task/1668/",
+    "code": "solutions/cses/1668.cpp",
+    "kind": "solve",
+    "result": "accepted",
+    "usedHint": true
+  },
+  {
+    "id": "2026-10-25-programmers-43165-first",
+    "date": "2026-10-25",
+    "week": 6,
+    "day": 6,
+    "url": "https://school.programmers.co.kr/learn/courses/30/lessons/43165",
+    "code": "solutions/programmers/43165.cpp",
+    "kind": "solve",
+    "result": "accepted",
+    "usedHint": false
+  },
+  {
+    "id": "2026-10-25-leetcode-possible-bipartition-first",
+    "date": "2026-10-25",
+    "week": 6,
+    "day": 6,
+    "url": "https://leetcode.com/problems/possible-bipartition/",
+    "code": "solutions/leetcode/possible-bipartition.cpp",
+    "kind": "solve",
+    "result": "accepted",
+    "usedHint": true
+  },
+  {
+    "id": "2026-10-25-leetcode-jump-game-iii-first",
+    "date": "2026-10-25",
+    "week": 6,
+    "day": 6,
+    "url": "https://leetcode.com/problems/jump-game-iii/",
+    "code": "solutions/leetcode/jump-game-iii.cpp",
+    "kind": "solve",
+    "result": "accepted",
+    "usedHint": false
   }
 ]
