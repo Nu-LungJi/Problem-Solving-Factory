@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "repository": "Nu-LungJi/Problem-Solving-Factory",
-  "accepted": 132,
+  "accepted": 136,
   "registered": 254,
   "target": 208,
   "days": [
@@ -2495,7 +2495,7 @@
           "url": "https://cses.fi/problemset/task/1668/",
           "platform": "cses",
           "problemId": "1668",
-          "solved": false,
+          "solved": true,
           "countsAsNew": true
         },
         {
@@ -2504,7 +2504,7 @@
           "url": "https://school.programmers.co.kr/learn/courses/30/lessons/43165",
           "platform": "programmers",
           "problemId": "43165",
-          "solved": false,
+          "solved": true,
           "countsAsNew": true
         }
       ],
@@ -2525,7 +2525,7 @@
             "problemId": "possible-bipartition",
             "title": "Possible Bipartition",
             "url": "https://leetcode.com/problems/possible-bipartition/",
-            "solved": false
+            "solved": true
           },
           {
             "key": "leetcode:jump-game-iii",
@@ -2533,22 +2533,22 @@
             "problemId": "jump-game-iii",
             "title": "Jump Game Iii",
             "url": "https://leetcode.com/problems/jump-game-iii/",
-            "solved": false
+            "solved": true
           }
         ],
-        "solved": 0,
-        "credited": 0,
-        "complete": false
+        "solved": 2,
+        "credited": 2,
+        "complete": true
       },
-      "requiredSolved": 0,
-      "newSolved": 0,
-      "creditedNewSolved": 0,
+      "requiredSolved": 2,
+      "newSolved": 4,
+      "creditedNewSolved": 4,
       "reviewAttempts": 0,
       "reviewSolved": 0,
-      "done": 0,
+      "done": 4,
       "total": 4,
-      "percent": 0,
-      "complete": false,
+      "percent": 100,
+      "complete": true,
       "manualComplete": false,
       "completionBasis": "objective"
     },
@@ -4613,10 +4613,10 @@
     },
     {
       "week": 6,
-      "done": 15,
+      "done": 19,
       "total": 30,
-      "percent": 50,
-      "completedDays": 3,
+      "percent": 63.33,
+      "completedDays": 4,
       "totalDays": 7,
       "complete": false
     },
@@ -4676,10 +4676,10 @@
     }
   ],
   "overall": {
-    "done": 131,
+    "done": 135,
     "total": 283,
-    "percent": 46.29,
-    "completedDays": 33,
+    "percent": 47.7,
+    "completedDays": 34,
     "totalDays": 84,
     "complete": false,
     "completedWeeks": 2,
@@ -6811,6 +6811,54 @@
       "result": "accepted",
       "usedHint": false,
       "key": "leetcode:map-of-highest-peak"
+    },
+    {
+      "id": "2026-10-25-cses-1668-first",
+      "date": "2026-10-25",
+      "week": 6,
+      "day": 6,
+      "url": "https://cses.fi/problemset/task/1668/",
+      "code": "solutions/cses/1668.cpp",
+      "kind": "solve",
+      "result": "accepted",
+      "usedHint": true,
+      "key": "cses:1668"
+    },
+    {
+      "id": "2026-10-25-programmers-43165-first",
+      "date": "2026-10-25",
+      "week": 6,
+      "day": 6,
+      "url": "https://school.programmers.co.kr/learn/courses/30/lessons/43165",
+      "code": "solutions/programmers/43165.cpp",
+      "kind": "solve",
+      "result": "accepted",
+      "usedHint": false,
+      "key": "programmers:43165"
+    },
+    {
+      "id": "2026-10-25-leetcode-possible-bipartition-first",
+      "date": "2026-10-25",
+      "week": 6,
+      "day": 6,
+      "url": "https://leetcode.com/problems/possible-bipartition/",
+      "code": "solutions/leetcode/possible-bipartition.cpp",
+      "kind": "solve",
+      "result": "accepted",
+      "usedHint": true,
+      "key": "leetcode:possible-bipartition"
+    },
+    {
+      "id": "2026-10-25-leetcode-jump-game-iii-first",
+      "date": "2026-10-25",
+      "week": 6,
+      "day": 6,
+      "url": "https://leetcode.com/problems/jump-game-iii/",
+      "code": "solutions/leetcode/jump-game-iii.cpp",
+      "kind": "solve",
+      "result": "accepted",
+      "usedHint": false,
+      "key": "leetcode:jump-game-iii"
     }
   ],
   "evidence": {
@@ -6904,6 +6952,10 @@
     },
     "cses:1666": {
       "code": "solutions/cses/1666.cpp",
+      "evidence": "사용자 정답 확인"
+    },
+    "cses:1668": {
+      "code": "solutions/cses/1668.cpp",
       "evidence": "사용자 정답 확인"
     },
     "cses:2162": {
@@ -7046,6 +7098,10 @@
       "code": "solutions/leetcode/isomorphic-strings.cpp",
       "evidence": "사용자 정답 확인"
     },
+    "leetcode:jump-game-iii": {
+      "code": "solutions/leetcode/jump-game-iii.cpp",
+      "evidence": "사용자 정답 확인"
+    },
     "leetcode:keys-and-rooms": {
       "code": "solutions/leetcode/keys-and-rooms.cpp",
       "evidence": "사용자 정답 확인"
@@ -7156,6 +7212,10 @@
     },
     "leetcode:plus-one": {
       "code": "solutions/leetcode/plus-one.cpp",
+      "evidence": "사용자 정답 확인"
+    },
+    "leetcode:possible-bipartition": {
+      "code": "solutions/leetcode/possible-bipartition.cpp",
       "evidence": "사용자 정답 확인"
     },
     "leetcode:powx-n": {
@@ -7332,6 +7392,10 @@
     },
     "programmers:43163": {
       "code": "solutions/programmers/43163.cpp",
+      "evidence": "사용자 정답 확인"
+    },
+    "programmers:43165": {
+      "code": "solutions/programmers/43165.cpp",
       "evidence": "사용자 정답 확인"
     },
     "programmers:43238": {
