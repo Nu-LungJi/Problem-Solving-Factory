@@ -2570,11 +2570,11 @@
       "requiredSolved": 0,
       "newSolved": 0,
       "creditedNewSolved": 0,
-      "reviewAttempts": 0,
-      "reviewSolved": 0,
-      "done": 0,
+      "reviewAttempts": 1,
+      "reviewSolved": 1,
+      "done": 1,
       "total": 6,
-      "percent": 0,
+      "percent": 16.67,
       "complete": false,
       "manualComplete": false,
       "completionBasis": "objective"
@@ -4613,9 +4613,9 @@
     },
     {
       "week": 6,
-      "done": 21,
+      "done": 22,
       "total": 30,
-      "percent": 70,
+      "percent": 73.33,
       "completedDays": 5,
       "totalDays": 7,
       "complete": false
@@ -4676,9 +4676,9 @@
     }
   ],
   "overall": {
-    "done": 137,
+    "done": 138,
     "total": 283,
-    "percent": 48.41,
+    "percent": 48.76,
     "completedDays": 35,
     "totalDays": 84,
     "complete": false,
@@ -4973,6 +4973,18 @@
       "result": "accepted",
       "usedHint": true,
       "key": "cses:1630"
+    },
+    {
+      "id": "2026-10-26-programmers-43162-review-8a9fcef2-bbcf-4df5-aa36-10c71657f92d",
+      "date": "2026-10-26",
+      "week": 6,
+      "day": 7,
+      "url": "https://school.programmers.co.kr/learn/courses/30/lessons/43162",
+      "code": "solutions/reviews/week-6-day-7/programmers/43162-8a9fcef2-bbcf-4df5-aa36-10c71657f92d.cpp",
+      "kind": "review",
+      "result": "accepted",
+      "usedHint": true,
+      "key": "programmers:43162"
     }
   ],
   "studyRecords": [
@@ -6859,6 +6871,18 @@
       "result": "accepted",
       "usedHint": false,
       "key": "leetcode:jump-game-iii"
+    },
+    {
+      "id": "2026-10-26-programmers-43162-review-8a9fcef2-bbcf-4df5-aa36-10c71657f92d",
+      "date": "2026-10-26",
+      "week": 6,
+      "day": 7,
+      "url": "https://school.programmers.co.kr/learn/courses/30/lessons/43162",
+      "code": "solutions/reviews/week-6-day-7/programmers/43162-8a9fcef2-bbcf-4df5-aa36-10c71657f92d.cpp",
+      "kind": "review",
+      "result": "accepted",
+      "usedHint": true,
+      "key": "programmers:43162"
     }
   ],
   "evidence": {
@@ -7395,8 +7419,8 @@
       "evidence": "사용자 정답 확인"
     },
     "programmers:43162": {
-      "code": "C++/프로그래머스/3/43162. 네트워크/네트워크.cpp",
-      "evidence": "BaekjoonHub 형식의 업로드"
+      "code": "solutions/reviews/week-6-day-7/programmers/43162-8a9fcef2-bbcf-4df5-aa36-10c71657f92d.cpp",
+      "evidence": "사용자 정답 확인"
     },
     "programmers:43163": {
       "code": "solutions/programmers/43163.cpp",
