@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "repository": "Nu-LungJi/Problem-Solving-Factory",
-  "accepted": 136,
+  "accepted": 137,
   "registered": 254,
   "target": 208,
   "days": [
@@ -2291,7 +2291,7 @@
           "url": "https://school.programmers.co.kr/learn/courses/30/lessons/1844",
           "platform": "programmers",
           "problemId": "1844",
-          "solved": false,
+          "solved": true,
           "countsAsNew": true
         }
       ],
@@ -2327,14 +2327,14 @@
         "credited": 0,
         "complete": false
       },
-      "requiredSolved": 0,
-      "newSolved": 0,
-      "creditedNewSolved": 0,
+      "requiredSolved": 1,
+      "newSolved": 1,
+      "creditedNewSolved": 1,
       "reviewAttempts": 0,
       "reviewSolved": 0,
-      "done": 0,
+      "done": 1,
       "total": 4,
-      "percent": 0,
+      "percent": 25,
       "complete": false,
       "manualComplete": false,
       "completionBasis": "objective"
@@ -4613,9 +4613,9 @@
     },
     {
       "week": 6,
-      "done": 19,
+      "done": 20,
       "total": 30,
-      "percent": 63.33,
+      "percent": 66.67,
       "completedDays": 4,
       "totalDays": 7,
       "complete": false
@@ -4676,9 +4676,9 @@
     }
   ],
   "overall": {
-    "done": 135,
+    "done": 136,
     "total": 283,
-    "percent": 47.7,
+    "percent": 48.06,
     "completedDays": 34,
     "totalDays": 84,
     "complete": false,
@@ -7349,6 +7349,10 @@
     "programmers:12935": {
       "code": "solutions/programmers/12935.cpp",
       "evidence": "사용자 정답 확인"
+    },
+    "programmers:1844": {
+      "code": "C++/프로그래머스/2/1844. 게임 맵 최단거리/게임 맵 최단거리.cpp",
+      "evidence": "BaekjoonHub 형식의 업로드"
     },
     "programmers:42576": {
       "code": "solutions/programmers/42576.cpp",

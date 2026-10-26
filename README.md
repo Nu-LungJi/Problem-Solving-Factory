@@ -2,11 +2,11 @@
 
 [전체 커리큘럼](https://github.com/Nu-LungJi/Problem-Solving-Factory/blob/main/curriculum/plan.md) · [수동 기록 방법](https://github.com/Nu-LungJi/Problem-Solving-Factory/blob/main/curriculum/README.md)
 
-**등록 문제 해결: 136/254** · 신규 학습 목표: 208문제
+**등록 문제 해결: 137/254** · 신규 학습 목표: 208문제
 
 필수 144문제와 Day별 후보 풀에서 선택하는 64문제를 합쳐 신규 목표는 208문제입니다. 후보를 전부 풀 필요는 없습니다. 후보 밖의 기존 수동 기록은 보존하지만 목표를 대체하지 않습니다. 업로드는 독립 해결·학습 완료의 증명이 아닙니다. BaekjoonHub 형식은 업로드 관례를 신뢰하며 온라인 저지에 재조회하지 않습니다. Day·Week 객관적 풀이 목표는 자동 계산하며 개념·오답 정리 체크는 원본 커리큘럼에서 직접 관리합니다.
 
-**전체 목표 진도: 135/283 (47.7%)** · 완료 Day 34/84 · Week 2/12
+**전체 목표 진도: 136/283 (48.06%)** · 완료 Day 34/84 · Week 2/12
 
 | Week | 목표 진도 | 완료 Day | 등록 문제 해결 | 신규 목표 | 재풀이 시도 / 목표 | 상태 |
 |:---:|---:|:---:|---:|---:|---:|:---:|
@@ -15,7 +15,7 @@
 | 3 | 13/24 (54.17%) | 4/7 | 17/24 | 18 | 0/6 | 미완료 |
 | 4 | 24/24 (100%) | 7/7 | 23/24 | 18 | 6/6 | ✅ |
 | 5 | 24/24 (100%) | 7/7 | 22/24 | 18 | 6/6 | ✅ |
-| 6 | 19/30 (63.33%) | 4/7 | 21/30 | 24 | 0/6 | 미완료 |
+| 6 | 20/30 (66.67%) | 4/7 | 22/30 | 24 | 0/6 | 미완료 |
 | 7 | 0/20 (0%) | 0/7 | 0/16 | 14 | 0/6 | 미완료 |
 | 8 | 0/20 (0%) | 0/7 | 0/16 | 14 | 0/6 | 미완료 |
 | 9 | 0/24 (0%) | 0/7 | 0/24 | 18 | 0/6 | 미완료 |
@@ -630,7 +630,7 @@
 </details>
 
 <details>
-<summary><strong>Day 3</strong> · ⬜ 미완료 · 0/5</summary>
+<summary><strong>Day 3</strong> · ⬜ 미완료 · 1/5</summary>
 
 | 신규 목표 | 재풀이 목표 | 추가 후보 조건 | 후보 해결 / 목표 반영 |
 |:---:|:---:|:---:|:---:|
@@ -639,7 +639,7 @@
 | 상태 | 구분 | 플랫폼 | 문제 | 풀이 / 기록 |
 |:---:|:---:|:---:|---|---|
 | ⬜ | 필수 | CSES | [Message Route](https://cses.fi/problemset/task/1667/) | — |
-| ⬜ | 필수 | Programmers | [게임 맵 최단거리](https://school.programmers.co.kr/learn/courses/30/lessons/1844) | — |
+| ✅ | 필수 | Programmers | [게임 맵 최단거리](https://school.programmers.co.kr/learn/courses/30/lessons/1844) | [C++ 풀이](https://github.com/Nu-LungJi/Problem-Solving-Factory/blob/main/C%2B%2B/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/2/1844.%E2%80%85%EA%B2%8C%EC%9E%84%E2%80%85%EB%A7%B5%E2%80%85%EC%B5%9C%EB%8B%A8%EA%B1%B0%EB%A6%AC/%EA%B2%8C%EC%9E%84%E2%80%85%EB%A7%B5%E2%80%85%EC%B5%9C%EB%8B%A8%EA%B1%B0%EB%A6%AC.cpp) · BaekjoonHub 형식의 업로드 |
 | ⬜ | 후보 | LeetCode | [Nearest Exit From Entrance In Maze](https://leetcode.com/problems/nearest-exit-from-entrance-in-maze/) | leetcode:nearest-exit-from-entrance-in-maze |
 | ⬜ | 후보 | LeetCode | [Open The Lock](https://leetcode.com/problems/open-the-lock/) | leetcode:open-the-lock |
 | ⬜ | 후보 | LeetCode | [Minimum Genetic Mutation](https://leetcode.com/problems/minimum-genetic-mutation/) | leetcode:minimum-genetic-mutation |
