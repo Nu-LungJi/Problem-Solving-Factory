@@ -1725,5 +1725,16 @@
     "kind": "solve",
     "result": "accepted",
     "usedHint": false
+  },
+  {
+    "id": "2026-10-26-programmers-43162-review-8a9fcef2-bbcf-4df5-aa36-10c71657f92d",
+    "date": "2026-10-26",
+    "week": 6,
+    "day": 7,
+    "url": "https://school.programmers.co.kr/learn/courses/30/lessons/43162",
+    "code": "solutions/reviews/week-6-day-7/programmers/43162-8a9fcef2-bbcf-4df5-aa36-10c71657f92d.cpp",
+    "kind": "review",
+    "result": "accepted",
+    "usedHint": true
   }
 ]
