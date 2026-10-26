@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "repository": "Nu-LungJi/Problem-Solving-Factory",
-  "accepted": 137,
+  "accepted": 138,
   "registered": 254,
   "target": 208,
   "days": [
@@ -2149,7 +2149,7 @@
           "url": "https://school.programmers.co.kr/learn/courses/30/lessons/43162",
           "platform": "programmers",
           "problemId": "43162",
-          "solved": false,
+          "solved": true,
           "countsAsNew": true
         }
       ],
@@ -2185,15 +2185,15 @@
         "credited": 2,
         "complete": true
       },
-      "requiredSolved": 1,
-      "newSolved": 4,
-      "creditedNewSolved": 3,
+      "requiredSolved": 2,
+      "newSolved": 5,
+      "creditedNewSolved": 4,
       "reviewAttempts": 0,
       "reviewSolved": 0,
-      "done": 3,
+      "done": 4,
       "total": 4,
-      "percent": 75,
-      "complete": false,
+      "percent": 100,
+      "complete": true,
       "manualComplete": false,
       "completionBasis": "objective"
     },
@@ -4613,10 +4613,10 @@
     },
     {
       "week": 6,
-      "done": 20,
+      "done": 21,
       "total": 30,
-      "percent": 66.67,
-      "completedDays": 4,
+      "percent": 70,
+      "completedDays": 5,
       "totalDays": 7,
       "complete": false
     },
@@ -4676,10 +4676,10 @@
     }
   ],
   "overall": {
-    "done": 136,
+    "done": 137,
     "total": 283,
-    "percent": 48.06,
-    "completedDays": 34,
+    "percent": 48.41,
+    "completedDays": 35,
     "totalDays": 84,
     "complete": false,
     "completedWeeks": 2,
@@ -7393,6 +7393,10 @@
     "programmers:42885": {
       "code": "solutions/reviews/week-5-day-7/programmers/42885-95035737-bc7a-4a1d-8cf6-62f6beb5c69a.cpp",
       "evidence": "사용자 정답 확인"
+    },
+    "programmers:43162": {
+      "code": "C++/프로그래머스/3/43162. 네트워크/네트워크.cpp",
+      "evidence": "BaekjoonHub 형식의 업로드"
     },
     "programmers:43163": {
       "code": "solutions/programmers/43163.cpp",
