@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "repository": "Nu-LungJi/Problem-Solving-Factory",
-  "accepted": 138,
+  "accepted": 139,
   "registered": 254,
   "target": 208,
   "days": [
@@ -2593,7 +2593,7 @@
           "url": "https://leetcode.com/problems/maximum-depth-of-binary-tree/",
           "platform": "leetcode",
           "problemId": "maximum-depth-of-binary-tree",
-          "solved": false,
+          "solved": true,
           "countsAsNew": true
         },
         {
@@ -2613,14 +2613,14 @@
         "credited": 0,
         "complete": true
       },
-      "requiredSolved": 0,
-      "newSolved": 0,
-      "creditedNewSolved": 0,
+      "requiredSolved": 1,
+      "newSolved": 1,
+      "creditedNewSolved": 1,
       "reviewAttempts": 0,
       "reviewSolved": 0,
-      "done": 0,
+      "done": 1,
       "total": 2,
-      "percent": 0,
+      "percent": 50,
       "complete": false,
       "manualComplete": false,
       "completionBasis": "objective"
@@ -4622,9 +4622,9 @@
     },
     {
       "week": 7,
-      "done": 0,
+      "done": 1,
       "total": 20,
-      "percent": 0,
+      "percent": 5,
       "completedDays": 0,
       "totalDays": 7,
       "complete": false
@@ -4676,9 +4676,9 @@
     }
   ],
   "overall": {
-    "done": 138,
+    "done": 139,
     "total": 283,
-    "percent": 48.76,
+    "percent": 49.12,
     "completedDays": 35,
     "totalDays": 84,
     "complete": false,
@@ -6883,6 +6883,18 @@
       "result": "accepted",
       "usedHint": true,
       "key": "programmers:43162"
+    },
+    {
+      "id": "2026-10-27-leetcode-maximum-depth-of-binary-tree-first",
+      "date": "2026-10-27",
+      "week": 7,
+      "day": 1,
+      "url": "https://leetcode.com/problems/maximum-depth-of-binary-tree/",
+      "code": "solutions/leetcode/maximum-depth-of-binary-tree.cpp",
+      "kind": "solve",
+      "result": "accepted",
+      "usedHint": false,
+      "key": "leetcode:maximum-depth-of-binary-tree"
     }
   ],
   "evidence": {
@@ -7176,6 +7188,10 @@
     },
     "leetcode:maximum-average-subarray-i": {
       "code": "solutions/leetcode/maximum-average-subarray-i.cpp",
+      "evidence": "사용자 정답 확인"
+    },
+    "leetcode:maximum-depth-of-binary-tree": {
+      "code": "solutions/leetcode/maximum-depth-of-binary-tree.cpp",
       "evidence": "사용자 정답 확인"
     },
     "leetcode:maximum-subarray": {
