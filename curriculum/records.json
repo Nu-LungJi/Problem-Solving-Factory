@@ -1747,5 +1747,71 @@
     "kind": "solve",
     "result": "accepted",
     "usedHint": false
+  },
+  {
+    "id": "2026-10-26-cses-1668-review-8a9fcef2-bbcf-4df5-aa36-10c71657f92d",
+    "date": "2026-10-26",
+    "week": 6,
+    "day": 7,
+    "url": "https://cses.fi/problemset/task/1668/",
+    "code": "solutions/reviews/week-6-day-7/cses/1668-8a9fcef2-bbcf-4df5-aa36-10c71657f92d.cpp",
+    "kind": "review",
+    "result": "accepted",
+    "usedHint": true
+  },
+  {
+    "id": "2026-10-26-leetcode-number-of-islands-review-8a9fcef2-bbcf-4df5-aa36-10c71657f92d",
+    "date": "2026-10-26",
+    "week": 6,
+    "day": 7,
+    "url": "https://leetcode.com/problems/number-of-islands/",
+    "code": "solutions/reviews/week-6-day-7/leetcode/number-of-islands-8a9fcef2-bbcf-4df5-aa36-10c71657f92d.cpp",
+    "kind": "review",
+    "result": "accepted",
+    "usedHint": true
+  },
+  {
+    "id": "2026-10-26-programmers-1844-review-8a9fcef2-bbcf-4df5-aa36-10c71657f92d",
+    "date": "2026-10-26",
+    "week": 6,
+    "day": 7,
+    "url": "https://school.programmers.co.kr/learn/courses/30/lessons/1844",
+    "code": "solutions/reviews/week-6-day-7/programmers/1844-8a9fcef2-bbcf-4df5-aa36-10c71657f92d.cpp",
+    "kind": "review",
+    "result": "accepted",
+    "usedHint": true
+  },
+  {
+    "id": "2026-10-26-programmers-43163-review-8a9fcef2-bbcf-4df5-aa36-10c71657f92d",
+    "date": "2026-10-26",
+    "week": 6,
+    "day": 7,
+    "url": "https://school.programmers.co.kr/learn/courses/30/lessons/43163",
+    "code": "solutions/reviews/week-6-day-7/programmers/43163-8a9fcef2-bbcf-4df5-aa36-10c71657f92d.cpp",
+    "kind": "review",
+    "result": "accepted",
+    "usedHint": true
+  },
+  {
+    "id": "2026-10-26-leetcode-rotting-oranges-review-8a9fcef2-bbcf-4df5-aa36-10c71657f92d",
+    "date": "2026-10-26",
+    "week": 6,
+    "day": 7,
+    "url": "https://leetcode.com/problems/rotting-oranges/",
+    "code": "solutions/reviews/week-6-day-7/leetcode/rotting-oranges-8a9fcef2-bbcf-4df5-aa36-10c71657f92d.cpp",
+    "kind": "review",
+    "result": "accepted",
+    "usedHint": true
+  },
+  {
+    "id": "2026-10-27-leetcode-invert-binary-tree-first",
+    "date": "2026-10-27",
+    "week": 7,
+    "day": 1,
+    "url": "https://leetcode.com/problems/invert-binary-tree/",
+    "code": "solutions/leetcode/invert-binary-tree.cpp",
+    "kind": "solve",
+    "result": "accepted",
+    "usedHint": true
   }
 ]
