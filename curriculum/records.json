@@ -1736,5 +1736,16 @@
     "kind": "review",
     "result": "accepted",
     "usedHint": true
+  },
+  {
+    "id": "2026-10-27-leetcode-maximum-depth-of-binary-tree-first",
+    "date": "2026-10-27",
+    "week": 7,
+    "day": 1,
+    "url": "https://leetcode.com/problems/maximum-depth-of-binary-tree/",
+    "code": "solutions/leetcode/maximum-depth-of-binary-tree.cpp",
+    "kind": "solve",
+    "result": "accepted",
+    "usedHint": false
   }
 ]
