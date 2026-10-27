@@ -236,7 +236,7 @@ C++ 기본 문법을 공부했고, OOP·상속·SOLID와 스택 등 자료구조
 | [x] | 4 | 부모 기록·경로 복원 | [CSES · Labyrinth](https://cses.fi/problemset/task/1193/) · [LeetCode · Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix/) · [후보 3개 중 2개 해결](pools.md#week-6-day-4) | 4 | 0 |
 | [x] | 5 | 여러 시작점 BFS·상태를 정점으로 모델링 | [LeetCode · Rotting Oranges](https://leetcode.com/problems/rotting-oranges/) · [프로그래머스 · 단어 변환](https://school.programmers.co.kr/learn/courses/30/lessons/43163) · [후보 3개 중 2개 해결](pools.md#week-6-day-5) | 4 | 0 |
 | [x] | 6 | 이분 그래프·상태 탐색 응용 | [CSES · Building Teams](https://cses.fi/problemset/task/1668/) · [프로그래머스 · 타겟 넘버](https://school.programmers.co.kr/learn/courses/30/lessons/43165) · [후보 3개 중 2개 해결](pools.md#week-6-day-6) | 4 | 0 |
-| [ ] | 7 | 핵심 4개·어려웠던 2개 복습·주간 점검 | 아래 주차별 핵심 4개 + 해당 주차 어려웠던 2개. 기존 코드·해설 없이 다시 풀기 | 0 | 6 |
+| [x] | 7 | 핵심 4개·어려웠던 2개 복습·주간 점검 | 아래 주차별 핵심 4개 + 해당 주차 어려웠던 2개. 기존 코드·해설 없이 다시 풀기 | 0 | 6 |
 
 **완료 체크리스트**
 
@@ -257,7 +257,7 @@ C++ 기본 문법을 공부했고, OOP·상속·SOLID와 스택 등 자료구조
 
 | 완료 | Day | Daily 목표 | 지정 문제·실행 내용 | 신규 | 재풀이 |
 |---|---|---|---|---:|---:|
-| [ ] | 1 | 루트·부모·깊이·트리 순회 | [LeetCode · Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) · [LeetCode · Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | 2 | 0 |
+| [x] | 1 | 루트·부모·깊이·트리 순회 | [LeetCode · Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) · [LeetCode · Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | 2 | 0 |
 | [ ] | 2 | 서브트리 집계·후위 순회 | [CSES · Subordinates](https://cses.fi/problemset/task/1674/) · [LeetCode · Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/) | 2 | 0 |
 | [ ] | 3 | 트리 지름·두 번 탐색의 원리 | [CSES · Tree Diameter](https://cses.fi/problemset/task/1131/) · [LeetCode · Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) | 2 | 0 |
 | [ ] | 4 | DSU 경로 압축·크기 기준 병합 | [CSES · Road Construction](https://cses.fi/problemset/task/1676/) · [LeetCode · Redundant Connection](https://leetcode.com/problems/redundant-connection/) | 2 | 0 |
