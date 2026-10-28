@@ -1813,5 +1813,27 @@
     "kind": "solve",
     "result": "accepted",
     "usedHint": true
+  },
+  {
+    "id": "2026-10-28-cses-1674-first",
+    "date": "2026-10-28",
+    "week": 7,
+    "day": 2,
+    "url": "https://cses.fi/problemset/task/1674/",
+    "code": "solutions/cses/1674.cpp",
+    "kind": "solve",
+    "result": "accepted",
+    "usedHint": true
+  },
+  {
+    "id": "2026-10-28-leetcode-balanced-binary-tree-first",
+    "date": "2026-10-28",
+    "week": 7,
+    "day": 2,
+    "url": "https://leetcode.com/problems/balanced-binary-tree/",
+    "code": "solutions/leetcode/balanced-binary-tree.cpp",
+    "kind": "solve",
+    "result": "accepted",
+    "usedHint": true
   }
 ]
