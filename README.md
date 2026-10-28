@@ -2,11 +2,11 @@
 
 [전체 커리큘럼](https://github.com/Nu-LungJi/Problem-Solving-Factory/blob/main/curriculum/plan.md) · [수동 기록 방법](https://github.com/Nu-LungJi/Problem-Solving-Factory/blob/main/curriculum/README.md)
 
-**등록 문제 해결: 140/254** · 신규 학습 목표: 208문제
+**등록 문제 해결: 142/254** · 신규 학습 목표: 208문제
 
 필수 144문제와 Day별 후보 풀에서 선택하는 64문제를 합쳐 신규 목표는 208문제입니다. 후보를 전부 풀 필요는 없습니다. 후보 밖의 기존 수동 기록은 보존하지만 목표를 대체하지 않습니다. 업로드는 독립 해결·학습 완료의 증명이 아닙니다. BaekjoonHub 형식은 업로드 관례를 신뢰하며 온라인 저지에 재조회하지 않습니다. Day·Week 객관적 풀이 목표는 자동 계산하며 개념·오답 정리 체크는 원본 커리큘럼에서 직접 관리합니다.
 
-**전체 목표 진도: 145/283 (51.24%)** · 완료 Day 37/84 · Week 2/12
+**전체 목표 진도: 147/283 (51.94%)** · 완료 Day 38/84 · Week 2/12
 
 | Week | 목표 진도 | 완료 Day | 등록 문제 해결 | 신규 목표 | 재풀이 시도 / 목표 | 상태 |
 |:---:|---:|:---:|---:|---:|---:|:---:|
@@ -16,7 +16,7 @@
 | 4 | 24/24 (100%) | 7/7 | 23/24 | 18 | 6/6 | ✅ |
 | 5 | 24/24 (100%) | 7/7 | 22/24 | 18 | 6/6 | ✅ |
 | 6 | 27/30 (90%) | 6/7 | 23/30 | 24 | 6/6 | 미완료 |
-| 7 | 2/20 (10%) | 1/7 | 2/16 | 14 | 0/6 | 미완료 |
+| 7 | 4/20 (20%) | 2/7 | 4/16 | 14 | 0/6 | 미완료 |
 | 8 | 0/20 (0%) | 0/7 | 0/16 | 14 | 0/6 | 미완료 |
 | 9 | 0/24 (0%) | 0/7 | 0/24 | 18 | 0/6 | 미완료 |
 | 10 | 0/18 (0%) | 0/7 | 0/12 | 12 | 0/6 | 미완료 |
@@ -727,7 +727,7 @@
 </details>
 
 <details>
-<summary><strong>Day 2</strong> · ⬜ 미완료 · 0/2</summary>
+<summary><strong>Day 2</strong> · ✅ 완료 · 2/2</summary>
 
 | 신규 목표 | 재풀이 목표 | 추가 후보 조건 | 후보 해결 / 목표 반영 |
 |:---:|:---:|:---:|:---:|
@@ -735,8 +735,8 @@
 
 | 상태 | 구분 | 플랫폼 | 문제 | 풀이 / 기록 |
 |:---:|:---:|:---:|---|---|
-| ⬜ | 필수 | CSES | [Subordinates](https://cses.fi/problemset/task/1674/) | — |
-| ⬜ | 필수 | LeetCode | [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/) | — |
+| ✅ | 필수 | CSES | [Subordinates](https://cses.fi/problemset/task/1674/) | [C++ 풀이](https://github.com/Nu-LungJi/Problem-Solving-Factory/blob/main/solutions/cses/1674.cpp) · 사용자 정답 확인 |
+| ✅ | 필수 | LeetCode | [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/) | [C++ 풀이](https://github.com/Nu-LungJi/Problem-Solving-Factory/blob/main/solutions/leetcode/balanced-binary-tree.cpp) · 사용자 정답 확인 |
 
 </details>
 
