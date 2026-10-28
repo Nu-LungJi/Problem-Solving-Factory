@@ -258,7 +258,7 @@ C++ 기본 문법을 공부했고, OOP·상속·SOLID와 스택 등 자료구조
 | 완료 | Day | Daily 목표 | 지정 문제·실행 내용 | 신규 | 재풀이 |
 |---|---|---|---|---:|---:|
 | [x] | 1 | 루트·부모·깊이·트리 순회 | [LeetCode · Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) · [LeetCode · Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | 2 | 0 |
-| [ ] | 2 | 서브트리 집계·후위 순회 | [CSES · Subordinates](https://cses.fi/problemset/task/1674/) · [LeetCode · Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/) | 2 | 0 |
+| [x] | 2 | 서브트리 집계·후위 순회 | [CSES · Subordinates](https://cses.fi/problemset/task/1674/) · [LeetCode · Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/) | 2 | 0 |
 | [ ] | 3 | 트리 지름·두 번 탐색의 원리 | [CSES · Tree Diameter](https://cses.fi/problemset/task/1131/) · [LeetCode · Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) | 2 | 0 |
 | [ ] | 4 | DSU 경로 압축·크기 기준 병합 | [CSES · Road Construction](https://cses.fi/problemset/task/1676/) · [LeetCode · Redundant Connection](https://leetcode.com/problems/redundant-connection/) | 2 | 0 |
 | [ ] | 5 | Kruskal·간선 정렬·연결 불가능 처리 | [CSES · Road Reparation](https://cses.fi/problemset/task/1675/) · [프로그래머스 · 섬 연결하기](https://school.programmers.co.kr/learn/courses/30/lessons/42861) · [후보 2개 중 1개 해결](pools.md#week-7-day-5) | 3 | 0 |
