@@ -1835,5 +1835,27 @@
     "kind": "solve",
     "result": "accepted",
     "usedHint": true
+  },
+  {
+    "id": "2026-10-30-cses-1676-first",
+    "date": "2026-10-30",
+    "week": 7,
+    "day": 4,
+    "url": "https://cses.fi/problemset/task/1676/",
+    "code": "solutions/cses/1676.cpp",
+    "kind": "solve",
+    "result": "accepted",
+    "usedHint": true
+  },
+  {
+    "id": "2026-10-30-leetcode-redundant-connection-first",
+    "date": "2026-10-30",
+    "week": 7,
+    "day": 4,
+    "url": "https://leetcode.com/problems/redundant-connection/",
+    "code": "solutions/leetcode/redundant-connection.cpp",
+    "kind": "solve",
+    "result": "accepted",
+    "usedHint": true
   }
 ]
