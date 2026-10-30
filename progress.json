@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "repository": "Nu-LungJi/Problem-Solving-Factory",
-  "accepted": 142,
+  "accepted": 144,
   "registered": 254,
   "target": 208,
   "days": [
@@ -2731,7 +2731,7 @@
           "url": "https://cses.fi/problemset/task/1676/",
           "platform": "cses",
           "problemId": "1676",
-          "solved": false,
+          "solved": true,
           "countsAsNew": true
         },
         {
@@ -2740,7 +2740,7 @@
           "url": "https://leetcode.com/problems/redundant-connection/",
           "platform": "leetcode",
           "problemId": "redundant-connection",
-          "solved": false,
+          "solved": true,
           "countsAsNew": true
         }
       ],
@@ -2751,15 +2751,15 @@
         "credited": 0,
         "complete": true
       },
-      "requiredSolved": 0,
-      "newSolved": 0,
-      "creditedNewSolved": 0,
+      "requiredSolved": 2,
+      "newSolved": 2,
+      "creditedNewSolved": 2,
       "reviewAttempts": 0,
       "reviewSolved": 0,
-      "done": 0,
+      "done": 2,
       "total": 2,
-      "percent": 0,
-      "complete": false,
+      "percent": 100,
+      "complete": true,
       "manualComplete": false,
       "completionBasis": "objective"
     },
@@ -4622,10 +4622,10 @@
     },
     {
       "week": 7,
-      "done": 4,
+      "done": 6,
       "total": 20,
-      "percent": 20,
-      "completedDays": 2,
+      "percent": 30,
+      "completedDays": 3,
       "totalDays": 7,
       "complete": false
     },
@@ -4676,10 +4676,10 @@
     }
   ],
   "overall": {
-    "done": 147,
+    "done": 149,
     "total": 283,
-    "percent": 51.94,
-    "completedDays": 38,
+    "percent": 52.65,
+    "completedDays": 39,
     "totalDays": 84,
     "complete": false,
     "completedWeeks": 2,
@@ -7051,6 +7051,30 @@
       "result": "accepted",
       "usedHint": true,
       "key": "leetcode:balanced-binary-tree"
+    },
+    {
+      "id": "2026-10-30-cses-1676-first",
+      "date": "2026-10-30",
+      "week": 7,
+      "day": 4,
+      "url": "https://cses.fi/problemset/task/1676/",
+      "code": "solutions/cses/1676.cpp",
+      "kind": "solve",
+      "result": "accepted",
+      "usedHint": true,
+      "key": "cses:1676"
+    },
+    {
+      "id": "2026-10-30-leetcode-redundant-connection-first",
+      "date": "2026-10-30",
+      "week": 7,
+      "day": 4,
+      "url": "https://leetcode.com/problems/redundant-connection/",
+      "code": "solutions/leetcode/redundant-connection.cpp",
+      "kind": "solve",
+      "result": "accepted",
+      "usedHint": true,
+      "key": "leetcode:redundant-connection"
     }
   ],
   "evidence": {
@@ -7152,6 +7176,10 @@
     },
     "cses:1674": {
       "code": "solutions/cses/1674.cpp",
+      "evidence": "사용자 정답 확인"
+    },
+    "cses:1676": {
+      "code": "solutions/cses/1676.cpp",
       "evidence": "사용자 정답 확인"
     },
     "cses:2162": {
@@ -7440,6 +7468,10 @@
     },
     "leetcode:range-sum-query-immutable": {
       "code": "solutions/leetcode/range-sum-query-immutable.cpp",
+      "evidence": "사용자 정답 확인"
+    },
+    "leetcode:redundant-connection": {
+      "code": "solutions/leetcode/redundant-connection.cpp",
       "evidence": "사용자 정답 확인"
     },
     "leetcode:remove-all-adjacent-duplicates-in-string": {
