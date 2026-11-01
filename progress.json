@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "repository": "Nu-LungJi/Problem-Solving-Factory",
-  "accepted": 144,
+  "accepted": 148,
   "registered": 254,
   "target": 208,
   "days": [
@@ -2840,7 +2840,7 @@
           "url": "https://cses.fi/problemset/task/1669/",
           "platform": "cses",
           "problemId": "1669",
-          "solved": false,
+          "solved": true,
           "countsAsNew": true
         },
         {
@@ -2849,7 +2849,7 @@
           "url": "https://leetcode.com/problems/validate-binary-search-tree/",
           "platform": "leetcode",
           "problemId": "validate-binary-search-tree",
-          "solved": false,
+          "solved": true,
           "countsAsNew": true
         }
       ],
@@ -2862,7 +2862,7 @@
             "problemId": "same-tree",
             "title": "Same Tree",
             "url": "https://leetcode.com/problems/same-tree/",
-            "solved": false
+            "solved": true
           },
           {
             "key": "leetcode:symmetric-tree",
@@ -2870,22 +2870,22 @@
             "problemId": "symmetric-tree",
             "title": "Symmetric Tree",
             "url": "https://leetcode.com/problems/symmetric-tree/",
-            "solved": false
+            "solved": true
           }
         ],
-        "solved": 0,
-        "credited": 0,
-        "complete": false
+        "solved": 2,
+        "credited": 1,
+        "complete": true
       },
-      "requiredSolved": 0,
-      "newSolved": 0,
-      "creditedNewSolved": 0,
+      "requiredSolved": 2,
+      "newSolved": 4,
+      "creditedNewSolved": 3,
       "reviewAttempts": 0,
       "reviewSolved": 0,
-      "done": 0,
+      "done": 3,
       "total": 3,
-      "percent": 0,
-      "complete": false,
+      "percent": 100,
+      "complete": true,
       "manualComplete": false,
       "completionBasis": "objective"
     },
@@ -4622,10 +4622,10 @@
     },
     {
       "week": 7,
-      "done": 6,
+      "done": 9,
       "total": 20,
-      "percent": 30,
-      "completedDays": 3,
+      "percent": 45,
+      "completedDays": 4,
       "totalDays": 7,
       "complete": false
     },
@@ -4676,10 +4676,10 @@
     }
   ],
   "overall": {
-    "done": 149,
+    "done": 152,
     "total": 283,
-    "percent": 52.65,
-    "completedDays": 39,
+    "percent": 53.71,
+    "completedDays": 40,
     "totalDays": 84,
     "complete": false,
     "completedWeeks": 2,
@@ -7075,6 +7075,54 @@
       "result": "accepted",
       "usedHint": true,
       "key": "leetcode:redundant-connection"
+    },
+    {
+      "id": "2026-11-01-cses-1669-first",
+      "date": "2026-11-01",
+      "week": 7,
+      "day": 6,
+      "url": "https://cses.fi/problemset/task/1669/",
+      "code": "solutions/cses/1669.cpp",
+      "kind": "solve",
+      "result": "accepted",
+      "usedHint": true,
+      "key": "cses:1669"
+    },
+    {
+      "id": "2026-11-01-leetcode-validate-binary-search-tree-first",
+      "date": "2026-11-01",
+      "week": 7,
+      "day": 6,
+      "url": "https://leetcode.com/problems/validate-binary-search-tree/",
+      "code": "solutions/leetcode/validate-binary-search-tree.cpp",
+      "kind": "solve",
+      "result": "accepted",
+      "usedHint": true,
+      "key": "leetcode:validate-binary-search-tree"
+    },
+    {
+      "id": "2026-11-01-leetcode-same-tree-first",
+      "date": "2026-11-01",
+      "week": 7,
+      "day": 6,
+      "url": "https://leetcode.com/problems/same-tree/",
+      "code": "solutions/leetcode/same-tree.cpp",
+      "kind": "solve",
+      "result": "accepted",
+      "usedHint": true,
+      "key": "leetcode:same-tree"
+    },
+    {
+      "id": "2026-11-01-leetcode-symmetric-tree-first",
+      "date": "2026-11-01",
+      "week": 7,
+      "day": 6,
+      "url": "https://leetcode.com/problems/symmetric-tree/",
+      "code": "solutions/leetcode/symmetric-tree.cpp",
+      "kind": "solve",
+      "result": "accepted",
+      "usedHint": true,
+      "key": "leetcode:symmetric-tree"
     }
   ],
   "evidence": {
@@ -7172,6 +7220,10 @@
     },
     "cses:1668": {
       "code": "solutions/reviews/week-6-day-7/cses/1668-8a9fcef2-bbcf-4df5-aa36-10c71657f92d.cpp",
+      "evidence": "사용자 정답 확인"
+    },
+    "cses:1669": {
+      "code": "solutions/cses/1669.cpp",
       "evidence": "사용자 정답 확인"
     },
     "cses:1674": {
@@ -7498,6 +7550,10 @@
       "code": "solutions/leetcode/running-sum-of-1d-array.cpp",
       "evidence": "정답 확인 후 저장한 로컬 풀이"
     },
+    "leetcode:same-tree": {
+      "code": "solutions/leetcode/same-tree.cpp",
+      "evidence": "사용자 정답 확인"
+    },
     "leetcode:search-insert-position": {
       "code": "solutions/leetcode/search-insert-position.cpp",
       "evidence": "사용자 정답 확인"
@@ -7534,6 +7590,10 @@
       "code": "solutions/leetcode/sum-of-all-subset-xor-totals.cpp",
       "evidence": "사용자 정답 확인"
     },
+    "leetcode:symmetric-tree": {
+      "code": "solutions/leetcode/symmetric-tree.cpp",
+      "evidence": "사용자 정답 확인"
+    },
     "leetcode:take-gifts-from-the-richest-pile": {
       "code": "solutions/leetcode/take-gifts-from-the-richest-pile.cpp",
       "evidence": "사용자 정답 확인"
@@ -7552,6 +7612,10 @@
     },
     "leetcode:valid-parentheses": {
       "code": "solutions/leetcode/valid-parentheses.cpp",
+      "evidence": "사용자 정답 확인"
+    },
+    "leetcode:validate-binary-search-tree": {
+      "code": "solutions/leetcode/validate-binary-search-tree.cpp",
       "evidence": "사용자 정답 확인"
     },
     "leetcode:word-pattern": {
