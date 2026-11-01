@@ -1857,5 +1857,49 @@
     "kind": "solve",
     "result": "accepted",
     "usedHint": true
+  },
+  {
+    "id": "2026-11-01-cses-1669-first",
+    "date": "2026-11-01",
+    "week": 7,
+    "day": 6,
+    "url": "https://cses.fi/problemset/task/1669/",
+    "code": "solutions/cses/1669.cpp",
+    "kind": "solve",
+    "result": "accepted",
+    "usedHint": true
+  },
+  {
+    "id": "2026-11-01-leetcode-validate-binary-search-tree-first",
+    "date": "2026-11-01",
+    "week": 7,
+    "day": 6,
+    "url": "https://leetcode.com/problems/validate-binary-search-tree/",
+    "code": "solutions/leetcode/validate-binary-search-tree.cpp",
+    "kind": "solve",
+    "result": "accepted",
+    "usedHint": true
+  },
+  {
+    "id": "2026-11-01-leetcode-same-tree-first",
+    "date": "2026-11-01",
+    "week": 7,
+    "day": 6,
+    "url": "https://leetcode.com/problems/same-tree/",
+    "code": "solutions/leetcode/same-tree.cpp",
+    "kind": "solve",
+    "result": "accepted",
+    "usedHint": true
+  },
+  {
+    "id": "2026-11-01-leetcode-symmetric-tree-first",
+    "date": "2026-11-01",
+    "week": 7,
+    "day": 6,
+    "url": "https://leetcode.com/problems/symmetric-tree/",
+    "code": "solutions/leetcode/symmetric-tree.cpp",
+    "kind": "solve",
+    "result": "accepted",
+    "usedHint": true
   }
 ]
